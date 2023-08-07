@@ -1,0 +1,52 @@
+{
+  "name": "@company-ui/shared",
+  "version": "1.0.0",
+  "description": "Company UI shared",
+  "author": "zhensherlock",
+  "homepage": "https://github.com/company-ui/company-ui/tree/master/packages/shared#readme",
+  "keywords": [
+    "Company",
+    "CompanyUI",
+    "CompanyUIShared",
+    "企业",
+    "企业UI",
+    "企业名称",
+    "企业组件",
+    "企业组件共享工具",
+    "企业组件共享类库"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.esm.js",
+  "webpack": "./dist/index.esm.js",
+  "browser": "./dist/index.esm.js",
+  "unpkg": "./dist/index.iife.js",
+  "jsdelivr": "./dist/index.iife.js",
+  "types": "./dist/types/main.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/main.d.ts",
+      "import": "./dist/index.cjs.js",
+      "require": "./dist/index.cjs.js"
+    },
+    "./package.json": "./package.json",
+    "./dist/*": "./dist/*"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/company-ui/company-ui.git"
+  },
+  "scripts": {
+    "clean:dist": "rimraf dist",
+    "build": "npm run clean:dist && rollup -c --bundleConfigAsCjs --environment NODE_ENV:production",
+    "dev": "rollup -c --watch --bundleConfigAsCjs"
+  },
+  "bugs": {
+    "url": "https://github.com/company-ui/company-ui/issues"
+  }
+}
