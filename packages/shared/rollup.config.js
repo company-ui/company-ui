@@ -74,7 +74,7 @@ export default [
       resolve(),
       strip(),
       typescript(),
-      babel({ babelHelpers: 'runtime', exclude: ['node_modules/**'] }),
+      babel({ babelHelpers: 'runtime', exclude: /node_modules/ }),
       filesize()
     ]
   }
