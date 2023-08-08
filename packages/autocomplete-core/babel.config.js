@@ -2,7 +2,7 @@ const presets = [
   [
     '@babel/preset-env',
     {
-      useBuiltIns: 'usage',
+      // useBuiltIns: 'usage',
       corejs: { version: 3 },
       targets: [
         '> 1%',
@@ -20,4 +20,7 @@ const plugins = [
   '@babel/plugin-transform-runtime'
 ]
 
-module.exports = { presets, plugins }
+module.exports = {
+  presets,
+  plugins
+}
