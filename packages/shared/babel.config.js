@@ -2,7 +2,7 @@ const presets = [
   [
     '@babel/preset-env',
     {
-      useBuiltIns: 'usage',
+      // useBuiltIns: 'usage',
       corejs: { version: 3 },
       targets: [
         '> 1%',

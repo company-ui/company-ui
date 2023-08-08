@@ -1,6 +1,7 @@
 import filesize from 'rollup-plugin-filesize'
 import babel from '@rollup/plugin-babel'
 import resolve from '@rollup/plugin-node-resolve'
+import commonjs from '@rollup/plugin-commonjs'
 import eslint from '@rollup/plugin-eslint'
 import terser from '@rollup/plugin-terser'
 import typescript from '@rollup/plugin-typescript'
@@ -74,6 +75,7 @@ export default [
       resolve(),
       strip(),
       typescript(),
+      commonjs(),
       babel({ babelHelpers: 'runtime', exclude: /node_modules/ }),
       filesize()
     ]
