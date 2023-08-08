@@ -1,6 +1,8 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
+    "module": "esnext",
+    "target": "es5",
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
@@ -11,7 +13,7 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strictNullChecks": true,
-    "target": "es5",
-    "lib": ["ES5", "DOM"]
-  }
+    "lib": ["ES2015", "DOM"]
+  },
+  "exclude": ["**/node_modules/**", "**/dist/**"]
 }

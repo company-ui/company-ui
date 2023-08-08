@@ -23,6 +23,7 @@
     "@changesets/cli": "^2.26.2",
     "@element-plus/icons-vue": "^2.1.0",
     "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.3",
     "@rollup/plugin-eslint": "^9.0.4",
     "@rollup/plugin-node-resolve": "^15.1.0",
     "@rollup/plugin-strip": "^3.0.2",
