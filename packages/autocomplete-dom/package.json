@@ -1,0 +1,61 @@
+{
+  "name": "@company-ui/autocomplete-dom",
+  "version": "1.0.0",
+  "description": "Company UI autocomplete dom",
+  "author": "zhensherlock",
+  "homepage": "https://github.com/company-ui/company-ui/tree/master/packages/autocomplete-dom#readme",
+  "keywords": [
+    "Company",
+    "CompanyUI",
+    "CompanyUIAutocompleteDom",
+    "CompanyUIAutocompleteDOM",
+    "企业",
+    "企业UI",
+    "企业名称",
+    "企业组件",
+    "企业组件自动完成组件",
+    "自动完成",
+    "自动完成组件"
+  ],
+  "license": "MIT",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "webpack": "dist/index.esm.js",
+  "browser": "dist/index.esm.js",
+  "unpkg": "dist/index.iife.js",
+  "jsdelivr": "dist/index.iife.js",
+  "types": "dist/types/main.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/main.d.ts",
+      "import": "./dist/index.cjs.js",
+      "require": "./dist/index.cjs.js"
+    },
+    "./package.json": "./package.json",
+    "./dist/*": "./dist/*"
+  },
+  "files": [
+    "dist",
+    "index.js",
+    "index.cjs",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/company-ui/company-ui.git"
+  },
+  "scripts": {
+    "clean:dist": "rimraf dist",
+    "build": "npm run clean:dist && rollup -c --bundleConfigAsCjs --environment NODE_ENV:production",
+    "dev": "npm run clean:dist && rollup -c --watch --bundleConfigAsCjs"
+  },
+  "bugs": {
+    "url": "https://github.com/company-ui/company-ui/issues"
+  },
+  "dependencies": {
+    "@company-ui/autocomplete-core": "workspace:^",
+    "@company-ui/shared": "workspace:^",
+    "@floating-ui/dom": "^1.5.1"
+  }
+}
