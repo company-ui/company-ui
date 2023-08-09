@@ -7,8 +7,13 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky install",
+    "dev": "concurrently \"npm run code:dev\" \"npm run docs:dev\"",
+    "code:dev": "pnpm -r --aggregate-output --filter=./packages/* dev",
     "build": "pnpm -r --aggregate-output --filter=./packages/* build",
     "clear": "rimraf 'packages/*/{dist,node_modules}' && rimraf node_modules",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
     "changeset": "changeset",
     "version-packages": "changeset version"
   },
@@ -33,6 +38,7 @@
     "@typescript-eslint/parser": "^6.2.1",
     "@vue/theme": "^2.2.4",
     "autoprefixer": "^10.4.14",
+    "concurrently": "^8.2.0",
     "core-js": "^3.32.0",
     "cssnano": "^6.0.1",
     "element-plus": "^2.3.9",
@@ -52,6 +58,7 @@
     "terser": "^5.19.2",
     "tslib": "^2.6.1",
     "typescript": "^5.1.6",
+    "unplugin-element-plus": "^0.8.0",
     "vitepress": "1.0.0-beta.7"
   }
 }
