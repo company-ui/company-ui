@@ -16,7 +16,7 @@ hero:
       link: /guide/getting-started
     - theme: alt
       text: View on GitHub
-      link: https://github.com/zhensherlock/company-autocomplete
+      link: https://github.com/company-ui/company-ui
 
 features:
   - icon: 🛠️
