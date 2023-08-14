@@ -144,6 +144,12 @@ importers:
         specifier: ^1.5.1
         version: 1.5.1
 
+  packages/dom:
+    dependencies:
+      '@company-ui/autocomplete-dom':
+        specifier: workspace:^
+        version: link:../autocomplete-dom
+
   packages/shared: {}
 
 packages:
