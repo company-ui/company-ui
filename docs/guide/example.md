@@ -29,7 +29,7 @@ const apiType = ref('clearbit');
 </div>
 
 ```js
-import { CompanyAutocomplete } from 'company-autocomplete' 
+import { CompanyAutocomplete } from '@company-ui/dom' 
 
 const companyAutocomplete = new CompanyAutocomplete({
   api: 'clearbit',
@@ -42,7 +42,7 @@ const companyAutocomplete = new CompanyAutocomplete({
 </div>
 
 ```js
-import { CompanyAutocomplete } from 'company-autocomplete' 
+import { CompanyAutocomplete } from '@company-ui/dom' 
 
 const companyAutocomplete = new CompanyAutocomplete({
   api: 'qcc_open',

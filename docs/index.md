@@ -1,15 +1,15 @@
 ---
 layout: home
 sidebar: false
-title: Company Autocomplete
+title: Company UI
 titleTemplate: false
 
 hero:
-  name: Company Autocomplete
+  name: Company UI
   tagline: Simple, powerful, and performant.
   image:
     src: /hero-image.png
-    alt: company-autocomplete
+    alt: company-ui
   actions:
     - theme: brand
       text: Get Started 👆

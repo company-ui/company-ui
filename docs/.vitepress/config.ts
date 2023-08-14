@@ -5,10 +5,10 @@ import zh_CN from './locales/zh-CN'
 export default {
   title: 'Company Autocomplete',
   description: 'A company info autocomplete component',
-  base: '/company-autocomplete/',
+  base: '/company-ui/',
   head: [
-    ['link', { rel: 'shortcut icon', href: '/company-autocomplete/favicons/favicon-64x64.png' }],
-    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/company-autocomplete/favicons/apple-touch-icon.png' }],
+    ['link', { rel: 'shortcut icon', href: '/company-ui/favicons/favicon-64x64.png' }],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/company-ui/favicons/apple-touch-icon.png' }],
   ],
   themeConfig: {
     logo: '/logo.png',
@@ -20,13 +20,13 @@ export default {
         items: [
           {
             text: 'Changelog',
-            link: 'https://github.com/zhensherlock/company-autocomplete/blob/main/CHANGELOG.md'
+            link: 'https://github.com/company-ui/company-ui/blob/main/CHANGELOG.md'
           }
         ]
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/zhensherlock/company-autocomplete' },
+      { icon: 'github', link: 'https://github.com/company-ui/company-ui' },
     ],
     sidebar: {
       '/guide': [

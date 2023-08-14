@@ -12,7 +12,7 @@ export default {
       items: [
         {
           text: '更新日志',
-          link: 'https://github.com/zhensherlock/watermark-js-plus/blob/main/CHANGELOG.md'
+          link: 'https://github.com/company-ui/company-ui/blob/main/CHANGELOG.md'
         }
       ]
     }

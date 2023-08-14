@@ -9,11 +9,11 @@ layout: doc
 使用 npm:
 
 ```bash
-$ npm install company-autocomplete
+$ npm install @company-ui/dom
 ```
 
 使用 yarn:
 
 ```bash
-$ yarn add company-autocomplete
+$ yarn add @company-ui/dom
 ```
