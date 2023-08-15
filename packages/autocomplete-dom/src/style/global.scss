@@ -1,17 +1,21 @@
 .company-autocomplete {
-  --transition-box-shadow: box-shadow var(--transition-duration-fast) var(--transition-function-ease-in-out-bezier);
-  --transition-duration-fast: .2s;
-  --transition-function-ease-in-out-bezier: cubic-bezier(.645, .045, .355, 1);
+  --transition-box-shadow: box-shadow var(--transition-duration-fast)
+    var(--transition-function-ease-in-out-bezier);
+  --transition-duration-fast: 0.2s;
+  --transition-function-ease-in-out-bezier: cubic-bezier(0.645, 0.045, 0.355, 1);
   --input-bg-color: '#fff';
   --input-border-radius: 2px;
-  --input-border-color: #D8D8D8;
-  --input-focus-border-color: #128BED;
-  --input-focus-border-outline: rgba(24, 144, 255, .2);
+  --input-border-color: #d8d8d8;
+  --input-focus-border-color: #128bed;
+  --input-focus-border-outline: rgb(24 144 255 / 20%);
   --input-text-color: #666;
   --font-size: 14px;
   --line-height: 32px;
   --input-height: calc(var(--line-height) - 2px);
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
   width: 100%;
   position: relative;
   font-size: var(--font-size);
@@ -19,15 +23,17 @@
   line-height: var(--line-height);
   box-sizing: border-box;
   vertical-align: middle;
-  //overflow: hidden;
 
-  //&--activated {
-  //  .company-autocomplete__input {
-  //    border-radius: 4px 4px 0 0;
-  //  }
-  //}
+  // overflow: hidden;
+
+  // &--activated {
+  //   .company-autocomplete__input {
+  //     border-radius: 4px 4px 0 0;
+  //   }
+  // }
 
   &--show-submit {
+    /* stylelint-disable */
     .company-autocomplete__input {
       border-start-end-radius: 0;
       border-end-end-radius: 0;
@@ -59,7 +65,9 @@
     box-shadow: 0 0 0 1px var(--input-border-color) inset;
 
     &:focus-within {
-      box-shadow: 0 0 0 1px var(--input-focus-border-color) inset, 0 0 0 2px var(--input-focus-border-outline);
+      box-shadow:
+        0 0 0 1px var(--input-focus-border-color) inset,
+        0 0 0 2px var(--input-focus-border-outline);
     }
   }
 
@@ -69,20 +77,22 @@
     display: flex;
     cursor: pointer;
     top: 9px;
-    color: rgba(0, 0, 0, 0.25);
+    color: rgb(0 0 0 / 25%);
     opacity: 0;
-    transition: color 0.2s ease,opacity 0.3s ease;
+    transition:
+      color 0.2s ease,
+      opacity 0.3s ease;
     text-rendering: auto;
 
     &:hover {
-      color: rgba(0, 0, 0, 0.45);
+      color: rgb(0 0 0 / 45%);
     }
   }
 
-  input[type="text"] {
+  input[type='text'] {
     width: 100%;
     flex-grow: 1;
-    -webkit-appearance: none;
+    appearance: none;
     color: var(--input-text-color);
     font-size: inherit;
     height: var(--input-height);
@@ -96,22 +106,25 @@
 
   &__submit {
     color: #fff;
-    background-color: #128BED;
+    background-color: #128bed;
     padding: 0 10px;
     border-radius: 0 var(--input-border-radius) var(--input-border-radius) 0;
     cursor: pointer;
 
     &:hover {
-      background-color: #0069BF;
+      background-color: #0069bf;
     }
 
     &:active {
-      background-color: #0069BF;
+      background-color: #0069bf;
     }
   }
 }
 
 .suggestion-popper {
+  --footer-text-default-color: #999;
+  --footer-text-primary-color: #128bed;
+
   position: absolute;
   width: max-content;
   top: 0;
@@ -120,13 +133,15 @@
   background: #fff;
   z-index: 10;
   border-radius: 2px;
-  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, .08), 0 3px 6px -4px rgba(0, 0, 0, .12), 0 9px 28px 8px rgba(0, 0, 0, .05);
-  //border-radius: 0 0 4px 4px;
-  //border: 1px solid #EEEEEE;
-  //box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow:
+    0 6px 16px 0 rgb(0 0 0 / 8%),
+    0 3px 6px -4px rgb(0 0 0 / 12%),
+    0 9px 28px 8px rgb(0 0 0 / 5%);
+
+  // border-radius: 0 0 4px 4px;
+  // border: 1px solid #EEE;
+  // box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
   display: none;
-  --footer-text-default-color: #999;
-  --footer-text-primary-color: #128BED;
 
   &--activated {
     display: block;
@@ -137,8 +152,8 @@
   }
 
   &__body {
-    //padding: 5px 0;
-    background: #F8FBFE;
+    // padding: 5px 0;
+    background: #f8fbfe;
   }
 
   &__footer {
@@ -173,15 +188,15 @@
     align-items: center;
     cursor: pointer;
     padding: 8px 10px;
-    color: #333333;
+    color: #333;
 
     &:hover {
-      color: #128BED;
+      color: #128bed;
     }
 
     &--keyboard-active {
-      background-color: #F2F8FE;
-      color: #128BED;
+      background-color: #f2f8fe;
+      color: #128bed;
     }
 
     &__avatar {
@@ -197,12 +212,13 @@
         width: 22px;
         height: 22px;
         border-radius: 4px;
-        border: 1px solid #EEEEEE;
+        border: 1px solid #eee;
 
         &:not([src]) {
           visibility: hidden;
         }
-        &[src=""] {
+
+        &[src=''] {
           visibility: hidden;
         }
       }
@@ -219,7 +235,7 @@
       }
 
       em {
-        color: #FF6060;
+        color: #ff6060;
         font-style: normal;
       }
     }

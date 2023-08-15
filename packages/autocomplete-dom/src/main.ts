@@ -1,6 +1,4 @@
-import './style'
-import { CompanyAutocomplete } from './input'
+import './style';
+import { CompanyAutocomplete } from './input';
 
-export {
-  CompanyAutocomplete
-}
+export { CompanyAutocomplete };
