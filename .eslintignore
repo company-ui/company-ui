@@ -1,6 +1,7 @@
 */build/*.js
 */public
 dist
+cache
 .husky/
 lib
 */node_modules
