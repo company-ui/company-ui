@@ -1,5 +1,3 @@
-import { CompanyAutocomplete } from '@company-ui/autocomplete-dom'
+import { CompanyAutocomplete } from '@company-ui/autocomplete-dom';
 
-export {
-  CompanyAutocomplete
-}
+export { CompanyAutocomplete };
