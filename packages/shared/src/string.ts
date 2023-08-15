@@ -1,12 +1,12 @@
 export const stringToJson = (str: string): any[] => {
   try {
-    const result = JSON.parse(str)
+    const result = JSON.parse(str);
     if (Array.isArray(result)) {
-      return result
+      return result;
     } else {
-      return []
+      return [];
     }
   } catch (e) {
-    return []
+    return [];
   }
-}
+};

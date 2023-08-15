@@ -2,67 +2,67 @@ export interface ThrottleOptions {
   /**
    * Fire immediately on the first call.
    */
-  start?: boolean
+  start?: boolean;
   /**
    * Fire as soon as `wait` has passed.
    */
-  middle?: boolean
+  middle?: boolean;
   /**
    * Cancel after the first successful call.
    */
-  once?: boolean
+  once?: boolean;
 }
 
 interface Throttler<T extends unknown[]> {
-  (...args: T): void
-  cancel(): void
+  (..._args: T): void;
+  cancel(): void;
 }
 
-export function throttle<T extends unknown[]> (
-  callback: (...args: T) => unknown,
+export function throttle<T extends unknown[]>(
+  callback: (..._args: T) => unknown,
   wait = 0,
   { start = true, middle = true, once = false }: ThrottleOptions = {}
 ): Throttler<T> {
-  let innerStart = start
-  let last = 0
-  let timer: ReturnType<typeof setTimeout>
-  let cancelled = false
-  function fn (this: unknown, ...args: T) {
-    if (cancelled) return
-    const delta = Date.now() - last
-    last = Date.now()
+  let innerStart = start;
+  let last = 0;
+  let timer: ReturnType<typeof setTimeout>;
+  let cancelled = false;
+  function fn(this: unknown, ...args: T) {
+    if (cancelled) return;
+    const delta = Date.now() - last;
+    last = Date.now();
 
     if (start && middle && delta >= wait) {
-      innerStart = true
+      innerStart = true;
     }
 
     if (innerStart) {
-      innerStart = false
-      callback.apply(this, args)
-      if (once) fn.cancel()
+      innerStart = false;
+      callback.apply(this, args);
+      if (once) fn.cancel();
     } else if ((middle && delta < wait) || !middle) {
-      clearTimeout(timer)
+      clearTimeout(timer);
       timer = setTimeout(
         () => {
-          last = Date.now()
-          callback.apply(this, args)
-          if (once) fn.cancel()
+          last = Date.now();
+          callback.apply(this, args);
+          if (once) fn.cancel();
         },
         !middle ? wait : wait - delta
-      )
+      );
     }
   }
   fn.cancel = () => {
-    clearTimeout(timer)
-    cancelled = true
-  }
-  return fn
+    clearTimeout(timer);
+    cancelled = true;
+  };
+  return fn;
 }
 
-export function debounce<T extends unknown[]> (
-  callback: (...args: T) => unknown,
+export function debounce<T extends unknown[]>(
+  callback: (..._args: T) => unknown,
   wait = 0,
   { start = false, middle = false, once = false }: ThrottleOptions = {}
 ): Throttler<T> {
-  return throttle(callback, wait, { start, middle, once })
+  return throttle(callback, wait, { start, middle, once });
 }
