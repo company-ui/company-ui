@@ -1,6 +1,6 @@
-export type ApiType = 'qcc_open' | 'qcc' | 'qixin' | 'tianyancha' | 'clearbit'
+export type ApiType = 'qcc_open' | 'qcc' | 'qixin' | 'tianyancha' | 'clearbit';
 
-export type HistoryType = 'localStorage' | 'sessionStorage'
+export type HistoryType = 'localStorage' | 'sessionStorage';
 
 export interface HistoryOptions {
   /**
@@ -14,7 +14,7 @@ export interface HistoryOptions {
   /**
    * history save key
    */
-  key: string,
+  key: string;
   /**
    * show clear history link
    */

@@ -10,17 +10,15 @@ const presets = [
         'last 4 versions',
         'maintained node versions',
         'not dead',
-        'safari >= 7'
+        'safari >= 7',
       ],
     },
   ],
-]
+];
 
-const plugins = [
-  '@babel/plugin-transform-runtime'
-]
+const plugins = ['@babel/plugin-transform-runtime'];
 
 module.exports = {
   presets,
-  plugins
-}
+  plugins,
+};
