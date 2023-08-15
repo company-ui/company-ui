@@ -1,6 +1,7 @@
 ---
 layout: doc
 ---
+
 # 示例
 
 <script setup lang="ts">
@@ -26,27 +27,29 @@ onMounted(() => {
 </script>
 
 ## ClearBit API
+
 <div id="clearbit_input">
 </div>
 
 ```js
-import { CompanyAutocomplete } from '@company-ui/dom' 
+import { CompanyAutocomplete } from '@company-ui/dom';
 
 const companyAutocomplete = new CompanyAutocomplete({
   api: 'clearbit',
-  target: '#example'
-})
+  target: '#example',
+});
 ```
 
 ## QCC Open API
+
 <div id="qcc_open_input">
 </div>
 
 ```js
-import { CompanyAutocomplete } from '@company-ui/dom'
+import { CompanyAutocomplete } from '@company-ui/dom';
 
 const companyAutocomplete = new CompanyAutocomplete({
   api: 'qcc_open',
-  target: '#example'
-})
+  target: '#example',
+});
 ```

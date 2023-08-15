@@ -29,4 +29,3 @@ features:
     title: Extremely light
     details: weighs ~7kb, you will forget it's even there!
 ---
-

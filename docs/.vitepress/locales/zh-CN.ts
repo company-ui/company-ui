@@ -1,5 +1,5 @@
 // @ts-ignore
-import { version } from '../../../package.json'
+import { version } from '../../../package.json';
 
 export default {
   outlineTitle: '本页目录',
@@ -12,10 +12,10 @@ export default {
       items: [
         {
           text: '更新日志',
-          link: 'https://github.com/company-ui/company-ui/blob/main/CHANGELOG.md'
-        }
-      ]
-    }
+          link: 'https://github.com/company-ui/company-ui/blob/main/CHANGELOG.md',
+        },
+      ],
+    },
   ],
   sidebar: {
     '/zh/guide': [
@@ -25,21 +25,19 @@ export default {
         items: [
           { text: '介绍', link: '/zh/guide/what-is-this' },
           { text: '开始使用', link: '/zh/guide/getting-started' },
-          { text: '示例', link: 'zh/guide/example' }
-        ]
-      }
+          { text: '示例', link: 'zh/guide/example' },
+        ],
+      },
     ],
     '/zh/config': [
       {
         text: '配置',
         // collapsible: true,
-        items: [
-          { text: '基础配置项', link: '/zh/config/' }
-        ]
-      }
-    ]
+        items: [{ text: '基础配置项', link: '/zh/config/' }],
+      },
+    ],
   },
   footer: {
-    message: '本中文文档内容版权为 Michael Sun 所有，保留所有权利。'
+    message: '本中文文档内容版权为 Michael Sun 所有，保留所有权利。',
   },
-}
+};

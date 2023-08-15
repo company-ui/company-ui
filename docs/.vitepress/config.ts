@@ -1,6 +1,6 @@
 // @ts-ignore
-import { version } from '../../package.json'
-import zh_CN from './locales/zh-CN'
+import { version } from '../../package.json';
+import zh_CN from './locales/zh-CN';
 
 export default {
   title: 'Company Autocomplete',
@@ -8,7 +8,14 @@ export default {
   base: '/company-ui/',
   head: [
     ['link', { rel: 'shortcut icon', href: '/company-ui/favicons/favicon-64x64.png' }],
-    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/company-ui/favicons/apple-touch-icon.png' }],
+    [
+      'link',
+      {
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        href: '/company-ui/favicons/apple-touch-icon.png',
+      },
+    ],
   ],
   themeConfig: {
     logo: '/logo.png',
@@ -20,14 +27,12 @@ export default {
         items: [
           {
             text: 'Changelog',
-            link: 'https://github.com/company-ui/company-ui/blob/main/CHANGELOG.md'
-          }
-        ]
-      }
+            link: 'https://github.com/company-ui/company-ui/blob/main/CHANGELOG.md',
+          },
+        ],
+      },
     ],
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/company-ui/company-ui' },
-    ],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/company-ui/company-ui' }],
     sidebar: {
       '/guide': [
         {
@@ -36,19 +41,17 @@ export default {
           items: [
             { text: 'Introduce', link: '/guide/what-is-this' },
             { text: 'Getting Started', link: '/guide/getting-started' },
-            { text: 'Example', link: '/guide/example' }
-          ]
-        }
+            { text: 'Example', link: '/guide/example' },
+          ],
+        },
       ],
       '/config': [
         {
           text: 'Config',
           // collapsible: true,
-          items: [
-            { text: 'Basic Config', link: '/config/' }
-          ]
-        }
-      ]
+          items: [{ text: 'Basic Config', link: '/config/' }],
+        },
+      ],
     },
     // algolia: {
     //   appId: 'V6CF28P0PS',
@@ -57,14 +60,14 @@ export default {
     // },
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2021-present Michael Sun'
+      copyright: 'Copyright © 2021-present Michael Sun',
     },
     localeLinks: {
       text: 'English',
       items: [
         { text: 'English', link: '/' },
         { text: '简体中文', link: '/zh/' },
-      ]
+      ],
     },
   },
   markdown: {
@@ -73,13 +76,13 @@ export default {
   locales: {
     root: {
       label: 'English',
-      lang: 'en'
+      lang: 'en',
     },
     zh: {
       label: '中文',
       lang: 'zh-CN',
       link: '/zh/',
-      themeConfig: zh_CN
-    }
-  }
-}
+      themeConfig: zh_CN,
+    },
+  },
+};
