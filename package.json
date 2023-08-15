@@ -49,6 +49,7 @@
     "lint-staged": "^14.0.0",
     "lodash": "^4.17.21",
     "markdown-it": "^13.0.1",
+    "prettier": "^3.0.1",
     "rimraf": "^5.0.1",
     "rollup": "^3.28.0",
     "rollup-plugin-filesize": "^10.0.0",
