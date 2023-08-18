@@ -1,8 +1,11 @@
 {
   "name": "company-ui",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha.0",
   "private": true,
   "description": "Company UI monorepo",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "postinstall": "husky install",
