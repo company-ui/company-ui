@@ -6,9 +6,10 @@ titleTemplate: false
 
 hero:
   name: Company UI
+  text: A company UI library
   tagline: Simple, powerful, and performant.
   image:
-    src: /hero-image.png
+    #    src: /hero-image.png
     alt: company-ui
   actions:
     - theme: brand
@@ -27,5 +28,5 @@ features:
     details: Flexible programmatic APIs with full TypeScript typing..
   - icon: 📦
     title: Extremely light
-    details: weighs ~7kb, you will forget it's even there!
+    details: weighs ~10kb, you will forget it's even there!
 ---

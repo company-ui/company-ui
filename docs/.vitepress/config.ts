@@ -3,8 +3,8 @@ import { version } from '../../package.json';
 import zh_CN from './locales/zh-CN';
 
 export default {
-  title: 'Company Autocomplete',
-  description: 'A company info autocomplete component',
+  title: ' ',
+  description: 'A company UI library',
   base: '/company-ui/',
   head: [
     ['link', { rel: 'shortcut icon', href: '/company-ui/favicons/favicon-64x64.png' }],
@@ -18,7 +18,7 @@ export default {
     ],
   ],
   themeConfig: {
-    logo: '/logo.png',
+    logo: '/logo-text.png',
     nav: [
       { text: 'Guide', link: '/guide/what-is-this', activeMatch: '/guide/' },
       { text: 'Configs', link: '/config/', activeMatch: '/config/' },

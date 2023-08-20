@@ -1,15 +1,16 @@
 ---
 layout: home
 sidebar: false
-title: Company Autocomplete
+title: Company UI
 titleTemplate: false
 
 hero:
-  name: Company Autocomplete
+  name: Company UI
+  text: A company UI library
   tagline: 简易、强大、高性能。
   image:
-    src: /hero-image.png
-    alt: company-autocomplete
+    #    src: /hero-image.png
+    alt: company-ui
   actions:
     - theme: brand
       text: 开始 👆
@@ -27,5 +28,5 @@ features:
     details: 灵活的 API 和完整的 TypeScript 类型。
   - icon: 📦
     title: 极致轻量化
-    details: 大小只有 7kb 左右，你甚至可能忘记它的存在！
+    details: 大小只有 10kb 左右，你甚至可能忘记它的存在！
 ---
