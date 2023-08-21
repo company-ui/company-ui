@@ -1,0 +1,13 @@
+{
+  "mode": "pre",
+  "tag": "alpha",
+  "initialVersions": {
+    "@company-ui/autocomplete-core": "1.0.0-alpha.0",
+    "@company-ui/autocomplete-dom": "1.0.0-alpha.0",
+    "@company-ui/dom": "1.0.0-alpha.0",
+    "@company-ui/shared": "1.0.0-alpha.0"
+  },
+  "changesets": [
+    "silent-goats-exist"
+  ]
+}
