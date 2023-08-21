@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://zhensherlock.github.io/company-autocomplete/" target="_blank" rel="noopener noreferrer">
-    <img width="300" src="https://zhensherlock.github.io/company-autocomplete/hero-image.png" alt="watermark logo">
+  <a href="https://company-ui.github.io/company-ui/" target="_blank" rel="noopener noreferrer">
+    <img width="300" src="https://company-ui.github.io/company-ui/logo-text.png" alt="company ui">
   </a>
 </p>
 <p align="center">
@@ -17,7 +17,7 @@ Works with both Vue 2 , Vue 3 And React.
 
 # Translations
 
-* [中文文档](README_zh.md)
+- [中文文档](README_zh.md)
 
 ## Installing
 
@@ -31,11 +31,11 @@ npm install @company-ui/dom
 ### General
 
 ```ts
-import { CompanyAutocomplete } from '@company-ui/dom'
+import { CompanyAutocomplete } from '@company-ui/dom';
 
 const companyAutocomplete = new CompanyAutocomplete({
-  target: '#example'
-})
+  target: '#example',
+});
 ```
 
 ## Documentation
