@@ -15,6 +15,10 @@
     "企业组件共享工具",
     "企业组件共享类库"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "license": "MIT",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.esm.js",

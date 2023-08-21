@@ -17,6 +17,10 @@
     "自动完成",
     "自动完成组件"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "license": "MIT",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
