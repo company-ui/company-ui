@@ -72,8 +72,8 @@ importers:
         specifier: ^8.2.0
         version: 8.2.0
       core-js:
-        specifier: ^3.32.0
-        version: 3.32.0
+        specifier: ^3.32.1
+        version: 3.32.1
       cssnano:
         specifier: ^6.0.1
         version: 6.0.1(postcss@8.4.27)
@@ -3769,8 +3769,8 @@ packages:
       browserslist: 4.21.10
     dev: true
 
-  /core-js@3.32.0:
-    resolution: {integrity: sha512-rd4rYZNlF3WuoYuRIDEmbR/ga9CeuWX9U05umAvgrrZoHY4Z++cp/xwPQMvUpBB4Ag6J8KfD80G0zwCyaSxDww==}
+  /core-js@3.32.1:
+    resolution: {integrity: sha512-lqufgNn9NLnESg5mQeYsxQP5w7wrViSj0jr/kv6ECQiByzQkrn1MKvV0L3acttpDqfQrHLwr2KCMgX5b8X+lyQ==}
     requiresBuild: true
     dev: true
 
