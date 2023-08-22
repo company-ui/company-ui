@@ -13,4 +13,19 @@
 
 # `@company-ui/shared`
 
-Company UI 内部使用的 utils。包含了常用的类型判断、错误断言、组件类型/声明/参数等。
+The utils used internally by the Company UI. It includes common type checking, error assertions, component types/declarations/parameters, and more.
+
+## Installing
+
+```bash
+# or pnpm or yarn
+npm install @company-ui/shared
+```
+
+## Documentation
+
+To learn more, check [its documentation](https://company-ui.github.io/company-ui/).
+
+## License
+
+[MIT](LICENSE).

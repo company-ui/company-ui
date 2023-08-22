@@ -13,4 +13,19 @@
 
 # `@company-ui/autocomplete-core`
 
-暴露给 `@company-ui/autocomplete-dom`、 `@company-ui/autocomplete-vue`、 `@company-ui/autocomplete-react` 的 API。
+It exposes APIs to `@company-ui/autocomplete-dom`, `@company-ui/autocomplete-vue`, and `@company-ui/autocomplete-react`.
+
+## Installing
+
+```bash
+# or pnpm or yarn
+npm install @company-ui/autocomplete-core
+```
+
+## Documentation
+
+To learn more, check [its documentation](https://company-ui.github.io/company-ui/).
+
+## License
+
+[MIT](LICENSE).

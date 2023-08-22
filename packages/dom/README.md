@@ -12,3 +12,32 @@
 </p>
 
 # `@company-ui/dom`
+
+Works with both Vue 2 , Vue 3 And React.
+
+## Installing
+
+```bash
+# or pnpm or yarn
+npm install @company-ui/dom
+```
+
+## Usage
+
+### General
+
+```ts
+import { CompanyAutocomplete } from '@company-ui/dom';
+
+const companyAutocomplete = new CompanyAutocomplete({
+  target: '#example',
+});
+```
+
+## Documentation
+
+To learn more, check [its documentation](https://company-ui.github.io/company-ui/).
+
+## License
+
+[MIT](LICENSE).

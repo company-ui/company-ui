@@ -1,6 +1,6 @@
 {
   "name": "company-ui",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0",
   "private": true,
   "description": "Company UI monorepo",
   "workspaces": [
@@ -74,7 +74,7 @@
     "stylelint-config-standard-scss": "^10.0.0",
     "stylelint-order": "^6.0.3",
     "terser": "^5.19.2",
-    "tslib": "^2.6.1",
+    "tslib": "^2.6.2",
     "typescript": "^5.1.6",
     "unplugin-element-plus": "^0.8.0",
     "vitepress": "1.0.0-rc.4"
