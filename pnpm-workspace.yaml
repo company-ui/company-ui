@@ -1,2 +1,4 @@
 packages:
+#  - play # 组件测试代码
+#  - docs # 存放文档
   - "packages/*"

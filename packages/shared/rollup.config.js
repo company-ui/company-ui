@@ -76,7 +76,10 @@ export default [
       strip(),
       typescript(),
       commonjs(),
-      babel({ babelHelpers: 'runtime', exclude: /node_modules/ }),
+      babel({
+        // babelHelpers: 'runtime',
+        exclude: /node_modules/,
+      }),
       filesize(),
     ],
   },

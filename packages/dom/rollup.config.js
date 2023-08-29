@@ -82,7 +82,10 @@ export default [
         plugins: [autoprefixer(), cssnano()],
       }),
       commonjs(),
-      babel({ babelHelpers: 'runtime', exclude: /node_modules/ }),
+      babel({
+        // babelHelpers: 'runtime',
+        exclude: /node_modules/,
+      }),
       filesize(),
     ],
   },
