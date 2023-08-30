@@ -150,8 +150,8 @@ importers:
         specifier: ^6.0.3
         version: 6.0.3(stylelint@15.10.3)
       terser:
-        specifier: ^5.19.2
-        version: 5.19.2
+        specifier: ^5.19.3
+        version: 5.19.3
       tslib:
         specifier: ^2.6.2
         version: 2.6.2
@@ -163,7 +163,7 @@ importers:
         version: 0.8.0(rollup@3.28.1)
       vitepress:
         specifier: 1.0.0-rc.10
-        version: 1.0.0-rc.10(@algolia/client-search@4.19.1)(@types/node@20.4.7)(search-insights@2.7.0)(terser@5.19.2)
+        version: 1.0.0-rc.10(@algolia/client-search@4.19.1)(@types/node@20.4.7)(search-insights@2.7.0)(terser@5.19.3)
 
   packages/autocomplete-core:
     dependencies:
@@ -2583,7 +2583,7 @@ packages:
       rollup: 3.28.1
       serialize-javascript: 6.0.1
       smob: 1.4.0
-      terser: 5.19.2
+      terser: 5.19.3
     dev: true
 
   /@rollup/plugin-typescript@11.1.2(rollup@3.28.1)(tslib@2.6.2)(typescript@5.2.2):
@@ -2917,7 +2917,7 @@ packages:
       '@vueuse/core': 9.13.0(vue@3.3.4)
       body-scroll-lock: 3.1.5
       normalize.css: 8.0.1
-      vitepress: 1.0.0-rc.10(@algolia/client-search@4.19.1)(@types/node@20.4.7)(search-insights@2.7.0)(terser@5.19.2)
+      vitepress: 1.0.0-rc.10(@algolia/client-search@4.19.1)(@types/node@20.4.7)(search-insights@2.7.0)(terser@5.19.3)
     transitivePeerDependencies:
       - '@algolia/client-search'
       - '@types/react'
@@ -7866,7 +7866,7 @@ packages:
       filesize: 6.4.0
       gzip-size: 6.0.0
       pacote: 15.2.0
-      terser: 5.19.2
+      terser: 5.19.3
     transitivePeerDependencies:
       - bluebird
       - supports-color
@@ -8610,8 +8610,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /terser@5.19.2:
-    resolution: {integrity: sha512-qC5+dmecKJA4cpYxRa5aVkKehYsQKc+AHeKl0Oe62aYjBL8ZA33tTljktDHJSaxxMnbI5ZYw+o/S2DxxLu8OfA==}
+  /terser@5.19.3:
+    resolution: {integrity: sha512-pQzJ9UJzM0IgmT4FAtYI6+VqFf0lj/to58AV0Xfgg0Up37RyPG7Al+1cepC6/BVuAxR9oNb41/DL4DEoHJvTdg==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -8967,7 +8967,7 @@ packages:
       builtins: 5.0.1
     dev: true
 
-  /vite@4.4.9(@types/node@20.4.7)(terser@5.19.2):
+  /vite@4.4.9(@types/node@20.4.7)(terser@5.19.3):
     resolution: {integrity: sha512-2mbUn2LlUmNASWwSCNSJ/EG2HuSRTnVNaydp6vMCm5VIqJsjMfbIWtbH2kDuwUVW5mMUKKZvGPX/rqeqVvv1XA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -8999,12 +8999,12 @@ packages:
       esbuild: 0.18.17
       postcss: 8.4.27
       rollup: 3.28.1
-      terser: 5.19.2
+      terser: 5.19.3
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
 
-  /vitepress@1.0.0-rc.10(@algolia/client-search@4.19.1)(@types/node@20.4.7)(search-insights@2.7.0)(terser@5.19.2):
+  /vitepress@1.0.0-rc.10(@algolia/client-search@4.19.1)(@types/node@20.4.7)(search-insights@2.7.0)(terser@5.19.3):
     resolution: {integrity: sha512-+MsahIWqq5WUEmj6MR4obcKYbT7im07jZPCQPdNJExkeOSbOAJ4xypSLx88x7rvtzWHhHc5aXbOhCRvGEGjFrw==}
     hasBin: true
     dependencies:
@@ -9017,7 +9017,7 @@ packages:
       mark.js: 8.11.1
       minisearch: 6.1.0
       shiki: 0.14.3
-      vite: 4.4.9(@types/node@20.4.7)(terser@5.19.2)
+      vite: 4.4.9(@types/node@20.4.7)(terser@5.19.3)
       vue: 3.3.4
     transitivePeerDependencies:
       - '@algolia/client-search'
