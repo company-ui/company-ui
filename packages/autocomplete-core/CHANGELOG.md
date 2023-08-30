@@ -1,5 +1,30 @@
 # @company-ui/autocomplete-core
 
+## 1.1.1
+
+### Patch Changes
+
+- [`56566c1`](https://github.com/company-ui/company-ui/commit/56566c1c6261b377e962711c0fa1b29a52089530) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency prettier to v3.0.3
+
+- [`95e95fb`](https://github.com/company-ui/company-ui/commit/95e95fb3821554bbd677e6d4477c67fee51bd77b) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency typescript to v5.2.2
+
+- [`d5e4c52`](https://github.com/company-ui/company-ui/commit/d5e4c52442475ec4ec30802c651556ee5691ec96) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.3.12
+
+- [`f01220d`](https://github.com/company-ui/company-ui/commit/f01220dfb281340d3ad84fc1a3d130e182a368f8) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependencies
+
+- [`21796cb`](https://github.com/company-ui/company-ui/commit/21796cb1e62af055838ac32ae3740a6927198778) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update babel monorepo to v7.22.11 (@babel/core, @babel/eslint-parser)
+
+- [`7a8b850`](https://github.com/company-ui/company-ui/commit/7a8b850c412ab5f30fadfbc33e4b510e93e25390) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @rollup/plugin-typescript to v11.1.3
+
+- [`e774046`](https://github.com/company-ui/company-ui/commit/e7740461a38c1615bc754ad2437ec0f20d45b245) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint to v8.48.0
+
+- [`f19bc34`](https://github.com/company-ui/company-ui/commit/f19bc34f569f91587229718b5121408d3cf22dbb) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @types/markdown-it to v13.0.1
+
+- [`1bbb1d6`](https://github.com/company-ui/company-ui/commit/1bbb1d68160efb9945240b058193d8aa674d8456) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency terser to v5.19.3
+
+- Updated dependencies [[`56566c1`](https://github.com/company-ui/company-ui/commit/56566c1c6261b377e962711c0fa1b29a52089530), [`95e95fb`](https://github.com/company-ui/company-ui/commit/95e95fb3821554bbd677e6d4477c67fee51bd77b), [`d5e4c52`](https://github.com/company-ui/company-ui/commit/d5e4c52442475ec4ec30802c651556ee5691ec96), [`f01220d`](https://github.com/company-ui/company-ui/commit/f01220dfb281340d3ad84fc1a3d130e182a368f8), [`21796cb`](https://github.com/company-ui/company-ui/commit/21796cb1e62af055838ac32ae3740a6927198778), [`7a8b850`](https://github.com/company-ui/company-ui/commit/7a8b850c412ab5f30fadfbc33e4b510e93e25390), [`e774046`](https://github.com/company-ui/company-ui/commit/e7740461a38c1615bc754ad2437ec0f20d45b245), [`f19bc34`](https://github.com/company-ui/company-ui/commit/f19bc34f569f91587229718b5121408d3cf22dbb), [`1bbb1d6`](https://github.com/company-ui/company-ui/commit/1bbb1d68160efb9945240b058193d8aa674d8456)]:
+  - @company-ui/shared@1.1.1
+
 ## 1.1.0
 
 ### Minor Changes
