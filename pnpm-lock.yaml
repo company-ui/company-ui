@@ -81,8 +81,8 @@ importers:
         specifier: ^6.0.1
         version: 6.0.1(postcss@8.4.27)
       element-plus:
-        specifier: ^2.3.9
-        version: 2.3.9(vue@3.3.4)
+        specifier: ^2.3.12
+        version: 2.3.12(vue@3.3.4)
       eslint:
         specifier: ^8.48.0
         version: 8.48.0
@@ -4275,8 +4275,8 @@ packages:
     resolution: {integrity: sha512-1ndQ5IBNEnFirPwvyud69GHL+31FkE09gH/CJ6m3KCbkx3i0EVOrjwz4UNxRmN9H8OVHbC6vMRZGN1yCvjSs9w==}
     dev: true
 
-  /element-plus@2.3.9(vue@3.3.4):
-    resolution: {integrity: sha512-TIOLnPl4cnoCPXqK3QYh+jpkthUBQnAM21O7o3Lhbse8v9pfrRXRTaBJtoEKnYNa8GZ4lZptUfH0PeZgDCNLUg==}
+  /element-plus@2.3.12(vue@3.3.4):
+    resolution: {integrity: sha512-fAWpbKCyt+l1dsqSNPOs/F/dBN4Wp5CGAyxbiS5zqDwI4q3QPM+LxLU2h3GUHMIBtMGCvmsG98j5HPMkTKkvcA==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
