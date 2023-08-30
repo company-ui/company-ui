@@ -17,6 +17,7 @@ module.exports = {
         'ci', // CI配置
         'chore', // 构建过程或辅助工具的变动
         'revert', // 回退
+        'release', // 发版
       ],
     ],
     // subject 大小写不做校验
