@@ -1,5 +1,15 @@
 # @company-ui/shared
 
+## 1.2.0
+
+### Minor Changes
+
+- [`90094c1`](https://github.com/company-ui/company-ui/commit/90094c16a3d4250f68b42364258f3144a0605be4) Thanks [@zhensherlock](https://github.com/zhensherlock)! - update clear button style
+
+- [`d86d2d7`](https://github.com/company-ui/company-ui/commit/d86d2d774de24c95da53f4b6a03bada5a2879d17) Thanks [@zhensherlock](https://github.com/zhensherlock)! - add clear-bit api keyword length limit
+
+- [`6462657`](https://github.com/company-ui/company-ui/commit/6462657e90be8cecb2ec63d65c5ce6e6e59f2409) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @babel/preset-env to v7.22.14
+
 ## 1.1.1
 
 ### Patch Changes
