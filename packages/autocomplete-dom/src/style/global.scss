@@ -47,6 +47,11 @@
   &--words {
     .company-autocomplete__clear {
       opacity: 1;
+      visibility: visible;
+    }
+
+    .company-autocomplete__input {
+      padding-right: 30px;
     }
   }
 
@@ -83,6 +88,7 @@
       color 0.2s ease,
       opacity 0.3s ease;
     text-rendering: auto;
+    visibility: hidden;
 
     &:hover {
       color: rgb(0 0 0 / 45%);
