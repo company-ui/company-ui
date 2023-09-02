@@ -1,5 +1,16 @@
 # @company-ui/dom
 
+## 1.3.0
+
+### Minor Changes
+
+- [`b5b8709`](https://github.com/company-ui/company-ui/commit/b5b8709162cccc2212620cd0a9d21f0e37078544) Thanks [@zhensherlock](https://github.com/zhensherlock)! - add output file banner info
+
+### Patch Changes
+
+- Updated dependencies [[`b5b8709`](https://github.com/company-ui/company-ui/commit/b5b8709162cccc2212620cd0a9d21f0e37078544)]:
+  - @company-ui/autocomplete-dom@1.3.0
+
 ## 1.2.0
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # @company-ui/shared
 
+## 1.3.0
+
+### Minor Changes
+
+- [`b5b8709`](https://github.com/company-ui/company-ui/commit/b5b8709162cccc2212620cd0a9d21f0e37078544) Thanks [@zhensherlock](https://github.com/zhensherlock)! - add output file banner info
+
 ## 1.2.0
 
 ### Minor Changes
