@@ -34,8 +34,8 @@ const queryQccOpenAPI = async (
   if (keyword.length < 2 || keyword.length > 100) {
     return [];
   }
-  const searchUrl: string =
-    'https://c.qcc.com/embed/api/company/getCompanyName?searchKey={keyword}';
+  const timestamp = Math.floor(Date.now() / 1e3);
+  const searchUrl: string = `https://c.qcc.com/embed/api/company/getCompanyName?searchKey={keyword}&v=v1.0&r=/company/getCompanyName&t=${timestamp}`;
   const url = getSearchUrl(keyword, searchUrl, options.searchUrl);
   const res: Response = await fetch(url, {
     method: 'GET',
