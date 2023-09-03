@@ -1,5 +1,18 @@
 # @company-ui/dom
 
+## 1.4.0
+
+### Minor Changes
+
+- [`d6198d6`](https://github.com/company-ui/company-ui/commit/d6198d6be183a73b363b2e9813affcc6dbe4f41d) Thanks [@zhensherlock](https://github.com/zhensherlock)! - add qcc open api keyword length limit
+
+- [`92ac819`](https://github.com/company-ui/company-ui/commit/92ac819958a01b2f65162c8d30425fabf6099b54) Thanks [@zhensherlock](https://github.com/zhensherlock)! - update qcc open query url
+
+### Patch Changes
+
+- Updated dependencies [[`d6198d6`](https://github.com/company-ui/company-ui/commit/d6198d6be183a73b363b2e9813affcc6dbe4f41d), [`92ac819`](https://github.com/company-ui/company-ui/commit/92ac819958a01b2f65162c8d30425fabf6099b54)]:
+  - @company-ui/autocomplete-dom@1.4.0
+
 ## 1.3.0
 
 ### Minor Changes
