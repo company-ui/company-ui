@@ -31,7 +31,7 @@ const queryQccOpenAPI = async (
   keyword: string,
   options: CompanyAutocompleteOptions
 ): Promise<CompanyDataType[]> => {
-  if (keyword.length < 2) {
+  if (keyword.length < 2 || keyword.length > 100) {
     return [];
   }
   const searchUrl: string =
