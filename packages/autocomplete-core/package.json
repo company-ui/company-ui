@@ -57,6 +57,7 @@
     "url": "https://github.com/company-ui/company-ui/issues"
   },
   "dependencies": {
-    "@company-ui/shared": "workspace:^"
+    "@company-ui/shared": "workspace:^",
+    "crypto-js": "^4.1.1"
   }
 }
