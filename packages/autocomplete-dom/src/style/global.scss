@@ -1,21 +1,8 @@
-.company-autocomplete {
-  --transition-box-shadow: box-shadow var(--transition-duration-fast)
-    var(--transition-function-ease-in-out-bezier);
-  --transition-duration-fast: 0.2s;
-  --transition-function-ease-in-out-bezier: cubic-bezier(0.645, 0.045, 0.355, 1);
-  --input-bg-color: '#fff';
-  --input-border-radius: 2px;
-  --input-border-color: #d8d8d8;
-  --input-focus-border-color: #128bed;
-  --input-focus-border-outline: rgb(24 144 255 / 20%);
-  --input-text-color: #666;
-  --font-size: 14px;
-  --line-height: 32px;
-  --input-height: calc(var(--line-height) - 2px);
+@use 'common/var' as *;
+@use 'dark/var' as *;
 
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
-    'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
-    'Noto Color Emoji';
+.company-autocomplete {
+  font-family: var(--font-family);
   width: 100%;
   position: relative;
   font-size: var(--font-size);
@@ -82,7 +69,7 @@
     display: flex;
     cursor: pointer;
     top: 9px;
-    color: rgb(0 0 0 / 25%);
+    color: var(--input-icon-color);
     opacity: 0;
     transition:
       color 0.2s ease,
@@ -91,7 +78,7 @@
     visibility: hidden;
 
     &:hover {
-      color: rgb(0 0 0 / 45%);
+      color: var(--input-hover-icon-color);
     }
   }
 
@@ -108,11 +95,15 @@
     border: none;
     background: none;
     box-sizing: border-box;
+
+    &::placeholder {
+      color: var(--input-placeholder);
+    }
   }
 
   &__submit {
-    color: #fff;
-    background-color: #128bed;
+    color: var(--button-text-color);
+    background-color: var(--button-bg-color);
     padding: 0 10px;
     border-radius: 0 var(--input-border-radius) var(--input-border-radius) 0;
     cursor: pointer;
@@ -120,36 +111,35 @@
     button {
       border: none;
       background: transparent;
-      color: #fff;
+      color: var(--button-text-color);
+      outline: none;
     }
 
     &:hover {
-      background-color: #0069bf;
+      background-color: var(--button-hover-bg-color);
     }
 
     &:active {
-      background-color: #0069bf;
+      background-color: var(--button-hover-bg-color);
     }
   }
 }
 
 .suggestion-popper {
-  --footer-text-default-color: #999;
-  --footer-text-primary-color: #128bed;
+  --footer-text-color: var(--color-info);
+  --footer-hover-text-color: var(--color-primary);
 
   position: absolute;
   width: max-content;
   top: 0;
   left: 0;
   padding: 15px;
-  background: #fff;
+  background: var(--popper-bg-color);
   z-index: 10;
   box-sizing: border-box;
   border-radius: 2px;
-  box-shadow:
-    0 6px 16px 0 rgb(0 0 0 / 8%),
-    0 3px 6px -4px rgb(0 0 0 / 12%),
-    0 9px 28px 8px rgb(0 0 0 / 5%);
+  box-shadow: var(--popper-box-shadow);
+  color: var(--text-color-primary);
 
   // border-radius: 0 0 4px 4px;
   // border: 1px solid #EEE;
@@ -166,7 +156,7 @@
 
   &__body {
     // padding: 5px 0;
-    background: #f8fbfe;
+    background: var(--popper-body-bg-color);
   }
 
   &__footer {
@@ -180,7 +170,7 @@
     }
 
     a {
-      color: var(--footer-text-default-color);
+      color: var(--footer-text-color);
       display: inline-flex;
       align-items: center;
 
@@ -189,7 +179,7 @@
       }
 
       &:hover {
-        color: var(--footer-text-primary-color);
+        color: var(--footer-hover-text-color);
       }
     }
   }
@@ -201,21 +191,20 @@
     align-items: center;
     cursor: pointer;
     padding: 8px 10px;
-    color: #333;
+    color: var(--text-color-primary);
 
     &:hover {
-      color: #128bed;
+      color: var(--el-color-primary);
     }
 
     &--keyboard-active {
-      background-color: #f2f8fe;
-      color: #128bed;
+      background-color: var(--fill-color);
+      color: var(--el-color-primary);
     }
 
     &__avatar {
       margin-right: 8px;
       display: flex;
-      color: #bbb;
 
       &:empty {
         display: none;
@@ -225,7 +214,7 @@
         width: 22px;
         height: 22px;
         border-radius: 4px;
-        border: 1px solid #eee;
+        border: 1px solid var(--border-color);
 
         &:not([src]) {
           visibility: hidden;
@@ -248,7 +237,7 @@
       }
 
       em {
-        color: #ff6060;
+        color: var(--color-danger);
         font-style: normal;
       }
     }
