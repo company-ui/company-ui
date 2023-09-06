@@ -1,5 +1,32 @@
 # @company-ui/autocomplete-core
 
+## 2.0.0
+
+### Major Changes
+
+- [`a6f6e52`](https://github.com/company-ui/company-ui/commit/a6f6e5271ca50191d92682f3600059251708e433) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency terser to v5.19.4
+
+- [`1f703df`](https://github.com/company-ui/company-ui/commit/1f703df2618edd0a7df9edb8ce80ab77dd0b5cf3) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.6.0
+
+- [`f59839b`](https://github.com/company-ui/company-ui/commit/f59839b9d16d04922f5264250100e9465449ecb7) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency stylelint-config-standard-scss to v11
+
+- [`d26bbef`](https://github.com/company-ui/company-ui/commit/d26bbef4449d5e97a9ae02168eae6dfffa984c3a) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v3.29.0
+
+- [`5f4a2f8`](https://github.com/company-ui/company-ui/commit/5f4a2f88f434ddd0998613106abe5e40ab4d012e) Thanks [@zhensherlock](https://github.com/zhensherlock)! - add dark mode
+
+- [`56c1f96`](https://github.com/company-ui/company-ui/commit/56c1f962c7f1da705bc3155b7a0fae3bcd640102) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update actions/checkout action to v4
+
+- [`d46b715`](https://github.com/company-ui/company-ui/commit/d46b715d7ac472c7cd1378e5a50276a09f6ed5ab) Thanks [@zhensherlock](https://github.com/zhensherlock)! - remove searchUrl option
+
+- [`c889b62`](https://github.com/company-ui/company-ui/commit/c889b622eb52a15b835f029a0247b6d02a7edd4b) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update babel monorepo to v7.22.15 (@babel/core, @babel/eslint-parser, @babel/plugin-transform-runtime, @babel/preset-env)
+
+- [`0ec6c3a`](https://github.com/company-ui/company-ui/commit/0ec6c3a291adb316418416f360e244f768a3a03e) Thanks [@zhensherlock](https://github.com/zhensherlock)! - add qcc open query validation parameters
+
+### Patch Changes
+
+- Updated dependencies [[`a6f6e52`](https://github.com/company-ui/company-ui/commit/a6f6e5271ca50191d92682f3600059251708e433), [`1f703df`](https://github.com/company-ui/company-ui/commit/1f703df2618edd0a7df9edb8ce80ab77dd0b5cf3), [`f59839b`](https://github.com/company-ui/company-ui/commit/f59839b9d16d04922f5264250100e9465449ecb7), [`d26bbef`](https://github.com/company-ui/company-ui/commit/d26bbef4449d5e97a9ae02168eae6dfffa984c3a), [`5f4a2f8`](https://github.com/company-ui/company-ui/commit/5f4a2f88f434ddd0998613106abe5e40ab4d012e), [`56c1f96`](https://github.com/company-ui/company-ui/commit/56c1f962c7f1da705bc3155b7a0fae3bcd640102), [`d46b715`](https://github.com/company-ui/company-ui/commit/d46b715d7ac472c7cd1378e5a50276a09f6ed5ab), [`c889b62`](https://github.com/company-ui/company-ui/commit/c889b622eb52a15b835f029a0247b6d02a7edd4b), [`1d8f967`](https://github.com/company-ui/company-ui/commit/1d8f9674a06386b1cd0ddfe7da005d0d4d444c23), [`0ec6c3a`](https://github.com/company-ui/company-ui/commit/0ec6c3a291adb316418416f360e244f768a3a03e)]:
+  - @company-ui/shared@2.0.0
+
 ## 1.4.0
 
 ### Minor Changes
