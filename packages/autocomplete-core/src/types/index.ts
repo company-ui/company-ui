@@ -89,7 +89,7 @@ export interface CompanyAutocompleteOptions {
   /**
    * search query api url
    */
-  searchUrl?: string;
+  // searchUrl?: string;
   /**
    * avatar url
    */
