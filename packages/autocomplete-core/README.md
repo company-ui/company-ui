@@ -7,6 +7,7 @@
   <a href="https://npmjs.com/package/@company-ui/autocomplete-core"><img src="https://badgen.net/npm/v/@company-ui/autocomplete-core" alt="npm package"></a>
   <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/company-ui/company-ui/deploy.yml?branch=main">
   <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@company-ui/autocomplete-core">
+  <img alt="npm download week" src="https://img.shields.io/npm/dw/@company-ui/autocomplete-core">
   <img alt="GitHub" src="https://img.shields.io/github/license/company-ui/company-ui">
   <a href="https://discord.gg/89xaVqpV"><img src="https://img.shields.io/discord/1143015541175496777" alt="Join the chat"></a>
 </p>

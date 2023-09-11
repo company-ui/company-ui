@@ -1,5 +1,30 @@
 # @company-ui/autocomplete-core
 
+## 2.1.0
+
+### Minor Changes
+
+- [`39df27b`](https://github.com/company-ui/company-ui/commit/39df27ba15312e4441aad65e2ff6f738a761fb42) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v3.29.1
+
+- [`0f4a5d0`](https://github.com/company-ui/company-ui/commit/0f4a5d0a94e0245845791e18c7504d3d1d85fdc3) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint to v8.49.0
+
+- [`50f299d`](https://github.com/company-ui/company-ui/commit/50f299d577aa6d39099445ae5990a919201003da) Thanks [@zhensherlock](https://github.com/zhensherlock)! - update qcc open security logic
+
+- [`5222660`](https://github.com/company-ui/company-ui/commit/522266049890f56146d01c11fabed8d9918e2a23) Thanks [@zhensherlock](https://github.com/zhensherlock)! - add docs workspace
+
+- [`536ef5b`](https://github.com/company-ui/company-ui/commit/536ef5b64f26e2819608134b1e2ed1f3d94b215d) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vitepress to v1.0.0-rc.11
+
+- [`9f3b267`](https://github.com/company-ui/company-ui/commit/9f3b267dfe466ce8da7cdaeaa01153bab98d0d4a) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @babel/core to v7.22.17
+
+- [`6e7145b`](https://github.com/company-ui/company-ui/commit/6e7145bee000fa50798cfcc20d1b72c8a7539411) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency core-js to v3.32.2
+
+- [`e39fbe7`](https://github.com/company-ui/company-ui/commit/e39fbe7e5e38972c0be3d32ca7b40443faaf1ed2) Thanks [@zhensherlock](https://github.com/zhensherlock)! - new theme
+
+### Patch Changes
+
+- Updated dependencies [[`39df27b`](https://github.com/company-ui/company-ui/commit/39df27ba15312e4441aad65e2ff6f738a761fb42), [`0f4a5d0`](https://github.com/company-ui/company-ui/commit/0f4a5d0a94e0245845791e18c7504d3d1d85fdc3), [`50f299d`](https://github.com/company-ui/company-ui/commit/50f299d577aa6d39099445ae5990a919201003da), [`5222660`](https://github.com/company-ui/company-ui/commit/522266049890f56146d01c11fabed8d9918e2a23), [`536ef5b`](https://github.com/company-ui/company-ui/commit/536ef5b64f26e2819608134b1e2ed1f3d94b215d), [`9f3b267`](https://github.com/company-ui/company-ui/commit/9f3b267dfe466ce8da7cdaeaa01153bab98d0d4a), [`6e7145b`](https://github.com/company-ui/company-ui/commit/6e7145bee000fa50798cfcc20d1b72c8a7539411), [`e39fbe7`](https://github.com/company-ui/company-ui/commit/e39fbe7e5e38972c0be3d32ca7b40443faaf1ed2)]:
+  - @company-ui/shared@2.1.0
+
 ## 2.0.0
 
 ### Major Changes
