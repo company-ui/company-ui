@@ -53,7 +53,7 @@ const passwordBooks = [
   '5xpqdylr',
 ];
 const passwordVersion = 'v1.0';
-const PRIME = 31;
+const BASE_HASH = 31;
 
 export const getPasswordVersion = () => {
   return passwordVersion;
@@ -75,19 +75,15 @@ export const crypto = (data: string): string => {
   return md5(data).toString();
 };
 
-export const calculateHash = (...objects: string[]): number => {
-  let hash = 1;
-  for (const obj of objects) {
-    hash = (PRIME * hash + (obj === null ? 0 : calculateCharHash(obj))) | 0;
-  }
-  return Math.abs(hash);
+export const calculateHash = (key: string): number => {
+  const result = (BASE_HASH + (key === null ? 0 : calculateCharHash(key))) | 0;
+  return Math.abs(result);
 };
 
 export const calculateCharHash = (str: string): number => {
-  let hash = 1;
+  let result = 1;
   for (let i = 0; i < str.length; i++) {
-    const charCode = str.charCodeAt(i);
-    hash = (hash * PRIME + charCode) | 0;
+    result = (BASE_HASH * result + str.charCodeAt(i)) | 0;
   }
-  return hash;
+  return result;
 };
