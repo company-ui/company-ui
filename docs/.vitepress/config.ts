@@ -3,7 +3,7 @@ import { version } from '../../package.json';
 import zh_CN from './locales/zh-CN';
 
 export default {
-  title: ' ',
+  title: 'Company UI',
   description: 'A company UI library',
   base: '/company-ui/',
   head: [

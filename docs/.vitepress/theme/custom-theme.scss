@@ -9,3 +9,9 @@
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-image-filter: blur(40px);
 }
+
+.VPNavBarTitle {
+  a.title {
+    font-size: 0;
+  }
+}

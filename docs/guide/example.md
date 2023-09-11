@@ -52,3 +52,5 @@ const companyAutocomplete = new CompanyAutocomplete({
   target: '#example',
 });
 ```
+
+[//]: # '<autocomplete></autocomplete>'

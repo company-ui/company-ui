@@ -42,6 +42,7 @@ module.exports = {
     // 'unicode-bom': 'never',
     'no-descending-specificity': null,
     'font-family-no-missing-generic-family-keyword': null,
+    'selector-class-pattern': null,
     // 'declaration-colon-space-after': 'always-single-line',
     // 'declaration-colon-space-before': 'never',
     // 'declaration-block-trailing-semicolon': 'always',

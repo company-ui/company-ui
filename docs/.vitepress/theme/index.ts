@@ -10,5 +10,8 @@ export default {
     import('element-plus').then((module) => {
       app.use(module);
     });
+    // import('@company-ui/autocomplete-vue/dist/index.esm').then((module) => {
+    //   app.use(module.default);
+    // });
   },
 };
