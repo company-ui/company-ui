@@ -49,7 +49,7 @@
     "@vue/theme": "^2.2.4",
     "autoprefixer": "^10.4.15",
     "concurrently": "^8.2.1",
-    "core-js": "^3.32.1",
+    "core-js": "^3.32.2",
     "cssnano": "^6.0.1",
     "element-plus": "^2.3.12",
     "eslint": "^8.48.0",
