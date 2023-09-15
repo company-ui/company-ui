@@ -1,5 +1,28 @@
 # @company-ui/dom
 
+## 2.2.0
+
+### Minor Changes
+
+- [`0f8f621`](https://github.com/company-ui/company-ui/commit/0f8f621bcac9f0cd5de0ab44ad48b95e04239665) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @babel/core to v7.22.19
+
+- [`435b0bb`](https://github.com/company-ui/company-ui/commit/435b0bb5309b5f054c4f3a4c2181ab1379888ee6) Thanks [@zhensherlock](https://github.com/zhensherlock)! - fix(deps): update dependency @floating-ui/dom to v1.5.3
+
+- [`3354c47`](https://github.com/company-ui/company-ui/commit/3354c47e61b4847ee45544def15c4fd2d1c052c4) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vitepress to v1.0.0-rc.13
+
+- [`ee5587b`](https://github.com/company-ui/company-ui/commit/ee5587b989b3ffd153323fa6db514a97f28362a2) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.7.0
+
+- [`e0c420b`](https://github.com/company-ui/company-ui/commit/e0c420b2d18bc0e3bb2cda34bc25a85e5629196f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.3.14
+
+- [`8e14f0f`](https://github.com/company-ui/company-ui/commit/8e14f0f2ec8d5a860e1fedd8ee89eed6e4977791) Thanks [@zhensherlock](https://github.com/zhensherlock)! - update qcc open data id
+
+- [`67a5efd`](https://github.com/company-ui/company-ui/commit/67a5efd472c4402164a798cea68ab0a5e20e1825) Thanks [@zhensherlock](https://github.com/zhensherlock)! - update theme style
+
+### Patch Changes
+
+- Updated dependencies [[`0f8f621`](https://github.com/company-ui/company-ui/commit/0f8f621bcac9f0cd5de0ab44ad48b95e04239665), [`435b0bb`](https://github.com/company-ui/company-ui/commit/435b0bb5309b5f054c4f3a4c2181ab1379888ee6), [`3354c47`](https://github.com/company-ui/company-ui/commit/3354c47e61b4847ee45544def15c4fd2d1c052c4), [`ee5587b`](https://github.com/company-ui/company-ui/commit/ee5587b989b3ffd153323fa6db514a97f28362a2), [`e0c420b`](https://github.com/company-ui/company-ui/commit/e0c420b2d18bc0e3bb2cda34bc25a85e5629196f), [`8e14f0f`](https://github.com/company-ui/company-ui/commit/8e14f0f2ec8d5a860e1fedd8ee89eed6e4977791), [`67a5efd`](https://github.com/company-ui/company-ui/commit/67a5efd472c4402164a798cea68ab0a5e20e1825)]:
+  - @company-ui/autocomplete-dom@2.2.0
+
 ## 2.1.0
 
 ### Minor Changes
