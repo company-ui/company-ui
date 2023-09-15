@@ -60,6 +60,6 @@
   "dependencies": {
     "@company-ui/autocomplete-core": "workspace:^",
     "@company-ui/shared": "workspace:^",
-    "@floating-ui/dom": "^1.5.1"
+    "@floating-ui/dom": "^1.5.3"
   }
 }
