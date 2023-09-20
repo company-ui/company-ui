@@ -1,6 +1,6 @@
 {
   "name": "company-ui",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "private": true,
   "description": "Company UI monorepo",
   "workspaces": [
@@ -16,6 +16,7 @@
     "dev": "concurrently \"npm run code:dev\" \"npm run docs:dev\"",
     "code:dev": "pnpm -r --aggregate-output --filter=./packages/* dev",
     "build": "pnpm -r --aggregate-output --filter=./packages/* build",
+    "dev2": "pnpm -r --aggregate-output --filter=./packages/vue dev",
     "clear": "rimraf 'packages/*/{dist,node_modules}' && rimraf node_modules",
     "docs:dev": "pnpm -r --aggregate-output --filter=./docs dev",
     "docs:build": "pnpm -r --aggregate-output --filter=./docs build",
