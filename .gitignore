@@ -85,6 +85,7 @@ typings/
 dist
 es
 lib
+packages/style/index.js
 
 # Gatsby files
 .cache/
