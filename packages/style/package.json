@@ -1,0 +1,36 @@
+{
+  "name": "@company-ui/style",
+  "version": "2.2.0",
+  "description": "Company UI style",
+  "author": "zhensherlock",
+  "homepage": "https://github.com/company-ui/company-ui/tree/master/packages/style#readme",
+  "keywords": [
+    "Company",
+    "CompanyUI",
+    "企业",
+    "企业UI",
+    "企业名称",
+    "企业组件"
+  ],
+  "license": "MIT",
+  "main": "dist/index.css",
+  "browser": "dist/index.css",
+  "unpkg": "dist/index.css",
+  "jsdelivr": "dist/index.css",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/company-ui/company-ui.git"
+  },
+  "scripts": {
+    "clean:dist": "rimraf dist",
+    "build": "npm run clean:dist && rollup -c --bundleConfigAsCjs --environment NODE_ENV:production"
+  },
+  "bugs": {
+    "url": "https://github.com/company-ui/company-ui/issues"
+  }
+}
