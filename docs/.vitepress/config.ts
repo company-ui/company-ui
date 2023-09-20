@@ -18,7 +18,7 @@ export default {
     ],
   ],
   themeConfig: {
-    logo: '/logo-text.png',
+    logo: '/logo.png',
     nav: [
       { text: 'Guide', link: '/guide/what-is-this', activeMatch: '/guide/' },
       { text: 'Configs', link: '/config/', activeMatch: '/config/' },

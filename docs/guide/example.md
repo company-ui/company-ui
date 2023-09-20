@@ -7,6 +7,7 @@ layout: doc
 <script setup lang="ts">
 import { getCurrentInstance, ref, onMounted } from 'vue';
 import { CompanyAutocomplete } from '@company-ui/dom/dist/index.esm';
+import '@company-ui/style';
 
 const app = getCurrentInstance();
 
@@ -53,4 +54,4 @@ const companyAutocomplete = new CompanyAutocomplete({
 });
 ```
 
-[//]: # '<autocomplete></autocomplete>'
+<Autocomplete></Autocomplete>

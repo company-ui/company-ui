@@ -4,14 +4,43 @@
   --vp-c-brand-lighter: #a0cfff;
   --vp-c-brand-dark: #337ecc;
   --vp-c-brand-darker: #337ecc;
-  --vp-nav-logo-height: 35px;
+  --vp-nav-logo-height: 25px;
   --vp-home-hero-name-background: linear-gradient(120deg, #128bed 30%, #41d1ff);
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-image-filter: blur(40px);
 }
 
-.VPNavBarTitle {
+.dark {
   a.title {
-    font-size: 0;
+    filter: drop-shadow(2px 2px 6px #409eff);
+  }
+}
+
+// .VPNavBarTitle {
+//   a.title {
+//     font-size: 0;
+//   }
+// }
+
+.VPHero {
+  .VPImage.image-src {
+    animation: blur-in 1s cubic-bezier(0, 0.55, 0.45, 1);
+  }
+}
+
+@keyframes blur-in {
+  0% {
+    filter: brightness(1) blur(10px);
+    transform: translate(-50%, -50%) scale(0.94);
+  }
+
+  10% {
+    filter: brightness(1.15) blur(5px);
+    transform: translate(-50%, -50%) scale(0.98);
+  }
+
+  100% {
+    filter: brightness(1) blur(0);
+    transform: translate(-50%, -50%) scale(1);
   }
 }

@@ -9,7 +9,7 @@ hero:
   text: A company UI library
   tagline: 简易、强大、高性能。
   image:
-    #    src: /hero-image.png
+    src: /hero-image.png
     alt: company-ui
   actions:
     - theme: brand
