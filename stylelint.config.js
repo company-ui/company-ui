@@ -5,6 +5,13 @@ module.exports = {
     'stylelint-config-standard',
     'stylelint-config-standard-scss',
     'stylelint-config-prettier',
+    'stylelint-config-recommended-vue/scss',
+  ],
+  overrides: [
+    {
+      files: ['**/*.vue', '**/*.html'],
+      customSyntax: 'postcss-html',
+    },
   ],
   rules: {
     'selector-pseudo-class-no-unknown': [

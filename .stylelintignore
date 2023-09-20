@@ -1,3 +1,5 @@
 /dist/*
 /public/*
-dist/*
+packages/**/dist/*
+packages/**/lib/*
+packages/**/es/*

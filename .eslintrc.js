@@ -1,5 +1,6 @@
 module.exports = {
-  parser: '@typescript-eslint/parser', // 解析器，默认使用Espree
+  // parser: '@typescript-eslint/parser', // 解析器，默认使用Espree
+  parser: 'vue-eslint-parser',
   env: {
     // 指定脚本的运行环境。每种环境都有一组特定的预定义全局变量。
     browser: true, // 运行在浏览器
@@ -12,9 +13,11 @@ module.exports = {
     'plugin:import/recommended',
     'prettier',
     'plugin:prettier/recommended',
+    'plugin:vue/vue3-recommended',
   ],
   plugins: ['import'],
   parserOptions: {
+    parser: '@typescript-eslint/parser',
     ecmaVersion: 12, // ecmaVersion 用来指定支持的 ECMAScript 版本 。默认为 5，即仅支持es5
     sourceType: 'module',
   },
@@ -33,6 +36,11 @@ module.exports = {
     __PROD__: true,
   },
   rules: {
+    // 忽略virtual module
+    'import/no-unresolved': [
+      'error',
+      { ignore: ['^virtual:', 'unocss/vite', 'unplugin-vue-define-options/vite'] },
+    ],
     // 启用的规则及其各自的错误级别。0(off)  1(warning)  2(error)
     '@typescript-eslint/ban-ts-ignore': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
@@ -45,6 +53,7 @@ module.exports = {
     '@typescript-eslint/ban-types': 'off',
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
+    // '@typescript-eslint/no-unused-vars': [2],
     'no-unused-vars': [
       'error',
       {
@@ -61,11 +70,14 @@ module.exports = {
     'vue/singleline-html-element-content-newline': 'off',
     'vue/attribute-hyphenation': 'off',
     'vue/require-default-prop': 'off',
+    'vue/html-self-closing': 'off',
+    'vue/no-v-html': 'off',
+    'vue/multi-word-component-names': 'off',
   },
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx', '.vue'],
       },
     },
   },

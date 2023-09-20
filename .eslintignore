@@ -1,6 +1,8 @@
 */build/*.js
 */public
 dist
+lib
+es
 cache
 .husky/
 lib

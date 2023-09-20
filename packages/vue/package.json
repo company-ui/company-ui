@@ -1,0 +1,85 @@
+{
+  "name": "@company-ui/vue",
+  "version": "2.2.0",
+  "description": "Company UI vue",
+  "author": "zhensherlock",
+  "homepage": "https://github.com/company-ui/company-ui/tree/master/packages/vue#readme",
+  "keywords": [
+    "Company",
+    "CompanyUI",
+    "CompanyUIVue",
+    "Autocomplete",
+    "AutocompleteVue",
+    "企业",
+    "企业UI",
+    "企业名称",
+    "企业组件",
+    "企业组件自动完成组件",
+    "自动完成",
+    "自动完成组件"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "webpack": "lib/index.js",
+  "browser": "dist/index.full.js",
+  "unpkg": "dist/index.full.js",
+  "jsdelivr": "dist/index.full.js",
+  "types": "es/types/main.d.ts",
+  "exports": {
+    ".": {
+      "types": "./es/types/main.d.ts",
+      "import": "./es/index.mjs",
+      "require": "./lib/index.js"
+    },
+    "./es": {
+      "types": "./es/main.d.ts",
+      "import": "./es/index.mjs"
+    },
+    "./lib": {
+      "types": "./lib/main.d.ts",
+      "require": "./lib/index.js"
+    },
+    "./*": "./*"
+  },
+  "files": [
+    "dist",
+    "es",
+    "lib",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/company-ui/company-ui.git"
+  },
+  "scripts": {
+    "clean:dist": "rimraf dist && rimraf es && rimraf lib",
+    "switch:2": "vue-demi-switch 2",
+    "switch:3": "vue-demi-switch 3",
+    "build": "npm run clean:dist && vite build",
+    "dev": "npm run switch:3 && vite"
+  },
+  "bugs": {
+    "url": "https://github.com/company-ui/company-ui/issues"
+  },
+  "dependencies": {
+    "@company-ui/autocomplete-core": "workspace:^",
+    "@company-ui/shared": "workspace:^",
+    "@company-ui/style": "workspace:^",
+    "@floating-ui/vue": "^1.0.2",
+    "vue-demi": "^0.14.6"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.7.2",
+    "vue": "^2.0.0 || >=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "vue": "^3.3.4"
+  }
+}
