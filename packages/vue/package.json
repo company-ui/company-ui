@@ -18,6 +18,10 @@
     "自动完成",
     "自动完成组件"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "license": "MIT",
   "main": "lib/index.js",
   "module": "es/index.mjs",

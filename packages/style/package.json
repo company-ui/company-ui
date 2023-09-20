@@ -12,6 +12,10 @@
     "企业名称",
     "企业组件"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "license": "MIT",
   "main": "dist/index.css",
   "browser": "dist/index.css",
