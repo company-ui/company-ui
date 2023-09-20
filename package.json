@@ -94,7 +94,7 @@
     "vite-plugin-commonjs": "^0.9.0",
     "vite-plugin-dts": "^3.5.3",
     "vite-plugin-eslint": "^1.8.1",
-    "vitepress": "1.0.0-rc.13",
+    "vitepress": "1.0.0-rc.15",
     "vue-eslint-parser": "^9.3.1"
   }
 }
