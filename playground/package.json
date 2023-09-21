@@ -1,0 +1,33 @@
+{
+  "name": "@company-ui/playground",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Company UI playground",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "zhensherlock",
+  "license": "MIT",
+  "dependencies": {
+    "@company-ui/autocomplete-core": "workspace:^",
+    "@company-ui/autocomplete-dom": "workspace:^",
+    "@company-ui/dom": "workspace:^",
+    "@company-ui/shared": "workspace:^",
+    "@company-ui/style": "workspace:^",
+    "@company-ui/vue": "workspace:^",
+    "vue-demi": "^0.14.6"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.7.2",
+    "vue": "^2.0.0 || >=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "vue": "^3.3.4"
+  }
+}

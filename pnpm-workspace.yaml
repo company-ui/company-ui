@@ -1,4 +1,4 @@
 packages:
   - "packages/*"
   - "docs"
-#  - play # 组件测试代码
+  - "playground"
