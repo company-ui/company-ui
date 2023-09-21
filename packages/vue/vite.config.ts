@@ -2,17 +2,18 @@ import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import dts from 'vite-plugin-dts';
 import commonjs from 'vite-plugin-commonjs';
-// import eslint from 'vite-plugin-eslint';
+import eslint from 'vite-plugin-eslint';
 import UnoCss from 'unocss/vite';
 // import babel from 'vite-plugin-babel';
 import DefineOptions from 'unplugin-vue-define-options/vite';
+import terser from '@rollup/plugin-terser';
 
 export default defineConfig({
   server: {
     port: 3030,
   },
   build: {
-    minify: true,
+    minify: false,
     rollupOptions: {
       external: ['vue'],
       input: ['./src/main.ts'],
@@ -20,6 +21,7 @@ export default defineConfig({
         {
           format: 'es',
           entryFileNames: 'index.mjs',
+          sourcemap: true,
           // preserveModules: true,
           exports: 'named',
           dir: 'es',
@@ -27,6 +29,7 @@ export default defineConfig({
         {
           format: 'cjs',
           entryFileNames: 'index.js',
+          sourcemap: true,
           // preserveModules: true,
           exports: 'named',
           dir: 'lib',
@@ -35,15 +38,19 @@ export default defineConfig({
           format: 'umd',
           name: 'CompanyUI',
           entryFileNames: 'index.full.js',
+          sourcemap: true,
           exports: 'named',
           dir: 'dist',
         },
+        // prod
         {
           format: 'umd',
           name: 'CompanyUI',
-          entryFileNames: 'index.full.mjs',
+          entryFileNames: 'index.full.prod.js',
+          sourcemap: true,
           exports: 'named',
           dir: 'dist',
+          plugins: [terser()],
         },
       ],
     },
@@ -54,10 +61,10 @@ export default defineConfig({
   },
   plugins: [
     commonjs(),
-    // eslint({
-    //   include: ['src/**/*.ts', 'src/**/*.vue'],
-    //   // exclude: /node_modules|style/,
-    // }),
+    eslint({
+      include: ['src/**/*.ts', 'src/**/*.vue'],
+      // exclude: /node_modules|style/,
+    }),
     // babel(),
     vue(),
     DefineOptions(),

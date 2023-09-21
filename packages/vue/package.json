@@ -37,14 +37,15 @@
       "require": "./lib/index.js"
     },
     "./es": {
-      "types": "./es/main.d.ts",
+      "types": "./es/types/main.d.ts",
       "import": "./es/index.mjs"
     },
     "./lib": {
-      "types": "./lib/main.d.ts",
+      "types": "./lib/types/main.d.ts",
       "require": "./lib/index.js"
     },
-    "./*": "./*"
+    "./dist/*": "./dist/*",
+    "./package.json": "./package.json"
   },
   "files": [
     "dist",
