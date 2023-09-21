@@ -2,14 +2,11 @@
 @use 'dark/var' as *;
 
 .company-autocomplete {
+  @apply w-100% relative inline-flex box-border v-middle;
+
   font-family: var(--font-family);
-  width: 100%;
-  position: relative;
   font-size: var(--font-size);
-  display: inline-flex;
   line-height: var(--line-height);
-  box-sizing: border-box;
-  vertical-align: middle;
 
   // overflow: hidden;
 
@@ -20,37 +17,29 @@
   // }
 
   &--show-submit {
-    /* stylelint-disable */
     .company-autocomplete__input {
-      border-start-end-radius: 0;
-      border-end-end-radius: 0;
+      @apply rounded-e-none;
     }
+
     .company-autocomplete__submit {
-      position: relative;
-      inset-inline-start: -1px;
+      @apply relative start--1px;
     }
   }
 
   &--words {
     .company-autocomplete__clear {
-      opacity: 1;
-      visibility: visible;
+      @apply opacity-100 visible;
     }
 
     .company-autocomplete__input {
-      padding-right: 30px;
+      @apply pr-30px;
     }
   }
 
   &__input {
-    position: relative;
-    display: inline-flex;
-    flex-grow: 1;
-    align-items: center;
-    justify-content: center;
-    padding: 1px 10px;
+    @apply relative inline-flex grow-1 items-center justify-center px-10px py-1px bg-none;
+
     background-color: var(--input-bg-color);
-    background-image: none;
     border-radius: var(--input-border-radius);
     transition: var(--transition-box-shadow);
     transform: translateZ(0);
@@ -64,39 +53,34 @@
   }
 
   &__clear {
-    position: absolute;
-    right: 10px;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    top: 0;
-    bottom: 0;
-    color: var(--input-icon-color);
-    opacity: 0;
+    @apply absolute top-0 bottom-0 right-10px op-0 flex items-center invisible;
+
     transition:
       color 0.2s ease,
       opacity 0.3s ease;
     text-rendering: auto;
-    visibility: hidden;
 
-    &:hover {
-      color: var(--input-hover-icon-color);
+    &-icon {
+      @apply w-16px h-16px cursor-pointer;
+
+      color: var(--input-icon-color);
+
+      svg {
+        @apply w-100% h-100%;
+      }
+
+      &:hover {
+        color: var(--input-hover-icon-color);
+      }
     }
   }
 
   input[type='text'] {
-    width: 100%;
-    flex-grow: 1;
-    appearance: none;
+    @apply appearance-none w-100% box-border grow-1 text-inherit p-0 outline-none border-none bg-none;
+
     color: var(--input-text-color);
-    font-size: inherit;
     height: var(--input-height);
     line-height: var(--input-height);
-    padding: 0;
-    outline: none;
-    border: none;
-    background: none;
-    box-sizing: border-box;
 
     &::placeholder {
       color: var(--input-placeholder);
@@ -104,18 +88,16 @@
   }
 
   &__submit {
+    @apply px-10px py-0 cursor-pointer;
+
     color: var(--button-text-color);
     background-color: var(--button-bg-color);
-    padding: 0 10px;
     border-radius: 0 var(--input-border-radius) var(--input-border-radius) 0;
-    cursor: pointer;
 
     button {
-      border: none;
-      background: transparent;
+      @apply border-none bg-transparent outline-none cursor-pointer;
+
       color: var(--button-text-color);
-      outline: none;
-      cursor: pointer;
     }
 
     &:hover {
@@ -132,57 +114,46 @@
   --footer-text-color: var(--color-info);
   --footer-hover-text-color: var(--color-primary);
 
-  position: absolute;
-  width: max-content;
-  top: 0;
-  left: 0;
-  padding: 0;
+  @apply hidden absolute w-max top-0 left-0 p-0 z-10 box-border border-rd-2px;
+
   background: var(--popper-bg-color);
-  z-index: 10;
-  box-sizing: border-box;
-  border-radius: 2px;
   box-shadow: var(--popper-box-shadow);
   color: var(--text-color-primary);
 
   // border-radius: 0 0 4px 4px;
   // border: 1px solid #EEE;
   // box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
-  display: none;
 
   &--activated {
-    display: block;
+    @apply block;
   }
 
   &:empty {
-    display: none;
+    @apply hidden;
   }
 
   &__body {
-    padding: 5px;
-    //background: var(--popper-body-bg-color);
+    @apply p-5px;
+
+    // background: var(--popper-body-bg-color);
   }
 
   &__footer {
-    line-height: 22px;
-    font-size: 12px;
-    padding: 5px 10px;
-    //margin-bottom: -15px;
-    background: var(--popper-footer-bg-color);
+    @apply lh-22px text-12px px-10px py-5px;
+
     border-radius: 0 0 2px 2px;
 
+    // margin-bottom: -15px;
+    background: var(--popper-footer-bg-color);
+
     &:empty {
-      display: none;
+      @apply hidden;
     }
 
     a {
-      color: var(--footer-text-color);
-      display: inline-flex;
-      align-items: center;
-      text-decoration: none;
+      @apply inline-flex items-center decoration-none;
 
-      svg {
-        margin-right: 5px;
-      }
+      color: var(--footer-text-color);
 
       &:hover {
         color: var(--footer-hover-text-color);
@@ -190,13 +161,17 @@
     }
   }
 
+  &__icon {
+    @apply w-14px h-14px m-r-5px;
+
+    svg {
+      @apply w-100% h-100%;
+    }
+  }
+
   .suggestion {
-    line-height: 22px;
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    padding: 5px 6px;
+    @apply lh-22px text-14px flex items-center cursor-pointer px-6px py-5px;
+
     border-radius: var(--input-border-radius);
     color: var(--text-color-primary);
 
@@ -214,58 +189,56 @@
     }
 
     &__avatar {
-      margin-right: 8px;
-      display: flex;
+      @apply mr-5px flex;
 
       &:empty {
-        display: none;
+        @apply hidden;
+      }
+
+      &-icon {
+        @apply w-16px h-16px;
+
+        color: var(--input-icon-color);
+
+        svg {
+          @apply w-100% h-100%;
+        }
       }
 
       img {
-        width: 22px;
-        height: 22px;
-        border-radius: 4px;
+        @apply w-22px h-22px border-rd-4px;
+
         border: 1px solid var(--border-color);
 
         &:not([src]) {
-          visibility: hidden;
+          @apply invisible;
         }
 
         &[src=''] {
-          visibility: hidden;
+          @apply invisible;
         }
-      }
-
-      i {
-        color: var(--input-icon-color);
       }
     }
 
     &__label {
-      flex: 1;
-      overflow: hidden;
-      white-space: nowrap;
-      text-overflow: ellipsis;
+      @apply flex-1 overflow-hidden whitespace-nowrap text-ellipsis;
 
       &:empty {
-        display: none;
+        @apply hidden;
       }
 
       em {
+        @apply font-not-italic lh-inherit v-inherit initial font-initial;
+
         color: var(--color-danger);
-        font-style: normal;
-        line-height: inherit;
-        vertical-align: inherit;
-        display: initial;
-        font-weight: initial;
       }
     }
 
     &__extra {
-      margin-left: 8px;
+      @apply ml-8px;
 
       &:empty {
-        display: none;
+        @apply hidden;
       }
     }
   }
