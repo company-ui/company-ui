@@ -22,7 +22,7 @@
   "unpkg": "dist/index.css",
   "jsdelivr": "dist/index.css",
   "files": [
-    "dist",
+    "dist/index.css",
     "LICENSE",
     "README.md"
   ],

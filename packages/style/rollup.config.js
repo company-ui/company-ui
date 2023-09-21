@@ -7,12 +7,12 @@ export default [
   {
     input: 'src/main.ts',
     output: {
-      file: 'index.js',
+      file: 'dist/index.js',
     },
     plugins: [
       postcss({
         plugins: [autoprefixer(), cssnano(), UnoCss()],
-        extract: 'dist/index.css',
+        extract: 'index.css',
       }),
     ],
   },
