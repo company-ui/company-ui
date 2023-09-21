@@ -17,7 +17,6 @@ const output = [
     format: 'esm',
     file: 'dist/index.esm.js',
     sourcemap: true,
-    banner: generateBanner(pkg),
   },
   {
     name,
@@ -38,31 +37,36 @@ const output = [
     format: 'cjs',
     file: 'dist/index.cjs.js',
     sourcemap: true,
-    banner: generateBanner(pkg),
   },
-  // min
+  // prod
   {
     name,
     format: 'esm',
-    file: 'dist/index.esm.min.js',
+    file: 'dist/index.esm.prod.js',
+    sourcemap: true,
     plugins: [terser()],
   },
   {
     name,
     format: 'umd',
-    file: 'dist/index.umd.min.js',
+    file: 'dist/index.umd.prod.js',
+    sourcemap: true,
     plugins: [terser()],
+    banner: generateBanner(pkg),
   },
   {
     name,
     format: 'iife',
-    file: 'dist/index.iife.min.js',
+    file: 'dist/index.iife.prod.js',
+    sourcemap: true,
     plugins: [terser()],
+    banner: generateBanner(pkg),
   },
   {
     name,
     format: 'cjs',
-    file: 'dist/index.cjs.min.js',
+    file: 'dist/index.cjs.prod.js',
+    sourcemap: true,
     plugins: [terser()],
   },
 ];
