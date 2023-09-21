@@ -40,8 +40,6 @@
   },
   "files": [
     "dist",
-    "index.js",
-    "index.cjs",
     "LICENSE",
     "README.md"
   ],

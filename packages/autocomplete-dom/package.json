@@ -24,24 +24,23 @@
   "license": "MIT",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
-  "webpack": "dist/index.esm.js",
-  "browser": "dist/index.esm.js",
-  "unpkg": "dist/index.iife.js",
-  "jsdelivr": "dist/index.iife.js",
+  "webpack": "dist/index.cjs.js",
+  "browser": "dist/index.umd.prod.js",
+  "unpkg": "dist/index.umd.prod.js",
+  "jsdelivr": "dist/index.umd.prod.js",
   "types": "dist/types/main.d.ts",
   "exports": {
     ".": {
       "types": "./dist/types/main.d.ts",
-      "import": "./dist/index.cjs.js",
+      "import": "./dist/index.esm.js",
       "require": "./dist/index.cjs.js"
     },
-    "./package.json": "./package.json",
-    "./dist/*": "./dist/*"
+    "./*": "./*",
+    "./dist/*": "./dist/*",
+    "./package.json": "./package.json"
   },
   "files": [
     "dist",
-    "index.js",
-    "index.cjs",
     "LICENSE",
     "README.md"
   ],
