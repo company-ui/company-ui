@@ -6,7 +6,7 @@ layout: doc
 
 <script setup lang="ts">
 import { getCurrentInstance, ref, onMounted } from 'vue';
-import { CompanyAutocomplete } from '@company-ui/dom/dist/index.esm';
+import { CompanyAutocomplete } from '@company-ui/dom';
 import '@company-ui/style';
 
 const app = getCurrentInstance();
@@ -33,6 +33,7 @@ onMounted(() => {
 
 ```js
 import { CompanyAutocomplete } from '@company-ui/dom';
+import '@company-ui/style';
 
 const companyAutocomplete = new CompanyAutocomplete({
   api: 'clearbit',
@@ -47,6 +48,7 @@ const companyAutocomplete = new CompanyAutocomplete({
 
 ```js
 import { CompanyAutocomplete } from '@company-ui/dom';
+import '@company-ui/style';
 
 const companyAutocomplete = new CompanyAutocomplete({
   api: 'qcc_open',

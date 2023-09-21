@@ -6,23 +6,24 @@ layout: doc
 
 <script setup lang="ts">
 import { getCurrentInstance, ref, onMounted } from 'vue';
-// import { CompanyAutocomplete } from '../../../src/main';
+import { CompanyAutocomplete } from '@company-ui/dom';
+import '@company-ui/style';
 
 const app = getCurrentInstance();
 
 const apiType = ref('clearbit');
 
 onMounted(() => {
-  // new CompanyAutocomplete({
-  //   api: 'clearbit',
-  //   target: '#clearbit_input',
-  //   autoFocus: true
-  // });
-  // new CompanyAutocomplete({
-  //   api: 'qcc_open',
-  //   target: '#qcc_open_input',
-  //   autoFocus: true
-  // });
+  new CompanyAutocomplete({
+    api: 'clearbit',
+    target: '#clearbit_input',
+    autoFocus: true
+  });
+  new CompanyAutocomplete({
+    api: 'qcc_open',
+    target: '#qcc_open_input',
+    autoFocus: true
+  });
 })
 </script>
 
@@ -33,6 +34,7 @@ onMounted(() => {
 
 ```js
 import { CompanyAutocomplete } from '@company-ui/dom';
+import '@company-ui/style';
 
 const companyAutocomplete = new CompanyAutocomplete({
   api: 'clearbit',
@@ -47,6 +49,7 @@ const companyAutocomplete = new CompanyAutocomplete({
 
 ```js
 import { CompanyAutocomplete } from '@company-ui/dom';
+import '@company-ui/style';
 
 const companyAutocomplete = new CompanyAutocomplete({
   api: 'qcc_open',
