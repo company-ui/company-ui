@@ -1,5 +1,32 @@
 # @company-ui/dom
 
+## 3.1.0
+
+### Minor Changes
+
+- [`9948742`](https://github.com/company-ui/company-ui/commit/9948742e938a651c20a7e9ce4f95ba16aba0a611) Thanks [@zhensherlock](https://github.com/zhensherlock)! - update @company-ui/autocomplete-dom output file
+
+- [`b95a655`](https://github.com/company-ui/company-ui/commit/b95a655f0f4eff5f0346f92aa3206687cc1e8c0e) Thanks [@zhensherlock](https://github.com/zhensherlock)! - add unocss
+
+- [`f2f849b`](https://github.com/company-ui/company-ui/commit/f2f849b9842c3f52167ddb28d2846a9a62ce4d22) Thanks [@zhensherlock](https://github.com/zhensherlock)! - add dom,vue playground
+
+- [`e95e22f`](https://github.com/company-ui/company-ui/commit/e95e22f22ef3b0a15ed8081f1254fa1b5daef39d) Thanks [@zhensherlock](https://github.com/zhensherlock)! - add @company-ui/playground
+
+- [`4120565`](https://github.com/company-ui/company-ui/commit/4120565b8535c12981467e6b0d434fdf00eb95c1) Thanks [@zhensherlock](https://github.com/zhensherlock)! - update @company-ui/vue output file
+
+- [`37ea17d`](https://github.com/company-ui/company-ui/commit/37ea17da457bfbbb999d3ed2e40663ed574eb201) Thanks [@zhensherlock](https://github.com/zhensherlock)! - update @company-ui/style output file
+
+- [`b5ba09f`](https://github.com/company-ui/company-ui/commit/b5ba09fa6d11a7ee7fa58656f42684c6bf9c22c9) Thanks [@zhensherlock](https://github.com/zhensherlock)! - update @company-ui/autocomplete-core output file
+
+- [`da296d2`](https://github.com/company-ui/company-ui/commit/da296d20fbb66499e63e0358feab171051861f93) Thanks [@zhensherlock](https://github.com/zhensherlock)! - update @company-ui/dom output file
+
+- [`77612eb`](https://github.com/company-ui/company-ui/commit/77612ebef4fb00fdd1e3f12adb1b41c6e2a6e828) Thanks [@zhensherlock](https://github.com/zhensherlock)! - update @company-ui/shared output file
+
+### Patch Changes
+
+- Updated dependencies [[`9948742`](https://github.com/company-ui/company-ui/commit/9948742e938a651c20a7e9ce4f95ba16aba0a611), [`b95a655`](https://github.com/company-ui/company-ui/commit/b95a655f0f4eff5f0346f92aa3206687cc1e8c0e), [`f2f849b`](https://github.com/company-ui/company-ui/commit/f2f849b9842c3f52167ddb28d2846a9a62ce4d22), [`e95e22f`](https://github.com/company-ui/company-ui/commit/e95e22f22ef3b0a15ed8081f1254fa1b5daef39d), [`4120565`](https://github.com/company-ui/company-ui/commit/4120565b8535c12981467e6b0d434fdf00eb95c1), [`37ea17d`](https://github.com/company-ui/company-ui/commit/37ea17da457bfbbb999d3ed2e40663ed574eb201), [`b5ba09f`](https://github.com/company-ui/company-ui/commit/b5ba09fa6d11a7ee7fa58656f42684c6bf9c22c9), [`da296d2`](https://github.com/company-ui/company-ui/commit/da296d20fbb66499e63e0358feab171051861f93), [`77612eb`](https://github.com/company-ui/company-ui/commit/77612ebef4fb00fdd1e3f12adb1b41c6e2a6e828)]:
+  - @company-ui/autocomplete-dom@3.1.0
+
 ## 3.0.0
 
 ### Major Changes
