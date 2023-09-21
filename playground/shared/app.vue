@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1>Company UI Shared Playground</h1>
     <input type="text" v-model="inputValue" />
     <div>name: {{ name }}</div>
   </div>

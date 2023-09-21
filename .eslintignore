@@ -3,6 +3,7 @@
 dist
 lib
 es
+playground
 cache
 .husky/
 lib
