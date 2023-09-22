@@ -36,7 +36,7 @@
       </button>
     </div>
   </div>
-  <Teleport to="body">
+  <Teleport to="body" :disabled="!options.popupAppendToBody">
     <div
       ref="floating"
       class="suggestion-popper"
