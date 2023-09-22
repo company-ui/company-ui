@@ -12,8 +12,6 @@
   "author": "zhensherlock",
   "license": "MIT",
   "dependencies": {
-    "@company-ui/autocomplete-core": "workspace:^",
-    "@company-ui/autocomplete-dom": "workspace:^",
     "@company-ui/dom": "workspace:^",
     "@company-ui/shared": "workspace:^",
     "@company-ui/style": "workspace:^",
