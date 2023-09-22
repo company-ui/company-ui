@@ -1,0 +1,62 @@
+{
+  "name": "@company-ui/core",
+  "version": "3.1.0",
+  "description": "Company UI core",
+  "author": "zhensherlock",
+  "homepage": "https://github.com/company-ui/company-ui/tree/master/packages/core#readme",
+  "keywords": [
+    "Company",
+    "CompanyUI",
+    "CompanyUICore",
+    "企业",
+    "企业UI",
+    "企业名称",
+    "企业组件",
+    "企业组件核心工具",
+    "企业组件核心类库",
+    "自动完成",
+    "自动完成组件"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "license": "MIT",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "webpack": "dist/index.cjs.js",
+  "browser": "dist/index.umd.prod.js",
+  "unpkg": "dist/index.umd.prod.js",
+  "jsdelivr": "dist/index.umd.prod.js",
+  "types": "dist/types/main.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/main.d.ts",
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js"
+    },
+    "./*": "./*",
+    "./dist/*": "./dist/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/company-ui/company-ui.git"
+  },
+  "scripts": {
+    "clean:dist": "rimraf dist",
+    "build": "npm run clean:dist && rollup -c --bundleConfigAsCjs --environment NODE_ENV:production"
+  },
+  "bugs": {
+    "url": "https://github.com/company-ui/company-ui/issues"
+  },
+  "dependencies": {
+    "@company-ui/shared": "workspace:^",
+    "crypto-js": "^4.1.1"
+  }
+}

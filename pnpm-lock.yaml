@@ -215,12 +215,6 @@ importers:
 
   docs:
     dependencies:
-      '@company-ui/autocomplete-core':
-        specifier: workspace:^
-        version: link:../packages/autocomplete-core
-      '@company-ui/autocomplete-dom':
-        specifier: workspace:^
-        version: link:../packages/autocomplete-dom
       '@company-ui/dom':
         specifier: workspace:^
         version: link:../packages/dom
@@ -273,11 +267,26 @@ importers:
         specifier: ^0.14.6
         version: 0.14.6(@vue/composition-api@1.7.2)(vue@3.3.4)
 
+  packages/core:
+    dependencies:
+      '@company-ui/shared':
+        specifier: workspace:^
+        version: link:../shared
+      crypto-js:
+        specifier: ^4.1.1
+        version: 4.1.1
+
   packages/dom:
     dependencies:
-      '@company-ui/autocomplete-dom':
+      '@company-ui/core':
         specifier: workspace:^
-        version: link:../autocomplete-dom
+        version: link:../core
+      '@company-ui/shared':
+        specifier: workspace:^
+        version: link:../shared
+      '@floating-ui/dom':
+        specifier: ^1.5.3
+        version: 1.5.3
 
   packages/shared: {}
 
