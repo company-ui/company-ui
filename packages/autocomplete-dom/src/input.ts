@@ -203,6 +203,10 @@ class CompanyAutocomplete {
             item.avatar || ''
           }"/></div>`
         );
+      } else if (dataForm === 'history') {
+        suggestionFragments.push(
+          `<div class="suggestion__avatar"><i class="suggestion__avatar-icon">${this.options.history?.itemIcon}</i></div>`
+        );
       }
       suggestionFragments.push(`<div class="suggestion__label">${item.name}</div>`);
       suggestionFragments.push('<div class="suggestion__extra"></div>');
