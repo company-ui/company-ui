@@ -1,1 +1,1 @@
-export * from '@company-ui/autocomplete-dom';
+export * from './autocomplete';

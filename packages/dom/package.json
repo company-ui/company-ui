@@ -7,8 +7,8 @@
   "keywords": [
     "Company",
     "CompanyUI",
-    "CompanyUIAutocompleteDom",
-    "CompanyUIAutocompleteDOM",
+    "CompanyUIDom",
+    "CompanyUIDOM",
     "企业",
     "企业UI",
     "企业名称",
@@ -50,13 +50,14 @@
   },
   "scripts": {
     "clean:dist": "rimraf dist",
-    "build": "npm run clean:dist && rollup -c --bundleConfigAsCjs --environment NODE_ENV:production",
-    "dev": "npm run clean:dist && rollup -c --watch --bundleConfigAsCjs"
+    "build": "npm run clean:dist && rollup -c --bundleConfigAsCjs --environment NODE_ENV:production"
   },
   "bugs": {
     "url": "https://github.com/company-ui/company-ui/issues"
   },
   "dependencies": {
-    "@company-ui/autocomplete-dom": "workspace:^"
+    "@company-ui/core": "workspace:^",
+    "@company-ui/shared": "workspace:^",
+    "@floating-ui/dom": "^1.5.3"
   }
 }
