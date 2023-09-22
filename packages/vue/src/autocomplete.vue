@@ -59,12 +59,12 @@
             },
           ]"
         >
-          <div class="suggestion__avatar" v-if="item.avatar">
+          <div class="suggestion__avatar">
             <i
               class="suggestion__avatar-icon i-ic-baseline-history-toggle-off"
               v-if="suggestionType === 'history'"
             />
-            <img :alt="item.id" :src="item.avatar" v-else />
+            <img :alt="item.id" :src="item.avatar" v-else-if="item.avatar" />
           </div>
           <div class="suggestion__label">
             {{ item.name }}
@@ -278,7 +278,10 @@
 
       const handleSuggestionClick = (company: CompanyDataType) => {
         inputValue.value = removeHtmlTags(company.name);
-        selectSuggestion.value = company;
+        selectSuggestion.value = {
+          id: company.id,
+          name: company.name,
+        };
         clearSuggestion();
         hideSuggestion();
         if (props.options.history.enabled && selectSuggestion) {

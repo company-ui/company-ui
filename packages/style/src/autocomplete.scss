@@ -66,7 +66,7 @@
       color: var(--input-icon-color);
 
       svg {
-        @apply w-100% h-100%;
+        @apply w-100% h-100% v-top;
       }
 
       &:hover {

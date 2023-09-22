@@ -48,7 +48,7 @@ class CompanyAutocomplete {
       '<div class="company-autocomplete__input">',
       `<input type="text" placeholder="${this.options.placeholder}" />`,
       this.options.clearable
-        ? `<div class="company-autocomplete__clear">${this.options.clearIcon}</div>`
+        ? `<div class="company-autocomplete__clear"><i class="company-autocomplete__clear-icon">${this.options.clearIcon}</i></div>`
         : '',
       '</div>',
       this.options.showSubmitButton ? '<div class="company-autocomplete__submit">' : '',
@@ -159,7 +159,9 @@ class CompanyAutocomplete {
       }
     });
 
-    this.inputClearElement = this.inputWrapElement.querySelector('.company-autocomplete__clear');
+    this.inputClearElement = this.inputWrapElement.querySelector(
+      '.company-autocomplete__clear-icon'
+    );
     if (this.inputClearElement) {
       this.inputClearElement?.addEventListener('click', () => {
         this.handleClear();
@@ -217,19 +219,15 @@ class CompanyAutocomplete {
     if (dataForm === 'history' && this.options.history?.showClear) {
       data.length > 0 &&
         suggestionFragments.push(
-          `<a id="remove-history-link" href="javascript:;">${
+          `<a id="remove-history-link" href="javascript:;"><i class="suggestion-popper__icon">${
             this.options.history?.clearIcon || ''
-          }删除历史</a>`
+          }</i>删除历史</a>`
         );
     }
     suggestionFragments.push('</div>');
     this.suggestionElement.innerHTML = suggestionFragments.join('');
 
     this.suggestionElement.querySelectorAll('img').forEach((img) => {
-      if (dataForm === 'history') {
-        img.outerHTML = this.options.history?.itemIcon;
-        return;
-      }
       if (img.getAttribute('src')) {
         return;
       }
