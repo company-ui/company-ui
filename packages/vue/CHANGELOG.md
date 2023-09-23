@@ -1,5 +1,36 @@
 # @company-ui/vue
 
+## 3.2.0
+
+### Minor Changes
+
+- [`55e0e57`](https://github.com/company-ui/company-ui/commit/55e0e57ffc73233e606a1b72a28857fcdd9cc825) Thanks [@zhensherlock](https://github.com/zhensherlock)! - add @company-ui/core
+
+- [`0d24415`](https://github.com/company-ui/company-ui/commit/0d244151c8805ebc514eda75b7a4ea11965c86c3) Thanks [@zhensherlock](https://github.com/zhensherlock)! - support popupAppendToBody option in vue
+
+- [`eb1efe8`](https://github.com/company-ui/company-ui/commit/eb1efe8d181817c2b16672ce46ed807ded9ddb0f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency sass to v1.68.0
+
+- [`820f6dc`](https://github.com/company-ui/company-ui/commit/820f6dcd0895a7242c6d4b7817ccd5b73ec8fe96) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint to v8.50.0
+
+- [`422509e`](https://github.com/company-ui/company-ui/commit/422509e0f01bfb78f353c93698c0495a50c9665c) Thanks [@zhensherlock](https://github.com/zhensherlock)! - update the icon layout structure
+
+- [`16a1cc5`](https://github.com/company-ui/company-ui/commit/16a1cc5ccc294aa190d9e492b8f4a5e780950d27) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency terser to v5.20.0
+
+- [`36cf649`](https://github.com/company-ui/company-ui/commit/36cf649b5442eacc0b1880866d060e8d1f26a572) Thanks [@zhensherlock](https://github.com/zhensherlock)! - replace '@company-ui/autocomplete-core' with '@company-ui/core' in vue
+
+- [`1015d85`](https://github.com/company-ui/company-ui/commit/1015d85ac07ca8f74f848803d09b9409dba8968c) Thanks [@zhensherlock](https://github.com/zhensherlock)! - refactor @company-ui/dom
+
+- [`fb3ff25`](https://github.com/company-ui/company-ui/commit/fb3ff2598fd1425a76ae0da12ce7854698e173a1) Thanks [@zhensherlock](https://github.com/zhensherlock)! - fixed avatar not work in history mode
+
+- [`6fd12f6`](https://github.com/company-ui/company-ui/commit/6fd12f6016a6e36b4ab4e4f6acd9a9b4cf3a3f11) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update unocss monorepo to v0.56.1 (@unocss/postcss, unocss)
+
+### Patch Changes
+
+- Updated dependencies [[`55e0e57`](https://github.com/company-ui/company-ui/commit/55e0e57ffc73233e606a1b72a28857fcdd9cc825), [`0d24415`](https://github.com/company-ui/company-ui/commit/0d244151c8805ebc514eda75b7a4ea11965c86c3), [`eb1efe8`](https://github.com/company-ui/company-ui/commit/eb1efe8d181817c2b16672ce46ed807ded9ddb0f), [`820f6dc`](https://github.com/company-ui/company-ui/commit/820f6dcd0895a7242c6d4b7817ccd5b73ec8fe96), [`422509e`](https://github.com/company-ui/company-ui/commit/422509e0f01bfb78f353c93698c0495a50c9665c), [`16a1cc5`](https://github.com/company-ui/company-ui/commit/16a1cc5ccc294aa190d9e492b8f4a5e780950d27), [`36cf649`](https://github.com/company-ui/company-ui/commit/36cf649b5442eacc0b1880866d060e8d1f26a572), [`1015d85`](https://github.com/company-ui/company-ui/commit/1015d85ac07ca8f74f848803d09b9409dba8968c), [`fb3ff25`](https://github.com/company-ui/company-ui/commit/fb3ff2598fd1425a76ae0da12ce7854698e173a1), [`6fd12f6`](https://github.com/company-ui/company-ui/commit/6fd12f6016a6e36b4ab4e4f6acd9a9b4cf3a3f11)]:
+  - @company-ui/shared@3.2.0
+  - @company-ui/style@3.2.0
+  - @company-ui/core@3.2.0
+
 ## 3.1.0
 
 ### Minor Changes
