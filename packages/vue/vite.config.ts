@@ -9,9 +9,6 @@ import DefineOptions from 'unplugin-vue-define-options/vite';
 import terser from '@rollup/plugin-terser';
 
 export default defineConfig({
-  server: {
-    port: 3030,
-  },
   build: {
     minify: false,
     rollupOptions: {

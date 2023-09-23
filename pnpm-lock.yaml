@@ -294,9 +294,9 @@ importers:
 
   packages/vue:
     dependencies:
-      '@company-ui/autocomplete-core':
+      '@company-ui/core':
         specifier: workspace:^
-        version: link:../autocomplete-core
+        version: link:../core
       '@company-ui/shared':
         specifier: workspace:^
         version: link:../shared

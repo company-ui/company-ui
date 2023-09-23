@@ -87,17 +87,10 @@
 
 <script lang="ts">
   import { defineComponent, PropType, ref, Ref, onMounted, watch, computed } from 'vue-demi';
-  import {
-    initialOptions,
-    handleQueryData,
-    getHistory,
-    removeHistory,
-    addHistory,
-  } from '@company-ui/autocomplete-core';
+  import { autocomplete } from '@company-ui/core';
   import { debounce, isFunction, removeHtmlTags, isUndefined } from '@company-ui/shared';
   import { useFloating, autoUpdate, offset, size, flip } from '@floating-ui/vue';
   import clickOutside from './directives/click-outside';
-  import type { CompanyAutocompleteOptions, CompanyDataType } from '@company-ui/autocomplete-core';
 
   export default defineComponent({
     name: 'Autocomplete',
@@ -106,16 +99,16 @@
     },
     props: {
       options: {
-        type: Object as PropType<CompanyAutocompleteOptions>,
-        default: () => initialOptions,
+        type: Object as PropType<autocomplete.Type.CompanyAutocompleteOptions>,
+        default: () => autocomplete.initialOptions,
       },
     },
     setup(props) {
       const inputValue = ref('');
-      const selectSuggestion = ref() as Ref<CompanyDataType | undefined>;
+      const selectSuggestion = ref() as Ref<autocomplete.Type.CompanyDataType | undefined>;
       const suggestionVisible = ref(false);
       const suggestionType = ref('fetch');
-      const suggestions = ref([]) as Ref<CompanyDataType[]>;
+      const suggestions = ref([]) as Ref<autocomplete.Type.CompanyDataType[]>;
       const keyboardActiveIndex = ref();
       const reference = ref();
       const floating = ref();
@@ -163,11 +156,13 @@
       });
 
       const handleQuerySuggestion = (value: string) => {
-        handleQueryData(value, props.options).then((data) => {
-          suggestions.value = data;
-          showSuggestion();
-          props.options.onFetch(data);
-        });
+        autocomplete
+          .handleQueryData(value, props.options)
+          .then((data: autocomplete.Type.CompanyDataType[]) => {
+            suggestions.value = data;
+            showSuggestion();
+            props.options.onFetch(data);
+          });
       };
 
       const handleInput = debounce(() => {
@@ -192,7 +187,7 @@
       };
 
       const handleShowHistory = () => {
-        suggestions.value = getHistory(props.options.history);
+        suggestions.value = autocomplete.getHistory(props.options.history);
         showSuggestion('history');
       };
 
@@ -271,12 +266,12 @@
       };
 
       const handleHistoryClear = () => {
-        removeHistory(props.options.history);
+        autocomplete.removeHistory(props.options.history);
         clearSuggestion();
         hideSuggestion();
       };
 
-      const handleSuggestionClick = (company: CompanyDataType) => {
+      const handleSuggestionClick = (company: autocomplete.Type.CompanyDataType) => {
         inputValue.value = removeHtmlTags(company.name);
         selectSuggestion.value = {
           id: company.id,
@@ -285,7 +280,7 @@
         clearSuggestion();
         hideSuggestion();
         if (props.options.history.enabled && selectSuggestion) {
-          addHistory(selectSuggestion.value, props.options.history);
+          autocomplete.addHistory(selectSuggestion.value, props.options.history);
         }
         props.options.onSelect(selectSuggestion);
       };

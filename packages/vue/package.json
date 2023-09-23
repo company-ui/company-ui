@@ -69,7 +69,7 @@
     "url": "https://github.com/company-ui/company-ui/issues"
   },
   "dependencies": {
-    "@company-ui/autocomplete-core": "workspace:^",
+    "@company-ui/core": "workspace:^",
     "@company-ui/shared": "workspace:^",
     "@company-ui/style": "workspace:^",
     "@floating-ui/vue": "^1.0.2",
