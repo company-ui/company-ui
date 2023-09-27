@@ -1,6 +1,7 @@
 export * from './click-outside';
 export * from './isFunction';
 export * from './isUndefined';
+export * from './isNil';
 export * from './isString';
 export * from './replaceAll';
 export * from './throttle';
