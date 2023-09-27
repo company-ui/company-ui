@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://company-ui.github.io/company-ui/" target="_blank" rel="noopener noreferrer">
-    <img width="300" src="https://company-ui.github.io/company-ui/logo-text.png" alt="company ui">
+    <img height="100" src="https://company-ui.github.io/company-ui/full-logo.png" alt="company ui">
   </a>
 </p>
 <p align="center">

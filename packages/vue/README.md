@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://company-ui.github.io/company-ui/" target="_blank" rel="noopener noreferrer">
-    <img width="300" src="https://company-ui.github.io/company-ui/logo-text.png" alt="company ui">
+    <img height="100" src="https://company-ui.github.io/company-ui/full-logo.png" alt="company ui">
   </a>
 </p>
 <p align="center">
@@ -21,6 +21,7 @@ Works with both Vue 2 , Vue 3.
 ```bash
 # or pnpm or yarn
 npm install @company-ui/vue
+npm install @company-ui/style
 ```
 
 ## Usage
@@ -28,11 +29,13 @@ npm install @company-ui/vue
 ### General
 
 ```ts
-import { CompanyAutocomplete } from '@company-ui/vue';
+import '@company-ui/style';
+import companyAutocomplete from '@company-ui/vue';
+app.use(companyAutocomplete);
+```
 
-const companyAutocomplete = new CompanyAutocomplete({
-  target: '#example',
-});
+```vue
+<Autocomplete v-model="value" />
 ```
 
 ## Documentation
