@@ -17,6 +17,8 @@ class CompanyAutocomplete {
   private keyboardActiveIndex?: number;
   private keyDownHandler: any;
   private inputElement?: HTMLInputElement;
+  private abortController?: AbortController;
+  private latestKeyword: string = '';
 
   constructor(args: Partial<autocomplete.Type.CompanyAutocompleteOptions> = {}) {
     this.options = Object.assign({}, autocomplete.initialOptions, args);
@@ -108,14 +110,11 @@ class CompanyAutocomplete {
     );
 
     this.inputElement?.addEventListener('click', (e) => {
-      if (this.suggestions.length > 0) {
-        this.showSuggestion();
-        return;
-      }
       const value = (<HTMLInputElement>e.target).value;
       if (value) {
         this.handleQuerySuggestion(value);
       } else if (this.options.history.enabled) {
+        this.latestKeyword = '';
         this.handleSuggestionDom(autocomplete.getHistory(this.options.history), 'history');
       }
     });
@@ -169,15 +168,37 @@ class CompanyAutocomplete {
     });
 
     this.inputElement.addEventListener('blur', () => {
+      this.handleCancelQuerySuggestion();
       isFunction(this.options.onBlur) && this.options.onBlur();
     });
   }
 
+  private handleCancelQuerySuggestion() {
+    if (this.abortController) {
+      this.abortController.abort('repeated request');
+      this.abortController = undefined;
+    }
+  }
+
   private handleQuerySuggestion(value: string) {
-    autocomplete.handleQueryData(value, this.options).then((data) => {
-      this.handleSuggestionDom(data);
-      this.options.onFetch();
-    });
+    this.handleCancelQuerySuggestion();
+    if (value === this.latestKeyword) {
+      this.handleSuggestionDom(this.suggestions);
+      return;
+    }
+    this.abortController = new AbortController();
+    autocomplete
+      .handleQueryData(value.trim(), this.options.api, this.abortController)
+      .then(({ data }) => {
+        this.latestKeyword = value.trim();
+        this.handleSuggestionDom(data);
+        this.options.onFetch();
+      })
+      .catch((e) => {
+        if (e.name === 'AbortError') {
+          this.options.onAbortFetch(e);
+        }
+      });
   }
 
   private handleSuggestionDom(data: autocomplete.Type.CompanyDataType[], dataForm = 'fetch') {

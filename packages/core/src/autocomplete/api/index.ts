@@ -1,17 +1,27 @@
-import type { CompanyAutocompleteOptions, CompanyDataType } from '../types';
+import type { CompanyDataType } from '../types';
 import { queryQccOpenAPI } from './qcc-open';
 import { queryClearBitAPI } from './clear-bit';
 
 export const handleQueryData = async (
   keyword: string,
-  options: CompanyAutocompleteOptions
-): Promise<CompanyDataType[]> => {
-  switch (options.api) {
+  api: string,
+  abortController?: AbortController
+): Promise<{
+  data: CompanyDataType[];
+}> => {
+  let data: CompanyDataType[];
+  switch (api) {
     case 'qcc_open':
-      return await queryQccOpenAPI(keyword);
+      data = await queryQccOpenAPI(keyword, abortController);
+      break;
     case 'clearbit':
-      return await queryClearBitAPI(keyword);
+      data = await queryClearBitAPI(keyword, abortController);
+      break;
     default:
-      return [];
+      data = [];
+      break;
   }
+  return {
+    data,
+  };
 };

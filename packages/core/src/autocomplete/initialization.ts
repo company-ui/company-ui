@@ -27,6 +27,7 @@ export const initialOptions: CompanyAutocompleteOptions = {
   onFocus: () => {},
   onBlur: () => {},
   onDropdownVisibleChange: () => {},
+  onAbortFetch: () => {},
   showSubmitButton: true,
   submitButtonLabel: 'Submit',
   offsetTop: 5,

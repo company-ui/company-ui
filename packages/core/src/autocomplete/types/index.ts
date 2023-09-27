@@ -91,6 +91,10 @@ export interface CompanyAutocompleteOptions {
    */
   onDropdownVisibleChange: Function;
   /**
+   * Call when abort fetch
+   */
+  onAbortFetch: Function;
+  /**
    * search query api url
    */
   // searchUrl?: string;

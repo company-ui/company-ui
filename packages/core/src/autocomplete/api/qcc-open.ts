@@ -1,6 +1,6 @@
 import type { CompanyDataType, QccOpenAPIResponseType } from '../types';
 import { generateRandomString, getPasswordBook, getPasswordVersion, crypto } from '../security';
-import { objectToQueryString, removeHtmlTags } from '@company-ui/shared';
+import { objectToQueryString, removeHtmlTags, isUndefined } from '@company-ui/shared';
 
 const handleQueryUrl = (keyword: string) => {
   const params = {
@@ -18,9 +18,12 @@ const handleQueryUrl = (keyword: string) => {
   return `https://c.qcc.com/embed/api${params.r}?${queryString}&m=${m}`;
 };
 
-export const queryQccOpenAPI = async (keyword: string): Promise<CompanyDataType[]> => {
+export const queryQccOpenAPI = async (
+  keyword: string,
+  abortController?: AbortController
+): Promise<CompanyDataType[]> => {
   if (keyword.length < 2 || keyword.length > 100) {
-    return [];
+    throw new Error(' keyword length must be between 2 and 100');
   }
 
   const url = handleQueryUrl(keyword);
@@ -30,6 +33,11 @@ export const queryQccOpenAPI = async (keyword: string): Promise<CompanyDataType[
     headers: {
       Referer: 'https://c.qcc.com/',
     },
+    ...(!isUndefined(abortController)
+      ? {
+          signal: abortController?.signal,
+        }
+      : null),
   });
   const json = <QccOpenAPIResponseType>await res.json();
   const result: CompanyDataType[] = [];
