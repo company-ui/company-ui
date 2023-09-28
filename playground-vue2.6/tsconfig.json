@@ -1,0 +1,8 @@
+{
+  "extends": "../tsconfig.root.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "sourceMap": true
+  }
+}

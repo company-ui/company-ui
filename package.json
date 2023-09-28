@@ -14,6 +14,7 @@
     "lint:eslint": "eslint --cache --max-warnings 0 \"{docs,packages}/**/*.{js,jsx,cjs,tsx,ts,vue}\" --fix",
     "lint:stylelint": "stylelint --cache --fix \"{docs,packages}/**/*.{css,less,scss,styl,postcss,vue,html}\" --cache --cache-location node_modules/.cache/stylelint/",
     "dev": "pnpm -r --aggregate-output --filter=./playground dev",
+    "dev2.6": "pnpm -r --aggregate-output --filter=./playground-vue2.6 dev",
     "dev2.7": "pnpm -r --aggregate-output --filter=./playground-vue2.7 dev",
     "build": "pnpm -r --aggregate-output --filter=./packages/* build",
     "clear": "rimraf 'packages/*/{dist,node_modules}' && rimraf node_modules",
@@ -91,5 +92,14 @@
     "vite-plugin-eslint": "^1.8.1",
     "vitepress": "1.0.0-rc.15",
     "vue-eslint-parser": "^9.3.1"
+  },
+  "pnpm": {
+    "packageExtensions": {
+      "vue-template-compiler": {
+        "peerDependencies": {
+          "vue": "2.6.14"
+        }
+      }
+    }
   }
 }
