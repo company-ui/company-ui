@@ -2,3 +2,4 @@ packages:
   - "packages/*"
   - "docs"
   - "playground"
+  - "playground-vue2.7"

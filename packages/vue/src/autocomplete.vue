@@ -35,77 +35,82 @@
         {{ submitButtonLabel }}
       </button>
     </div>
-  </div>
-  <Teleport to="body" :disabled="!popupAppendToBody" v-if="isVue3">
-    <div
-      ref="floating"
-      class="suggestion-popper"
-      :class="[
-        {
-          'suggestion-popper--activated': suggestionVisible,
-        },
-      ]"
-      :style="floatingFullStyles"
-    >
-      <div class="suggestion-popper__body">
+    <Teleport to="body" :disabled="!popupAppendToBody">
+      <div
+        ref="floating"
+        class="suggestion-popper"
+        :class="[
+          {
+            'suggestion-popper--activated': suggestionVisible,
+          },
+        ]"
+        :style="floatingStyles"
+      >
+        <div class="suggestion-popper__body">
+          <div
+            class="suggestion"
+            v-for="(item, index) in suggestions"
+            :key="`${item.name}-${index}`"
+            @click="handleSuggestionClick(item)"
+            :class="[
+              {
+                'suggestion--keyboard-active': keyboardActiveIndex === index,
+              },
+            ]"
+          >
+            <div class="suggestion__avatar">
+              <i
+                class="suggestion__avatar-icon i-ic-baseline-history-toggle-off"
+                v-if="suggestionType === 'history'"
+              />
+              <img :alt="item.id" :src="item.avatar" v-else-if="item.avatar" />
+            </div>
+            <div class="suggestion__label">
+              {{ item.name }}
+            </div>
+            <div class="suggestion__extra"></div>
+          </div>
+        </div>
         <div
-          class="suggestion"
-          v-for="(item, index) in suggestions"
-          :key="item.name"
-          @click="handleSuggestionClick(item)"
-          :class="[
-            {
-              'suggestion--keyboard-active': keyboardActiveIndex === index,
-            },
-          ]"
+          class="suggestion-popper__footer"
+          v-show="historyClearable && suggestionType === 'history'"
         >
-          <div class="suggestion__avatar">
-            <i
-              class="suggestion__avatar-icon i-ic-baseline-history-toggle-off"
-              v-if="suggestionType === 'history'"
-            />
-            <img :alt="item.id" :src="item.avatar" v-else-if="item.avatar" />
-          </div>
-          <div class="suggestion__label">
-            {{ item.name }}
-          </div>
-          <div class="suggestion__extra"></div>
+          <a href="javascript:;" @click="handleHistoryClear">
+            <i class="suggestion-popper__icon i-ic-baseline-auto-delete"></i>
+            删除历史
+          </a>
         </div>
       </div>
-      <div
-        class="suggestion-popper__footer"
-        v-show="historyClearable && suggestionType === 'history'"
-      >
-        <a href="javascript:;" @click="handleHistoryClear">
-          <i class="suggestion-popper__icon i-ic-baseline-auto-delete"></i>
-          删除历史
-        </a>
-      </div>
-    </div>
-  </Teleport>
+    </Teleport>
+  </div>
 </template>
 
 <script lang="ts">
-  import {
-    defineComponent,
-    PropType,
-    ref,
-    Ref,
-    onMounted,
-    watch,
-    computed,
-    isVue3,
-  } from 'vue-demi';
+  import { defineComponent, PropType, isVue2, isVue3, CSSProperties } from 'vue-demi';
   import { autocomplete } from '@company-ui/core';
   import { debounce, removeHtmlTags, isUndefined, isNil } from '@company-ui/shared';
-  import { useFloating, autoUpdate, offset, size, flip } from '@floating-ui/vue';
+  import { autoUpdate, computePosition, offset, size, flip } from '@floating-ui/vue';
   import clickOutside from './directives/click-outside';
+  import Teleport from './teleport.vue';
+
+  const debounceQueryMethod = 'handleDebounceQuerySuggestion';
 
   export default defineComponent({
     name: 'Autocomplete',
     directives: {
       clickOutside,
     },
+    ...(isVue2
+      ? {
+          components: {
+            Teleport,
+          },
+          model: {
+            prop: 'modelValue',
+            event: 'modelChange',
+          },
+        }
+      : null),
     props: {
       modelValue: {
         type: String,
@@ -173,7 +178,7 @@
       },
     },
     emits: [
-      'update:modelValue',
+      isVue2 ? 'modelChange' : 'update:modelValue',
       'input',
       'fetch',
       'abortFetch',
@@ -184,265 +189,256 @@
       'submit',
       'dropdownVisibleChange',
     ],
-    setup(props, context) {
-      let abortController: AbortController | undefined;
-      let latestKeyword: string = '';
-      const nativeInputValue = computed(() =>
-        isNil(props.modelValue) ? '' : String(props.modelValue)
-      );
-      const selectSuggestion = ref() as Ref<autocomplete.Type.CompanyDataType | undefined>;
-      const suggestionVisible = ref(false);
-      const suggestionType = ref('fetch');
-      const suggestions = ref([]) as Ref<autocomplete.Type.CompanyDataType[]>;
-      const keyboardActiveIndex = ref();
-      const reference = ref() as Ref<HTMLDivElement>;
-      const floating = ref() as Ref<HTMLDivElement>;
-      const input = ref() as Ref<HTMLInputElement>;
-      const floatingWidth = ref() as Ref<string>;
-      const { floatingStyles } = useFloating(reference, floating, {
-        whileElementsMounted: autoUpdate,
-        middleware: [
-          offset(props.offsetTop),
-          size({
-            apply: ({ rects }) => {
-              floatingWidth.value = `${rects.reference.width}px`;
-            },
-          }),
-          ...(props.autoFlip
-            ? [
-                flip({
-                  fallbackPlacements: ['top'],
-                }),
-              ]
-            : []),
-        ],
-      });
-
-      onMounted(() => {
-        if (props.autoFocus) {
-          input.value?.focus();
-        }
-        setNativeInputValue();
-      });
-
-      watch(nativeInputValue, () => setNativeInputValue());
-
-      const floatingFullStyles = computed(() => {
-        return {
-          ...floatingStyles.value,
-          width: floatingWidth.value,
-        };
-      });
-
-      const handleCancelQuerySuggestion = () => {
-        if (abortController) {
-          abortController.abort('repeated request');
-          abortController = undefined;
-        }
+    data() {
+      return {
+        isVue3,
+        abortController: undefined as AbortController | undefined,
+        latestKeyword: '' as string,
+        selectSuggestion: undefined as autocomplete.Type.CompanyDataType | undefined,
+        suggestionVisible: false,
+        suggestionType: 'fetch',
+        suggestions: [] as autocomplete.Type.CompanyDataType[],
+        keyboardActiveIndex: undefined as number | undefined,
+        floatingWidth: undefined as string | undefined,
+        floatingStyles: {
+          left: '0',
+          top: '0',
+          width: 'auto',
+        } as CSSProperties,
       };
-
-      const handleQuerySuggestion = async (value: string) => {
-        handleCancelQuerySuggestion();
-        if (nativeInputValue.value === latestKeyword) {
-          showSuggestion();
+    },
+    computed: {
+      nativeInputValue(): string {
+        return isNil(this.modelValue) ? '' : String(this.modelValue);
+      },
+    },
+    watch: {
+      nativeInputValue() {
+        this.setNativeInputValue();
+      },
+    },
+    created() {
+      this[debounceQueryMethod] = debounce(this.handleQuerySuggestion, this.queryDelay);
+    },
+    mounted() {
+      if (this.autoFocus) {
+        this.handleFocus();
+      }
+      this.setNativeInputValue();
+      this.handleCalculatePosition();
+    },
+    methods: {
+      handleFocus() {
+        (this.$refs.input as HTMLInputElement).focus();
+      },
+      handleCalculatePosition() {
+        const reference = this.$refs.reference as HTMLElement;
+        const floating = this.$refs.floating as HTMLElement;
+        autoUpdate(reference, floating, () => {
+          computePosition(reference, floating, {
+            middleware: [
+              offset(this.offsetTop),
+              size({
+                apply: ({ rects }) => {
+                  this.floatingStyles.width = `${rects.reference.width}px`;
+                },
+              }),
+              ...(this.autoFlip
+                ? [
+                    flip({
+                      fallbackPlacements: ['top'],
+                    }),
+                  ]
+                : []),
+            ],
+          }).then(({ x, y }) => {
+            this.floatingStyles.left = `${x}px`;
+            this.floatingStyles.top = `${y}px`;
+          });
+        });
+      },
+      handleCancelQuerySuggestion() {
+        if (this.abortController) {
+          this.abortController.abort('repeated request');
+          this.abortController = undefined;
+        }
+      },
+      async handleQuerySuggestion(value: string) {
+        this.handleCancelQuerySuggestion();
+        if (this.nativeInputValue === this.latestKeyword) {
+          this.showSuggestion();
           return;
         }
-        abortController = new AbortController();
+        this.abortController = new AbortController();
         autocomplete
-          .handleQueryData(value.trim(), props.api as string, abortController)
+          .handleQueryData(value.trim(), this.api as string, this.abortController)
           .then(({ data }) => {
-            latestKeyword = value.trim();
-            suggestions.value = data;
-            showSuggestion();
-            context.emit('fetch', data);
+            this.latestKeyword = value.trim();
+            this.suggestions = data;
+            this.showSuggestion();
+            this.$emit('fetch', data);
           })
           .catch((e) => {
             if (e.name === 'AbortError') {
-              context.emit('abortFetch', e);
+              this.$emit('abortFetch', e);
             }
           });
-      };
-
-      const handleDebounceQuerySuggestion = debounce((value: string) => {
-        handleQuerySuggestion(value);
-      }, props.queryDelay);
-
-      const setNativeInputValue = () => {
-        if (input.value.value === nativeInputValue.value) {
+      },
+      setNativeInputValue() {
+        const input = this.$refs.input as HTMLInputElement;
+        if (input.value === this.nativeInputValue) {
           return;
         }
-        input.value.value = nativeInputValue.value;
-      };
-
-      const handleInput = (event: Event) => {
-        hideSuggestion();
+        input.value = this.nativeInputValue;
+      },
+      handleInput(event: Event) {
+        this.hideSuggestion();
         const { value } = event.target as HTMLInputElement;
-        context.emit('update:modelValue', value);
-        context.emit('input', value);
-        keyboardActiveIndex.value = undefined;
-        selectSuggestion.value = undefined;
+        this.handleUpdateModelValue(value);
+        this.$emit('input', value);
+        this.keyboardActiveIndex = undefined;
+        this.selectSuggestion = undefined;
         if (value.length === 0) {
-          clearSuggestion();
+          this.clearSuggestion();
           return;
         }
-        handleDebounceQuerySuggestion(value);
-      };
-
-      const handleInputClick = () => {
-        if (nativeInputValue.value) {
-          handleQuerySuggestion(nativeInputValue.value);
-        } else if (props.historyEnabled) {
-          latestKeyword = '';
-          handleShowHistory();
+        this[debounceQueryMethod](value);
+      },
+      handleInputClick() {
+        if (this.nativeInputValue) {
+          this.handleQuerySuggestion(this.nativeInputValue);
+        } else if (this.historyEnabled) {
+          this.latestKeyword = '';
+          this.handleShowHistory();
         }
-      };
-
-      const handleInputFocus = () => {
-        context.emit('focus');
-      };
-
-      const handleInputBlur = () => {
-        handleCancelQuerySuggestion();
-        context.emit('blur');
-      };
-
-      const handleShowHistory = () => {
-        suggestions.value = autocomplete.getHistory({
-          enabled: props.historyEnabled,
-          key: props.historyStorageKey,
-          type: props.historyType,
-        } as autocomplete.Type.HistoryOptions);
-        showSuggestion('history');
-      };
-
-      const clearSuggestion = () => {
-        suggestions.value = [];
-      };
-
-      const showSuggestion = (type = 'fetch') => {
-        if (suggestions.value.length === 0) {
-          clearSuggestion();
-          hideSuggestion();
+      },
+      handleInputFocus() {
+        this.$emit('focus');
+      },
+      handleInputBlur() {
+        this.handleCancelQuerySuggestion();
+        this.$emit('blur');
+      },
+      handleShowHistory() {
+        const options = {
+          enabled: this.historyEnabled,
+          key: this.historyStorageKey,
+          type: this.historyType,
+        };
+        this.suggestions = autocomplete.getHistory(options as autocomplete.Type.HistoryOptions);
+        this.showSuggestion('history');
+      },
+      clearSuggestion() {
+        this.suggestions = [];
+      },
+      showSuggestion(type = 'fetch') {
+        if (this.suggestions.length === 0) {
+          this.clearSuggestion();
+          this.hideSuggestion();
           return;
         }
-        suggestionType.value = type;
-        if (suggestionVisible.value) {
+        this.suggestionType = type;
+        if (this.suggestionVisible) {
           return;
         }
-        suggestionVisible.value = true;
-        context.emit('dropdownVisibleChange', true);
-      };
-
-      const hideSuggestion = () => {
-        if (!suggestionVisible.value) {
+        this.suggestionVisible = true;
+        this.$emit('dropdownVisibleChange', true);
+      },
+      hideSuggestion() {
+        if (!this.suggestionVisible) {
           return;
         }
-        suggestionVisible.value = false;
-        context.emit('dropdownVisibleChange', false);
-      };
-
-      const handleSubmit = () => {
-        context.emit('submit', {
-          text: nativeInputValue.value,
+        this.suggestionVisible = false;
+        this.$emit('dropdownVisibleChange', false);
+      },
+      handleSubmit() {
+        this.$emit('submit', {
+          text: this.nativeInputValue,
         });
-      };
-
-      const handleInputClear = () => {
-        selectSuggestion.value = undefined;
-        context.emit('update:modelValue', '');
-        clearSuggestion();
-        context.emit('clear');
-      };
-
-      const handleClickOutside = () => {
-        hideSuggestion();
-      };
-
-      const handleKeyDown = (event: KeyboardEvent) => {
+      },
+      handleInputClear() {
+        this.selectSuggestion = undefined;
+        this.handleUpdateModelValue('');
+        this.clearSuggestion();
+        this.hideSuggestion();
+        this.handleFocus();
+        this.$emit('clear');
+      },
+      handleClickOutside() {
+        this.hideSuggestion();
+      },
+      handleKeyDown(event: KeyboardEvent) {
         switch (event.key) {
           case 'Enter':
-            if (!isUndefined(keyboardActiveIndex.value)) {
-              handleSuggestionClick(suggestions.value[keyboardActiveIndex.value]);
+            if (!isUndefined(this.keyboardActiveIndex)) {
+              this.handleSuggestionClick(this.suggestions[this.keyboardActiveIndex!]);
             }
             break;
           case 'ArrowUp':
-            if (!keyboardActiveIndex.value) {
-              keyboardActiveIndex.value = suggestions.value.length - 1;
+            if (!this.keyboardActiveIndex) {
+              this.keyboardActiveIndex = this.suggestions.length - 1;
             } else {
-              keyboardActiveIndex.value--;
+              this.keyboardActiveIndex--;
             }
-            props.backFill && handleFillInput();
+            this.backFill && this.handleFillInput();
             break;
           case 'ArrowDown':
             if (
-              isUndefined(keyboardActiveIndex.value) ||
-              keyboardActiveIndex.value >= suggestions.value.length - 1
+              isUndefined(this.keyboardActiveIndex) ||
+              this.keyboardActiveIndex! >= this.suggestions.length - 1
             ) {
-              keyboardActiveIndex.value = 0;
+              this.keyboardActiveIndex = 0;
             } else {
-              keyboardActiveIndex.value++;
+              this.keyboardActiveIndex!++;
             }
-            props.backFill && handleFillInput();
+            this.backFill && this.handleFillInput();
             break;
           case 'Escape':
-            handleInputClear();
+            this.handleInputClear();
             break;
         }
-      };
-
-      const handleFillInput = () => {
-        selectSuggestion.value = suggestions.value[keyboardActiveIndex.value];
-        context.emit('update:modelValue', removeHtmlTags(selectSuggestion.value?.name || ''));
-      };
-
-      const handleHistoryClear = () => {
-        autocomplete.removeHistory({
-          key: props.historyStorageKey,
-          type: props.historyType,
-        } as autocomplete.Type.HistoryOptions);
-        clearSuggestion();
-        hideSuggestion();
-      };
-
-      const handleSuggestionClick = (company: autocomplete.Type.CompanyDataType) => {
-        context.emit('update:modelValue', removeHtmlTags(company.name));
-        selectSuggestion.value = {
+      },
+      handleFillInput() {
+        this.selectSuggestion = this.suggestions[this.keyboardActiveIndex!];
+        this.handleUpdateModelValue(removeHtmlTags(this.selectSuggestion!.name || ''));
+      },
+      handleHistoryClear() {
+        const options = {
+          key: this.historyStorageKey,
+          type: this.historyType,
+        };
+        autocomplete.removeHistory(options as autocomplete.Type.HistoryOptions);
+        this.clearSuggestion();
+        this.hideSuggestion();
+      },
+      handleSuggestionClick(company: autocomplete.Type.CompanyDataType) {
+        this.handleUpdateModelValue(removeHtmlTags(company.name));
+        this.selectSuggestion = {
           id: company.id,
           name: company.name,
         };
-        clearSuggestion();
-        hideSuggestion();
-        if (props.historyEnabled && selectSuggestion) {
-          autocomplete.addHistory(selectSuggestion.value!, {
-            enabled: props.historyEnabled,
-            key: props.historyStorageKey,
-            type: props.historyType,
-          } as autocomplete.Type.HistoryOptions);
+        this.clearSuggestion();
+        this.hideSuggestion();
+        if (this.historyEnabled && this.selectSuggestion) {
+          const options = {
+            enabled: this.historyEnabled,
+            key: this.historyStorageKey,
+            type: this.historyType,
+          };
+          autocomplete.addHistory(
+            this.selectSuggestion!,
+            options as autocomplete.Type.HistoryOptions
+          );
         }
-        context.emit('select', selectSuggestion.value);
-      };
-      return {
-        nativeInputValue,
-        reference,
-        floating,
-        input,
-        floatingFullStyles,
-        suggestions,
-        suggestionType,
-        suggestionVisible,
-        handleClickOutside,
-        handleKeyDown,
-        handleInput,
-        handleInputClick,
-        handleInputFocus,
-        handleInputBlur,
-        handleSubmit,
-        handleInputClear,
-        handleHistoryClear,
-        handleSuggestionClick,
-        keyboardActiveIndex,
-        isVue3,
-      };
+        this.$emit('select', this.selectSuggestion);
+      },
+      handleUpdateModelValue(value: string) {
+        if (isVue2) {
+          this.$emit('modelChange', value);
+        } else {
+          this.$emit('update:modelValue', value);
+        }
+      },
     },
   });
 </script>

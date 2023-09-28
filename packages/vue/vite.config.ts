@@ -9,6 +9,9 @@ import DefineOptions from 'unplugin-vue-define-options/vite';
 import terser from '@rollup/plugin-terser';
 
 export default defineConfig({
+  optimizeDeps: {
+    exclude: ['vue-demi'],
+  },
   build: {
     minify: false,
     rollupOptions: {

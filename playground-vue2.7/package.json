@@ -1,27 +1,22 @@
 {
-  "name": "@company-ui/playground",
+  "name": "@company-ui/playground-vue2.7",
   "version": "3.2.0",
   "private": true,
   "description": "Company UI playground",
   "scripts": {
-    "switch:3": "vue-demi-switch 3",
-    "dev": "npm run switch:3 && vite"
+    "switch:2": "vue-demi-switch 2",
+    "dev": "npm run switch:2 && vite"
   },
   "keywords": [],
   "author": "zhensherlock",
   "license": "MIT",
   "dependencies": {
-    "@company-ui/autocomplete-core": "workspace:^",
-    "@company-ui/autocomplete-dom": "workspace:^",
-    "@company-ui/dom": "workspace:^",
-    "@company-ui/shared": "workspace:^",
     "@company-ui/style": "workspace:^",
     "@company-ui/vue": "workspace:^",
     "vue-demi": "^0.14.6"
   },
   "peerDependencies": {
-    "@vue/composition-api": "^1.7.2",
-    "vue": "^2.0.0 || >=3.0.0"
+    "vue": "^2.7.14"
   },
   "peerDependenciesMeta": {
     "@vue/composition-api": {
@@ -29,7 +24,8 @@
     }
   },
   "devDependencies": {
-    "vue": "^3.3.4",
-    "@vitejs/plugin-vue": "^4.3.4"
+    "vue": "^2.7.14",
+    "@vitejs/plugin-vue2": "^2.2.0",
+    "vue-template-compiler": "^2.7.14"
   }
 }
