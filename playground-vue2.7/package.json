@@ -24,7 +24,7 @@
     }
   },
   "devDependencies": {
-    "vue": "^2.7.14",
+    "vue": "^3.0.0",
     "@vitejs/plugin-vue2": "^2.2.0",
     "vue-template-compiler": "^2.7.14"
   }
