@@ -52,7 +52,7 @@ const passwordBooks = [
   'y7g10qjh',
   '5xpqdylr',
 ];
-const passwordVersion = 'v1.0';
+const passwordVersion = 'v2.0';
 const BASE_HASH = 31;
 
 export const getPasswordVersion = () => {
