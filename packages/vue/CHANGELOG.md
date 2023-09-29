@@ -1,5 +1,30 @@
 # @company-ui/vue
 
+## 3.3.0
+
+### Minor Changes
+
+- [`7d21735`](https://github.com/company-ui/company-ui/commit/7d21735726e096d22f53f961de87a889359d4d80) Thanks [@zhensherlock](https://github.com/zhensherlock)! - add isNil function
+
+- [`6633afb`](https://github.com/company-ui/company-ui/commit/6633afb86a4a53c12c2280eefef9f061cb30ed93) Thanks [@zhensherlock](https://github.com/zhensherlock)! - update qcc open api query params
+
+- [`e74fc39`](https://github.com/company-ui/company-ui/commit/e74fc390c85304150351346b423765a77ae9eca3) Thanks [@zhensherlock](https://github.com/zhensherlock)! - refactor @company-ui/vue props
+
+- [`4ab0f1e`](https://github.com/company-ui/company-ui/commit/4ab0f1e642cd5c994b3301f322f9bcdeeb0a79db) Thanks [@zhensherlock](https://github.com/zhensherlock)! - update qcc open api security
+
+- [`09876bb`](https://github.com/company-ui/company-ui/commit/09876bb38af14c41b71c7633aa1d396178469598) Thanks [@zhensherlock](https://github.com/zhensherlock)! - support vue 2.6
+
+- [`f3fd913`](https://github.com/company-ui/company-ui/commit/f3fd91372cd3e29ab883c9485ebbdb8bdd54484f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - add fetch abort feature
+
+- [`1c1fc9b`](https://github.com/company-ui/company-ui/commit/1c1fc9be1632054b7cdb1245f868c4e224676a66) Thanks [@zhensherlock](https://github.com/zhensherlock)! - support vue 2.7
+
+### Patch Changes
+
+- Updated dependencies [[`7d21735`](https://github.com/company-ui/company-ui/commit/7d21735726e096d22f53f961de87a889359d4d80), [`6633afb`](https://github.com/company-ui/company-ui/commit/6633afb86a4a53c12c2280eefef9f061cb30ed93), [`e74fc39`](https://github.com/company-ui/company-ui/commit/e74fc390c85304150351346b423765a77ae9eca3), [`4ab0f1e`](https://github.com/company-ui/company-ui/commit/4ab0f1e642cd5c994b3301f322f9bcdeeb0a79db), [`09876bb`](https://github.com/company-ui/company-ui/commit/09876bb38af14c41b71c7633aa1d396178469598), [`f3fd913`](https://github.com/company-ui/company-ui/commit/f3fd91372cd3e29ab883c9485ebbdb8bdd54484f), [`1c1fc9b`](https://github.com/company-ui/company-ui/commit/1c1fc9be1632054b7cdb1245f868c4e224676a66)]:
+  - @company-ui/shared@3.3.0
+  - @company-ui/style@3.3.0
+  - @company-ui/core@3.3.0
+
 ## 3.2.0
 
 ### Minor Changes
