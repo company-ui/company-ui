@@ -8,3 +8,4 @@ export * from './throttle';
 export * from './dom';
 export * from './string';
 export * from './query-string';
+export * from './array';
