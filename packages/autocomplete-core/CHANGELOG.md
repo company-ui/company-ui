@@ -1,5 +1,26 @@
 # @company-ui/autocomplete-core
 
+## 3.3.1
+
+### Patch Changes
+
+- [`09a10ab`](https://github.com/company-ui/company-ui/commit/09a10ab663ffcad520648b8fe5cb1cac238ab95e) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update unocss monorepo to v0.56.4 (@unocss/postcss, unocss)
+
+- [`30de3ac`](https://github.com/company-ui/company-ui/commit/30de3ac58328ba6eba6c02d0eb1ca20fa8d5cfda) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update babel monorepo (@babel/core, @babel/preset-env)
+
+- [`62e3523`](https://github.com/company-ui/company-ui/commit/62e352324458b7c32c9d04c5ffe0b07d4544df39) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite-plugin-dts to v3.6.0
+
+- [`9b33ac1`](https://github.com/company-ui/company-ui/commit/9b33ac15c32f38a219e5c9c036240cd02c87a937) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency autoprefixer to v10.4.16
+
+- [`2eb0826`](https://github.com/company-ui/company-ui/commit/2eb082674e637745292696d7b048284ffc56d207) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rimraf to v5.0.5
+
+- [`f6f8b95`](https://github.com/company-ui/company-ui/commit/f6f8b9532923e4e2a2358eb6dc20305ce6e2b7bf) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency markdown-it to v13.0.2 (markdown-it, @types/markdown-it)
+
+- [`f92bb8a`](https://github.com/company-ui/company-ui/commit/f92bb8af807bef8296e1122b6921fdd7f1305f7b) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v3.29.4
+
+- Updated dependencies [[`09a10ab`](https://github.com/company-ui/company-ui/commit/09a10ab663ffcad520648b8fe5cb1cac238ab95e), [`30de3ac`](https://github.com/company-ui/company-ui/commit/30de3ac58328ba6eba6c02d0eb1ca20fa8d5cfda), [`62e3523`](https://github.com/company-ui/company-ui/commit/62e352324458b7c32c9d04c5ffe0b07d4544df39), [`9b33ac1`](https://github.com/company-ui/company-ui/commit/9b33ac15c32f38a219e5c9c036240cd02c87a937), [`2eb0826`](https://github.com/company-ui/company-ui/commit/2eb082674e637745292696d7b048284ffc56d207), [`f6f8b95`](https://github.com/company-ui/company-ui/commit/f6f8b9532923e4e2a2358eb6dc20305ce6e2b7bf), [`f92bb8a`](https://github.com/company-ui/company-ui/commit/f92bb8af807bef8296e1122b6921fdd7f1305f7b)]:
+  - @company-ui/shared@3.3.1
+
 ## 3.3.0
 
 ### Minor Changes
