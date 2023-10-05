@@ -1,5 +1,28 @@
 # @company-ui/vue
 
+## 3.3.2
+
+### Patch Changes
+
+- [`6c8d065`](https://github.com/company-ui/company-ui/commit/6c8d06530d07b9a2790b12f50d37d26385e9a8aa) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @vitejs/plugin-vue to v4.4.0
+
+- [`8a33894`](https://github.com/company-ui/company-ui/commit/8a33894f17906f4c2bf38edadd93bc88ff39ce0f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v4.4.10
+
+- [`695f54d`](https://github.com/company-ui/company-ui/commit/695f54d3910179d7b2a7b9262dbca593d01f22e8) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency terser to v5.21.0
+
+- [`257aad5`](https://github.com/company-ui/company-ui/commit/257aad58655fae25545f470a0d7593cae130f388) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update unocss monorepo to v0.56.5 (@unocss/postcss, unocss)
+
+- [`b5ed010`](https://github.com/company-ui/company-ui/commit/b5ed01069cf77cd0a9285329fd729f58e50c9fa8) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @vitejs/plugin-vue to v4.4.0
+
+- [`fb129c3`](https://github.com/company-ui/company-ui/commit/fb129c31d978089bb21b0c9216fe022fee874638) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency core-js to v3.33.0
+
+- [`d31fbec`](https://github.com/company-ui/company-ui/commit/d31fbec956c14f0552ddab4ca1a7f4fb876b4014) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.7.4
+
+- Updated dependencies [[`6c8d065`](https://github.com/company-ui/company-ui/commit/6c8d06530d07b9a2790b12f50d37d26385e9a8aa), [`8a33894`](https://github.com/company-ui/company-ui/commit/8a33894f17906f4c2bf38edadd93bc88ff39ce0f), [`695f54d`](https://github.com/company-ui/company-ui/commit/695f54d3910179d7b2a7b9262dbca593d01f22e8), [`257aad5`](https://github.com/company-ui/company-ui/commit/257aad58655fae25545f470a0d7593cae130f388), [`b5ed010`](https://github.com/company-ui/company-ui/commit/b5ed01069cf77cd0a9285329fd729f58e50c9fa8), [`fb129c3`](https://github.com/company-ui/company-ui/commit/fb129c31d978089bb21b0c9216fe022fee874638), [`d31fbec`](https://github.com/company-ui/company-ui/commit/d31fbec956c14f0552ddab4ca1a7f4fb876b4014)]:
+  - @company-ui/core@3.3.2
+  - @company-ui/shared@3.3.2
+  - @company-ui/style@3.3.2
+
 ## 3.3.1
 
 ### Patch Changes
