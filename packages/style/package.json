@@ -32,7 +32,8 @@
   },
   "scripts": {
     "clean:dist": "rimraf dist",
-    "build": "npm run clean:dist && rollup -c --bundleConfigAsCjs --environment NODE_ENV:production"
+    "build": "npm run clean:dist && rollup -c --bundleConfigAsCjs --environment NODE_ENV:production",
+    "build2": "npm run clean:dist && vite build"
   },
   "bugs": {
     "url": "https://github.com/company-ui/company-ui/issues"

@@ -29,10 +29,10 @@
     computed: {
       classes() {
         if (this.disabled) {
-          return ['teleporter'];
+          return ['teleport'];
         }
 
-        return ['teleporter', 'hidden'];
+        return ['teleport', 'teleport-hidden'];
       },
     },
     watch: {
@@ -149,10 +149,3 @@
     },
   };
 </script>
-
-<style scoped lang="scss">
-  .hidden {
-    visibility: hidden;
-    display: none;
-  }
-</style>
