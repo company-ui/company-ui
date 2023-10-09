@@ -39,7 +39,7 @@
     "@iconify-json/ic": "^1.1.14",
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^25.0.5",
-    "@rollup/plugin-eslint": "^9.0.4",
+    "@rollup/plugin-eslint": "^9.0.5",
     "@rollup/plugin-node-resolve": "^15.2.1",
     "@rollup/plugin-strip": "^3.0.2",
     "@rollup/plugin-terser": "^0.4.3",
