@@ -95,8 +95,8 @@ importers:
         specifier: ^17.0.0
         version: 17.0.0(eslint-config-standard@17.1.0)(eslint-plugin-import@2.28.1)(eslint-plugin-n@15.7.0)(eslint-plugin-promise@6.1.1)(eslint@8.50.0)
       eslint-define-config:
-        specifier: ^1.23.0
-        version: 1.23.0
+        specifier: ^1.24.0
+        version: 1.24.0
       eslint-plugin-import:
         specifier: ^2.28.1
         version: 2.28.1(@typescript-eslint/parser@6.7.4)(eslint@8.50.0)
@@ -5912,9 +5912,9 @@ packages:
       eslint-plugin-promise: 6.1.1(eslint@8.50.0)
     dev: true
 
-  /eslint-define-config@1.23.0:
-    resolution: {integrity: sha512-4mMyu0JuBkQHsCtR+42irIQdFLmLIW+pMAVcyOV/gZRL4O1R8iuH0eMG3oL3Cbi1eo9fDAfT5CIHVHgdyxcf6w==}
-    engines: {node: ^16.13.0 || >=18.0.0, npm: '>=7.0.0', pnpm: '>= 8.6.0'}
+  /eslint-define-config@1.24.0:
+    resolution: {integrity: sha512-RCuWIiz5gWwmzXCt8FVXoDYLjwlLzI/WB9q0YIcqVnTlc9GQXwiKDjRBFNHtYIywnBIOhj/cuwSEUE8eWVLCfQ==}
+    engines: {node: '>=18.0.0', npm: '>=9.0.0', pnpm: '>= 8.6.0'}
     dev: true
 
   /eslint-import-resolver-node@0.3.8:
