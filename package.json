@@ -37,7 +37,7 @@
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
     "@iconify-json/ic": "^1.1.14",
-    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^25.0.4",
     "@rollup/plugin-eslint": "^9.0.4",
     "@rollup/plugin-node-resolve": "^15.2.1",
