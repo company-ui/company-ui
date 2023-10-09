@@ -188,8 +188,8 @@ importers:
         specifier: ^1.1.3
         version: 1.1.3(@babel/core@7.23.0)(vite@4.4.10)
       vite-plugin-commonjs:
-        specifier: ^0.9.0
-        version: 0.9.0
+        specifier: ^0.10.0
+        version: 0.10.0
       vite-plugin-dts:
         specifier: ^3.6.0
         version: 3.6.0(@types/node@20.4.7)(rollup@3.29.4)(typescript@5.2.2)(vite@4.4.10)(vue@2.6.14)
@@ -10708,12 +10708,12 @@ packages:
       vite: 4.4.10(@types/node@20.4.7)(sass@1.68.0)(terser@5.21.0)
     dev: true
 
-  /vite-plugin-commonjs@0.9.0:
-    resolution: {integrity: sha512-rgQ+9D3uN/mKDb08EFjVJTVFhXZSuFZdZSjGnrWorqoO+3VVTkDMDKEHts8gh9ypWjoOn8F4M9WKVNqUw1GKlA==}
+  /vite-plugin-commonjs@0.10.0:
+    resolution: {integrity: sha512-tl0/fy4VJ9yMjL4QocviiDan1iyKvUIY7Pn+pn6rpWyyqdprzgP4s2UFXoMiJIVYMV6oJ5goyAHZMKJkS/CxPA==}
     dependencies:
       acorn: 8.10.0
       fast-glob: 3.3.1
-      magic-string: 0.30.2
+      magic-string: 0.30.3
       vite-plugin-dynamic-import: 1.5.0
     dev: true
 
