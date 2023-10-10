@@ -1,5 +1,47 @@
 # @company-ui/style
 
+## 3.4.0
+
+### Minor Changes
+
+- [`56727dc`](https://github.com/company-ui/company-ui/commit/56727dc39b69e7f231c4aa4034e9e232b68a4a1e) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @rollup/plugin-commonjs to v25.0.5
+
+- [`5f48367`](https://github.com/company-ui/company-ui/commit/5f48367346aeaeaf8e1e3178b3e70f2abe57ca74) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @rollup/plugin-strip to v3.0.3
+
+- [`a117306`](https://github.com/company-ui/company-ui/commit/a11730678803b6356fb46d02ce4063233dcfc3ae) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency sass to v1.69.1
+
+- [`04787fa`](https://github.com/company-ui/company-ui/commit/04787fa36b838ad54ac607a650374db28efd8225) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency sass to v1.69.0
+
+- [`f1f1f43`](https://github.com/company-ui/company-ui/commit/f1f1f4356baf569399c633d155841ed86a90faf2) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup-plugin-sass to v1.12.21
+
+- [`702b671`](https://github.com/company-ui/company-ui/commit/702b671435e4811b7a2139e2b648a30eeea24685) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vue-eslint-parser to v9.3.2
+
+- [`a385d3f`](https://github.com/company-ui/company-ui/commit/a385d3f510888bd4ac580bd9ff565d889168022b) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-define-config to v1.24.0
+
+- [`23badee`](https://github.com/company-ui/company-ui/commit/23badeef0ec596f928900968f6e274e52bcc82c9) Thanks [@zhensherlock](https://github.com/zhensherlock)! - update autocomponent file structure
+
+- [`41ba31e`](https://github.com/company-ui/company-ui/commit/41ba31e5cc65160fcd12cccb9e84c77ff3e6ff7a) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @rollup/plugin-babel to v6.0.4
+
+- [`28dee8d`](https://github.com/company-ui/company-ui/commit/28dee8d5cc7f857b52315c1f8afce6ac715c3a32) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @rollup/plugin-typescript to v11.1.5
+
+- [`c89db5d`](https://github.com/company-ui/company-ui/commit/c89db5ddc3d34a788b457be86700dc6f3c987eb2) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.7.5
+
+- [`23b672e`](https://github.com/company-ui/company-ui/commit/23b672edcfaa454655869ea01c19c00236b79e17) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-define-config to v1.24.1
+
+- [`cb39802`](https://github.com/company-ui/company-ui/commit/cb398025976b6eadd032a5126467c35f4c641fb3) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @rollup/plugin-terser to v0.4.4
+
+- [`accd230`](https://github.com/company-ui/company-ui/commit/accd230b0b6696b84a8be22b30124dc4fb78deed) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint to v8.51.0
+
+- [`9cb19d6`](https://github.com/company-ui/company-ui/commit/9cb19d634f2bf5e3cb99966562d28c01eef14444) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @commitlint/cli to v17.7.2
+
+- [`e68c29a`](https://github.com/company-ui/company-ui/commit/e68c29a04bac2b51392179501a0e45d767593b67) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @rollup/plugin-eslint to v9.0.5
+
+- [`313678a`](https://github.com/company-ui/company-ui/commit/313678af1129317625de991c36f76df8830ffd4e) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v4.4.11
+
+- [`1ec156e`](https://github.com/company-ui/company-ui/commit/1ec156e12526e22831b3caba811ea9c518404428) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @rollup/plugin-node-resolve to v15.2.3
+
+- [`389e24d`](https://github.com/company-ui/company-ui/commit/389e24df78ac8b14927509bfbb99a2be5b4b0eb1) Thanks [@zhensherlock](https://github.com/zhensherlock)! - add teleport component
+
 ## 3.3.2
 
 ### Patch Changes
