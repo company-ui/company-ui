@@ -30,12 +30,12 @@ npm install @company-ui/style
 
 ```ts
 import '@company-ui/style';
-import companyAutocomplete from '@company-ui/vue';
-app.use(companyAutocomplete);
+import CompanyUI from '@company-ui/vue';
+app.use(CompanyUI);
 ```
 
 ```vue
-<Autocomplete v-model="value" />
+<autocomplete v-model="value" />
 ```
 
 ## Documentation
