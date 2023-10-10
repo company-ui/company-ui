@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Company UI Vue3 Playground</h1>
-    <Autocomplete
+    <autocomplete
       v-model="value"
       @fetch="handleFetch"
       @abortFetch="handleAbortFetch"
@@ -16,6 +16,7 @@
 </template>
 <script lang="ts" setup>
   import { ref } from 'vue-demi';
+  import { autocomplete } from '../../packages/vue/src/main';
 
   const value = ref('');
   const handleFetch = (data) => {

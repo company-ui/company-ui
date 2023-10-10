@@ -1,9 +1,12 @@
 import type { App } from 'vue-demi';
-import component from './autocomplete.vue';
-import 'virtual:uno.css';
+import autocomplete from './autocomplete';
+import teleport from './teleport';
 
 export default {
   install(app: App) {
-    app.component(component.name, component);
+    app.component(autocomplete.name, autocomplete);
+    app.component(teleport.name, teleport);
   },
 };
+
+export { autocomplete, teleport };

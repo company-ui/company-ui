@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Company UI Vue2.7 Playground</h1>
-    <Autocomplete v-model="value" />
+    <autocomplete v-model="value" />
   </div>
 </template>
 <script>

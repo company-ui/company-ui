@@ -24,10 +24,7 @@
         @blur="handleInputBlur"
       />
       <div v-if="clearable" class="company-autocomplete__clear">
-        <i
-          class="company-autocomplete__clear-icon i-ic-baseline-cancel"
-          @click="handleInputClear"
-        />
+        <i class="company-autocomplete__clear-icon" @click="handleInputClear" v-html="clearIcon" />
       </div>
     </div>
     <div v-if="showSubmitButton" class="company-autocomplete__submit">
@@ -60,8 +57,9 @@
           >
             <div class="suggestion__avatar">
               <i
-                class="suggestion__avatar-icon i-ic-baseline-history-toggle-off"
+                class="suggestion__avatar-icon"
                 v-if="suggestionType === 'history'"
+                v-html="historyItemIcon"
               />
               <img :alt="item.id" :src="item.avatar" v-else-if="item.avatar" />
             </div>
@@ -76,7 +74,7 @@
           v-show="historyClearable && suggestionType === 'history'"
         >
           <a href="javascript:;" @click="handleHistoryClear">
-            <i class="suggestion-popper__icon i-ic-baseline-auto-delete"></i>
+            <i class="suggestion-popper__icon" v-html="historyClearIcon" />
             删除历史
           </a>
         </div>
@@ -90,8 +88,8 @@
   import { autocomplete } from '@company-ui/core';
   import { debounce, removeHtmlTags, isUndefined, isNil } from '@company-ui/shared';
   import { autoUpdate, computePosition, offset, size, flip } from '@floating-ui/vue';
-  import clickOutside from './directives/click-outside';
-  import Teleport from './teleport.vue';
+  import clickOutside from '../../directives/click-outside';
+  import Teleport from '../../teleport';
 
   const debounceQueryMethod = 'handleDebounceQuerySuggestion';
 
@@ -205,6 +203,9 @@
           top: '0',
           width: 'auto',
         } as CSSProperties,
+        clearIcon: autocomplete.initialOptions.clearIcon,
+        historyClearIcon: autocomplete.initialOptions.history.clearIcon,
+        historyItemIcon: autocomplete.initialOptions.history.itemIcon,
       };
     },
     computed: {
