@@ -1,0 +1,84 @@
+{
+  "name": "@company-ui/react",
+  "version": "3.4.0",
+  "description": "Company UI react",
+  "author": "zhensherlock",
+  "homepage": "https://github.com/company-ui/company-ui/tree/master/packages/react#readme",
+  "keywords": [
+    "Company",
+    "CompanyUI",
+    "CompanyUIReact",
+    "企业",
+    "企业UI",
+    "企业组件",
+    "自动完成",
+    "自动完成组件"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "webpack": "lib/index.js",
+  "browser": "dist/index.full.js",
+  "unpkg": "dist/index.full.js",
+  "jsdelivr": "dist/index.full.js",
+  "types": "es/types/main.d.ts",
+  "exports": {
+    ".": {
+      "types": "./es/types/main.d.ts",
+      "import": "./es/index.mjs",
+      "require": "./lib/index.js"
+    },
+    "./es": {
+      "types": "./es/types/main.d.ts",
+      "import": "./es/index.mjs"
+    },
+    "./lib": {
+      "types": "./lib/types/main.d.ts",
+      "require": "./lib/index.js"
+    },
+    "./dist/*": "./dist/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "es",
+    "lib",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/company-ui/company-ui.git"
+  },
+  "scripts": {
+    "clean:dist": "rimraf dist && rimraf es && rimraf lib",
+    "build": "npm run clean:dist && vite build",
+    "dev": "vite"
+  },
+  "bugs": {
+    "url": "https://github.com/company-ui/company-ui/issues"
+  },
+  "dependencies": {
+    "@company-ui/core": "workspace:^",
+    "@company-ui/shared": "workspace:^",
+    "@company-ui/style": "workspace:^",
+    "@floating-ui/react": "^0.26.0",
+    "ahooks": "^3.7.8",
+    "clsx": "^2.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.28",
+    "@types/react-dom": "^18.2.13",
+    "@vitejs/plugin-react": "^4.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

@@ -17,6 +17,9 @@
     "@company-ui/shared": "workspace:^",
     "@company-ui/style": "workspace:^",
     "@company-ui/vue": "workspace:^",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
     "vue-demi": "^0.14.6"
   },
   "peerDependencies": {
@@ -29,7 +32,10 @@
     }
   },
   "devDependencies": {
-    "vue": "^3.3.4",
-    "@vitejs/plugin-vue": "^4.4.0"
+    "@types/react": "^18.2.28",
+    "@types/react-dom": "^18.2.13",
+    "@vitejs/plugin-react": "^4.1.0",
+    "@vitejs/plugin-vue": "^4.4.0",
+    "vue": "^3.3.4"
   }
 }

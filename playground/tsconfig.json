@@ -3,6 +3,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "declaration": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "jsx": "preserve"
   }
 }
