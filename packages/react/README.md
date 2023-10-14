@@ -4,23 +4,23 @@
   </a>
 </p>
 <p align="center">
-  <a href="https://npmjs.com/package/@company-ui/vue"><img src="https://badgen.net/npm/v/@company-ui/vue" alt="npm package"></a>
+  <a href="https://npmjs.com/package/@company-ui/react"><img src="https://badgen.net/npm/v/@company-ui/react" alt="npm package"></a>
   <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/company-ui/company-ui/deploy.yml?branch=main">
-  <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@company-ui/vue">
-  <img alt="npm download week" src="https://img.shields.io/npm/dw/@company-ui/vue">
+  <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@company-ui/react">
+  <img alt="npm download week" src="https://img.shields.io/npm/dw/@company-ui/react">
   <img alt="GitHub" src="https://img.shields.io/github/license/company-ui/company-ui">
   <a href="https://discord.gg/89xaVqpV"><img src="https://img.shields.io/discord/1143015541175496777" alt="Join the chat"></a>
 </p>
 
-# `@company-ui/vue`
+# `@company-ui/react`
 
-Works with both Vue 2 , Vue 3.
+Works with React.
 
 ## Installing
 
 ```bash
 # or pnpm or yarn
-npm install @company-ui/vue
+npm install @company-ui/react
 npm install @company-ui/style
 ```
 
@@ -30,12 +30,16 @@ npm install @company-ui/style
 
 ```ts
 import '@company-ui/style';
-import CompanyUI from '@company-ui/vue';
-app.use(CompanyUI);
+import { AutoComplete } from '@company-ui/react';
 ```
 
-```vue
-<autocomplete v-model="value" />
+```jsx
+<AutoComplete
+  popupAppendToBody={false}
+  defaultValue={inputValue}
+  value={inputValue}
+  onChange={setInputValue}
+></AutoComplete>
 ```
 
 ## Documentation
