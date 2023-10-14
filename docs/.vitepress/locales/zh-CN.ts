@@ -6,6 +6,7 @@ export default {
   lastUpdatedText: '上次更新',
   nav: [
     { text: '指南', link: '/zh/guide/what-is-this', activeMatch: '/guide/' },
+    { text: '组件', link: '/zh/components/autocomplete', activeMatch: '/components/' },
     { text: '配置项', link: '/zh/config/', activeMatch: '/config/' },
     {
       text: version,
@@ -25,8 +26,14 @@ export default {
         items: [
           { text: '介绍', link: '/zh/guide/what-is-this' },
           { text: '开始使用', link: '/zh/guide/getting-started' },
-          { text: '示例', link: 'zh/guide/example' },
+          // { text: '示例', link: 'zh/guide/example' },
         ],
+      },
+    ],
+    '/zh/components': [
+      {
+        text: '组件',
+        items: [{ text: 'AutoComplete 自动完成', link: 'zh/components/autocomplete' }],
       },
     ],
     '/zh/config': [

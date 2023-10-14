@@ -4,16 +4,23 @@ layout: doc
 
 # 开始
 
-## 安装
+## Vue
 
-使用 npm:
+```bash
+$ npm install @company-ui/vue
+$ npm install @company-ui/style
+```
+
+## React
+
+```bash
+$ npm install @company-ui/react
+$ npm install @company-ui/style
+```
+
+## Dom
 
 ```bash
 $ npm install @company-ui/dom
-```
-
-使用 yarn:
-
-```bash
-$ yarn add @company-ui/dom
+$ npm install @company-ui/style
 ```

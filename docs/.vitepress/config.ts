@@ -21,6 +21,7 @@ export default {
     logo: '/logo.png',
     nav: [
       { text: 'Guide', link: '/guide/what-is-this', activeMatch: '/guide/' },
+      { text: 'Components', link: '/components/autocomplete', activeMatch: '/components/' },
       { text: 'Configs', link: '/config/', activeMatch: '/config/' },
       {
         text: version,
@@ -41,8 +42,14 @@ export default {
           items: [
             { text: 'Introduce', link: '/guide/what-is-this' },
             { text: 'Getting Started', link: '/guide/getting-started' },
-            { text: 'Example', link: '/guide/example' },
+            // { text: 'Example', link: '/guide/example' },
           ],
+        },
+      ],
+      '/components': [
+        {
+          text: 'Component',
+          items: [{ text: 'AutoComplete', link: '/components/autocomplete' }],
         },
       ],
       '/config': [

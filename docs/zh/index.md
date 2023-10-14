@@ -26,7 +26,7 @@ features:
   - icon: 🔑
     title: 完全类型化的API
     details: 灵活的 API 和完整的 TypeScript 类型。
-  - icon: 📦
-    title: 极致轻量化
-    details: 大小只有 10kb 左右，你甚至可能忘记它的存在！
+  - icon: 🔩
+    title: 通用的插件
+    details: 可用于vue 2, vue 3和react。
 ---

@@ -4,12 +4,13 @@ layout: doc
 
 # What is this?
 
-This is a company info autocomplete component for browser.
+This is a company UI library.
 
 ## Features
 
 - Supports typescript
 - Rich configuration
+- Works with both Vue 2 , Vue 3 And React.
 
 ## Browser Support
 

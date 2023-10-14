@@ -26,7 +26,7 @@ features:
   - icon: 🔑
     title: Fully Typed APIs
     details: Flexible programmatic APIs with full TypeScript typing..
-  - icon: 📦
-    title: Extremely light
-    details: weighs ~10kb, you will forget it's even there!
+  - icon: 🔩
+    title: Universal Plugins
+    details: Works with both Vue 2 , Vue 3 And React.
 ---
