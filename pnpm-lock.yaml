@@ -197,8 +197,8 @@ importers:
         specifier: ^1.8.1
         version: 1.8.1(eslint@8.51.0)(vite@4.4.11)
       vitepress:
-        specifier: 1.0.0-rc.21
-        version: 1.0.0-rc.21(@algolia/client-search@4.19.1)(@types/node@20.5.1)(postcss@8.4.27)(sass@1.69.3)(search-insights@2.7.0)(terser@5.21.0)
+        specifier: 1.0.0-rc.22
+        version: 1.0.0-rc.22(@algolia/client-search@4.19.1)(@types/node@20.5.1)(postcss@8.4.27)(sass@1.69.3)(search-insights@2.7.0)(terser@5.21.0)
       vue-eslint-parser:
         specifier: ^9.3.2
         version: 9.3.2(eslint@8.51.0)
@@ -223,7 +223,7 @@ importers:
         version: 2.1.0(vue@3.3.4)
       '@vue/theme':
         specifier: ^2.2.4
-        version: 2.2.4(@algolia/client-search@4.19.1)(search-insights@2.7.0)(vitepress@1.0.0-rc.21)(vue@3.3.4)
+        version: 2.2.4(@algolia/client-search@4.19.1)(search-insights@2.7.0)(vitepress@1.0.0-rc.22)(vue@3.3.4)
       element-plus:
         specifier: ^2.3.14
         version: 2.3.14(vue@3.3.4)
@@ -5069,7 +5069,7 @@ packages:
   /@vue/shared@3.3.4:
     resolution: {integrity: sha512-7OjdcV8vQ74eiz1TZLzZP4JwqM5fA94K6yntPS5Z25r9HDuGNzaGdgvwKYq6S+MxwF0TFRwe50fIR/MYnakdkQ==}
 
-  /@vue/theme@2.2.4(@algolia/client-search@4.19.1)(search-insights@2.7.0)(vitepress@1.0.0-rc.21)(vue@3.3.4):
+  /@vue/theme@2.2.4(@algolia/client-search@4.19.1)(search-insights@2.7.0)(vitepress@1.0.0-rc.22)(vue@3.3.4):
     resolution: {integrity: sha512-6zHZNdTTnZ2ZZzA18o9hg2oUhcGeZw3/Rzl83eKZI+0M9NApaPvLNDB/qEYJkwhkC/BueY8MoRX93LudgaNVbg==}
     peerDependencies:
       vitepress: ^1.0.0-alpha.60
@@ -5079,7 +5079,7 @@ packages:
       '@vueuse/core': 9.13.0(vue@3.3.4)
       body-scroll-lock: 3.1.5
       normalize.css: 8.0.1
-      vitepress: 1.0.0-rc.21(@algolia/client-search@4.19.1)(@types/node@20.5.1)(postcss@8.4.27)(sass@1.69.3)(search-insights@2.7.0)(terser@5.21.0)
+      vitepress: 1.0.0-rc.22(@algolia/client-search@4.19.1)(@types/node@20.5.1)(postcss@8.4.27)(sass@1.69.3)(search-insights@2.7.0)(terser@5.21.0)
     transitivePeerDependencies:
       - '@algolia/client-search'
       - '@types/react'
@@ -5124,7 +5124,7 @@ packages:
       - vue
     dev: true
 
-  /@vueuse/integrations@10.5.0(focus-trap@7.5.3)(vue@3.3.4):
+  /@vueuse/integrations@10.5.0(focus-trap@7.5.4)(vue@3.3.4):
     resolution: {integrity: sha512-fm5sXLCK0Ww3rRnzqnCQRmfjDURaI4xMsx+T+cec0ngQqHx/JgUtm8G0vRjwtonIeTBsH1Q8L3SucE+7K7upJQ==}
     peerDependencies:
       async-validator: '*'
@@ -5167,7 +5167,7 @@ packages:
     dependencies:
       '@vueuse/core': 10.5.0(vue@3.3.4)
       '@vueuse/shared': 10.5.0(vue@3.3.4)
-      focus-trap: 7.5.3
+      focus-trap: 7.5.4
       vue-demi: 0.14.6(vue@3.3.4)
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -8919,8 +8919,8 @@ packages:
   /flatted@3.2.7:
     resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
 
-  /focus-trap@7.5.3:
-    resolution: {integrity: sha512-7UsT/eSJcTPF0aZp73u7hBRTABz26knRRTJfoTGFCQD5mUImLIIOwWWCrtoQdmWa7dykBi6H+Cp5i3S/kvsMeA==}
+  /focus-trap@7.5.4:
+    resolution: {integrity: sha512-N7kHdlgsO/v+iD/dMoJKtsSqs5Dz/dXZVebRgJw23LDk+jMi/974zyiOYDziY2JPp8xivq9BmUGwIJMiuSBi7w==}
     dependencies:
       tabbable: 6.2.0
     dev: true
@@ -16103,8 +16103,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitepress@1.0.0-rc.21(@algolia/client-search@4.19.1)(@types/node@20.5.1)(postcss@8.4.27)(sass@1.69.3)(search-insights@2.7.0)(terser@5.21.0):
-    resolution: {integrity: sha512-eHX057NgAqmrj6FIqh7Sqsbk/kftrFMBUpCKjuQIZ+c+bYTbmzXsXrHSbT5b4WWy4vLx1993a+H3wIRy2dHi8g==}
+  /vitepress@1.0.0-rc.22(@algolia/client-search@4.19.1)(@types/node@20.5.1)(postcss@8.4.27)(sass@1.69.3)(search-insights@2.7.0)(terser@5.21.0):
+    resolution: {integrity: sha512-n7le5iikCFgWMuX7sKfzDGJGlrsYQ5trG3S97BghNz2alOTr4Xp+GrB6ShwogUTX9gNgeNmrACjokhW55LNeBA==}
     hasBin: true
     peerDependencies:
       markdown-it-mathjax3: ^4.3.2
@@ -16120,8 +16120,8 @@ packages:
       '@types/markdown-it': 13.0.2
       '@vue/devtools-api': 6.5.1
       '@vueuse/core': 10.5.0(vue@3.3.4)
-      '@vueuse/integrations': 10.5.0(focus-trap@7.5.3)(vue@3.3.4)
-      focus-trap: 7.5.3
+      '@vueuse/integrations': 10.5.0(focus-trap@7.5.4)(vue@3.3.4)
+      focus-trap: 7.5.4
       mark.js: 8.11.1
       minisearch: 6.1.0
       postcss: 8.4.27
