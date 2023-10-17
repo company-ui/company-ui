@@ -50,8 +50,8 @@ importers:
         specifier: ^15.2.3
         version: 15.2.3(rollup@3.29.4)
       '@rollup/plugin-strip':
-        specifier: ^3.0.3
-        version: 3.0.3(rollup@3.29.4)
+        specifier: ^3.0.4
+        version: 3.0.4(rollup@3.29.4)
       '@rollup/plugin-terser':
         specifier: ^0.4.4
         version: 0.4.4(rollup@3.29.4)
@@ -3633,8 +3633,8 @@ packages:
       rollup: 2.79.1
     dev: false
 
-  /@rollup/plugin-strip@3.0.3(rollup@3.29.4):
-    resolution: {integrity: sha512-7pk6dVG4gor4x+n7FtLeMLuYMFgJvLiRqXJHwHEkAXsORaVgCmIbhOyW+In0gMov4DYwMcXdoll/5bCKeCngHA==}
+  /@rollup/plugin-strip@3.0.4(rollup@3.29.4):
+    resolution: {integrity: sha512-LDRV49ZaavxUo2YoKKMQjCxzCxugu1rCPQa0lDYBOWLj6vtzBMr8DcoJjsmg+s450RbKbe3qI9ZLaSO+O1oNbg==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
@@ -3644,7 +3644,7 @@ packages:
     dependencies:
       '@rollup/pluginutils': 5.0.4(rollup@3.29.4)
       estree-walker: 2.0.2
-      magic-string: 0.27.0
+      magic-string: 0.30.3
       rollup: 3.29.4
     dev: true
 
