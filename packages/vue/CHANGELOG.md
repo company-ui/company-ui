@@ -1,5 +1,30 @@
 # @company-ui/vue
 
+## 3.5.1
+
+### Patch Changes
+
+- [`be0f42c`](https://github.com/company-ui/company-ui/commit/be0f42cc9605f5d52e4be47f5996a1fe5ef2614e) Thanks [@zhensherlock](https://github.com/zhensherlock)! - fix(deps): update dependency @floating-ui/react to v0.26.1
+
+- [`789be70`](https://github.com/company-ui/company-ui/commit/789be7067f482cba09206da22f17c6181c587625) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency terser to v5.22.0
+
+- [`e65f0e5`](https://github.com/company-ui/company-ui/commit/e65f0e556354cb53b32a2311d404a270241040d5) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.4.0
+
+- [`2f8d843`](https://github.com/company-ui/company-ui/commit/2f8d8435a2e7cc72539aed8f081902ead54e20c5) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency lint-staged to v15.0.1
+
+- [`60dc600`](https://github.com/company-ui/company-ui/commit/60dc6001b160e28af12afa4d22da23ff8bb61896) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @rollup/plugin-commonjs to v25.0.7
+
+- [`063bee7`](https://github.com/company-ui/company-ui/commit/063bee74e7a0bf9fc1cfcbf49e4ed377018ad2c8) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @rollup/plugin-strip to v3.0.4
+
+- [`5837456`](https://github.com/company-ui/company-ui/commit/5837456f37ab7a1a4bf2e1e5eeb048c40ea0a235) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.8.0
+
+- [`d8c01e6`](https://github.com/company-ui/company-ui/commit/d8c01e640fb5afea7768d03ac0b1497fc9b324e4) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update commitlint monorepo to v17.8.0 (@commitlint/cli, @commitlint/config-conventional)
+
+- Updated dependencies [[`be0f42c`](https://github.com/company-ui/company-ui/commit/be0f42cc9605f5d52e4be47f5996a1fe5ef2614e), [`789be70`](https://github.com/company-ui/company-ui/commit/789be7067f482cba09206da22f17c6181c587625), [`e65f0e5`](https://github.com/company-ui/company-ui/commit/e65f0e556354cb53b32a2311d404a270241040d5), [`2f8d843`](https://github.com/company-ui/company-ui/commit/2f8d8435a2e7cc72539aed8f081902ead54e20c5), [`60dc600`](https://github.com/company-ui/company-ui/commit/60dc6001b160e28af12afa4d22da23ff8bb61896), [`063bee7`](https://github.com/company-ui/company-ui/commit/063bee74e7a0bf9fc1cfcbf49e4ed377018ad2c8), [`5837456`](https://github.com/company-ui/company-ui/commit/5837456f37ab7a1a4bf2e1e5eeb048c40ea0a235), [`d8c01e6`](https://github.com/company-ui/company-ui/commit/d8c01e640fb5afea7768d03ac0b1497fc9b324e4)]:
+  - @company-ui/core@3.5.1
+  - @company-ui/shared@3.5.1
+  - @company-ui/style@3.5.1
+
 ## 3.5.0
 
 ### Minor Changes
