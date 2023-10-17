@@ -13,7 +13,7 @@
 
 Works with both Vue 2 , Vue 3 And React.
 
-# Translations
+## Translations
 
 - [中文文档](README_zh.md)
 
@@ -26,9 +26,38 @@ npm install @company-ui/dom
 
 ## Usage
 
-### General
+### Vue
 
 ```ts
+import '@company-ui/style';
+import CompanyUI from '@company-ui/vue';
+app.use(CompanyUI);
+```
+
+```vue
+<autocomplete v-model="value" />
+```
+
+### React
+
+```ts
+import '@company-ui/style';
+import { AutoComplete } from '@company-ui/react';
+```
+
+```jsx
+<AutoComplete
+  popupAppendToBody={false}
+  defaultValue={inputValue}
+  value={inputValue}
+  onChange={setInputValue}
+></AutoComplete>
+```
+
+### Dom
+
+```ts
+import '@company-ui/style';
 import { CompanyAutocomplete } from '@company-ui/dom';
 
 const companyAutocomplete = new CompanyAutocomplete({

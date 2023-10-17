@@ -6,14 +6,31 @@ export default {
   lastUpdatedText: '上次更新',
   nav: [
     { text: '指南', link: '/zh/guide/what-is-this', activeMatch: '/guide/' },
-    { text: '组件', link: '/zh/components/autocomplete', activeMatch: '/components/' },
-    { text: '配置项', link: '/zh/config/', activeMatch: '/config/' },
+    {
+      text: '组件',
+      activeMatch: '/zh/components/',
+      items: [
+        {
+          text: 'Vue',
+          link: '/zh/components/vue/overview',
+        },
+        {
+          text: 'React',
+          link: '/zh/components/react/overview',
+        },
+        {
+          text: 'Dom',
+          link: '/zh/components/dom/overview',
+        },
+      ],
+    },
+    // { text: '配置项', link: '/zh/config/', activeMatch: '/config/' },
     {
       text: version,
       items: [
         {
           text: '更新日志',
-          link: 'https://github.com/company-ui/company-ui/blob/main/CHANGELOG.md',
+          link: 'https://github.com/company-ui/company-ui/blob/main/packages/core/CHANGELOG.md',
         },
       ],
     },
@@ -30,10 +47,25 @@ export default {
         ],
       },
     ],
-    '/zh/components': [
+    '/zh/components/vue/': [
+      { text: 'Vue 概览', link: '/zh/components/vue/overview' },
       {
         text: '组件',
-        items: [{ text: 'AutoComplete 自动完成', link: 'zh/components/autocomplete' }],
+        items: [{ text: 'AutoComplete 自动完成', link: '/zh/components/vue/autocomplete' }],
+      },
+    ],
+    '/zh/components/react/': [
+      { text: 'React 概览', link: '/zh/components/react/overview' },
+      {
+        text: '组件',
+        items: [{ text: 'AutoComplete 自动完成', link: '/zh/components/react/autocomplete' }],
+      },
+    ],
+    '/zh/components/dom/': [
+      { text: 'Dom 概览', link: '/zh/components/dom/overview' },
+      {
+        text: '组件',
+        items: [{ text: 'AutoComplete 自动完成', link: '/zh/components/dom/autocomplete' }],
       },
     ],
     '/zh/config': [

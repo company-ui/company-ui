@@ -30,3 +30,15 @@ features:
     title: Universal Plugins
     details: Works with both Vue 2 , Vue 3 And React.
 ---
+
+<script setup lang="ts">
+import { onMounted } from 'vue';
+onMounted(() => {
+  const image = document.querySelector('.VPHero .VPImage.image-src');
+  image.classList.add('blur');
+  setTimeout(() => {
+    image.classList.remove('blur');
+    image.classList.add('animation');
+  }, 500)
+});
+</script>

@@ -30,3 +30,15 @@ features:
     title: 通用的插件
     details: 可用于vue 2, vue 3和react。
 ---
+
+<script setup lang="ts">
+import { onMounted } from 'vue';
+onMounted(() => {
+  const image = document.querySelector('.VPHero .VPImage.image-src');
+  image.classList.add('blur');
+  setTimeout(() => {
+    image.classList.remove('blur');
+    image.classList.add('animation');
+  }, 500)
+});
+</script>

@@ -24,7 +24,14 @@
 
 .VPHero {
   .VPImage.image-src {
-    animation: blur-in 1s cubic-bezier(0, 0.55, 0.45, 1);
+    &.blur {
+      filter: brightness(1) blur(10px);
+      transform: translate(-50%, -50%) scale(0.94);
+    }
+
+    &.animation {
+      animation: blur-in 1s cubic-bezier(0, 0.55, 0.45, 1);
+    }
   }
 }
 

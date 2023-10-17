@@ -21,14 +21,31 @@ export default {
     logo: '/logo.png',
     nav: [
       { text: 'Guide', link: '/guide/what-is-this', activeMatch: '/guide/' },
-      { text: 'Components', link: '/components/autocomplete', activeMatch: '/components/' },
-      { text: 'Configs', link: '/config/', activeMatch: '/config/' },
+      {
+        text: 'Components',
+        activeMatch: '/components/',
+        items: [
+          {
+            text: 'Vue',
+            link: '/components/vue/overview',
+          },
+          {
+            text: 'React',
+            link: '/components/react/overview',
+          },
+          {
+            text: 'Dom',
+            link: '/components/dom/overview',
+          },
+        ],
+      },
+      // { text: 'Configs', link: '/config/', activeMatch: '/config/' },
       {
         text: version,
         items: [
           {
             text: 'Changelog',
-            link: 'https://github.com/company-ui/company-ui/blob/main/CHANGELOG.md',
+            link: 'https://github.com/company-ui/company-ui/blob/main/packages/core/CHANGELOG.md',
           },
         ],
       },
@@ -46,10 +63,25 @@ export default {
           ],
         },
       ],
-      '/components': [
+      '/components/vue/': [
+        { text: 'Vue Overview', link: '/components/vue/overview' },
         {
           text: 'Component',
-          items: [{ text: 'AutoComplete', link: '/components/autocomplete' }],
+          items: [{ text: 'AutoComplete', link: '/components/vue/autocomplete' }],
+        },
+      ],
+      '/components/react/': [
+        { text: 'React Overview', link: '/components/react/overview' },
+        {
+          text: 'Component',
+          items: [{ text: 'AutoComplete', link: '/components/react/autocomplete' }],
+        },
+      ],
+      '/components/dom/': [
+        { text: 'Dom Overview', link: '/components/dom/overview' },
+        {
+          text: 'Component',
+          items: [{ text: 'AutoComplete', link: '/components/dom/autocomplete' }],
         },
       ],
       '/config': [
