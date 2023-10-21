@@ -1,5 +1,33 @@
 # @company-ui/style
 
+## 3.5.2
+
+### Patch Changes
+
+- [`347e472`](https://github.com/company-ui/company-ui/commit/347e472ce2f652280fc643114f8aee2768e512a0) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency sass to v1.69.4
+
+- [`9cab125`](https://github.com/company-ui/company-ui/commit/9cab125b74380f92e4225c9d6005c5df43720f1b) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint to v8.52.0
+
+- [`3b2a591`](https://github.com/company-ui/company-ui/commit/3b2a5912f5a7fda6e9b79ebe6bf9a4442f942bf1) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @types/crypto-js to v4.1.3
+
+- [`d38919b`](https://github.com/company-ui/company-ui/commit/d38919b6640e81e51bfda1cd5e308d937af88faa) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency lint-staged to v15.0.2
+
+- [`d78c362`](https://github.com/company-ui/company-ui/commit/d78c362cf4c85d2a40391e25896a90b151f3b59a) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v4.5.0
+
+- [`49e8614`](https://github.com/company-ui/company-ui/commit/49e861451de5baeffadb9e7d276262ba5efe48a7) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency core-js to v3.33.1
+
+- [`6d07838`](https://github.com/company-ui/company-ui/commit/6d078389eb7815a393ff74c8de2318cae24e58a1) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @types/markdown-it to v13.0.4
+
+- [`750c7ed`](https://github.com/company-ui/company-ui/commit/750c7ed6ad10d36a5401299691e79d7f4ec91c69) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update react monorepo (@types/react, @types/react-dom)
+
+- [`4733e40`](https://github.com/company-ui/company-ui/commit/4733e406652839f13255b0bbf7aa798256b20c12) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vue to v3.3.6
+
+- [`9337e47`](https://github.com/company-ui/company-ui/commit/9337e47b0042fabf402c5cfd4f4dd826f0d3c236) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.4.1
+
+- [`6a6f260`](https://github.com/company-ui/company-ui/commit/6a6f260ee128d7fb8d72cf25ed3bc5e7b1c6edc8) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency stylelint to v15.11.0
+
+- [`112a484`](https://github.com/company-ui/company-ui/commit/112a484948d6a372a84ee1a2a9e90d4331bac39f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency concurrently to v8.2.2
+
 ## 3.5.1
 
 ### Patch Changes
