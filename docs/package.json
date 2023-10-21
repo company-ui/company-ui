@@ -2,7 +2,7 @@
   "name": "@company-ui/docs",
   "version": "3.5.1",
   "private": true,
-  "description": "Company UI docs",
+  "description": "company ui docs",
   "scripts": {
     "dev": "vitepress dev .",
     "build": "vitepress build .",

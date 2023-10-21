@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://company-ui.github.io/company-ui/" target="_blank" rel="noopener noreferrer">
-    <img width="300" src="https://company-ui.github.io/company-ui/logo-text.png" alt="company ui">
+    <img height="100" src="https://company-ui.github.io/company-ui/full-logo.png" alt="company ui">
   </a>
 </p>
 <p align="center">
@@ -24,6 +24,8 @@ npm install @company-ui/dom
 
 ### Vue
 
+<a href="https://npmjs.com/package/@company-ui/vue"><img src="https://badgen.net/npm/v/@company-ui/vue" alt="npm package"></a>
+
 ```ts
 import '@company-ui/style';
 import CompanyUI from '@company-ui/vue';
@@ -35,6 +37,8 @@ app.use(CompanyUI);
 ```
 
 ### React
+
+<a href="https://npmjs.com/package/@company-ui/react"><img src="https://badgen.net/npm/v/@company-ui/react" alt="npm package"></a>
 
 ```ts
 import '@company-ui/style';
@@ -51,6 +55,8 @@ import { AutoComplete } from '@company-ui/react';
 ```
 
 ### Dom
+
+<a href="https://npmjs.com/package/@company-ui/dom"><img src="https://badgen.net/npm/v/@company-ui/dom" alt="npm package"></a>
 
 ```ts
 import '@company-ui/style';

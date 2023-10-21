@@ -2,7 +2,7 @@
   "name": "@company-ui/playground-vue2.7",
   "version": "3.5.1",
   "private": true,
-  "description": "Company UI playground",
+  "description": "company ui playground-vue2.7",
   "scripts": {
     "switch:2": "vue-demi-switch 2",
     "dev": "npm run switch:2 && vite"

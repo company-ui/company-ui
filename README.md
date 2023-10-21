@@ -28,6 +28,8 @@ npm install @company-ui/dom
 
 ### Vue
 
+<a href="https://npmjs.com/package/@company-ui/vue"><img src="https://badgen.net/npm/v/@company-ui/vue" alt="npm package"></a>
+
 ```ts
 import '@company-ui/style';
 import CompanyUI from '@company-ui/vue';
@@ -39,6 +41,8 @@ app.use(CompanyUI);
 ```
 
 ### React
+
+<a href="https://npmjs.com/package/@company-ui/react"><img src="https://badgen.net/npm/v/@company-ui/react" alt="npm package"></a>
 
 ```ts
 import '@company-ui/style';
@@ -55,6 +59,8 @@ import { AutoComplete } from '@company-ui/react';
 ```
 
 ### Dom
+
+<a href="https://npmjs.com/package/@company-ui/dom"><img src="https://badgen.net/npm/v/@company-ui/dom" alt="npm package"></a>
 
 ```ts
 import '@company-ui/style';

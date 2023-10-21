@@ -1,5 +1,5 @@
 ---
-name: "🐛 Bug Report (缺陷反馈)"
+name: '🐛 Bug Report (缺陷反馈)'
 about: '报告错误以帮助我们改进'
 labels: '🐛 Bug'
 ---
@@ -26,7 +26,7 @@ labels: '🐛 Bug'
 
 ### 环境详情
 
-- **`company-autocomplete` version:**
+- **`@company-ui/*` version:**
 - **`vue` version:**
 - **`react` version:**
 - **`react-dom` version:**

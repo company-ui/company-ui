@@ -2,7 +2,7 @@
   "name": "@company-ui/autocomplete-vue-rollup",
   "version": "3.5.1",
   "private": true,
-  "description": "Company UI autocomplete vue",
+  "description": "company ui autocomplete vue",
   "author": "zhensherlock",
   "homepage": "https://github.com/company-ui/company-ui/tree/master/packages/autocomplete-vue-rollup#readme",
   "keywords": [
