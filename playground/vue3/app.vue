@@ -3,6 +3,7 @@
     <h1>Company UI Vue3 Playground</h1>
     <autocomplete
       v-model="value"
+      @change="handleChange"
       @fetch="handleFetch"
       @abortFetch="handleAbortFetch"
       @select="handleSelect"
@@ -19,6 +20,9 @@
   import { autocomplete } from '../../packages/vue/src/main';
 
   const value = ref('');
+  const handleChange = (text) => {
+    console.log('change', text);
+  };
   const handleFetch = (data) => {
     console.log('fetch', data);
   };
