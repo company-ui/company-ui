@@ -13,12 +13,7 @@ import { AutoComplete } from '@company-ui/react';
 
 const [inputValue, setInputValue] = useState('');
 
-<AutoComplete
-  placeholder="Input company name"
-  defaultValue={inputValue}
-  value={inputValue}
-  onChange={setInputValue}
-/>;
+<AutoComplete defaultValue={inputValue} value={inputValue} onChange={setInputValue} />;
 ```
 
 ## 其他数据源用法
@@ -36,6 +31,7 @@ const [inputValue, setInputValue] = useState('');
   api="qcc_open"
   historyStorageKey="qcc-open-company-history"
   submitButtonLabel="查一查"
+  placeholder="请输入企业名称或统一社会信用代码"
   autoFocus={false}
   onChange={setInputValue}
 />;
@@ -51,7 +47,7 @@ const [inputValue, setInputValue] = useState('');
 | value | 输入框内容 | `string` | - |
 | api | 查询数据源 | `string` | clearbit |
 | queryDelay | 查询数据延迟 | `number` | 500 |
-| placeholder | 输入占位符内容 | `string` | 请输入企业名称或统一社会信用代码 |
+| placeholder | 输入占位符内容 | `string` | Input company name |
 | clearable | 显示清除按钮 | `boolean` | true |
 | backFill | 使用键盘选择选项的时候把选中项回填到输入框中 | `boolean` | true |
 | popupAppendToBody | 是否插入至 body 元素上 | `boolean` | true |

@@ -26,7 +26,7 @@ placeholder="Input company name"
 />
 
 ```vue
-<autocomplete v-model="value" placeholder="Input company name" />
+<autocomplete v-model="value" />
 ```
 
 ## 其他数据源用法
@@ -46,6 +46,7 @@ submit-button-label="查一查"
   history-storage-key="qcc-open-company-history"
   :auto-focus="false"
   submit-button-label="查一查"
+  placeholder="请输入企业名称或统一社会信用代码"
 />
 ```
 
@@ -58,7 +59,7 @@ submit-button-label="查一查"
 | v-model | 绑定值 | `string` | - |
 | api | 查询数据源 | `string` | clearbit |
 | query-delay | 查询数据延迟 | `number` | 500 |
-| placeholder | 输入占位符内容 | `string` | 请输入企业名称或统一社会信用代码 |
+| placeholder | 输入占位符内容 | `string` | Input company name |
 | clearable | 显示清除按钮 | `boolean` | true |
 | backFill | 使用键盘选择选项的时候把选中项回填到输入框中 | `boolean` | true |
 | popup-append-to-body | 是否插入至 body 元素上 | `boolean` | true |
@@ -77,6 +78,7 @@ submit-button-label="查一查"
 | Name                    | Description                | Type       |
 | ----------------------- | -------------------------- | ---------- |
 | input                   | 当输入值改变时触发         | `Function` |
+| change                  | 当输入值改变时触发         | `Function` |
 | fetch                   | 查询数据时触发             | `Function` |
 | abort-fetch             | 当中止查询数据时触发       | `Function` |
 | select                  | 当单击建议时触发           | `Function` |

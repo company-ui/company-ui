@@ -21,22 +21,23 @@ onMounted(() => {
 ## Basic Usage
 
 <autocomplete
-  v-model="value1"
-  placeholder="Input company name"
+v-model="value1"
+placeholder="Input company name"
 />
 
 ```vue
-<autocomplete v-model="value" placeholder="Input company name" />
+<autocomplete v-model="value" />
 ```
 
 ## Data Source Usage
 
 <autocomplete
-  v-model="value2"
-  api="qcc_open"
-  history-storage-key="qcc-open-company-history"
-  :auto-focus="false"
-  submit-button-label="查一查"
+v-model="value2"
+api="qcc_open"
+history-storage-key="qcc-open-company-history"
+:auto-focus="false"
+submit-button-label="查一查"
+placeholder="请输入企业名称或统一社会信用代码"
 />
 
 ```vue
@@ -46,6 +47,7 @@ onMounted(() => {
   history-storage-key="qcc-open-company-history"
   :auto-focus="false"
   submit-button-label="查一查"
+  placeholder="请输入企业名称或统一社会信用代码"
 />
 ```
 
@@ -58,7 +60,7 @@ onMounted(() => {
 | v-model | binding value | `string` | - |
 | api | query source | `string` | clearbit |
 | query-delay | query delay | `number` | 500 |
-| placeholder | input placeholder content | `string` | 请输入企业名称或统一社会信用代码 |
+| placeholder | input placeholder content | `string` | Input company name |
 | clearable | show clear button | `boolean` | true |
 | backFill | If backFill selected item the input when using keyboard | `boolean` | true |
 | popup-append-to-body | whether to append Dialog itself to body | `boolean` | true |
@@ -77,6 +79,7 @@ onMounted(() => {
 | Name | Description | Type |
 | --- | --- | --- |
 | input | triggers when the input value change | `Function` |
+| change | triggers when the input value change | `Function` |
 | fetch | triggers when query data | `Function` |
 | abort-fetch | triggers when abort query data | `Function` |
 | select | triggers when a suggestion is clicked | `Function` |

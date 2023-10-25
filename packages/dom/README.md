@@ -30,9 +30,9 @@ npm install @company-ui/style
 
 ```ts
 import '@company-ui/style';
-import { CompanyAutocomplete } from '@company-ui/dom';
+import { Autocomplete } from '@company-ui/dom';
 
-const companyAutocomplete = new CompanyAutocomplete({
+new Autocomplete({
   target: '#example',
 });
 ```

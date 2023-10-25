@@ -16,12 +16,7 @@ import { AutoComplete } from '@company-ui/react';
 
 const [inputValue, setInputValue] = useState('');
 
-<AutoComplete
-  placeholder="Input company name"
-  defaultValue={inputValue}
-  value={inputValue}
-  onChange={setInputValue}
-/>;
+<AutoComplete defaultValue={inputValue} value={inputValue} onChange={setInputValue} />;
 ```
 
 ## Data Source Usage
@@ -39,6 +34,7 @@ const [inputValue, setInputValue] = useState('');
   api="qcc_open"
   historyStorageKey="qcc-open-company-history"
   submitButtonLabel="查一查"
+  placeholder="请输入企业名称或统一社会信用代码"
   autoFocus={false}
   onChange={setInputValue}
 />;
@@ -54,7 +50,7 @@ const [inputValue, setInputValue] = useState('');
 | value | the input content value | `string` | - |
 | api | query source | `string` | clearbit |
 | queryDelay | query delay | `number` | 500 |
-| placeholder | input placeholder content | `string` | 请输入企业名称或统一社会信用代码 |
+| placeholder | input placeholder content | `string` | Input company name |
 | clearable | show clear button | `boolean` | true |
 | backFill | If backFill selected item the input when using keyboard | `boolean` | true |
 | popupAppendToBody | whether to append Dialog itself to body | `boolean` | true |

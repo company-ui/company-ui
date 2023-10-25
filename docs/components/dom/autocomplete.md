@@ -7,19 +7,19 @@ layout: doc
 <script setup lang="ts">
 import { onMounted } from 'vue';
 import '@company-ui/style';
-import { CompanyAutocomplete } from '@company-ui/dom';
+import { Autocomplete } from '@company-ui/dom';
 
 onMounted(() => {
-  new CompanyAutocomplete({
-    target: '#autocomplete1',
-    placeholder: 'Input company name'
+  new Autocomplete({
+    target: '#autocomplete1'
   });
-  new CompanyAutocomplete({
+  new Autocomplete({
     api: 'qcc_open',
     target: '#autocomplete2',
     autoFocus: false,
     submitButtonLabel: '查一查',
-    historyStorageKey: 'qcc-open-company-history'
+    historyStorageKey: 'qcc-open-company-history',
+    placeholder: '请输入企业名称或统一社会信用代码'
   });
 })
 </script>
@@ -30,11 +30,10 @@ onMounted(() => {
 
 ```ts
 import '@company-ui/style';
-import { CompanyAutocomplete } from '@company-ui/dom';
+import { Autocomplete } from '@company-ui/dom';
 
-new CompanyAutocomplete({
+new Autocomplete({
   target: '#autocomplete1',
-  placeholder: 'Input company name',
 });
 ```
 
@@ -44,14 +43,15 @@ new CompanyAutocomplete({
 
 ```ts
 import '@company-ui/style';
-import { CompanyAutocomplete } from '@company-ui/dom';
+import { Autocomplete } from '@company-ui/dom';
 
-new CompanyAutocomplete({
+new Autocomplete({
   api: 'qcc_open',
   target: '#autocomplete2',
   autoFocus: false,
   submitButtonLabel: '查一查',
   historyStorageKey: 'qcc-open-company-history',
+  placeholder: '请输入企业名称或统一社会信用代码',
 });
 ```
 
@@ -64,7 +64,7 @@ new CompanyAutocomplete({
 | target | id of the html element tag | `string` | - |
 | api | query data source | `string` | clearbit |
 | queryDelay | query data delay | `number` | 500 |
-| placeholder | input placeholder content | `string` | 请输入企业名称或统一社会信用代码 |
+| placeholder | input placeholder content | `string` | Input company name |
 | clearable | show clear button | `boolean` | true |
 | backFill | If backFill selected item the input when using keyboard | `boolean` | true |
 | popupAppendToBody | whether to append Dialog itself to body | `boolean` | true |
@@ -92,11 +92,13 @@ new CompanyAutocomplete({
 
 | Name | Description | Type |
 | --- | --- | --- |
+| onInput | triggers when the input value change | `Function` |
+| onChange | triggers when the input value change | `Function` |
 | onFetch | triggers when query data | `Function` |
 | onAbortFetch | triggers when abort query data | `Function` |
 | onSelect | triggers when a suggestion is clicked | `Function` |
 | onClear | triggers when the input is cleared by clicking the clear button | `Function` |
 | onFocus | triggers when the input focuses | `Function` |
 | onBlur | triggers when the input blurs | `Function` |
-| submitCallback | triggers when the button submit | `Function` |
+| onSubmit | triggers when the button submit | `Function` |
 | onDropdownVisibleChange | triggers when the dropdown appears/disappears | `Function` |

@@ -7,19 +7,19 @@ layout: doc
 <script setup lang="ts">
 import { onMounted } from 'vue';
 import '@company-ui/style';
-import { CompanyAutocomplete } from '@company-ui/dom';
+import { Autocomplete } from '@company-ui/dom';
 
 onMounted(() => {
-  new CompanyAutocomplete({
-    target: '#autocomplete1',
-    placeholder: 'Input company name'
+  new Autocomplete({
+    target: '#autocomplete1'
   });
-  new CompanyAutocomplete({
+  new Autocomplete({
     api: 'qcc_open',
     target: '#autocomplete2',
     autoFocus: false,
     submitButtonLabel: '查一查',
-    historyStorageKey: 'qcc-open-company-history'
+    historyStorageKey: 'qcc-open-company-history',
+    placeholder: '请输入企业名称或统一社会信用代码'
   });
 })
 </script>
@@ -30,9 +30,9 @@ onMounted(() => {
 
 ```ts
 import '@company-ui/style';
-import { CompanyAutocomplete } from '@company-ui/dom';
+import { Autocomplete } from '@company-ui/dom';
 
-new CompanyAutocomplete({
+new Autocomplete({
   target: '#autocomplete1',
   placeholder: 'Input company name',
 });
@@ -44,9 +44,9 @@ new CompanyAutocomplete({
 
 ```ts
 import '@company-ui/style';
-import { CompanyAutocomplete } from '@company-ui/dom';
+import { Autocomplete } from '@company-ui/dom';
 
-new CompanyAutocomplete({
+new Autocomplete({
   api: 'qcc_open',
   target: '#autocomplete2',
   autoFocus: false,
@@ -64,7 +64,7 @@ new CompanyAutocomplete({
 | target | HTML元素标签的id | `string` | - |
 | api | 查询数据源 | `string` | clearbit |
 | queryDelay | 查询数据延迟 | `number` | 500 |
-| placeholder | 输入占位符内容 | `string` | 请输入企业名称或统一社会信用代码 |
+| placeholder | 输入占位符内容 | `string` | Input company name |
 | clearable | 显示清除按钮 | `boolean` | true |
 | backFill | 使用键盘选择选项的时候把选中项回填到输入框中 | `boolean` | true |
 | popupAppendToBody | 是否插入至 body 元素上 | `boolean` | true |
@@ -92,6 +92,8 @@ new CompanyAutocomplete({
 
 | Name                    | Description                | Type       |
 | ----------------------- | -------------------------- | ---------- |
+| onInput                 | 当输入值改变时触发         | `Function` |
+| onChange                | 当输入值改变时触发         | `Function` |
 | onFetch                 | 查询数据时触发             | `Function` |
 | onAbortFetch            | 当中止查询数据时触发       | `Function` |
 | onSelect                | 当单击建议时触发           | `Function` |

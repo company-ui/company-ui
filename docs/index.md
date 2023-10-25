@@ -39,6 +39,9 @@ onMounted(() => {
   setTimeout(() => {
     image.classList.remove('blur');
     image.classList.add('animation');
+    setTimeout(() => {
+      image.classList.remove('animation');
+    }, 1000)
   }, 500)
 });
 </script>

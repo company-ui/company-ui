@@ -17,18 +17,11 @@ Works with both Vue 2 , Vue 3 And React.
 
 - [中文文档](README_zh.md)
 
-## Installing
-
-```bash
-# or pnpm or yarn
-npm install @company-ui/dom
-```
-
 ## Usage
 
 ### Vue
 
-<a href="https://npmjs.com/package/@company-ui/vue"><img src="https://badgen.net/npm/v/@company-ui/vue" alt="npm package"></a>
+<a href="https://npmjs.com/package/@company-ui/vue"><img src="https://badgen.net/npm/v/@company-ui/vue" alt="npm package"></a> <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@company-ui/vue">
 
 ```ts
 import '@company-ui/style';
@@ -42,7 +35,7 @@ app.use(CompanyUI);
 
 ### React
 
-<a href="https://npmjs.com/package/@company-ui/react"><img src="https://badgen.net/npm/v/@company-ui/react" alt="npm package"></a>
+<a href="https://npmjs.com/package/@company-ui/react"><img src="https://badgen.net/npm/v/@company-ui/react" alt="npm package"></a> <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@company-ui/react">
 
 ```ts
 import '@company-ui/style';
@@ -60,13 +53,13 @@ import { AutoComplete } from '@company-ui/react';
 
 ### Dom
 
-<a href="https://npmjs.com/package/@company-ui/dom"><img src="https://badgen.net/npm/v/@company-ui/dom" alt="npm package"></a>
+<a href="https://npmjs.com/package/@company-ui/dom"><img src="https://badgen.net/npm/v/@company-ui/dom" alt="npm package"></a> <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@company-ui/dom">
 
 ```ts
 import '@company-ui/style';
-import { CompanyAutocomplete } from '@company-ui/dom';
+import { Autocomplete } from '@company-ui/dom';
 
-const companyAutocomplete = new CompanyAutocomplete({
+new Autocomplete({
   target: '#example',
 });
 ```
