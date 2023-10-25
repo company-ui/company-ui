@@ -1,5 +1,50 @@
 # @company-ui/react
 
+## 3.5.3
+
+### Patch Changes
+
+- [`3eb1baa`](https://github.com/company-ui/company-ui/commit/3eb1baa69bbe1cbf8f745e1ffcd72b6175334df9) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4
+
+- [`45277b6`](https://github.com/company-ui/company-ui/commit/45277b6f54a9656a080bcb6f56f51cb40d94f476) Thanks [@zhensherlock](https://github.com/zhensherlock)! - replace CompanyAutocomplete with Autocomplete
+
+- [`ad55b48`](https://github.com/company-ui/company-ui/commit/ad55b487e538fb4f6ccb300d6da456657d9c2c68) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @types/markdown-it to v13.0.5
+
+- [`f0d58d1`](https://github.com/company-ui/company-ui/commit/f0d58d19331b061150fa600b7c44717d6c426b7d) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite-plugin-dts to v3.6.1
+
+- [`9a7142e`](https://github.com/company-ui/company-ui/commit/9a7142e37e53d09100b44cab34147fb7f7c29ad3) Thanks [@zhensherlock](https://github.com/zhensherlock)! - fix(deps): update dependency crypto-js to v4.2.0
+
+- [`930f6e2`](https://github.com/company-ui/company-ui/commit/930f6e26a7acc50469326a06aa6b819e4418d381) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update react monorepo (@types/react, @types/react-dom)
+
+- [`7f4c703`](https://github.com/company-ui/company-ui/commit/7f4c703514e171d412fcc43822e74c2b5fa0ec4e) Thanks [@zhensherlock](https://github.com/zhensherlock)! - fix suggestion highlight not work
+
+- [`e72cea5`](https://github.com/company-ui/company-ui/commit/e72cea5a92aa5fac4a4922bb90f03662c35e7f2b) Thanks [@zhensherlock](https://github.com/zhensherlock)! - add change and input event
+
+- [`17576b1`](https://github.com/company-ui/company-ui/commit/17576b173046836e7a6615c2845c139772ee8f4f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - update props default value
+
+- [`e277734`](https://github.com/company-ui/company-ui/commit/e27773456223c442c23f19c42fa2bf59f96969f4) Thanks [@zhensherlock](https://github.com/zhensherlock)! - fix(deps): update dependency crypto-js to v4.2.0
+
+- [`1d92c7d`](https://github.com/company-ui/company-ui/commit/1d92c7d3fee4756838fedf5a5f8a0cb49058749a) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update vue monorepo
+
+- [`bbb4d36`](https://github.com/company-ui/company-ui/commit/bbb4d36774ab5a4a1a54afab354c35dd176f974a) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update vue monorepo
+
+- [`25f12d5`](https://github.com/company-ui/company-ui/commit/25f12d503a3781a37645516ff53b1977253f4a30) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-vue to v9.18.0
+
+- [`44210e2`](https://github.com/company-ui/company-ui/commit/44210e2b2d20c1886ca113340ca6ba0f795edc5b) Thanks [@zhensherlock](https://github.com/zhensherlock)! - update placeholder default value
+
+- [`6fc9999`](https://github.com/company-ui/company-ui/commit/6fc99999aa7fc0836c9c318f0ef2ef25ac4f6515) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-import to v2.29.0
+
+- [`6ad31a9`](https://github.com/company-ui/company-ui/commit/6ad31a90f5b4983255e9a8200783e227459860c3) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.9.0
+
+- [`9650b52`](https://github.com/company-ui/company-ui/commit/9650b529177db0e7b9530ab5a18dec08dac82bbd) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update unocss monorepo to v0.57.1 (@unocss/postcss, unocss)
+
+- [`f0b9fd1`](https://github.com/company-ui/company-ui/commit/f0b9fd14ea27f0029277cbe16de1e2b0add22d76) Thanks [@zhensherlock](https://github.com/zhensherlock)! - replace submitCallback with onSubmit
+
+- Updated dependencies [[`3eb1baa`](https://github.com/company-ui/company-ui/commit/3eb1baa69bbe1cbf8f745e1ffcd72b6175334df9), [`45277b6`](https://github.com/company-ui/company-ui/commit/45277b6f54a9656a080bcb6f56f51cb40d94f476), [`ad55b48`](https://github.com/company-ui/company-ui/commit/ad55b487e538fb4f6ccb300d6da456657d9c2c68), [`f0d58d1`](https://github.com/company-ui/company-ui/commit/f0d58d19331b061150fa600b7c44717d6c426b7d), [`9a7142e`](https://github.com/company-ui/company-ui/commit/9a7142e37e53d09100b44cab34147fb7f7c29ad3), [`930f6e2`](https://github.com/company-ui/company-ui/commit/930f6e26a7acc50469326a06aa6b819e4418d381), [`7f4c703`](https://github.com/company-ui/company-ui/commit/7f4c703514e171d412fcc43822e74c2b5fa0ec4e), [`e72cea5`](https://github.com/company-ui/company-ui/commit/e72cea5a92aa5fac4a4922bb90f03662c35e7f2b), [`17576b1`](https://github.com/company-ui/company-ui/commit/17576b173046836e7a6615c2845c139772ee8f4f), [`e277734`](https://github.com/company-ui/company-ui/commit/e27773456223c442c23f19c42fa2bf59f96969f4), [`1d92c7d`](https://github.com/company-ui/company-ui/commit/1d92c7d3fee4756838fedf5a5f8a0cb49058749a), [`bbb4d36`](https://github.com/company-ui/company-ui/commit/bbb4d36774ab5a4a1a54afab354c35dd176f974a), [`25f12d5`](https://github.com/company-ui/company-ui/commit/25f12d503a3781a37645516ff53b1977253f4a30), [`44210e2`](https://github.com/company-ui/company-ui/commit/44210e2b2d20c1886ca113340ca6ba0f795edc5b), [`6fc9999`](https://github.com/company-ui/company-ui/commit/6fc99999aa7fc0836c9c318f0ef2ef25ac4f6515), [`6ad31a9`](https://github.com/company-ui/company-ui/commit/6ad31a90f5b4983255e9a8200783e227459860c3), [`9650b52`](https://github.com/company-ui/company-ui/commit/9650b529177db0e7b9530ab5a18dec08dac82bbd), [`f0b9fd1`](https://github.com/company-ui/company-ui/commit/f0b9fd14ea27f0029277cbe16de1e2b0add22d76)]:
+  - @company-ui/core@3.5.3
+  - @company-ui/shared@3.5.3
+  - @company-ui/style@3.5.3
+
 ## 3.5.2
 
 ### Patch Changes
