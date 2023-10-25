@@ -4,7 +4,7 @@ export const initialOptions: CompanyAutocompleteOptions = {
   target: 'body',
   api: 'clearbit',
   queryDelay: 500,
-  placeholder: '请输入企业名称或统一社会信用代码',
+  placeholder: 'Input company name',
   clearable: true,
   backFill: false,
   popupAppendToBody: true,
