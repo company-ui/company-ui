@@ -100,6 +100,7 @@ class CompanyAutocomplete {
         this.clearSuggestion();
         this.hideSuggestion();
       }
+      this.options?.onInput(value);
     });
     this.inputElement?.addEventListener(
       'input',
@@ -108,6 +109,10 @@ class CompanyAutocomplete {
         value && this.handleQuerySuggestion(value);
       }, this.options.queryDelay)
     );
+    this.inputElement?.addEventListener('change', (e) => {
+      const value = (<HTMLInputElement>e.target).value;
+      this.options?.onChange(value);
+    });
 
     this.inputElement?.addEventListener('click', (e) => {
       const value = (<HTMLInputElement>e.target).value;

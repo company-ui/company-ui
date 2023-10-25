@@ -20,6 +20,7 @@
         :placeholder="placeholder"
         @input="handleInput"
         @click="handleInputClick"
+        @change="handleInputChange"
         @focus="handleInputFocus"
         @blur="handleInputBlur"
       />
@@ -177,6 +178,7 @@
     },
     emits: [
       isVue2 ? 'modelChange' : 'update:modelValue',
+      'change',
       'input',
       'fetch',
       'abortFetch',
@@ -312,6 +314,10 @@
           this.latestKeyword = '';
           this.handleShowHistory();
         }
+      },
+      handleInputChange(event: Event) {
+        const { value } = event.target as HTMLInputElement;
+        this.$emit('change', value);
       },
       handleInputFocus() {
         this.$emit('focus');
