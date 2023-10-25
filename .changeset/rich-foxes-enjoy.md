@@ -1,13 +1,13 @@
 ---
-'@company-ui/autocomplete-core': major
-'@company-ui/autocomplete-dom': major
-'@company-ui/autocomplete-vue-rollup': major
-'@company-ui/core': major
-'@company-ui/dom': major
-'@company-ui/react': major
-'@company-ui/shared': major
-'@company-ui/style': major
-'@company-ui/vue': major
+'@company-ui/autocomplete-core': patch
+'@company-ui/autocomplete-dom': patch
+'@company-ui/autocomplete-vue-rollup': patch
+'@company-ui/core': patch
+'@company-ui/dom': patch
+'@company-ui/react': patch
+'@company-ui/shared': patch
+'@company-ui/style': patch
+'@company-ui/vue': patch
 ---
 
 chore(deps): update react monorepo (@types/react, @types/react-dom)
