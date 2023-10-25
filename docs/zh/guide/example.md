@@ -6,7 +6,7 @@ layout: doc
 
 <script setup lang="ts">
 import { getCurrentInstance, ref, onMounted } from 'vue';
-import { CompanyAutocomplete } from '@company-ui/dom';
+import { Autocomplete } from '@company-ui/dom';
 import '@company-ui/style';
 
 const app = getCurrentInstance();
@@ -14,12 +14,12 @@ const app = getCurrentInstance();
 const apiType = ref('clearbit');
 
 onMounted(() => {
-  new CompanyAutocomplete({
+  new Autocomplete({
     api: 'clearbit',
     target: '#clearbit_input',
     autoFocus: true
   });
-  new CompanyAutocomplete({
+  new Autocomplete({
     api: 'qcc_open',
     target: '#qcc_open_input',
     autoFocus: true
@@ -33,10 +33,10 @@ onMounted(() => {
 </div>
 
 ```js
-import { CompanyAutocomplete } from '@company-ui/dom';
+import { Autocomplete } from '@company-ui/dom';
 import '@company-ui/style';
 
-const companyAutocomplete = new CompanyAutocomplete({
+const Autocomplete = new Autocomplete({
   api: 'clearbit',
   target: '#example',
 });
@@ -48,10 +48,10 @@ const companyAutocomplete = new CompanyAutocomplete({
 </div>
 
 ```js
-import { CompanyAutocomplete } from '@company-ui/dom';
+import { Autocomplete } from '@company-ui/dom';
 import '@company-ui/style';
 
-const companyAutocomplete = new CompanyAutocomplete({
+const Autocomplete = new Autocomplete({
   api: 'qcc_open',
   target: '#example',
 });
