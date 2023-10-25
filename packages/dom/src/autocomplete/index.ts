@@ -3,7 +3,7 @@ import { debounce, clickOutside, isFunction, isString, removeHtmlTags } from '@c
 import { computePosition, autoUpdate, size, offset, flip } from '@floating-ui/dom';
 import { setSuggestionItemClass } from './utils';
 
-class CompanyAutocomplete {
+class Autocomplete {
   private readonly options: autocomplete.Type.CompanyAutocompleteOptions;
   private readonly target: Element | null;
   private suggestions: autocomplete.Type.CompanyDataType[] = [];
@@ -347,4 +347,4 @@ class CompanyAutocomplete {
   }
 }
 
-export { CompanyAutocomplete };
+export { Autocomplete };
