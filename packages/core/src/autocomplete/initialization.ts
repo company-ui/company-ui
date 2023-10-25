@@ -29,11 +29,11 @@ export const initialOptions: CompanyAutocompleteOptions = {
   onClear: () => {},
   onFocus: () => {},
   onBlur: () => {},
+  onSubmit: () => {},
   onDropdownVisibleChange: () => {},
   showSubmitButton: true,
   submitButtonLabel: 'Submit',
   offsetTop: 5,
   autoFlip: false,
-  submitCallback: () => {},
   // direction: 'ltr'
 };

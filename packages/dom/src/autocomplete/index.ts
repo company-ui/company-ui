@@ -262,7 +262,7 @@ class CompanyAutocomplete {
   }
 
   private handleSubmit(text: string) {
-    this.options.submitCallback({
+    this.options.onSubmit({
       company: this.selectCompany,
       text,
     });

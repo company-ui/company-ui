@@ -67,33 +67,45 @@ export interface CompanyAutocompleteOptions {
    */
   autoFocus: Boolean;
   /**
-   * Called when searching items
+   * triggers when the input value change
+   */
+  onInput: Function;
+  /**
+   * triggers when the input value change
+   */
+  onChange: Function;
+  /**
+   * triggers when query data
    */
   onFetch: Function;
   /**
-   * Called when an option is selected. param is option's value
+   * triggers when abort query data
+   */
+  onAbortFetch: Function;
+  /**
+   * triggers when a suggestion is clicked
    */
   onSelect: Function;
   /**
-   * Called when clear
+   * triggers when the input is cleared by clicking the clear button
    */
   onClear: Function;
   /**
-   * Called when entering the component
+   * triggers when the input focuses
    */
   onFocus: Function;
   /**
-   * Called when leaving the component
+   * triggers when the input blurs
    */
   onBlur: Function;
   /**
-   * Call when dropdown open
+   * triggers when the button submit
+   */
+  onSubmit: Function;
+  /**
+   * triggers when the dropdown appears/disappears
    */
   onDropdownVisibleChange: Function;
-  /**
-   * Call when abort fetch
-   */
-  onAbortFetch: Function;
   /**
    * search query api url
    */
@@ -122,10 +134,6 @@ export interface CompanyAutocompleteOptions {
    * submit button label
    */
   submitButtonLabel: string;
-  /**
-   * submit callback
-   */
-  submitCallback: Function;
   /**
    * set direction of layout
    */
