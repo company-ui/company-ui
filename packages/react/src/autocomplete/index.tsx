@@ -138,7 +138,7 @@ const AutoComponent: React.FC<AutoCompleteProps> = (props) => {
     setAbortController(ac);
     autocomplete
       .handleQueryData(value.trim(), api, ac)
-      .then(({ data }) => {
+      .then(({ data }: { data: autocomplete.Type.CompanyDataType[] }) => {
         setLatestKeyword(value.trim());
         setSuggestions(data);
         showSuggestion('fetch', data);
@@ -371,7 +371,10 @@ const AutoComponent: React.FC<AutoCompleteProps> = (props) => {
                   )}
                   {item.avatar && <img alt={item.id} src={item.avatar} />}
                 </div>
-                <div className="suggestion__label">{item.name}</div>
+                <div
+                  className="suggestion__label"
+                  dangerouslySetInnerHTML={{ __html: item.name }}
+                ></div>
                 <div className="suggestion__extra"></div>
               </div>
             ))}

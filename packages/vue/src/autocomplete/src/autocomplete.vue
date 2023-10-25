@@ -64,9 +64,7 @@
               />
               <img :alt="item.id" :src="item.avatar" v-else-if="item.avatar" />
             </div>
-            <div class="suggestion__label">
-              {{ item.name }}
-            </div>
+            <div class="suggestion__label" v-html="item.name"></div>
             <div class="suggestion__extra"></div>
           </div>
         </div>
