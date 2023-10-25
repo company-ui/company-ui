@@ -117,63 +117,63 @@
       },
       api: {
         type: String as PropType<autocomplete.Type.ApiType>,
-        default: 'clearbit',
+        default: autocomplete.initialOptions.api,
       },
       queryDelay: {
         type: Number,
-        default: 500,
+        default: autocomplete.initialOptions.queryDelay,
       },
       placeholder: {
         type: String,
-        default: '请输入企业名称或统一社会信用代码',
+        default: autocomplete.initialOptions.placeholder,
       },
       clearable: {
         type: Boolean,
-        default: true,
+        default: autocomplete.initialOptions.clearable,
       },
       backFill: {
         type: Boolean,
-        default: false,
+        default: autocomplete.initialOptions.backFill,
       },
       popupAppendToBody: {
         type: Boolean,
-        default: true,
+        default: autocomplete.initialOptions.popupAppendToBody,
       },
       autoFocus: {
         type: Boolean,
-        default: true,
+        default: autocomplete.initialOptions.autoFocus,
       },
       showSubmitButton: {
         type: Boolean,
-        default: true,
+        default: autocomplete.initialOptions.showSubmitButton,
       },
       submitButtonLabel: {
         type: String,
-        default: 'Submit',
+        default: autocomplete.initialOptions.submitButtonLabel,
       },
       offsetTop: {
         type: Number,
-        default: 5,
+        default: autocomplete.initialOptions.offsetTop,
       },
       autoFlip: {
         type: Boolean,
-        default: false,
+        default: autocomplete.initialOptions.autoFlip,
       },
       historyEnabled: {
         type: Boolean,
-        default: true,
+        default: autocomplete.initialOptions.history.enabled,
       },
       historyType: {
         type: String as PropType<autocomplete.Type.HistoryType>,
-        default: 'localStorage',
+        default: autocomplete.initialOptions.history.type,
       },
       historyStorageKey: {
         type: String,
-        default: 'company-history',
+        default: autocomplete.initialOptions.history.key,
       },
       historyClearable: {
         type: Boolean,
-        default: true,
+        default: autocomplete.initialOptions.history.showClear,
       },
     },
     emits: [
