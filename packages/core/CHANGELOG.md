@@ -1,5 +1,26 @@
 # @company-ui/core
 
+## 3.5.4
+
+### Patch Changes
+
+- [`47d97c1`](https://github.com/company-ui/company-ui/commit/47d97c151c49afaa12aa252116b53a534dba3f8d) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @vue/theme to v2.2.5
+
+- [`3eb1060`](https://github.com/company-ui/company-ui/commit/3eb106039259020db4bd135a3919e928bdb18e9c) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite-plugin-dts to v3.6.2
+
+- [`9178cf6`](https://github.com/company-ui/company-ui/commit/9178cf6f6b3ba10cd4bdb8e63cb67bba8e1d5cd5) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update commitlint monorepo to v18.2.0 (@commitlint/cli, @commitlint/config-conventional)
+
+- [`2e66917`](https://github.com/company-ui/company-ui/commit/2e6691722b3ae7c6ee1798713cb34fea9b06aff0) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.1.5
+
+- [`21ac983`](https://github.com/company-ui/company-ui/commit/21ac983c795dd877de541e467a2fd684a9b4793b) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @types/react to v18.2.33
+
+- [`e24f5d4`](https://github.com/company-ui/company-ui/commit/e24f5d4150199f32f2af5a258a84cf81b93d12e9) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-vue to v9.18.1
+
+- [`423aabe`](https://github.com/company-ui/company-ui/commit/423aabec168d76d633728f1e7814bbdb6a919cea) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency sass to v1.69.5
+
+- Updated dependencies [[`47d97c1`](https://github.com/company-ui/company-ui/commit/47d97c151c49afaa12aa252116b53a534dba3f8d), [`3eb1060`](https://github.com/company-ui/company-ui/commit/3eb106039259020db4bd135a3919e928bdb18e9c), [`9178cf6`](https://github.com/company-ui/company-ui/commit/9178cf6f6b3ba10cd4bdb8e63cb67bba8e1d5cd5), [`2e66917`](https://github.com/company-ui/company-ui/commit/2e6691722b3ae7c6ee1798713cb34fea9b06aff0), [`21ac983`](https://github.com/company-ui/company-ui/commit/21ac983c795dd877de541e467a2fd684a9b4793b), [`e24f5d4`](https://github.com/company-ui/company-ui/commit/e24f5d4150199f32f2af5a258a84cf81b93d12e9), [`423aabe`](https://github.com/company-ui/company-ui/commit/423aabec168d76d633728f1e7814bbdb6a919cea)]:
+  - @company-ui/shared@3.5.4
+
 ## 3.5.3
 
 ### Patch Changes
