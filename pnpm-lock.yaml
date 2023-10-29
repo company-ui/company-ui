@@ -222,8 +222,8 @@ importers:
         specifier: ^2.1.0
         version: 2.1.0(vue@3.3.7)
       '@vue/theme':
-        specifier: ^2.2.4
-        version: 2.2.4(@algolia/client-search@4.19.1)(search-insights@2.7.0)(vitepress@1.0.0-rc.24)(vue@3.3.7)
+        specifier: ^2.2.5
+        version: 2.2.5(@algolia/client-search@4.19.1)(search-insights@2.7.0)(vitepress@1.0.0-rc.24)(vue@3.3.7)
       element-plus:
         specifier: ^2.4.1
         version: 2.4.1(vue@3.3.7)
@@ -5259,8 +5259,8 @@ packages:
   /@vue/shared@3.3.7:
     resolution: {integrity: sha512-N/tbkINRUDExgcPTBvxNkvHGu504k8lzlNQRITVnm6YjOjwa4r0nnbd4Jb01sNpur5hAllyRJzSK5PvB9PPwRg==}
 
-  /@vue/theme@2.2.4(@algolia/client-search@4.19.1)(search-insights@2.7.0)(vitepress@1.0.0-rc.24)(vue@3.3.7):
-    resolution: {integrity: sha512-6zHZNdTTnZ2ZZzA18o9hg2oUhcGeZw3/Rzl83eKZI+0M9NApaPvLNDB/qEYJkwhkC/BueY8MoRX93LudgaNVbg==}
+  /@vue/theme@2.2.5(@algolia/client-search@4.19.1)(search-insights@2.7.0)(vitepress@1.0.0-rc.24)(vue@3.3.7):
+    resolution: {integrity: sha512-UUPD0XxlRa69Ytely8JEU/cu8Pae5f4UqZNIXANPN8KT6j/O23dCbOfp1cKlSn+Q/xXLYp0K+vRh4IqZjt/9BQ==}
     peerDependencies:
       vitepress: ^1.0.0-alpha.60
     dependencies:
