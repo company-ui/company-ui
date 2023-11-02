@@ -2,6 +2,8 @@
 layout: doc
 ---
 
+<el-backtop></el-backtop>
+
 # AutoComplete
 
 <script setup lang="ts">

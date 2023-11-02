@@ -1,5 +1,26 @@
 # @company-ui/vue
 
+## 3.5.5
+
+### Patch Changes
+
+- [`915c1af`](https://github.com/company-ui/company-ui/commit/915c1afd077b7f6d25df514dd844afc088c1491e) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.9.1
+
+- [`ad705d3`](https://github.com/company-ui/company-ui/commit/ad705d34c2b7d05726738224a9ed955ae8174adb) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency terser to v5.24.0
+
+- [`1615a2a`](https://github.com/company-ui/company-ui/commit/1615a2a07ae0084f3c6a7626fedbb98c008348ef) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite-plugin-dts to v3.6.3
+
+- [`5daedd2`](https://github.com/company-ui/company-ui/commit/5daedd29372dcd30888dd9c4d428a39cdc00c7c1) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @types/react to v18.2.34
+
+- [`80b0600`](https://github.com/company-ui/company-ui/commit/80b0600695b376ef5c0486d36cfd416490ac40b3) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency core-js to v3.33.2
+
+- [`9859a93`](https://github.com/company-ui/company-ui/commit/9859a933d15ef7204522349a84e5de99d82f5ad3) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.2.0
+
+- Updated dependencies [[`915c1af`](https://github.com/company-ui/company-ui/commit/915c1afd077b7f6d25df514dd844afc088c1491e), [`ad705d3`](https://github.com/company-ui/company-ui/commit/ad705d34c2b7d05726738224a9ed955ae8174adb), [`1615a2a`](https://github.com/company-ui/company-ui/commit/1615a2a07ae0084f3c6a7626fedbb98c008348ef), [`5daedd2`](https://github.com/company-ui/company-ui/commit/5daedd29372dcd30888dd9c4d428a39cdc00c7c1), [`80b0600`](https://github.com/company-ui/company-ui/commit/80b0600695b376ef5c0486d36cfd416490ac40b3), [`9859a93`](https://github.com/company-ui/company-ui/commit/9859a933d15ef7204522349a84e5de99d82f5ad3)]:
+  - @company-ui/core@3.5.5
+  - @company-ui/shared@3.5.5
+  - @company-ui/style@3.5.5
+
 ## 3.5.4
 
 ### Patch Changes

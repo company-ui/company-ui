@@ -2,6 +2,8 @@
 layout: doc
 ---
 
+<el-backtop></el-backtop>
+
 # 概览
 
 Vue插件，兼容Vue 2和Vue 3。

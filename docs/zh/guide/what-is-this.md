@@ -2,6 +2,8 @@
 layout: doc
 ---
 
+<el-backtop></el-backtop>
+
 # 这是什么?
 
 这是一个企业信息组件库，作用于浏览器中。
