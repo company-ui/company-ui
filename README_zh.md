@@ -6,7 +6,7 @@
 <p align="center">
   <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/company-ui/company-ui/deploy.yml?branch=main">
   <img alt="GitHub" src="https://img.shields.io/github/license/company-ui/company-ui">
-  <a href="https://discord.gg/89xaVqpV"><img src="https://img.shields.io/discord/1143015541175496777" alt="Join the chat"></a>
+  <a href="https://discord.gg/RsKkwNYp"><img src="https://img.shields.io/discord/1143015541175496777" alt="Join the chat"></a>
 </p>
 
 # Company-UI
@@ -17,7 +17,7 @@
 
 ### Vue
 
-<a href="https://npmjs.com/package/@company-ui/vue"><img src="https://badgen.net/npm/v/@company-ui/vue" alt="npm package"></a> <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@company-ui/vue">
+<a href="https://npmjs.com/package/@company-ui/vue"><img src="https://badgen.net/npm/v/@company-ui/vue" alt="npm package"></a> <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@company-ui/vue"> <img alt="npm download week" src="https://img.shields.io/npm/dw/@company-ui/vue">
 
 ```ts
 import '@company-ui/style';
@@ -31,7 +31,7 @@ app.use(CompanyUI);
 
 ### React
 
-<a href="https://npmjs.com/package/@company-ui/react"><img src="https://badgen.net/npm/v/@company-ui/react" alt="npm package"></a> <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@company-ui/react">
+<a href="https://npmjs.com/package/@company-ui/react"><img src="https://badgen.net/npm/v/@company-ui/react" alt="npm package"></a> <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@company-ui/react"> <img alt="npm download week" src="https://img.shields.io/npm/dw/@company-ui/react">
 
 ```ts
 import '@company-ui/style';
@@ -49,7 +49,7 @@ import { AutoComplete } from '@company-ui/react';
 
 ### Dom
 
-<a href="https://npmjs.com/package/@company-ui/dom"><img src="https://badgen.net/npm/v/@company-ui/dom" alt="npm package"></a> <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@company-ui/dom">
+<a href="https://npmjs.com/package/@company-ui/dom"><img src="https://badgen.net/npm/v/@company-ui/dom" alt="npm package"></a> <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@company-ui/dom"> <img alt="npm download week" src="https://img.shields.io/npm/dw/@company-ui/dom">
 
 ```ts
 import '@company-ui/style';
