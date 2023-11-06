@@ -34,7 +34,7 @@
   "devDependencies": {
     "@types/react": "^18.2.33",
     "@types/react-dom": "^18.2.14",
-    "@vitejs/plugin-react": "^4.1.0",
+    "@vitejs/plugin-react": "^4.1.1",
     "@vitejs/plugin-vue": "^4.4.0",
     "vue": "^3.3.7"
   }

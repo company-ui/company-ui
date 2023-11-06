@@ -316,8 +316,8 @@ importers:
         specifier: ^18.2.14
         version: 18.2.14
       '@vitejs/plugin-react':
-        specifier: ^4.1.0
-        version: 4.1.0(vite@4.5.0)
+        specifier: ^4.1.1
+        version: 4.1.1(vite@4.5.0)
       react:
         specifier: ^18.2.0
         version: 18.2.0
@@ -400,8 +400,8 @@ importers:
         specifier: ^18.2.14
         version: 18.2.14
       '@vitejs/plugin-react':
-        specifier: ^4.1.0
-        version: 4.1.0(vite@4.5.0)
+        specifier: ^4.1.1
+        version: 4.1.1(vite@4.5.0)
       '@vitejs/plugin-vue':
         specifier: ^4.4.0
         version: 4.4.0(vite@4.5.0)(vue@3.3.7)
@@ -992,7 +992,7 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
-      '@babel/compat-data': 7.22.20
+      '@babel/compat-data': 7.23.2
       '@babel/core': 7.23.2
       '@babel/helper-compilation-targets': 7.22.15
       '@babel/helper-plugin-utils': 7.22.5
@@ -2006,24 +2006,6 @@ packages:
       '@babel/code-frame': 7.22.13
       '@babel/parser': 7.23.0
       '@babel/types': 7.23.0
-
-  /@babel/traverse@7.23.0:
-    resolution: {integrity: sha512-t/QaEvyIoIkwzpiZ7aoSKK8kObQYeF7T2v+dazAYCb8SXtp58zEVkWW7zAnju8FNKNdr4ScAOEDmMItbyOmEYw==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/code-frame': 7.22.13
-      '@babel/generator': 7.23.0
-      '@babel/helper-environment-visitor': 7.22.20
-      '@babel/helper-function-name': 7.23.0
-      '@babel/helper-hoist-variables': 7.22.5
-      '@babel/helper-split-export-declaration': 7.22.6
-      '@babel/parser': 7.23.0
-      '@babel/types': 7.23.0
-      debug: 4.3.4
-      globals: 11.12.0
-    transitivePeerDependencies:
-      - supports-color
-    dev: false
 
   /@babel/traverse@7.23.2:
     resolution: {integrity: sha512-azpe59SQ48qG6nu2CzcMLbxUudtN+dOM9kDbUqGq3HXUJRlo7i8fvPoxQUzYgLZ4cMVmuZgm8vvBpNeRhd6XSw==}
@@ -4069,6 +4051,17 @@ packages:
       '@types/babel__generator': 7.6.5
       '@types/babel__template': 7.4.2
       '@types/babel__traverse': 7.20.2
+    dev: false
+
+  /@types/babel__core@7.20.3:
+    resolution: {integrity: sha512-54fjTSeSHwfan8AyHWrKbfBWiEUrNTZsUwPTDSNaaP1QDQIZbeNUg3a59E9D+375MzUw/x1vx2/0F5LBz+AeYA==}
+    dependencies:
+      '@babel/parser': 7.23.0
+      '@babel/types': 7.23.0
+      '@types/babel__generator': 7.6.5
+      '@types/babel__template': 7.4.2
+      '@types/babel__traverse': 7.20.2
+    dev: true
 
   /@types/babel__generator@7.6.5:
     resolution: {integrity: sha512-h9yIuWbJKdOPLJTbmSpPzkF67e659PbQDba7ifWm5BJ8xTv+sDmS7rFmywkWOvXedGTivCdeGSIIX8WLcRTz8w==}
@@ -4808,8 +4801,8 @@ packages:
       - rollup
     dev: true
 
-  /@vitejs/plugin-react@4.1.0(vite@4.5.0):
-    resolution: {integrity: sha512-rM0SqazU9iqPUraQ2JlIvReeaxOoRj6n+PzB1C0cBzIbd8qP336nC39/R9yPi3wVcah7E7j/kdU1uCUqMEU4OQ==}
+  /@vitejs/plugin-react@4.1.1(vite@4.5.0):
+    resolution: {integrity: sha512-Jie2HERK+uh27e+ORXXwEP5h0Y2lS9T2PRGbfebiHGlwzDO0dEnd2aNtOR/qjBlPb1YgxwAONeblL1xqLikLag==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^4.2.0
@@ -4817,7 +4810,7 @@ packages:
       '@babel/core': 7.23.2
       '@babel/plugin-transform-react-jsx-self': 7.22.5(@babel/core@7.23.2)
       '@babel/plugin-transform-react-jsx-source': 7.22.5(@babel/core@7.23.2)
-      '@types/babel__core': 7.20.2
+      '@types/babel__core': 7.20.3
       react-refresh: 0.14.0
       vite: 4.5.0(@types/node@18.18.6)(sass@1.69.5)(terser@5.24.0)
     transitivePeerDependencies:
@@ -5925,7 +5918,7 @@ packages:
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      browserslist: 4.21.10
+      browserslist: 4.22.1
       caniuse-lite: 1.0.30001541
       fraction.js: 4.3.6
       normalize-range: 0.1.2
@@ -6398,7 +6391,7 @@ packages:
   /caniuse-api@3.0.0:
     resolution: {integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==}
     dependencies:
-      browserslist: 4.21.10
+      browserslist: 4.22.1
       caniuse-lite: 1.0.30001541
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
@@ -10672,7 +10665,7 @@ packages:
       '@babel/core': 7.23.2
       '@babel/generator': 7.23.0
       '@babel/plugin-syntax-typescript': 7.22.5(@babel/core@7.23.2)
-      '@babel/traverse': 7.23.0
+      '@babel/traverse': 7.23.2
       '@babel/types': 7.23.0
       '@jest/transform': 27.5.1
       '@jest/types': 27.5.1
@@ -12494,7 +12487,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.10
+      browserslist: 4.22.1
       caniuse-api: 3.0.0
       colord: 2.9.3
       postcss: 8.4.31
@@ -12506,7 +12499,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.10
+      browserslist: 4.22.1
       caniuse-api: 3.0.0
       colord: 2.9.3
       postcss: 8.4.31
@@ -12519,7 +12512,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.10
+      browserslist: 4.22.1
       postcss: 8.4.31
       postcss-value-parser: 4.2.0
 
@@ -12529,7 +12522,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.10
+      browserslist: 4.22.1
       postcss: 8.4.31
       postcss-value-parser: 4.2.0
     dev: true
@@ -12866,7 +12859,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.10
+      browserslist: 4.22.1
       caniuse-api: 3.0.0
       cssnano-utils: 3.1.0(postcss@8.4.31)
       postcss: 8.4.31
@@ -12878,7 +12871,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.10
+      browserslist: 4.22.1
       caniuse-api: 3.0.0
       cssnano-utils: 4.0.0(postcss@8.4.31)
       postcss: 8.4.31
@@ -12933,7 +12926,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.10
+      browserslist: 4.22.1
       cssnano-utils: 3.1.0(postcss@8.4.31)
       postcss: 8.4.31
       postcss-value-parser: 4.2.0
@@ -12944,7 +12937,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.10
+      browserslist: 4.22.1
       cssnano-utils: 4.0.0(postcss@8.4.31)
       postcss: 8.4.31
       postcss-value-parser: 4.2.0
@@ -13161,7 +13154,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.10
+      browserslist: 4.22.1
       postcss: 8.4.31
       postcss-value-parser: 4.2.0
 
@@ -13171,7 +13164,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.10
+      browserslist: 4.22.1
       postcss: 8.4.31
       postcss-value-parser: 4.2.0
     dev: true
@@ -13308,7 +13301,7 @@ packages:
       '@csstools/postcss-trigonometric-functions': 1.0.2(postcss@8.4.27)
       '@csstools/postcss-unset-value': 1.0.2(postcss@8.4.27)
       autoprefixer: 10.4.16(postcss@8.4.27)
-      browserslist: 4.21.10
+      browserslist: 4.22.1
       css-blank-pseudo: 3.0.3(postcss@8.4.27)
       css-has-pseudo: 3.0.4(postcss@8.4.27)
       css-prefers-color-scheme: 6.0.3(postcss@8.4.27)
@@ -13361,7 +13354,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.10
+      browserslist: 4.22.1
       caniuse-api: 3.0.0
       postcss: 8.4.31
 
@@ -13371,7 +13364,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.10
+      browserslist: 4.22.1
       caniuse-api: 3.0.0
       postcss: 8.4.31
     dev: true
@@ -13756,7 +13749,7 @@ packages:
     dependencies:
       '@babel/code-frame': 7.22.13
       address: 1.2.2
-      browserslist: 4.21.10
+      browserslist: 4.22.1
       chalk: 4.1.2
       cross-spawn: 7.0.3
       detect-port-alt: 1.1.6
@@ -15118,7 +15111,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.10
+      browserslist: 4.22.1
       postcss: 8.4.31
       postcss-selector-parser: 6.0.13
 
@@ -15128,7 +15121,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.10
+      browserslist: 4.22.1
       postcss: 8.4.31
       postcss-selector-parser: 6.0.13
     dev: true
@@ -16721,7 +16714,7 @@ packages:
       '@webassemblyjs/wasm-parser': 1.11.6
       acorn: 8.10.0
       acorn-import-assertions: 1.9.0(acorn@8.10.0)
-      browserslist: 4.21.10
+      browserslist: 4.22.1
       chrome-trace-event: 1.0.3
       enhanced-resolve: 5.15.0
       es-module-lexer: 1.3.0
