@@ -41,6 +41,24 @@ new Autocomplete({
 
 To learn more, check [its documentation](https://company-ui.github.io/company-ui/).
 
+## Maintainers
+
+[@zhensherlock](https://github.com/zhensherlock).
+
+## Contributing
+
+Feel free to dive in! [Open an issue](https://github.com/company-ui/company-ui/issues/new/choose) or submit PRs.
+
+Standard Readme follows the [Contributor Covenant](http://contributor-covenant.org/version/1/3/0/) Code of Conduct.
+
+### Contributors
+
+This project exists thanks to all the people who contribute.
+
+<a href="https://github.com/company-ui/company-ui/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=company-ui/company-ui" />
+</a>
+
 ## License
 
-[MIT](LICENSE).
+[MIT](LICENSE) © MichaelSun

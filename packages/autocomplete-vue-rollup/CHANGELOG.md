@@ -1,5 +1,31 @@
 # @company-ui/autocomplete-vue-rollup
 
+## 3.5.7
+
+### Patch Changes
+
+- [`e79e7f3`](https://github.com/company-ui/company-ui/commit/e79e7f3252ae68807b633a4e174d48bb0d2c8870) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @types/markdown-it to v13.0.6
+
+- [`38e10d8`](https://github.com/company-ui/company-ui/commit/38e10d8d788cbc2be5dbbfb8d1d6b749b927a36f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @vitejs/plugin-vue to v4.4.1
+
+- [`7f4d966`](https://github.com/company-ui/company-ui/commit/7f4d966067f739452a52cb9fc6d258b5c32b87c4) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @types/crypto-js to v4.2.1
+
+- [`4fe0dca`](https://github.com/company-ui/company-ui/commit/4fe0dca56dbde306e2b9323998882dbc175da0f7) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.10.0
+
+- [`1471e46`](https://github.com/company-ui/company-ui/commit/1471e46b4cdd7805d420580859c2cded6fddaa98) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update react monorepo (@types/react, @types/react-dom)
+
+- [`e9f0b99`](https://github.com/company-ui/company-ui/commit/e9f0b99746f7023c70891b2493f0117fc78f603b) Thanks [@zhensherlock](https://github.com/zhensherlock)! - fix(deps): update dependency @floating-ui/react to v0.26.2
+
+- [`6783960`](https://github.com/company-ui/company-ui/commit/678396067351c1a8edc4b0417850e484e9cd3da7) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update babel monorepo to v7.23.3 (@babel/core, @babel/eslint-parser, @babel/plugin-transform-runtime, @babel/preset-env)
+
+- [`597c8ff`](https://github.com/company-ui/company-ui/commit/597c8ffdc69ba73e89d1c211ecbacaccf0cd7d65) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update unocss monorepo to v0.57.3 (@unocss/postcss, unocss)
+
+- [`e1079f1`](https://github.com/company-ui/company-ui/commit/e1079f1e0804036fb9ce4c9aa2d35a0007970c72) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore: update vue monorepo
+
+- Updated dependencies [[`e79e7f3`](https://github.com/company-ui/company-ui/commit/e79e7f3252ae68807b633a4e174d48bb0d2c8870), [`38e10d8`](https://github.com/company-ui/company-ui/commit/38e10d8d788cbc2be5dbbfb8d1d6b749b927a36f), [`7f4d966`](https://github.com/company-ui/company-ui/commit/7f4d966067f739452a52cb9fc6d258b5c32b87c4), [`4fe0dca`](https://github.com/company-ui/company-ui/commit/4fe0dca56dbde306e2b9323998882dbc175da0f7), [`1471e46`](https://github.com/company-ui/company-ui/commit/1471e46b4cdd7805d420580859c2cded6fddaa98), [`e9f0b99`](https://github.com/company-ui/company-ui/commit/e9f0b99746f7023c70891b2493f0117fc78f603b), [`6783960`](https://github.com/company-ui/company-ui/commit/678396067351c1a8edc4b0417850e484e9cd3da7), [`597c8ff`](https://github.com/company-ui/company-ui/commit/597c8ffdc69ba73e89d1c211ecbacaccf0cd7d65), [`e1079f1`](https://github.com/company-ui/company-ui/commit/e1079f1e0804036fb9ce4c9aa2d35a0007970c72)]:
+  - @company-ui/autocomplete-core@3.5.7
+  - @company-ui/shared@3.5.7
+
 ## 3.5.6
 
 ### Patch Changes
