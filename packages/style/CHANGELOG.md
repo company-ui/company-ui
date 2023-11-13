@@ -1,5 +1,17 @@
 # @company-ui/style
 
+## 3.5.8
+
+### Patch Changes
+
+- [`088d3d7`](https://github.com/company-ui/company-ui/commit/088d3d76e38bc510f1624275b56d8baff7974249) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update commitlint monorepo (@commitlint/cli, @commitlint/config-conventional)
+
+- [`af2cac9`](https://github.com/company-ui/company-ui/commit/af2cac9536f5c8f6bbb7213bee97a9255dbddaed) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency lint-staged to v15.1.0
+
+- [`4f246c1`](https://github.com/company-ui/company-ui/commit/4f246c1e86b9031e088522cb6bc89bc09cd6bac1) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency prettier to v3.1.0
+
+- [`76daab3`](https://github.com/company-ui/company-ui/commit/76daab3c629574618795545475429068adb5a74c) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.4.0
+
 ## 3.5.7
 
 ### Patch Changes

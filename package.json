@@ -1,6 +1,6 @@
 {
   "name": "company-ui",
-  "version": "3.5.7",
+  "version": "3.5.8",
   "private": true,
   "description": "company ui monorepo",
   "workspaces": [
