@@ -1,5 +1,25 @@
 # @company-ui/style
 
+## 3.5.9
+
+### Patch Changes
+
+- [`8e9c031`](https://github.com/company-ui/company-ui/commit/8e9c031dbdb12bc42e75f426c45045b242505872) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @vitejs/plugin-vue2 to v2.3.1
+
+- [`05b3bad`](https://github.com/company-ui/company-ui/commit/05b3badb66afbf1a207069d333663dc6e0597cb7) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update unocss monorepo to v0.57.5 (@unocss/postcss, unocss)
+
+- [`0ca40a4`](https://github.com/company-ui/company-ui/commit/0ca40a4878fce332d2113197ba574e0aa99595df) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite-plugin-commonjs to v0.10.1
+
+- [`e50309b`](https://github.com/company-ui/company-ui/commit/e50309b9d2fa6c5c050f7c71fd0ad878bc0f836f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.11.0
+
+- [`fdb2506`](https://github.com/company-ui/company-ui/commit/fdb2506789c441262e6cdfd63b3b93ed48a6184c) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint to v8.54.0
+
+- [`350e9a2`](https://github.com/company-ui/company-ui/commit/350e9a2617588ce30fdfa81e3bd83018078f13cc) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency unplugin-vue-define-options to v1.4.0
+
+- [`1b10d27`](https://github.com/company-ui/company-ui/commit/1b10d27a8e4d46c8b12286764d8e26084d2a8407) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update commitlint monorepo to v18.4.2 (@commitlint/cli, @commitlint/config-conventional)
+
+- [`ce0e819`](https://github.com/company-ui/company-ui/commit/ce0e81935ed697f00c869fb6f789b87ade0ed1d4) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @vitejs/plugin-vue to v4.5.0
+
 ## 3.5.8
 
 ### Patch Changes
