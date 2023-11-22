@@ -197,8 +197,8 @@ importers:
         specifier: ^1.8.1
         version: 1.8.1(eslint@8.54.0)(vite@5.0.0)
       vitepress:
-        specifier: 1.0.0-rc.27
-        version: 1.0.0-rc.27(@algolia/client-search@4.19.1)(@types/node@18.18.6)(postcss@8.4.31)(sass@1.69.5)(search-insights@2.7.0)(terser@5.24.0)(typescript@5.2.2)
+        specifier: 1.0.0-rc.29
+        version: 1.0.0-rc.29(@algolia/client-search@4.19.1)(@types/node@18.18.6)(postcss@8.4.31)(sass@1.69.5)(search-insights@2.7.0)(terser@5.24.0)(typescript@5.2.2)
       vue-eslint-parser:
         specifier: ^9.3.2
         version: 9.3.2(eslint@8.54.0)
@@ -223,7 +223,7 @@ importers:
         version: 2.1.0(vue@3.3.8)
       '@vue/theme':
         specifier: ^2.2.5
-        version: 2.2.5(@algolia/client-search@4.19.1)(search-insights@2.7.0)(vitepress@1.0.0-rc.27)(vue@3.3.8)
+        version: 2.2.5(@algolia/client-search@4.19.1)(search-insights@2.7.0)(vitepress@1.0.0-rc.29)(vue@3.3.8)
       element-plus:
         specifier: ^2.4.2
         version: 2.4.2(vue@3.3.8)
@@ -5441,7 +5441,7 @@ packages:
   /@vue/shared@3.3.8:
     resolution: {integrity: sha512-8PGwybFwM4x8pcfgqEQFy70NaQxASvOC5DJwLQfpArw1UDfUXrJkdxD3BhVTMS+0Lef/TU7YO0Jvr0jJY8T+mw==}
 
-  /@vue/theme@2.2.5(@algolia/client-search@4.19.1)(search-insights@2.7.0)(vitepress@1.0.0-rc.27)(vue@3.3.8):
+  /@vue/theme@2.2.5(@algolia/client-search@4.19.1)(search-insights@2.7.0)(vitepress@1.0.0-rc.29)(vue@3.3.8):
     resolution: {integrity: sha512-UUPD0XxlRa69Ytely8JEU/cu8Pae5f4UqZNIXANPN8KT6j/O23dCbOfp1cKlSn+Q/xXLYp0K+vRh4IqZjt/9BQ==}
     peerDependencies:
       vitepress: ^1.0.0-alpha.60
@@ -5451,7 +5451,7 @@ packages:
       '@vueuse/core': 9.13.0(vue@3.3.8)
       body-scroll-lock: 3.1.5
       normalize.css: 8.0.1
-      vitepress: 1.0.0-rc.27(@algolia/client-search@4.19.1)(@types/node@18.18.6)(postcss@8.4.31)(sass@1.69.5)(search-insights@2.7.0)(terser@5.24.0)(typescript@5.2.2)
+      vitepress: 1.0.0-rc.29(@algolia/client-search@4.19.1)(@types/node@18.18.6)(postcss@8.4.31)(sass@1.69.5)(search-insights@2.7.0)(terser@5.24.0)(typescript@5.2.2)
     transitivePeerDependencies:
       - '@algolia/client-search'
       - '@types/react'
@@ -16680,8 +16680,8 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitepress@1.0.0-rc.27(@algolia/client-search@4.19.1)(@types/node@18.18.6)(postcss@8.4.31)(sass@1.69.5)(search-insights@2.7.0)(terser@5.24.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-1qs1a5qPQxNOJN451HmNtKewxSIOk52qv1EdWtsO6V6kvrNxF2FFR3Inhj0W56Jcs8AKIdzKDKHNYIJhcyz3AA==}
+  /vitepress@1.0.0-rc.29(@algolia/client-search@4.19.1)(@types/node@18.18.6)(postcss@8.4.31)(sass@1.69.5)(search-insights@2.7.0)(terser@5.24.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-6sKmyEvH16SgMqkHzRwwadt9Uju13AOIqouzOVEg3Rk6X9mds6jLsq2GxnAJvg0s6bl/0Qs/cw+f8SNki82ltw==}
     hasBin: true
     peerDependencies:
       markdown-it-mathjax3: ^4.3.2
@@ -16702,6 +16702,7 @@ packages:
       focus-trap: 7.5.4
       mark.js: 8.11.1
       minisearch: 6.2.0
+      mrmime: 1.0.1
       postcss: 8.4.31
       shiki: 0.14.5
       vite: 5.0.0(@types/node@18.18.6)(sass@1.69.5)(terser@5.24.0)
