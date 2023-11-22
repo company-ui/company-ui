@@ -1,5 +1,27 @@
 # @company-ui/shared
 
+## 3.5.10
+
+### Patch Changes
+
+- [`a6e6ab6`](https://github.com/company-ui/company-ui/commit/a6e6ab674236fae75c1dad5c6c2f073bf16af132) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.5.1
+
+- [`2f471db`](https://github.com/company-ui/company-ui/commit/2f471db7a4098c8936ff2435727471c3e08bc786) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.12.0
+
+- [`30000dd`](https://github.com/company-ui/company-ui/commit/30000dd3b28145affd2a5d71010645ec72cedb17) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.0.2
+
+- [`8e63857`](https://github.com/company-ui/company-ui/commit/8e63857001e3e14762448bf439892da4380813c2) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @types/markdown-it to v13.0.7
+
+- [`6940c09`](https://github.com/company-ui/company-ui/commit/6940c09e4b62b6106784a68a1c776259c1a02bf8) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update unocss monorepo to v0.57.7 (@unocss/postcss, unocss)
+
+- [`9a8682a`](https://github.com/company-ui/company-ui/commit/9a8682ab3f9c7ba231e0cdc9c3d288619a1d8098) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @babel/plugin-transform-runtime to v7.23.4
+
+- [`cd3654f`](https://github.com/company-ui/company-ui/commit/cd3654fcfe956c99177084f7acfc21e31807a1e3) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency typescript to v5.3.2
+
+- [`ed0d891`](https://github.com/company-ui/company-ui/commit/ed0d8917862410bfc7232fb524da3ce0d8440a8e) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update commitlint monorepo to v18.4.3 (@commitlint/cli, @commitlint/config-conventional)
+
+- [`4ce5225`](https://github.com/company-ui/company-ui/commit/4ce5225c2d76a94ec4575c137b76a5253329a62c) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency core-js to v3.33.3
+
 ## 3.5.9
 
 ### Patch Changes
