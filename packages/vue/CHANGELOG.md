@@ -1,5 +1,18 @@
 # @company-ui/vue
 
+## 3.5.11
+
+### Patch Changes
+
+- [`493123a`](https://github.com/company-ui/company-ui/commit/493123af92d1fb9a2c19fa120c4539ac7fad2983) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update vue monorepo
+
+- [`94bf81f`](https://github.com/company-ui/company-ui/commit/94bf81f48241951393cc66a8d042a9e1854e133f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.5.2
+
+- Updated dependencies [[`94bf81f`](https://github.com/company-ui/company-ui/commit/94bf81f48241951393cc66a8d042a9e1854e133f)]:
+  - @company-ui/core@3.5.11
+  - @company-ui/shared@3.5.11
+  - @company-ui/style@3.5.11
+
 ## 3.5.10
 
 ### Patch Changes
