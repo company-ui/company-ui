@@ -35,8 +35,8 @@ importers:
         specifier: ^18.4.3
         version: 18.4.3
       '@iconify-json/ic':
-        specifier: ^1.1.14
-        version: 1.1.14
+        specifier: ^1.1.16
+        version: 1.1.16
       '@rollup/plugin-babel':
         specifier: ^6.0.4
         version: 6.0.4(@babel/core@7.23.3)(rollup@4.6.1)
@@ -3263,8 +3263,8 @@ packages:
   /@humanwhocodes/object-schema@2.0.1:
     resolution: {integrity: sha512-dvuCeX5fC9dXgJn9t+X5atfmgQAzUOWqS1254Gh0m6i8wKd10ebXkfNKiRK+1GWi/yTvvLDHpoxLr0xxxeslWw==}
 
-  /@iconify-json/ic@1.1.14:
-    resolution: {integrity: sha512-vbATa9uwb9pIsRWQ+iXObQCgLTePk/0vo4shBr3Td0GnTjsAU/7VUGTkrZFVf5vpgiG6OsXkcKMPzBPvt966sg==}
+  /@iconify-json/ic@1.1.16:
+    resolution: {integrity: sha512-bsscCY0Zn2e08eML/1trQlmwudlgd5X/YN2kFmvCuNSzI42TEEEezHPypjxl0RjEZXk2vXw3dH8vN6OwcvKXpg==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
