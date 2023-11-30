@@ -1,5 +1,32 @@
 # @company-ui/core
 
+## 3.5.12
+
+### Patch Changes
+
+- [`f0cab90`](https://github.com/company-ui/company-ui/commit/f0cab90e1ceaa4bfd8b42618d270ebd4066d1f42) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.6.1
+
+- [`6ef973e`](https://github.com/company-ui/company-ui/commit/6ef973e785b3087ac52c5215a3b2df6ef2501bc5) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update babel monorepo to v7.23.5
+
+- [`2ea0012`](https://github.com/company-ui/company-ui/commit/2ea0012a86d747e44e743e958f8fe7af3c131070) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.13.1
+
+- [`672b80e`](https://github.com/company-ui/company-ui/commit/672b80ee772edfb088c26d8029259ea28753a139) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @element-plus/icons-vue to v2.3.1
+
+- [`49cf8b2`](https://github.com/company-ui/company-ui/commit/49cf8b254336f902407d5a97725a62b94a0f9f27) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @iconify-json/ic to v1.1.16
+
+- [`884482b`](https://github.com/company-ui/company-ui/commit/884482b18a407186c2fedc976a0f2dd8bef2b4ea) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore: update dependency vite to v5.0.4
+
+- [`d7dce22`](https://github.com/company-ui/company-ui/commit/d7dce225673c122f60bb8e2e4f90589cca12a455) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-vue to v9.19.1
+
+- [`cbf70e7`](https://github.com/company-ui/company-ui/commit/cbf70e7b74d03a1f1507c4a2278f98d79586d67f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.4.3
+
+- [`12e2694`](https://github.com/company-ui/company-ui/commit/12e26941327235453fd5f8011f0b91be7540ba19) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @changesets/cli to v2.27.1
+
+- [`092c7d8`](https://github.com/company-ui/company-ui/commit/092c7d87f5ed169ed0b5819186c191a6e716d274) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite-plugin-dts to v3.6.4
+
+- Updated dependencies [[`f0cab90`](https://github.com/company-ui/company-ui/commit/f0cab90e1ceaa4bfd8b42618d270ebd4066d1f42), [`6ef973e`](https://github.com/company-ui/company-ui/commit/6ef973e785b3087ac52c5215a3b2df6ef2501bc5), [`2ea0012`](https://github.com/company-ui/company-ui/commit/2ea0012a86d747e44e743e958f8fe7af3c131070), [`672b80e`](https://github.com/company-ui/company-ui/commit/672b80ee772edfb088c26d8029259ea28753a139), [`49cf8b2`](https://github.com/company-ui/company-ui/commit/49cf8b254336f902407d5a97725a62b94a0f9f27), [`884482b`](https://github.com/company-ui/company-ui/commit/884482b18a407186c2fedc976a0f2dd8bef2b4ea), [`d7dce22`](https://github.com/company-ui/company-ui/commit/d7dce225673c122f60bb8e2e4f90589cca12a455), [`cbf70e7`](https://github.com/company-ui/company-ui/commit/cbf70e7b74d03a1f1507c4a2278f98d79586d67f), [`12e2694`](https://github.com/company-ui/company-ui/commit/12e26941327235453fd5f8011f0b91be7540ba19), [`092c7d8`](https://github.com/company-ui/company-ui/commit/092c7d87f5ed169ed0b5819186c191a6e716d274)]:
+  - @company-ui/shared@3.5.12
+
 ## 3.5.11
 
 ### Patch Changes
