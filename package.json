@@ -28,10 +28,10 @@
   "author": "zhensherlock",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.23.3",
+    "@babel/core": "^7.23.5",
     "@babel/eslint-parser": "^7.23.3",
     "@babel/plugin-transform-runtime": "^7.23.4",
-    "@babel/preset-env": "^7.23.3",
+    "@babel/preset-env": "^7.23.5",
     "@changesets/changelog-github": "^0.5.0",
     "@changesets/cli": "^2.27.1",
     "@commitlint/cli": "^18.4.3",
