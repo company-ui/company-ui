@@ -1,5 +1,22 @@
 # @company-ui/autocomplete-dom
 
+## 3.5.13
+
+### Patch Changes
+
+- [`8276fef`](https://github.com/company-ui/company-ui/commit/8276fef05e43c9c32cb841b3b909b42e92a665d5) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint to v8.55.0
+
+- [`37a2d07`](https://github.com/company-ui/company-ui/commit/37a2d072f08200d463c1cf1a91f4df9f26baa32e) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-vue to v9.19.2
+
+- [`ce17884`](https://github.com/company-ui/company-ui/commit/ce178843fd03368da723229bd33738e43c1f4b5c) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-config-prettier to v9.1.0
+
+- [`f23193a`](https://github.com/company-ui/company-ui/commit/f23193a39a88a57df4122489836c0a796e2039aa) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency lint-staged to v15.2.0
+
+- Updated dependencies [[`8276fef`](https://github.com/company-ui/company-ui/commit/8276fef05e43c9c32cb841b3b909b42e92a665d5), [`37a2d07`](https://github.com/company-ui/company-ui/commit/37a2d072f08200d463c1cf1a91f4df9f26baa32e), [`ce17884`](https://github.com/company-ui/company-ui/commit/ce178843fd03368da723229bd33738e43c1f4b5c), [`f23193a`](https://github.com/company-ui/company-ui/commit/f23193a39a88a57df4122489836c0a796e2039aa)]:
+  - @company-ui/autocomplete-core@3.5.13
+  - @company-ui/shared@3.5.13
+  - @company-ui/style@3.5.13
+
 ## 3.5.12
 
 ### Patch Changes
