@@ -1,5 +1,19 @@
 # @company-ui/style
 
+## 3.5.14
+
+### Patch Changes
+
+- [`3992c09`](https://github.com/company-ui/company-ui/commit/3992c09c7e3d8fe083212a32e49d506a296ca70e) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency core-js to v3.34.0
+
+- [`9ed3032`](https://github.com/company-ui/company-ui/commit/9ed3032e37f467e9ff38247bebb2f5ebdef5db43) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency typescript to v5.3.3
+
+- [`a3f3af9`](https://github.com/company-ui/company-ui/commit/a3f3af9867cbc723b3ddd531a79560269758149e) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.0.6
+
+- [`fa36c4b`](https://github.com/company-ui/company-ui/commit/fa36c4bb7906a7cc4d050e755ab78f28247f84f6) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency terser to v5.26.0
+
+- [`f6a1b2e`](https://github.com/company-ui/company-ui/commit/f6a1b2e6722549a0feb648c6664f02f8d7c55aad) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.13.2
+
 ## 3.5.13
 
 ### Patch Changes
