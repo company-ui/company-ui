@@ -164,8 +164,8 @@ importers:
         specifier: ^6.0.3
         version: 6.0.3(stylelint@15.11.0)
       terser:
-        specifier: ^5.24.0
-        version: 5.24.0
+        specifier: ^5.26.0
+        version: 5.26.0
       tslib:
         specifier: ^2.6.2
         version: 2.6.2
@@ -183,7 +183,7 @@ importers:
         version: 1.4.0(rollup@4.6.1)(vue@2.6.14)
       vite:
         specifier: ^5.0.4
-        version: 5.0.4(@types/node@18.18.6)(sass@1.69.5)(terser@5.24.0)
+        version: 5.0.4(@types/node@18.18.6)(sass@1.69.5)(terser@5.26.0)
       vite-plugin-babel:
         specifier: ^1.1.3
         version: 1.1.3(@babel/core@7.23.5)(vite@5.0.4)
@@ -198,7 +198,7 @@ importers:
         version: 1.8.1(eslint@8.55.0)(vite@5.0.4)
       vitepress:
         specifier: 1.0.0-rc.31
-        version: 1.0.0-rc.31(@algolia/client-search@4.19.1)(@types/node@18.18.6)(postcss@8.4.31)(sass@1.69.5)(search-insights@2.7.0)(terser@5.24.0)(typescript@5.3.2)
+        version: 1.0.0-rc.31(@algolia/client-search@4.19.1)(@types/node@18.18.6)(postcss@8.4.31)(sass@1.69.5)(search-insights@2.7.0)(terser@5.26.0)(typescript@5.3.2)
       vue-eslint-parser:
         specifier: ^9.3.2
         version: 9.3.2(eslint@8.55.0)
@@ -3980,7 +3980,7 @@ packages:
       rollup: 4.6.1
       serialize-javascript: 6.0.1
       smob: 1.4.0
-      terser: 5.24.0
+      terser: 5.26.0
     dev: true
 
   /@rollup/plugin-typescript@11.1.5(rollup@4.6.1)(tslib@2.6.2)(typescript@5.3.2):
@@ -4975,7 +4975,7 @@ packages:
       '@unocss/core': 0.58.0
       '@unocss/reset': 0.58.0
       '@unocss/vite': 0.58.0(rollup@4.6.1)(vite@5.0.4)
-      vite: 5.0.4(@types/node@18.18.6)(sass@1.69.5)(terser@5.24.0)
+      vite: 5.0.4(@types/node@18.18.6)(sass@1.69.5)(terser@5.26.0)
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -5173,7 +5173,7 @@ packages:
       chokidar: 3.5.3
       fast-glob: 3.3.2
       magic-string: 0.30.5
-      vite: 5.0.4(@types/node@18.18.6)(sass@1.69.5)(terser@5.24.0)
+      vite: 5.0.4(@types/node@18.18.6)(sass@1.69.5)(terser@5.26.0)
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -5189,7 +5189,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.23.3(@babel/core@7.23.5)
       '@types/babel__core': 7.20.4
       react-refresh: 0.14.0
-      vite: 5.0.4(@types/node@18.18.6)(sass@1.69.5)(terser@5.24.0)
+      vite: 5.0.4(@types/node@18.18.6)(sass@1.69.5)(terser@5.26.0)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5201,7 +5201,7 @@ packages:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0
       vue: ^2.7.0-0
     dependencies:
-      vite: 5.0.4(@types/node@18.18.6)(sass@1.69.5)(terser@5.24.0)
+      vite: 5.0.4(@types/node@18.18.6)(sass@1.69.5)(terser@5.26.0)
       vue: 2.7.15
     dev: true
 
@@ -5212,7 +5212,7 @@ packages:
       vite: ^4.0.0 || ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 5.0.4(@types/node@18.18.6)(sass@1.69.5)(terser@5.24.0)
+      vite: 5.0.4(@types/node@18.18.6)(sass@1.69.5)(terser@5.26.0)
       vue: 3.3.8(typescript@5.3.2)
     dev: true
 
@@ -5223,7 +5223,7 @@ packages:
       vite: ^4.0.0 || ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 5.0.4(@types/node@18.18.6)(sass@1.69.5)(terser@5.24.0)
+      vite: 5.0.4(@types/node@18.18.6)(sass@1.69.5)(terser@5.26.0)
       vue: 3.3.9(typescript@5.3.2)
     dev: true
 
@@ -5647,7 +5647,7 @@ packages:
       '@vueuse/core': 9.13.0(vue@3.3.9)
       body-scroll-lock: 3.1.5
       normalize.css: 8.0.1
-      vitepress: 1.0.0-rc.31(@algolia/client-search@4.19.1)(@types/node@18.18.6)(postcss@8.4.31)(sass@1.69.5)(search-insights@2.7.0)(terser@5.24.0)(typescript@5.3.2)
+      vitepress: 1.0.0-rc.31(@algolia/client-search@4.19.1)(@types/node@18.18.6)(postcss@8.4.31)(sass@1.69.5)(search-insights@2.7.0)(terser@5.26.0)(typescript@5.3.2)
     transitivePeerDependencies:
       - '@algolia/client-search'
       - '@types/react'
@@ -5938,11 +5938,6 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
     dev: false
-
-  /acorn@8.10.0:
-    resolution: {integrity: sha512-F0SAmZ8iUtS//m8DmCTA0jlh6TDKkHQyK6xc6V4KDTyZKA9dnvX9/3sRTVQrWm79glUAZbnmmNcdYwUIHWVybw==}
-    engines: {node: '>=0.4.0'}
-    hasBin: true
 
   /acorn@8.11.2:
     resolution: {integrity: sha512-nc0Axzp/0FILLEVsm4fNwLCwMttvhEI263QtVPQcbpfZZ3ts0hLsZGOpE6czNlid7CJ9MlyH8reXkpsf3YUY4w==}
@@ -10197,7 +10192,7 @@ packages:
       he: 1.2.0
       param-case: 3.0.4
       relateurl: 0.2.7
-      terser: 5.24.0
+      terser: 5.26.0
     dev: false
 
   /html-tags@2.0.0:
@@ -14934,7 +14929,7 @@ packages:
       filesize: 6.4.0
       gzip-size: 6.0.0
       pacote: 15.2.0
-      terser: 5.24.0
+      terser: 5.26.0
     transitivePeerDependencies:
       - bluebird
       - supports-color
@@ -14985,7 +14980,7 @@ packages:
       jest-worker: 26.6.2
       rollup: 2.79.1
       serialize-javascript: 4.0.0
-      terser: 5.24.0
+      terser: 5.26.0
     dev: false
 
   /rollup-plugin-vue@6.0.0(@vue/compiler-sfc@3.3.9):
@@ -16225,17 +16220,17 @@ packages:
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.1
-      terser: 5.24.0
+      terser: 5.26.0
       webpack: 5.88.2
     dev: false
 
-  /terser@5.24.0:
-    resolution: {integrity: sha512-ZpGR4Hy3+wBEzVEnHvstMvqpD/nABNelQn/z2r0fjVWGQsN3bpOLzQlqDxmb4CDZnXq5lpjnQ+mHQLAOpfM5iw==}
+  /terser@5.26.0:
+    resolution: {integrity: sha512-dytTGoE2oHgbNV9nTzgBEPaqAWvcJNl66VZ0BkJqlvp71IjO8CxdBx/ykCNb47cLnCmCvRZ6ZR0tLkqvZCdVBQ==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
       '@jridgewell/source-map': 0.3.5
-      acorn: 8.10.0
+      acorn: 8.11.2
       commander: 2.20.3
       source-map-support: 0.5.21
 
@@ -16705,7 +16700,7 @@ packages:
       '@unocss/transformer-directives': 0.58.0
       '@unocss/transformer-variant-group': 0.58.0
       '@unocss/vite': 0.58.0(rollup@4.6.1)(vite@5.0.4)
-      vite: 5.0.4(@types/node@18.18.6)(sass@1.69.5)(terser@5.24.0)
+      vite: 5.0.4(@types/node@18.18.6)(sass@1.69.5)(terser@5.26.0)
     transitivePeerDependencies:
       - postcss
       - rollup
@@ -16893,7 +16888,7 @@ packages:
       vite: ^2.7.0 || ^3.0.0 || ^4.0.0
     dependencies:
       '@babel/core': 7.23.5
-      vite: 5.0.4(@types/node@18.18.6)(sass@1.69.5)(terser@5.24.0)
+      vite: 5.0.4(@types/node@18.18.6)(sass@1.69.5)(terser@5.26.0)
     dev: true
 
   /vite-plugin-commonjs@0.10.1:
@@ -16921,7 +16916,7 @@ packages:
       debug: 4.3.4
       kolorist: 1.8.0
       typescript: 5.3.2
-      vite: 5.0.4(@types/node@18.18.6)(sass@1.69.5)(terser@5.24.0)
+      vite: 5.0.4(@types/node@18.18.6)(sass@1.69.5)(terser@5.26.0)
       vue-tsc: 1.8.20(typescript@5.3.2)(vue@2.6.14)
     transitivePeerDependencies:
       - '@types/node'
@@ -16949,7 +16944,7 @@ packages:
       '@types/eslint': 8.44.2
       eslint: 8.55.0
       rollup: 2.79.1
-      vite: 5.0.4(@types/node@18.18.6)(sass@1.69.5)(terser@5.24.0)
+      vite: 5.0.4(@types/node@18.18.6)(sass@1.69.5)(terser@5.26.0)
     dev: true
 
   /vite-plugin-vue2@2.0.3(lodash@4.17.21)(vite@4.5.0)(vue-template-compiler@2.6.14)(vue@2.6.14):
@@ -16986,7 +16981,7 @@ packages:
       rollup: 2.79.1
       slash: 3.0.0
       source-map: 0.7.4
-      vite: 4.5.0(@types/node@18.18.6)(sass@1.69.5)(terser@5.24.0)
+      vite: 4.5.0(@types/node@18.18.6)(sass@1.69.5)(terser@5.26.0)
       vue-template-babel-compiler: 1.2.0(vue-template-compiler@2.6.14)
       vue-template-compiler: 2.6.14(vue@2.6.14)
     transitivePeerDependencies:
@@ -17047,7 +17042,7 @@ packages:
       - whiskers
     dev: true
 
-  /vite@4.5.0(@types/node@18.18.6)(sass@1.69.5)(terser@5.24.0):
+  /vite@4.5.0(@types/node@18.18.6)(sass@1.69.5)(terser@5.26.0):
     resolution: {integrity: sha512-ulr8rNLA6rkyFAlVWw2q5YJ91v098AFQ2R0PRFwPzREXOUJQPtFUG0t+/ZikhaOCDqFoDhN6/v8Sq0o4araFAw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -17080,12 +17075,12 @@ packages:
       postcss: 8.4.31
       rollup: 3.29.4
       sass: 1.69.5
-      terser: 5.24.0
+      terser: 5.26.0
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
 
-  /vite@5.0.4(@types/node@18.18.6)(sass@1.69.5)(terser@5.24.0):
+  /vite@5.0.4(@types/node@18.18.6)(sass@1.69.5)(terser@5.26.0):
     resolution: {integrity: sha512-RzAr8LSvM8lmhB4tQ5OPcBhpjOZRZjuxv9zO5UcxeoY2bd3kP3Ticd40Qma9/BqZ8JS96Ll/jeBX9u+LJZrhVg==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -17118,12 +17113,12 @@ packages:
       postcss: 8.4.31
       rollup: 4.6.1
       sass: 1.69.5
-      terser: 5.24.0
+      terser: 5.26.0
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
 
-  /vitepress@1.0.0-rc.31(@algolia/client-search@4.19.1)(@types/node@18.18.6)(postcss@8.4.31)(sass@1.69.5)(search-insights@2.7.0)(terser@5.24.0)(typescript@5.3.2):
+  /vitepress@1.0.0-rc.31(@algolia/client-search@4.19.1)(@types/node@18.18.6)(postcss@8.4.31)(sass@1.69.5)(search-insights@2.7.0)(terser@5.26.0)(typescript@5.3.2):
     resolution: {integrity: sha512-ikH9pIjOOAbyoYAGBVfTz8TzuXp+UoWaIRMU4bw/oiTg8R65SbAaGKY84xx6TuL+f4VqUJ8lhzW82YyxSLvstA==}
     hasBin: true
     peerDependencies:
@@ -17149,7 +17144,7 @@ packages:
       postcss: 8.4.31
       shikiji: 0.7.4
       shikiji-transformers: 0.7.4
-      vite: 5.0.4(@types/node@18.18.6)(sass@1.69.5)(terser@5.24.0)
+      vite: 5.0.4(@types/node@18.18.6)(sass@1.69.5)(terser@5.26.0)
       vue: 3.3.8(typescript@5.3.2)
     transitivePeerDependencies:
       - '@algolia/client-search'
