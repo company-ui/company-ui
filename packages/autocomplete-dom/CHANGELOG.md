@@ -1,5 +1,32 @@
 # @company-ui/autocomplete-dom
 
+## 3.5.15
+
+### Patch Changes
+
+- [`1f795ec`](https://github.com/company-ui/company-ui/commit/1f795ec8e012ff0417c7254e647896074c54a250) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency prettier to v3.1.1
+
+- [`dd86d11`](https://github.com/company-ui/company-ui/commit/dd86d11ea27b7c5afbe5c7f71d410844f6e1ca61) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @iconify-json/ic to v1.1.17
+
+- [`36cb917`](https://github.com/company-ui/company-ui/commit/36cb917006940fcbc247bef00c899b61c4a86f6d) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency stylelint-order to v6.0.4
+
+- [`45c4570`](https://github.com/company-ui/company-ui/commit/45c45702aa83127d23d1c7ce9b2b6bc79e5ee94b) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update babel monorepo to v7.23.6 (@babel/core, @babel/plugin-transform-runtime, @babel/preset-env)
+
+- [`0fba720`](https://github.com/company-ui/company-ui/commit/0fba72086eae3234ba0250e2abfa8ecb0dcb6b46) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.0.7
+
+- [`b181ed4`](https://github.com/company-ui/company-ui/commit/b181ed408d8ecca51857473a6235d9d1e665a9c3) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency unplugin-vue-define-options to v1.4.1
+
+- [`2f53ece`](https://github.com/company-ui/company-ui/commit/2f53ece436dfe21bec0000013b89a764dd8e5839) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.14.0
+
+- [`703ba06`](https://github.com/company-ui/company-ui/commit/703ba06c518f8416f9bd224fc1e734d2be9b3da0) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency stylelint to v16.0.2
+
+- [`09017eb`](https://github.com/company-ui/company-ui/commit/09017eb9337274ec1f90d55a689408a5f0c60b0a) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.8.0
+
+- Updated dependencies [[`1f795ec`](https://github.com/company-ui/company-ui/commit/1f795ec8e012ff0417c7254e647896074c54a250), [`dd86d11`](https://github.com/company-ui/company-ui/commit/dd86d11ea27b7c5afbe5c7f71d410844f6e1ca61), [`36cb917`](https://github.com/company-ui/company-ui/commit/36cb917006940fcbc247bef00c899b61c4a86f6d), [`45c4570`](https://github.com/company-ui/company-ui/commit/45c45702aa83127d23d1c7ce9b2b6bc79e5ee94b), [`0fba720`](https://github.com/company-ui/company-ui/commit/0fba72086eae3234ba0250e2abfa8ecb0dcb6b46), [`b181ed4`](https://github.com/company-ui/company-ui/commit/b181ed408d8ecca51857473a6235d9d1e665a9c3), [`2f53ece`](https://github.com/company-ui/company-ui/commit/2f53ece436dfe21bec0000013b89a764dd8e5839), [`703ba06`](https://github.com/company-ui/company-ui/commit/703ba06c518f8416f9bd224fc1e734d2be9b3da0), [`09017eb`](https://github.com/company-ui/company-ui/commit/09017eb9337274ec1f90d55a689408a5f0c60b0a)]:
+  - @company-ui/autocomplete-core@3.5.15
+  - @company-ui/shared@3.5.15
+  - @company-ui/style@3.5.15
+
 ## 3.5.14
 
 ### Patch Changes
