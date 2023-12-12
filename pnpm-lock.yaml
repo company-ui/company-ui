@@ -155,8 +155,8 @@ importers:
         specifier: ^1.5.0
         version: 1.5.0(postcss-html@1.5.0)(stylelint@16.0.0)
       stylelint-config-standard:
-        specifier: ^34.0.0
-        version: 34.0.0(stylelint@16.0.0)
+        specifier: ^35.0.0
+        version: 35.0.0(stylelint@16.0.0)
       stylelint-config-standard-scss:
         specifier: ^11.1.0
         version: 11.1.0(postcss@8.4.32)(stylelint@16.0.0)
@@ -9018,7 +9018,7 @@ packages:
       eslint: 8.55.0
       eslint-plugin-es: 4.1.0(eslint@8.55.0)
       eslint-utils: 3.0.0(eslint@8.55.0)
-      ignore: 5.2.4
+      ignore: 5.3.0
       is-core-module: 2.13.1
       minimatch: 3.1.2
       resolve: 1.22.4
@@ -15811,6 +15811,15 @@ packages:
       stylelint: 16.0.0(typescript@5.3.3)
     dev: true
 
+  /stylelint-config-recommended@14.0.0(stylelint@16.0.0):
+    resolution: {integrity: sha512-jSkx290CglS8StmrLp2TxAppIajzIBZKYm3IxT89Kg6fGlxbPiTiyH9PS5YUuVAFwaJLl1ikiXX0QWjI0jmgZQ==}
+    engines: {node: '>=18.12.0'}
+    peerDependencies:
+      stylelint: ^16.0.0
+    dependencies:
+      stylelint: 16.0.0(typescript@5.3.3)
+    dev: true
+
   /stylelint-config-standard-scss@11.1.0(postcss@8.4.32)(stylelint@16.0.0):
     resolution: {integrity: sha512-5gnBgeNTgRVdchMwiFQPuBOtj9QefYtfXiddrOMJA2pI22zxt6ddI2s+e5Oh7/6QYl7QLJujGnaUR5YyGq72ow==}
     peerDependencies:
@@ -15834,6 +15843,16 @@ packages:
     dependencies:
       stylelint: 16.0.0(typescript@5.3.3)
       stylelint-config-recommended: 13.0.0(stylelint@16.0.0)
+    dev: true
+
+  /stylelint-config-standard@35.0.0(stylelint@16.0.0):
+    resolution: {integrity: sha512-JyQrNZk2BZwVKFauGGxW2U6RuhIfQ4XoHHo+rBzMHcAkLnwI/knpszwXjzxiMgSfcxbZBckM7Vq4LHoANTR85g==}
+    engines: {node: '>=18.12.0'}
+    peerDependencies:
+      stylelint: ^16.0.0
+    dependencies:
+      stylelint: 16.0.0(typescript@5.3.3)
+      stylelint-config-recommended: 14.0.0(stylelint@16.0.0)
     dev: true
 
   /stylelint-order@6.0.3(stylelint@16.0.0):
