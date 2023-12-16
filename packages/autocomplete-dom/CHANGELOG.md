@@ -1,5 +1,26 @@
 # @company-ui/autocomplete-dom
 
+## 3.5.16
+
+### Patch Changes
+
+- [`2aae225`](https://github.com/company-ui/company-ui/commit/2aae2252558773f4ace66691fe8b613523b74923) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint to v8.56.0
+
+- [`c5990d4`](https://github.com/company-ui/company-ui/commit/c5990d47f19149c8dd0d4b466724b96d9ecbd051) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.4.4
+
+- [`0eb5586`](https://github.com/company-ui/company-ui/commit/0eb55864dd15ca490ff93aae8752d5d884cca51d) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.9.0
+
+- [`3e41f67`](https://github.com/company-ui/company-ui/commit/3e41f670fd23ee7e8bbb9e2d85532201de554312) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-import to v2.29.1
+
+- [`4890824`](https://github.com/company-ui/company-ui/commit/4890824e139642e4e100128fc9e1a5a381714df1) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency cssnano to v6.0.2
+
+- [`332e993`](https://github.com/company-ui/company-ui/commit/332e993323e4de6fd5a80664a1bd8238d38954fd) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.0.10
+
+- Updated dependencies [[`2aae225`](https://github.com/company-ui/company-ui/commit/2aae2252558773f4ace66691fe8b613523b74923), [`c5990d4`](https://github.com/company-ui/company-ui/commit/c5990d47f19149c8dd0d4b466724b96d9ecbd051), [`0eb5586`](https://github.com/company-ui/company-ui/commit/0eb55864dd15ca490ff93aae8752d5d884cca51d), [`3e41f67`](https://github.com/company-ui/company-ui/commit/3e41f670fd23ee7e8bbb9e2d85532201de554312), [`4890824`](https://github.com/company-ui/company-ui/commit/4890824e139642e4e100128fc9e1a5a381714df1), [`332e993`](https://github.com/company-ui/company-ui/commit/332e993323e4de6fd5a80664a1bd8238d38954fd)]:
+  - @company-ui/autocomplete-core@3.5.16
+  - @company-ui/shared@3.5.16
+  - @company-ui/style@3.5.16
+
 ## 3.5.15
 
 ### Patch Changes
