@@ -1,5 +1,23 @@
 # @company-ui/dom
 
+## 3.5.17
+
+### Patch Changes
+
+- [`bc40d91`](https://github.com/company-ui/company-ui/commit/bc40d91484eb40bcedec87346e0badfd43d66d6e) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.9.1
+
+- [`6a3febf`](https://github.com/company-ui/company-ui/commit/6a3febf8464eb32958c4cf6002e1603e31c0d5d1) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite-plugin-babel to v1.2.0
+
+- [`d41966f`](https://github.com/company-ui/company-ui/commit/d41966fe24d447c3e72f8c3f3b9fb5f37f537e69) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.15.0
+
+- [`bc40d91`](https://github.com/company-ui/company-ui/commit/bc40d91484eb40bcedec87346e0badfd43d66d6e) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.9.1
+
+- [`98b9bdc`](https://github.com/company-ui/company-ui/commit/98b9bdc9a50ff844d3d7ad013a865a474c89dd9a) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-prettier to v5.1.0
+
+- Updated dependencies [[`bc40d91`](https://github.com/company-ui/company-ui/commit/bc40d91484eb40bcedec87346e0badfd43d66d6e), [`6a3febf`](https://github.com/company-ui/company-ui/commit/6a3febf8464eb32958c4cf6002e1603e31c0d5d1), [`d41966f`](https://github.com/company-ui/company-ui/commit/d41966fe24d447c3e72f8c3f3b9fb5f37f537e69), [`bc40d91`](https://github.com/company-ui/company-ui/commit/bc40d91484eb40bcedec87346e0badfd43d66d6e), [`98b9bdc`](https://github.com/company-ui/company-ui/commit/98b9bdc9a50ff844d3d7ad013a865a474c89dd9a)]:
+  - @company-ui/core@3.5.17
+  - @company-ui/shared@3.5.17
+
 ## 3.5.16
 
 ### Patch Changes
