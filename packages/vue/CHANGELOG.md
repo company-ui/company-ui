@@ -1,5 +1,16 @@
 # @company-ui/vue
 
+## 3.5.18
+
+### Patch Changes
+
+- [`4119f11`](https://github.com/company-ui/company-ui/commit/4119f1173b95e0df452826d067b89632569fa76c) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-prettier to v5.1.1
+
+- Updated dependencies [[`4119f11`](https://github.com/company-ui/company-ui/commit/4119f1173b95e0df452826d067b89632569fa76c)]:
+  - @company-ui/core@3.5.18
+  - @company-ui/shared@3.5.18
+  - @company-ui/style@3.5.18
+
 ## 3.5.17
 
 ### Patch Changes
