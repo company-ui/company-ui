@@ -101,8 +101,8 @@ importers:
         specifier: ^2.29.1
         version: 2.29.1(@typescript-eslint/parser@6.15.0)(eslint@8.56.0)
       eslint-plugin-prettier:
-        specifier: ^5.1.0
-        version: 5.1.0(eslint-config-prettier@9.1.0)(eslint@8.56.0)(prettier@3.1.1)
+        specifier: ^5.1.1
+        version: 5.1.1(eslint-config-prettier@9.1.0)(eslint@8.56.0)(prettier@3.1.1)
       eslint-plugin-vue:
         specifier: ^9.19.2
         version: 9.19.2(eslint@8.56.0)
@@ -141,7 +141,7 @@ importers:
         version: 1.12.21(rollup@4.9.1)
       rollup-plugin-vue:
         specifier: ^6.0.0
-        version: 6.0.0(@vue/compiler-sfc@3.3.11)
+        version: 6.0.0(@vue/compiler-sfc@3.3.13)
       sass:
         specifier: ^1.69.5
         version: 1.69.5
@@ -262,10 +262,10 @@ importers:
         version: link:../shared
       '@floating-ui/vue':
         specifier: ^1.0.2
-        version: 1.0.2(vue@2.7.15)
+        version: 1.0.2(vue@3.3.13)
       vue-demi:
         specifier: ^0.14.6
-        version: 0.14.6(vue@2.7.15)
+        version: 0.14.6(@vue/composition-api@1.7.2)(vue@3.3.13)
 
   packages/core:
     dependencies:
@@ -3252,11 +3252,11 @@ packages:
       - vue
     dev: false
 
-  /@floating-ui/vue@1.0.2(vue@2.7.15):
+  /@floating-ui/vue@1.0.2(vue@3.3.13):
     resolution: {integrity: sha512-sImlAl9mAoCKZLNlwWz2P2ZMJIDlOEDXrRD6aD2sIHAka1LPC+nWtB+D3lPe7IE7FGWSbwBPTnlSdlABa3Fr0A==}
     dependencies:
       '@floating-ui/dom': 1.5.3
-      vue-demi: 0.14.6(vue@2.7.15)
+      vue-demi: 0.14.6(vue@3.3.13)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -9011,8 +9011,8 @@ packages:
       semver: 7.5.4
     dev: true
 
-  /eslint-plugin-prettier@5.1.0(eslint-config-prettier@9.1.0)(eslint@8.56.0)(prettier@3.1.1):
-    resolution: {integrity: sha512-hQc+2zbnMeXcIkg+pKZtVa+3Yqx4WY7SMkn1PLZ4VbBEU7jJIpVn9347P8BBhTbz6ne85aXvQf30kvexcqBeWw==}
+  /eslint-plugin-prettier@5.1.1(eslint-config-prettier@9.1.0)(eslint@8.56.0)(prettier@3.1.1):
+    resolution: {integrity: sha512-WQpV3mSmIobb77s4qiCZu3dBrZZ0rj8ckSfBtRrgNK9Wnh2s3eiaxNTWloz1LJ1WtvqZES/PAI7PLvsrGt/CEA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       '@types/eslint': '>=8.0.0'
@@ -14866,12 +14866,12 @@ packages:
       terser: 5.26.0
     dev: false
 
-  /rollup-plugin-vue@6.0.0(@vue/compiler-sfc@3.3.11):
+  /rollup-plugin-vue@6.0.0(@vue/compiler-sfc@3.3.13):
     resolution: {integrity: sha512-oVvUd84d5u73M2HYM3XsMDLtZRIA/tw2U0dmHlXU2UWP5JARYHzh/U9vcxaN/x/9MrepY7VH3pHFeOhrWpxs/Q==}
     peerDependencies:
       '@vue/compiler-sfc': '*'
     dependencies:
-      '@vue/compiler-sfc': 3.3.11
+      '@vue/compiler-sfc': 3.3.13
       debug: 4.3.4
       hash-sum: 2.0.0
       rollup-pluginutils: 2.8.2
@@ -17134,7 +17134,6 @@ packages:
         optional: true
     dependencies:
       vue: 3.3.13(typescript@5.3.3)
-    dev: true
 
   /vue-eslint-parser@9.3.2(eslint@8.56.0):
     resolution: {integrity: sha512-q7tWyCVaV9f8iQyIA5Mkj/S6AoJ9KBN8IeUSf3XEmBrOtxOZnfTg5s4KClbZBCK3GtnT/+RyCLZyDHuZwTuBjg==}
