@@ -1,5 +1,24 @@
 # @company-ui/core
 
+## 3.5.19
+
+### Patch Changes
+
+- [`936b8c7`](https://github.com/company-ui/company-ui/commit/936b8c724e6a44cd143cabc9e5031215bc3f1717) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.16.0
+
+- [`7165a6b`](https://github.com/company-ui/company-ui/commit/7165a6baff531bdece1b37925a865b2cecd4ff3c) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-prettier to v5.1.2
+
+- [`51ef287`](https://github.com/company-ui/company-ui/commit/51ef287401641f62d36a7bd3e689fa9a51fd80b5) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update unocss monorepo to v0.58.1 (@unocss/postcss, unocss)
+
+- [`7603b9e`](https://github.com/company-ui/company-ui/commit/7603b9e74ae70033ec05c7cafca5778857402c08) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency stylelint to v16.1.0
+
+- [`031acd5`](https://github.com/company-ui/company-ui/commit/031acd5d0e5039a32927029dbc2f4f2e5f11b948) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-define-config to v2.1.0
+
+- [`8e3399e`](https://github.com/company-ui/company-ui/commit/8e3399e8310a3876cf2f81535461c3c5bc5ca1ea) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite-plugin-dts to v3.7.0
+
+- Updated dependencies [[`936b8c7`](https://github.com/company-ui/company-ui/commit/936b8c724e6a44cd143cabc9e5031215bc3f1717), [`7165a6b`](https://github.com/company-ui/company-ui/commit/7165a6baff531bdece1b37925a865b2cecd4ff3c), [`51ef287`](https://github.com/company-ui/company-ui/commit/51ef287401641f62d36a7bd3e689fa9a51fd80b5), [`7603b9e`](https://github.com/company-ui/company-ui/commit/7603b9e74ae70033ec05c7cafca5778857402c08), [`031acd5`](https://github.com/company-ui/company-ui/commit/031acd5d0e5039a32927029dbc2f4f2e5f11b948), [`8e3399e`](https://github.com/company-ui/company-ui/commit/8e3399e8310a3876cf2f81535461c3c5bc5ca1ea)]:
+  - @company-ui/shared@3.5.19
+
 ## 3.5.18
 
 ### Patch Changes
