@@ -1,5 +1,26 @@
 # @company-ui/react
 
+## 3.5.20
+
+### Patch Changes
+
+- [`caa803b`](https://github.com/company-ui/company-ui/commit/caa803b85928c6aff1016663449cf309d4f742cd) Thanks [@zhensherlock](https://github.com/zhensherlock)! - fix(deps): update dependency clsx to v2.1.0
+
+- [`fa79a36`](https://github.com/company-ui/company-ui/commit/fa79a36dbe75d8cb5860671e45a089078a1ded55) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.9.2
+
+- [`a45e7ac`](https://github.com/company-ui/company-ui/commit/a45e7ac3b84000f0d53e97ff5c6ac689c19762c5) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency sass to v1.69.6
+
+- [`81b2813`](https://github.com/company-ui/company-ui/commit/81b28137ee9afce896502a29b6d49ad8f07945b5) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update babel monorepo to v7.23.7 (@babel/core, @babel/plugin-transform-runtime, @babel/preset-env)
+
+- [`27757dd`](https://github.com/company-ui/company-ui/commit/27757dd62b3624c208c64ed050e829ac889a59dc) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency core-js to v3.35.0
+
+- [`294ba13`](https://github.com/company-ui/company-ui/commit/294ba13fc0f2d6f7f70c3d272ca1cedb4a581031) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @types/react to v18.2.46
+
+- Updated dependencies [[`fa79a36`](https://github.com/company-ui/company-ui/commit/fa79a36dbe75d8cb5860671e45a089078a1ded55), [`a45e7ac`](https://github.com/company-ui/company-ui/commit/a45e7ac3b84000f0d53e97ff5c6ac689c19762c5), [`81b2813`](https://github.com/company-ui/company-ui/commit/81b28137ee9afce896502a29b6d49ad8f07945b5), [`27757dd`](https://github.com/company-ui/company-ui/commit/27757dd62b3624c208c64ed050e829ac889a59dc)]:
+  - @company-ui/core@3.5.20
+  - @company-ui/shared@3.5.20
+  - @company-ui/style@3.5.20
+
 ## 3.5.19
 
 ### Patch Changes
