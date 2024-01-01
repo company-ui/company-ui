@@ -50,7 +50,7 @@
     "@unocss/postcss": "^0.58.1",
     "autoprefixer": "^10.4.16",
     "concurrently": "^8.2.2",
-    "core-js": "^3.34.0",
+    "core-js": "^3.35.0",
     "cssnano": "^6.0.2",
     "eslint": "^8.56.0",
     "eslint-config-airbnb-base": "^15.0.0",
