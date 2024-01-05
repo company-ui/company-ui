@@ -1,5 +1,24 @@
 # @company-ui/react
 
+## 3.5.21
+
+### Patch Changes
+
+- [`c1717ee`](https://github.com/company-ui/company-ui/commit/c1717ee1a794e91b67f8148256e1a41f99f1f0d5) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update unocss monorepo to v0.58.3 (@unocss/postcss, unocss)
+
+- [`b7e8f6f`](https://github.com/company-ui/company-ui/commit/b7e8f6fcd81dc0a8fb3cef7932f50adf6629d436) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.17.0
+
+- [`0040490`](https://github.com/company-ui/company-ui/commit/00404906496df8b51acdefa947c913e395c688d9) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency cssnano to v6.0.3
+
+- [`c8c4629`](https://github.com/company-ui/company-ui/commit/c8c462984ef70a77813221a4c6a0d65d0e906700) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency sass to v1.69.7
+
+- [`91dabc4`](https://github.com/company-ui/company-ui/commit/91dabc4055db2837f710a147e99c55c0887db382) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update commitlint monorepo to v18.4.4 (@commitlint/cli, @commitlint/config-conventional)
+
+- Updated dependencies [[`c1717ee`](https://github.com/company-ui/company-ui/commit/c1717ee1a794e91b67f8148256e1a41f99f1f0d5), [`b7e8f6f`](https://github.com/company-ui/company-ui/commit/b7e8f6fcd81dc0a8fb3cef7932f50adf6629d436), [`0040490`](https://github.com/company-ui/company-ui/commit/00404906496df8b51acdefa947c913e395c688d9), [`c8c4629`](https://github.com/company-ui/company-ui/commit/c8c462984ef70a77813221a4c6a0d65d0e906700), [`91dabc4`](https://github.com/company-ui/company-ui/commit/91dabc4055db2837f710a147e99c55c0887db382)]:
+  - @company-ui/core@3.5.21
+  - @company-ui/shared@3.5.21
+  - @company-ui/style@3.5.21
+
 ## 3.5.20
 
 ### Patch Changes
