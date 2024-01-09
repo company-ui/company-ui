@@ -36,6 +36,6 @@
     "@types/react-dom": "^18.2.18",
     "@vitejs/plugin-react": "^4.2.1",
     "@vitejs/plugin-vue": "^5.0.2",
-    "vue": "^3.4.5"
+    "vue": "^3.4.6"
   }
 }
