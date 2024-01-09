@@ -1,4 +1,4 @@
-export type ApiType = 'qcc_open' | 'qcc' | 'qixin' | 'tianyancha' | 'clearbit';
+export type ApiType = 'clearbit' | 'qcc_open' | 'qcc_global' | 'qcc' | 'qixin' | 'tianyancha';
 
 export type HistoryType = 'localStorage' | 'sessionStorage';
 
@@ -180,4 +180,23 @@ export interface ClearBitResponseType {
   keyNo: string;
   logo: string;
   domain: string;
+}
+
+export interface QccGlobalAPIResponseType {
+  status: string;
+  msg: string;
+  resultList: {
+    keyNo: string;
+    name: string;
+    imgUrl: string;
+    enName: string;
+    enShortStatus: string;
+    creditCode: string;
+    regNo: string;
+    orgNo: string;
+    shortStatus: string;
+    jurisdiction: string;
+  }[];
+  totalCount: number;
+  jsonStr: object;
 }

@@ -35,7 +35,7 @@ placeholder="Input company name"
 
 <autocomplete
 v-model="value2"
-api="qcc_open"
+api="qcc_global"
 history-storage-key="qcc-open-company-history"
 :auto-focus="false"
 submit-button-label="查一查"
@@ -45,7 +45,7 @@ placeholder="请输入企业名称或统一社会信用代码"
 ```vue
 <autocomplete
   v-model="value"
-  api="qcc_open"
+  api="qcc_global"
   history-storage-key="qcc-open-company-history"
   :auto-focus="false"
   submit-button-label="查一查"

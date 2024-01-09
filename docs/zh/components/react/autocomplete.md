@@ -30,7 +30,7 @@ const [inputValue, setInputValue] = useState('');
 <AutoComplete
   defaultValue={inputValue}
   value={inputValue}
-  api="qcc_open"
+  api="qcc_global"
   historyStorageKey="qcc-open-company-history"
   submitButtonLabel="查一查"
   placeholder="请输入企业名称或统一社会信用代码"
