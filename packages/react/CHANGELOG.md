@@ -1,5 +1,32 @@
 # @company-ui/react
 
+## 3.6.0
+
+### Minor Changes
+
+- [`2758d42`](https://github.com/company-ui/company-ui/commit/2758d425ce339c74aa67e4ed9c84c44ac3b1fc21) Thanks [@zhensherlock](https://github.com/zhensherlock)! - feat: add qcc_global api
+
+### Patch Changes
+
+- [`0640d5f`](https://github.com/company-ui/company-ui/commit/0640d5f929955bb7a2367af8f395890340a54fb5) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vue-eslint-parser to v9.4.0
+
+- [`5642d52`](https://github.com/company-ui/company-ui/commit/5642d5289b261262ac5e6ad9c75e1b90a28ad4ed) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @babel/preset-env to v7.23.8
+
+- [`a5469c1`](https://github.com/company-ui/company-ui/commit/a5469c1028d35fd1bdd320b01f8f85595a7d0110) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.0.11
+
+- [`cdda82d`](https://github.com/company-ui/company-ui/commit/cdda82dbdb68b2ec95f785ee99b91448e3fc0b7c) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.18.1
+
+- [`06e21d0`](https://github.com/company-ui/company-ui/commit/06e21d0d875937b188ce949fe206d66249fc0229) Thanks [@zhensherlock](https://github.com/zhensherlock)! - fix(deps): update dependency @floating-ui/react to v0.26.5
+
+- [`9818f28`](https://github.com/company-ui/company-ui/commit/9818f2801b73b8505d5b1ab80b0f86bbec1b472d) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @types/react to v18.2.47
+
+- [`cc29952`](https://github.com/company-ui/company-ui/commit/cc299529328f14264dd05c8a15a7e7069b09ce73) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.9.4
+
+- Updated dependencies [[`0640d5f`](https://github.com/company-ui/company-ui/commit/0640d5f929955bb7a2367af8f395890340a54fb5), [`5642d52`](https://github.com/company-ui/company-ui/commit/5642d5289b261262ac5e6ad9c75e1b90a28ad4ed), [`a5469c1`](https://github.com/company-ui/company-ui/commit/a5469c1028d35fd1bdd320b01f8f85595a7d0110), [`cdda82d`](https://github.com/company-ui/company-ui/commit/cdda82dbdb68b2ec95f785ee99b91448e3fc0b7c), [`cc29952`](https://github.com/company-ui/company-ui/commit/cc299529328f14264dd05c8a15a7e7069b09ce73), [`2758d42`](https://github.com/company-ui/company-ui/commit/2758d425ce339c74aa67e4ed9c84c44ac3b1fc21)]:
+  - @company-ui/core@3.6.0
+  - @company-ui/shared@3.6.0
+  - @company-ui/style@3.6.0
+
 ## 3.5.21
 
 ### Patch Changes
