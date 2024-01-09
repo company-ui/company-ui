@@ -91,7 +91,7 @@
     "vite-plugin-dts": "^3.7.0",
     "vite-plugin-eslint": "^1.8.1",
     "vitepress": "1.0.0-rc.36",
-    "vue-eslint-parser": "^9.3.2"
+    "vue-eslint-parser": "^9.4.0"
   },
   "pnpm": {
     "packageExtensions": {
