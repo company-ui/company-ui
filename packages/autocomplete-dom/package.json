@@ -60,6 +60,6 @@
     "@company-ui/autocomplete-core": "workspace:^",
     "@company-ui/shared": "workspace:^",
     "@company-ui/style": "workspace:^",
-    "@floating-ui/dom": "^1.5.3"
+    "@floating-ui/dom": "^1.5.4"
   }
 }
