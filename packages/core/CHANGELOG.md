@@ -1,5 +1,26 @@
 # @company-ui/core
 
+## 3.6.1
+
+### Patch Changes
+
+- [`d9d033f`](https://github.com/company-ui/company-ui/commit/d9d033fb29581bd09b72e552a5d5ec0d88683511) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-prettier to v5.1.3
+
+- [`e9f3438`](https://github.com/company-ui/company-ui/commit/e9f34389bde15168647074294d593eec1fe02696) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency postcss-html to v1.6.0
+
+- [`427e2a3`](https://github.com/company-ui/company-ui/commit/427e2a39ab823f883854085aea74bcaaf3aa3f38) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @rollup/plugin-typescript to v11.1.6
+
+- [`d7db8d7`](https://github.com/company-ui/company-ui/commit/d7db8d714ad02d645eabf96da09ae30973526024) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency prettier to v3.2.1
+
+- [`f5e197a`](https://github.com/company-ui/company-ui/commit/f5e197ac10bebc6e411472f222d60ae5450bc465) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.5.1
+
+- [`56165dc`](https://github.com/company-ui/company-ui/commit/56165dc6f19a6f8503873573ce1a4f55b704eb93) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.9.5
+
+- [`7a6df56`](https://github.com/company-ui/company-ui/commit/7a6df5642662e3b9606e9cb0ef049d46f29e6280) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-vue to v9.20.1
+
+- Updated dependencies [[`d9d033f`](https://github.com/company-ui/company-ui/commit/d9d033fb29581bd09b72e552a5d5ec0d88683511), [`e9f3438`](https://github.com/company-ui/company-ui/commit/e9f34389bde15168647074294d593eec1fe02696), [`427e2a3`](https://github.com/company-ui/company-ui/commit/427e2a39ab823f883854085aea74bcaaf3aa3f38), [`d7db8d7`](https://github.com/company-ui/company-ui/commit/d7db8d714ad02d645eabf96da09ae30973526024), [`f5e197a`](https://github.com/company-ui/company-ui/commit/f5e197ac10bebc6e411472f222d60ae5450bc465), [`56165dc`](https://github.com/company-ui/company-ui/commit/56165dc6f19a6f8503873573ce1a4f55b704eb93), [`7a6df56`](https://github.com/company-ui/company-ui/commit/7a6df5642662e3b9606e9cb0ef049d46f29e6280)]:
+  - @company-ui/shared@3.6.1
+
 ## 3.6.0
 
 ### Minor Changes
