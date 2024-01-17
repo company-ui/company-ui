@@ -261,8 +261,8 @@ importers:
         specifier: workspace:^
         version: link:../shared
       '@floating-ui/vue':
-        specifier: ^1.0.3
-        version: 1.0.3(vue@3.4.14)
+        specifier: ^1.0.4
+        version: 1.0.4(vue@3.4.14)
       vue-demi:
         specifier: ^0.14.6
         version: 0.14.6(vue@3.4.14)
@@ -341,8 +341,8 @@ importers:
         specifier: workspace:^
         version: link:../style
       '@floating-ui/vue':
-        specifier: ^1.0.3
-        version: 1.0.3(@vue/composition-api@1.7.2)(vue@3.4.12)
+        specifier: ^1.0.4
+        version: 1.0.4(@vue/composition-api@1.7.2)(vue@3.4.12)
       '@vue/composition-api':
         specifier: ^1.7.2
         version: 1.7.2(vue@3.4.12)
@@ -3175,8 +3175,8 @@ packages:
   /@floating-ui/utils@0.2.1:
     resolution: {integrity: sha512-9TANp6GPoMtYzQdt54kfAyMmz1+osLlXdg2ENroU7zzrtflTLrrC/lgrIfaSe+Wu0b89GKccT7vxXA0MoAIO+Q==}
 
-  /@floating-ui/vue@1.0.3(@vue/composition-api@1.7.2)(vue@3.4.12):
-    resolution: {integrity: sha512-XCXiEoRDN1oT4z+wWUvQAuUg8qjJFDQByq/7wkT/d1FoXvoOK/vLD0wa/QcvwjjaT7C2dgXZ10AnLptM3s0u8w==}
+  /@floating-ui/vue@1.0.4(@vue/composition-api@1.7.2)(vue@3.4.12):
+    resolution: {integrity: sha512-doHP79KFEmb41MCNR25NS8aGPR/TGBi0qIJgHmz4lIO7Nr0G9OImYnrT00obns1g3VXgG14ogVQoQDtPsfnXUQ==}
     dependencies:
       '@floating-ui/dom': 1.5.4
       '@floating-ui/utils': 0.2.1
@@ -3186,8 +3186,8 @@ packages:
       - vue
     dev: false
 
-  /@floating-ui/vue@1.0.3(vue@3.4.14):
-    resolution: {integrity: sha512-XCXiEoRDN1oT4z+wWUvQAuUg8qjJFDQByq/7wkT/d1FoXvoOK/vLD0wa/QcvwjjaT7C2dgXZ10AnLptM3s0u8w==}
+  /@floating-ui/vue@1.0.4(vue@3.4.14):
+    resolution: {integrity: sha512-doHP79KFEmb41MCNR25NS8aGPR/TGBi0qIJgHmz4lIO7Nr0G9OImYnrT00obns1g3VXgG14ogVQoQDtPsfnXUQ==}
     dependencies:
       '@floating-ui/dom': 1.5.4
       '@floating-ui/utils': 0.2.1
