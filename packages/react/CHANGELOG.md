@@ -1,5 +1,24 @@
 # @company-ui/react
 
+## 3.6.2
+
+### Patch Changes
+
+- [`9262dab`](https://github.com/company-ui/company-ui/commit/9262dabbde8515d2c140e2a02b24f06a2c44612b) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.19.0
+
+- [`df97c88`](https://github.com/company-ui/company-ui/commit/df97c8874ea3403e8644f0d2823c5e388e1d398b) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency prettier to v3.2.2
+
+- [`928d373`](https://github.com/company-ui/company-ui/commit/928d3736f4c164488e16b95f4b8d17f660bb72dc) Thanks [@zhensherlock](https://github.com/zhensherlock)! - fix(deps): update dependency @floating-ui/react to v0.26.6
+
+- [`04cf1b5`](https://github.com/company-ui/company-ui/commit/04cf1b5bf81331bbf75407c7bcac3c6ef85e7a14) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite-plugin-dts to v3.7.1
+
+- [`ca3511e`](https://github.com/company-ui/company-ui/commit/ca3511e2895addce94d35154d90a3b3209242d24) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @types/react to v18.2.48
+
+- Updated dependencies [[`9262dab`](https://github.com/company-ui/company-ui/commit/9262dabbde8515d2c140e2a02b24f06a2c44612b), [`df97c88`](https://github.com/company-ui/company-ui/commit/df97c8874ea3403e8644f0d2823c5e388e1d398b), [`04cf1b5`](https://github.com/company-ui/company-ui/commit/04cf1b5bf81331bbf75407c7bcac3c6ef85e7a14)]:
+  - @company-ui/core@3.6.2
+  - @company-ui/shared@3.6.2
+  - @company-ui/style@3.6.2
+
 ## 3.6.1
 
 ### Patch Changes
