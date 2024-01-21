@@ -77,8 +77,8 @@ importers:
         specifier: ^8.2.2
         version: 8.2.2
       core-js:
-        specifier: ^3.35.0
-        version: 3.35.0
+        specifier: ^3.35.1
+        version: 3.35.1
       cssnano:
         specifier: ^6.0.3
         version: 6.0.3(postcss@8.4.33)
@@ -7282,8 +7282,8 @@ packages:
     requiresBuild: true
     dev: false
 
-  /core-js@3.35.0:
-    resolution: {integrity: sha512-ntakECeqg81KqMueeGJ79Q5ZgQNR+6eaE8sxGCx62zMbAIj65q+uYvatToew3m6eAGdU4gNZwpZ34NMe4GYswg==}
+  /core-js@3.35.1:
+    resolution: {integrity: sha512-IgdsbxNyMskrTFxa9lWHyMwAJU5gXOPP+1yO+K59d50VLVAIDAbs7gIv705KzALModfK3ZrSZTPNpC0PQgIZuw==}
     requiresBuild: true
 
   /core-util-is@1.0.3:
@@ -13858,7 +13858,7 @@ packages:
     resolution: {integrity: sha512-sZ41cxiU5llIB003yxxQBYrARBqe0repqPTTYBTmMqTz9szeBbE37BehCE891NZsmdZqqP+xWKdT3eo3vOzN8w==}
     engines: {node: '>=14'}
     dependencies:
-      core-js: 3.35.0
+      core-js: 3.35.1
       object-assign: 4.1.1
       promise: 8.3.0
       raf: 3.4.1
