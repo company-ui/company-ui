@@ -1,6 +1,6 @@
 {
   "name": "@company-ui/docs",
-  "version": "3.6.2",
+  "version": "3.6.3",
   "private": true,
   "description": "company ui docs",
   "scripts": {

@@ -1,5 +1,31 @@
 # @company-ui/dom
 
+## 3.6.3
+
+### Patch Changes
+
+- [`32c61a3`](https://github.com/company-ui/company-ui/commit/32c61a32c1dbf59c71bf856ca60933818f1b1f67) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency terser to v5.27.0
+
+- [`3c47fa1`](https://github.com/company-ui/company-ui/commit/3c47fa1f3671ebece143d8a0867bc5e1c5bda8cc) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency core-js to v3.35.1
+
+- [`d48d32e`](https://github.com/company-ui/company-ui/commit/d48d32e456e88539eb99612afa3d8073d6442816) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency prettier to v3.2.4
+
+- [`b000361`](https://github.com/company-ui/company-ui/commit/b000361cb6006693907d2ba5ab33738bcba19eef) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency unplugin-vue-define-options to v1.4.2
+
+- [`7815daa`](https://github.com/company-ui/company-ui/commit/7815daa8bf33459d685f19135873b22eedb84331) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.5.2
+
+- [`80d68ab`](https://github.com/company-ui/company-ui/commit/80d68ab216fc5a5e430fcedf35c2b7d9d2fedb99) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency autoprefixer to v10.4.17
+
+- [`59daf55`](https://github.com/company-ui/company-ui/commit/59daf559f48de415d78e02088db8ce342bf13183) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency stylelint to v16.2.0
+
+- [`4f09828`](https://github.com/company-ui/company-ui/commit/4f09828ac5135c3a1280002cd2da7ba9855330a0) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.0.12
+
+- [`e4eda70`](https://github.com/company-ui/company-ui/commit/e4eda70b0ed6dc29d99b2582a38a45b1ad868b2c) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency sass to v1.70.0
+
+- Updated dependencies [[`32c61a3`](https://github.com/company-ui/company-ui/commit/32c61a32c1dbf59c71bf856ca60933818f1b1f67), [`3c47fa1`](https://github.com/company-ui/company-ui/commit/3c47fa1f3671ebece143d8a0867bc5e1c5bda8cc), [`d48d32e`](https://github.com/company-ui/company-ui/commit/d48d32e456e88539eb99612afa3d8073d6442816), [`b000361`](https://github.com/company-ui/company-ui/commit/b000361cb6006693907d2ba5ab33738bcba19eef), [`7815daa`](https://github.com/company-ui/company-ui/commit/7815daa8bf33459d685f19135873b22eedb84331), [`80d68ab`](https://github.com/company-ui/company-ui/commit/80d68ab216fc5a5e430fcedf35c2b7d9d2fedb99), [`59daf55`](https://github.com/company-ui/company-ui/commit/59daf559f48de415d78e02088db8ce342bf13183), [`4f09828`](https://github.com/company-ui/company-ui/commit/4f09828ac5135c3a1280002cd2da7ba9855330a0), [`e4eda70`](https://github.com/company-ui/company-ui/commit/e4eda70b0ed6dc29d99b2582a38a45b1ad868b2c)]:
+  - @company-ui/core@3.6.3
+  - @company-ui/shared@3.6.3
+
 ## 3.6.2
 
 ### Patch Changes
