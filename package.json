@@ -90,7 +90,7 @@
     "vite-plugin-commonjs": "^0.10.1",
     "vite-plugin-dts": "^3.7.1",
     "vite-plugin-eslint": "^1.8.1",
-    "vitepress": "1.0.0-rc.39",
+    "vitepress": "1.0.0-rc.40",
     "vue-eslint-parser": "^9.4.0"
   },
   "pnpm": {
