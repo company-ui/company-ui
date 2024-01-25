@@ -1,5 +1,30 @@
 # @company-ui/react
 
+## 3.6.4
+
+### Patch Changes
+
+- [`b70cc8e`](https://github.com/company-ui/company-ui/commit/b70cc8ed7e6cb1112f2d30e11ae98fdf113254ff) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @types/crypto-js to v4.2.2
+
+- [`a45c2da`](https://github.com/company-ui/company-ui/commit/a45c2dac5cbe41a2f3f14817066f098e1e62c2f1) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vue-eslint-parser to v9.4.2
+
+- [`d2421fe`](https://github.com/company-ui/company-ui/commit/d2421fe762549af80b2b44037065e577c0cfe011) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vue-eslint-parser to v9.4.2
+
+- [`903a58d`](https://github.com/company-ui/company-ui/commit/903a58d7592afa06b6095f02dce4a26bbeb5c30a) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite-plugin-dts to v3.7.2
+
+- [`876041c`](https://github.com/company-ui/company-ui/commit/876041cade9c4b5616f3ee7cf9922b2595335503) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.5.3
+
+- [`d2421fe`](https://github.com/company-ui/company-ui/commit/d2421fe762549af80b2b44037065e577c0cfe011) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update commitlint monorepo to v18.5.0 (@commitlint/cli, @commitlint/config-conventional)
+
+- [`af152d2`](https://github.com/company-ui/company-ui/commit/af152d28848d183f177893f9434e7200f55e9c79) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.19.1
+
+- [`0de5a1d`](https://github.com/company-ui/company-ui/commit/0de5a1d5c2da585a1315168753b96a1b8b33642f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.9.6
+
+- Updated dependencies [[`b70cc8e`](https://github.com/company-ui/company-ui/commit/b70cc8ed7e6cb1112f2d30e11ae98fdf113254ff), [`a45c2da`](https://github.com/company-ui/company-ui/commit/a45c2dac5cbe41a2f3f14817066f098e1e62c2f1), [`d2421fe`](https://github.com/company-ui/company-ui/commit/d2421fe762549af80b2b44037065e577c0cfe011), [`903a58d`](https://github.com/company-ui/company-ui/commit/903a58d7592afa06b6095f02dce4a26bbeb5c30a), [`876041c`](https://github.com/company-ui/company-ui/commit/876041cade9c4b5616f3ee7cf9922b2595335503), [`d2421fe`](https://github.com/company-ui/company-ui/commit/d2421fe762549af80b2b44037065e577c0cfe011), [`af152d2`](https://github.com/company-ui/company-ui/commit/af152d28848d183f177893f9434e7200f55e9c79), [`0de5a1d`](https://github.com/company-ui/company-ui/commit/0de5a1d5c2da585a1315168753b96a1b8b33642f)]:
+  - @company-ui/core@3.6.4
+  - @company-ui/shared@3.6.4
+  - @company-ui/style@3.6.4
+
 ## 3.6.3
 
 ### Patch Changes
