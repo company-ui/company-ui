@@ -200,7 +200,7 @@ importers:
         specifier: 1.0.0-rc.40
         version: 1.0.0-rc.40(@algolia/client-search@4.19.1)(@types/node@20.5.1)(postcss@8.4.33)(sass@1.70.0)(search-insights@2.7.0)(terser@5.27.0)(typescript@5.3.3)
       vue-eslint-parser:
-        specifier: ^9.4.0
+        specifier: ^9.4.2
         version: 9.4.2(eslint@8.56.0)
 
   docs:
