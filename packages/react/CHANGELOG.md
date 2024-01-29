@@ -1,5 +1,26 @@
 # @company-ui/react
 
+## 3.6.5
+
+### Patch Changes
+
+- [`b2a2117`](https://github.com/company-ui/company-ui/commit/b2a2117d60a14273362359f5dcbce87d03a5ce2c) Thanks [@zhensherlock](https://github.com/zhensherlock)! - fix(deps): update dependency @floating-ui/react to v0.26.8
+
+- [`5779ccd`](https://github.com/company-ui/company-ui/commit/5779ccd3dfdf528f0fe47f565d488fcfaaf9683a) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update unocss monorepo to v0.58.4
+
+- [`64eff81`](https://github.com/company-ui/company-ui/commit/64eff814403b2e99c8f3b954c58baba8ed814563) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update commitlint monorepo to v18.6.0
+
+- [`e0150d4`](https://github.com/company-ui/company-ui/commit/e0150d44900fc762908608b615ec24b3ea285d62) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update babel monorepo to v7.23.9 (@babel/core, @babel/eslint-parser, @babel/plugin-transform-runtime, @babel/preset-env)
+
+- [`8d1f4e1`](https://github.com/company-ui/company-ui/commit/8d1f4e145449aac96971b7e7cf7e9e1358eea14c) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency husky to v9
+
+- [`ce26a6d`](https://github.com/company-ui/company-ui/commit/ce26a6d52a00a9fa669e05b6eba7ea1ef22071e8) Thanks [@zhensherlock](https://github.com/zhensherlock)! - fix(deps): update dependency ahooks to v3.7.9
+
+- Updated dependencies [[`5779ccd`](https://github.com/company-ui/company-ui/commit/5779ccd3dfdf528f0fe47f565d488fcfaaf9683a), [`64eff81`](https://github.com/company-ui/company-ui/commit/64eff814403b2e99c8f3b954c58baba8ed814563), [`e0150d4`](https://github.com/company-ui/company-ui/commit/e0150d44900fc762908608b615ec24b3ea285d62), [`8d1f4e1`](https://github.com/company-ui/company-ui/commit/8d1f4e145449aac96971b7e7cf7e9e1358eea14c)]:
+  - @company-ui/core@3.6.5
+  - @company-ui/shared@3.6.5
+  - @company-ui/style@3.6.5
+
 ## 3.6.4
 
 ### Patch Changes

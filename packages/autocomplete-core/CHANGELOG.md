@@ -1,5 +1,20 @@
 # @company-ui/autocomplete-core
 
+## 3.6.5
+
+### Patch Changes
+
+- [`5779ccd`](https://github.com/company-ui/company-ui/commit/5779ccd3dfdf528f0fe47f565d488fcfaaf9683a) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update unocss monorepo to v0.58.4
+
+- [`64eff81`](https://github.com/company-ui/company-ui/commit/64eff814403b2e99c8f3b954c58baba8ed814563) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update commitlint monorepo to v18.6.0
+
+- [`e0150d4`](https://github.com/company-ui/company-ui/commit/e0150d44900fc762908608b615ec24b3ea285d62) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update babel monorepo to v7.23.9 (@babel/core, @babel/eslint-parser, @babel/plugin-transform-runtime, @babel/preset-env)
+
+- [`8d1f4e1`](https://github.com/company-ui/company-ui/commit/8d1f4e145449aac96971b7e7cf7e9e1358eea14c) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency husky to v9
+
+- Updated dependencies [[`5779ccd`](https://github.com/company-ui/company-ui/commit/5779ccd3dfdf528f0fe47f565d488fcfaaf9683a), [`64eff81`](https://github.com/company-ui/company-ui/commit/64eff814403b2e99c8f3b954c58baba8ed814563), [`e0150d4`](https://github.com/company-ui/company-ui/commit/e0150d44900fc762908608b615ec24b3ea285d62), [`8d1f4e1`](https://github.com/company-ui/company-ui/commit/8d1f4e145449aac96971b7e7cf7e9e1358eea14c)]:
+  - @company-ui/shared@3.6.5
+
 ## 3.6.4
 
 ### Patch Changes
