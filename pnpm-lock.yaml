@@ -264,8 +264,8 @@ importers:
         specifier: ^1.0.6
         version: 1.0.6(vue@3.4.15)
       vue-demi:
-        specifier: ^0.14.6
-        version: 0.14.6(@vue/composition-api@1.7.2)(vue@3.4.15)
+        specifier: ^0.14.7
+        version: 0.14.7(@vue/composition-api@1.7.2)(vue@3.4.15)
 
   packages/core:
     dependencies:
@@ -347,8 +347,8 @@ importers:
         specifier: ^1.7.2
         version: 1.7.2(vue@3.4.15)
       vue-demi:
-        specifier: ^0.14.6
-        version: 0.14.6(@vue/composition-api@1.7.2)(vue@3.4.15)
+        specifier: ^0.14.7
+        version: 0.14.7(@vue/composition-api@1.7.2)(vue@3.4.15)
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^5.0.3
@@ -390,8 +390,8 @@ importers:
         specifier: 5.0.1
         version: 5.0.1(@babel/plugin-syntax-flow@7.22.5)(@babel/plugin-transform-react-jsx@7.22.15)(eslint@8.56.0)(react@18.2.0)(sass@1.70.0)(typescript@5.3.3)
       vue-demi:
-        specifier: ^0.14.6
-        version: 0.14.6(@vue/composition-api@1.7.2)(vue@3.4.15)
+        specifier: ^0.14.7
+        version: 0.14.7(@vue/composition-api@1.7.2)(vue@3.4.15)
     devDependencies:
       '@types/react':
         specifier: ^18.2.48
@@ -418,8 +418,8 @@ importers:
         specifier: workspace:^
         version: link:../packages/vue
       vue-demi:
-        specifier: ^0.14.6
-        version: 0.14.6(@vue/composition-api@1.7.2)(vue@2.6.14)
+        specifier: ^0.14.7
+        version: 0.14.7(@vue/composition-api@1.7.2)(vue@2.6.14)
     devDependencies:
       '@vue/composition-api':
         specifier: ^1.7.2
@@ -443,8 +443,8 @@ importers:
         specifier: workspace:^
         version: link:../packages/vue
       vue-demi:
-        specifier: ^0.14.6
-        version: 0.14.6(vue@2.7.16)
+        specifier: ^0.14.7
+        version: 0.14.7(vue@2.7.16)
     devDependencies:
       '@vitejs/plugin-vue2':
         specifier: ^2.3.1
@@ -3218,7 +3218,7 @@ packages:
     dependencies:
       '@floating-ui/dom': 1.6.1
       '@floating-ui/utils': 0.2.1
-      vue-demi: 0.14.6(@vue/composition-api@1.7.2)(vue@3.4.15)
+      vue-demi: 0.14.7(@vue/composition-api@1.7.2)(vue@3.4.15)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -3229,7 +3229,7 @@ packages:
     dependencies:
       '@floating-ui/dom': 1.6.1
       '@floating-ui/utils': 0.2.1
-      vue-demi: 0.14.6(vue@3.4.15)
+      vue-demi: 0.14.7(vue@3.4.15)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -5542,7 +5542,7 @@ packages:
       '@types/web-bluetooth': 0.0.20
       '@vueuse/metadata': 10.7.2
       '@vueuse/shared': 10.7.2(vue@3.4.15)
-      vue-demi: 0.14.6(vue@3.4.15)
+      vue-demi: 0.14.7(vue@3.4.15)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -5554,7 +5554,7 @@ packages:
       '@types/web-bluetooth': 0.0.16
       '@vueuse/metadata': 9.13.0
       '@vueuse/shared': 9.13.0(vue@3.4.15)
-      vue-demi: 0.14.6(vue@3.4.15)
+      vue-demi: 0.14.7(vue@3.4.15)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -5604,7 +5604,7 @@ packages:
       '@vueuse/core': 10.7.2(vue@3.4.15)
       '@vueuse/shared': 10.7.2(vue@3.4.15)
       focus-trap: 7.5.4
-      vue-demi: 0.14.6(vue@3.4.15)
+      vue-demi: 0.14.7(vue@3.4.15)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -5621,7 +5621,7 @@ packages:
   /@vueuse/shared@10.7.2(vue@3.4.15):
     resolution: {integrity: sha512-qFbXoxS44pi2FkgFjPvF4h7c9oMDutpyBdcJdMYIMg9XyXli2meFMuaKn+UMgsClo//Th6+beeCgqweT/79BVA==}
     dependencies:
-      vue-demi: 0.14.6(vue@3.4.15)
+      vue-demi: 0.14.7(vue@3.4.15)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -5630,7 +5630,7 @@ packages:
   /@vueuse/shared@9.13.0(vue@3.4.15):
     resolution: {integrity: sha512-UrnhU+Cnufu4S6JLCPZnkWh0WwZGUp72ktOF2DFptMlOs3TOdVv8xJN53zhHGARmVOsz5KqOls09+J1NR6sBKw==}
     dependencies:
-      vue-demi: 0.14.6(vue@3.4.15)
+      vue-demi: 0.14.7(vue@3.4.15)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -16619,8 +16619,8 @@ packages:
       - universal-cookie
     dev: true
 
-  /vue-demi@0.14.6(@vue/composition-api@1.7.2)(vue@2.6.14):
-    resolution: {integrity: sha512-8QA7wrYSHKaYgUxDA5ZC24w+eHm3sYCbp0EzcDwKqN3p6HqtTCGR/GVsPyZW92unff4UlcSh++lmqDWN3ZIq4w==}
+  /vue-demi@0.14.7(@vue/composition-api@1.7.2)(vue@2.6.14):
+    resolution: {integrity: sha512-EOG8KXDQNwkJILkx/gPcoL/7vH+hORoBaKgGe+6W7VFMvCYJfmF2dGbvgDroVnI8LU7/kTu8mbjRZGBU1z9NTA==}
     engines: {node: '>=12'}
     hasBin: true
     requiresBuild: true
@@ -16635,8 +16635,8 @@ packages:
       vue: 2.6.14
     dev: false
 
-  /vue-demi@0.14.6(@vue/composition-api@1.7.2)(vue@3.4.15):
-    resolution: {integrity: sha512-8QA7wrYSHKaYgUxDA5ZC24w+eHm3sYCbp0EzcDwKqN3p6HqtTCGR/GVsPyZW92unff4UlcSh++lmqDWN3ZIq4w==}
+  /vue-demi@0.14.7(@vue/composition-api@1.7.2)(vue@3.4.15):
+    resolution: {integrity: sha512-EOG8KXDQNwkJILkx/gPcoL/7vH+hORoBaKgGe+6W7VFMvCYJfmF2dGbvgDroVnI8LU7/kTu8mbjRZGBU1z9NTA==}
     engines: {node: '>=12'}
     hasBin: true
     requiresBuild: true
@@ -16651,8 +16651,8 @@ packages:
       vue: 3.4.15(typescript@5.3.3)
     dev: false
 
-  /vue-demi@0.14.6(vue@2.7.16):
-    resolution: {integrity: sha512-8QA7wrYSHKaYgUxDA5ZC24w+eHm3sYCbp0EzcDwKqN3p6HqtTCGR/GVsPyZW92unff4UlcSh++lmqDWN3ZIq4w==}
+  /vue-demi@0.14.7(vue@2.7.16):
+    resolution: {integrity: sha512-EOG8KXDQNwkJILkx/gPcoL/7vH+hORoBaKgGe+6W7VFMvCYJfmF2dGbvgDroVnI8LU7/kTu8mbjRZGBU1z9NTA==}
     engines: {node: '>=12'}
     hasBin: true
     requiresBuild: true
@@ -16666,8 +16666,8 @@ packages:
       vue: 2.7.16
     dev: false
 
-  /vue-demi@0.14.6(vue@3.4.15):
-    resolution: {integrity: sha512-8QA7wrYSHKaYgUxDA5ZC24w+eHm3sYCbp0EzcDwKqN3p6HqtTCGR/GVsPyZW92unff4UlcSh++lmqDWN3ZIq4w==}
+  /vue-demi@0.14.7(vue@3.4.15):
+    resolution: {integrity: sha512-EOG8KXDQNwkJILkx/gPcoL/7vH+hORoBaKgGe+6W7VFMvCYJfmF2dGbvgDroVnI8LU7/kTu8mbjRZGBU1z9NTA==}
     engines: {node: '>=12'}
     hasBin: true
     requiresBuild: true

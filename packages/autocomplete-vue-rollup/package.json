@@ -56,6 +56,6 @@
     "@company-ui/autocomplete-core": "workspace:^",
     "@company-ui/shared": "workspace:^",
     "@floating-ui/vue": "^1.0.6",
-    "vue-demi": "^0.14.6"
+    "vue-demi": "^0.14.7"
   }
 }

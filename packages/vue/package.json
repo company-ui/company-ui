@@ -73,7 +73,7 @@
     "@company-ui/shared": "workspace:^",
     "@company-ui/style": "workspace:^",
     "@floating-ui/vue": "^1.0.6",
-    "vue-demi": "^0.14.6"
+    "vue-demi": "^0.14.7"
   },
   "peerDependencies": {
     "@vue/composition-api": "^1.7.2",
