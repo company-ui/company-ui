@@ -1,5 +1,27 @@
 # @company-ui/autocomplete-vue-rollup
 
+## 3.6.6
+
+### Patch Changes
+
+- [`a64d20a`](https://github.com/company-ui/company-ui/commit/a64d20ad0e11b782c5528c1838b380d15901a0cd) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency stylelint to v16.2.1
+
+- [`b991554`](https://github.com/company-ui/company-ui/commit/b991554f80469aa7bb78b88dacbc67da3b667cee) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @babel/eslint-parser to v7.23.10
+
+- [`d684b04`](https://github.com/company-ui/company-ui/commit/d684b0425311bf4e87b2d178a8c4f9ad1a18a213) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency husky to v9.0.7
+
+- [`23731ad`](https://github.com/company-ui/company-ui/commit/23731ad85cf97efbaf284fe15cca300ee96190f7) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency lint-staged to v15.2.1
+
+- [`93ae0db`](https://github.com/company-ui/company-ui/commit/93ae0db94a89053be6617f4be60ffd09c9cd651e) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.20.0
+
+- [`23e6d6e`](https://github.com/company-ui/company-ui/commit/23e6d6ec8532a13831dd7d80cd407b3a864d616d) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-vue to v9.21.1
+
+- [`e24c8b8`](https://github.com/company-ui/company-ui/commit/e24c8b8c58c3c37ce194a36257662c0eaec3629f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - fix(deps): update dependency vue-demi to v0.14.7
+
+- Updated dependencies [[`a64d20a`](https://github.com/company-ui/company-ui/commit/a64d20ad0e11b782c5528c1838b380d15901a0cd), [`b991554`](https://github.com/company-ui/company-ui/commit/b991554f80469aa7bb78b88dacbc67da3b667cee), [`d684b04`](https://github.com/company-ui/company-ui/commit/d684b0425311bf4e87b2d178a8c4f9ad1a18a213), [`23731ad`](https://github.com/company-ui/company-ui/commit/23731ad85cf97efbaf284fe15cca300ee96190f7), [`93ae0db`](https://github.com/company-ui/company-ui/commit/93ae0db94a89053be6617f4be60ffd09c9cd651e), [`23e6d6e`](https://github.com/company-ui/company-ui/commit/23e6d6ec8532a13831dd7d80cd407b3a864d616d)]:
+  - @company-ui/autocomplete-core@3.6.6
+  - @company-ui/shared@3.6.6
+
 ## 3.6.5
 
 ### Patch Changes
