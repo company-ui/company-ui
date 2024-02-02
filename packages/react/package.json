@@ -67,7 +67,7 @@
     "@company-ui/shared": "workspace:^",
     "@company-ui/style": "workspace:^",
     "@floating-ui/react": "^0.26.8",
-    "ahooks": "^3.7.9",
+    "ahooks": "^3.7.10",
     "clsx": "^2.1.0"
   },
   "peerDependencies": {
