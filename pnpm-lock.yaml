@@ -300,8 +300,8 @@ importers:
         specifier: workspace:^
         version: link:../style
       '@floating-ui/react':
-        specifier: ^0.26.8
-        version: 0.26.8(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^0.26.9
+        version: 0.26.9(react-dom@18.2.0)(react@18.2.0)
       ahooks:
         specifier: ^3.7.10
         version: 3.7.10(react@18.2.0)
@@ -3197,8 +3197,8 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@floating-ui/react@0.26.8(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-fOZb8BnJBrVohGPZ8RthDM5cHD9SnBKgY/U7LFXHhuwafSZD7TVmCX67+ezkkwxFbWpQGTEbgcjuHUDRonGy1g==}
+  /@floating-ui/react@0.26.9(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-p86wynZJVEkEq2BBjY/8p2g3biQ6TlgT4o/3KgFKyTWoJLU1GZ8wpctwRqtkEl2tseYA+kw7dBAIDFcednfI5w==}
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
