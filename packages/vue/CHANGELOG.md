@@ -1,5 +1,24 @@
 # @company-ui/vue
 
+## 3.6.7
+
+### Patch Changes
+
+- [`ec1c795`](https://github.com/company-ui/company-ui/commit/ec1c7954f334016a7457da69a41d6e7b1879792f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.5.5
+
+- [`cb0b6b0`](https://github.com/company-ui/company-ui/commit/cb0b6b09c0682f8b18d35b0a972b87419cb1fc62) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency lint-staged to v15.2.2
+
+- [`2b96edf`](https://github.com/company-ui/company-ui/commit/2b96edf2b43b5d170650fe14ea2a46eb824e349b) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency prettier to v3.2.5
+
+- [`dafd8fe`](https://github.com/company-ui/company-ui/commit/dafd8fe12800e0db7c04d00f5f1be5f190db2978) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update unocss monorepo to v0.58.5 (@unocss/postcss, unocss)
+
+- [`bcee91e`](https://github.com/company-ui/company-ui/commit/bcee91e7692142f5b8c5e09028a42892fc535cdf) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.21.0
+
+- Updated dependencies [[`ec1c795`](https://github.com/company-ui/company-ui/commit/ec1c7954f334016a7457da69a41d6e7b1879792f), [`cb0b6b0`](https://github.com/company-ui/company-ui/commit/cb0b6b09c0682f8b18d35b0a972b87419cb1fc62), [`2b96edf`](https://github.com/company-ui/company-ui/commit/2b96edf2b43b5d170650fe14ea2a46eb824e349b), [`dafd8fe`](https://github.com/company-ui/company-ui/commit/dafd8fe12800e0db7c04d00f5f1be5f190db2978), [`bcee91e`](https://github.com/company-ui/company-ui/commit/bcee91e7692142f5b8c5e09028a42892fc535cdf)]:
+  - @company-ui/core@3.6.7
+  - @company-ui/shared@3.6.7
+  - @company-ui/style@3.6.7
+
 ## 3.6.6
 
 ### Patch Changes
