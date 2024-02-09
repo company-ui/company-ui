@@ -1,5 +1,20 @@
 # @company-ui/react
 
+## 3.6.8
+
+### Patch Changes
+
+- [`9f154c9`](https://github.com/company-ui/company-ui/commit/9f154c91a982ce50c392b1a604a8c88d32654b56) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.1.1
+
+- [`7c4b43c`](https://github.com/company-ui/company-ui/commit/7c4b43c0333f3b8198000194a8dcdd052af339ae) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update react monorepo (@types/react, @types/react-dom)
+
+- [`afbfc2e`](https://github.com/company-ui/company-ui/commit/afbfc2ed304e54209d0225a7d4c47eaa1d293c8a) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency husky to v9.0.10
+
+- Updated dependencies [[`9f154c9`](https://github.com/company-ui/company-ui/commit/9f154c91a982ce50c392b1a604a8c88d32654b56), [`afbfc2e`](https://github.com/company-ui/company-ui/commit/afbfc2ed304e54209d0225a7d4c47eaa1d293c8a)]:
+  - @company-ui/core@3.6.8
+  - @company-ui/shared@3.6.8
+  - @company-ui/style@3.6.8
+
 ## 3.6.7
 
 ### Patch Changes
