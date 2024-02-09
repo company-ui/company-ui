@@ -107,7 +107,7 @@ importers:
         specifier: ^9.21.1
         version: 9.21.1(eslint@8.56.0)
       husky:
-        specifier: ^9.0.7
+        specifier: ^9.0.10
         version: 9.0.10
       lint-staged:
         specifier: ^15.2.2
@@ -141,7 +141,7 @@ importers:
         version: 1.12.21(rollup@4.9.6)
       rollup-plugin-vue:
         specifier: ^6.0.0
-        version: 6.0.0(@vue/compiler-sfc@3.4.15)
+        version: 6.0.0(@vue/compiler-sfc@3.4.18)
       sass:
         specifier: ^1.70.0
         version: 1.70.0
@@ -262,10 +262,10 @@ importers:
         version: link:../shared
       '@floating-ui/vue':
         specifier: ^1.0.6
-        version: 1.0.6(vue@2.7.16)
+        version: 1.0.6(vue@3.4.18)
       vue-demi:
         specifier: ^0.14.7
-        version: 0.14.7(vue@2.7.16)
+        version: 0.14.7(@vue/composition-api@1.7.2)(vue@3.4.18)
 
   packages/core:
     dependencies:
@@ -3209,12 +3209,12 @@ packages:
       - vue
     dev: false
 
-  /@floating-ui/vue@1.0.6(vue@2.7.16):
+  /@floating-ui/vue@1.0.6(vue@3.4.18):
     resolution: {integrity: sha512-EdrOljjkpkkqZnrpqUcPoz9NvHxuTjUtSInh6GMv3+Mcy+giY2cE2pHh9rpacRcZ2eMSCxel9jWkWXTjLmY55w==}
     dependencies:
       '@floating-ui/dom': 1.6.1
       '@floating-ui/utils': 0.2.1
-      vue-demi: 0.14.7(vue@2.7.16)
+      vue-demi: 0.14.7(vue@3.4.18)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -15018,12 +15018,12 @@ packages:
       terser: 5.27.0
     dev: false
 
-  /rollup-plugin-vue@6.0.0(@vue/compiler-sfc@3.4.15):
+  /rollup-plugin-vue@6.0.0(@vue/compiler-sfc@3.4.18):
     resolution: {integrity: sha512-oVvUd84d5u73M2HYM3XsMDLtZRIA/tw2U0dmHlXU2UWP5JARYHzh/U9vcxaN/x/9MrepY7VH3pHFeOhrWpxs/Q==}
     peerDependencies:
       '@vue/compiler-sfc': '*'
     dependencies:
-      '@vue/compiler-sfc': 3.4.15
+      '@vue/compiler-sfc': 3.4.18
       debug: 4.3.4
       hash-sum: 2.0.0
       rollup-pluginutils: 2.8.2
@@ -17201,7 +17201,6 @@ packages:
         optional: true
     dependencies:
       vue: 3.4.18(typescript@5.3.3)
-    dev: true
 
   /vue-eslint-parser@9.4.2(eslint@8.56.0):
     resolution: {integrity: sha512-Ry9oiGmCAK91HrKMtCrKFWmSFWvYkpGglCeFAIqDdr9zdXmMMpJOmUJS7WWsW7fX81h6mwHmUZCQQ1E0PkSwYQ==}
