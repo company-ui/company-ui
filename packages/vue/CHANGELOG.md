@@ -1,5 +1,22 @@
 # @company-ui/vue
 
+## 3.6.9
+
+### Patch Changes
+
+- [`5e4aa8b`](https://github.com/company-ui/company-ui/commit/5e4aa8bbf67b2fe0e9a3312396c40883a6ffdf2f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.10.0
+
+- [`63b1869`](https://github.com/company-ui/company-ui/commit/63b1869b1e9c8d1edf0b847ebd41db1dbe117e35) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @vitejs/plugin-vue to v5.0.4
+
+- [`70a46d9`](https://github.com/company-ui/company-ui/commit/70a46d96789e42357971937d6dedebae0a999ea1) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update vue monorepo
+
+- [`3f4b88d`](https://github.com/company-ui/company-ui/commit/3f4b88d936f467d7bdddb7a7c785dc90b844bc74) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update commitlint monorepo to v18.6.1 (@commitlint/cli, @commitlint/config-conventional)
+
+- Updated dependencies [[`5e4aa8b`](https://github.com/company-ui/company-ui/commit/5e4aa8bbf67b2fe0e9a3312396c40883a6ffdf2f), [`3f4b88d`](https://github.com/company-ui/company-ui/commit/3f4b88d936f467d7bdddb7a7c785dc90b844bc74)]:
+  - @company-ui/core@3.6.9
+  - @company-ui/shared@3.6.9
+  - @company-ui/style@3.6.9
+
 ## 3.6.8
 
 ### Patch Changes
