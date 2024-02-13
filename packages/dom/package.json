@@ -58,6 +58,6 @@
   "dependencies": {
     "@company-ui/core": "workspace:^",
     "@company-ui/shared": "workspace:^",
-    "@floating-ui/dom": "^1.6.1"
+    "@floating-ui/dom": "^1.6.3"
   }
 }
