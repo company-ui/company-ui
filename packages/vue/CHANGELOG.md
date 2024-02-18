@@ -1,5 +1,28 @@
 # @company-ui/vue
 
+## 3.6.10
+
+### Patch Changes
+
+- [`b78264b`](https://github.com/company-ui/company-ui/commit/b78264b0ae5a1e2de901dbef3da4d4ad9b1dd88d) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency core-js to v3.36.0
+
+- [`24ae16c`](https://github.com/company-ui/company-ui/commit/24ae16c3b80b113628d015eb1dd6077ecf0a4de3) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.12.0
+
+- [`038643c`](https://github.com/company-ui/company-ui/commit/038643cc922b7d0ccc11351e066151fd09835ddd) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency sass to v1.71.0
+
+- [`a3b2ae0`](https://github.com/company-ui/company-ui/commit/a3b2ae095c091a0eb50268f8ba74787ae05aabfa) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.1.3
+
+- [`e913a98`](https://github.com/company-ui/company-ui/commit/e913a985b640f4895e0aba4ff84e00f7c42d9178) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency husky to v9.0.11
+
+- [`18b9286`](https://github.com/company-ui/company-ui/commit/18b9286e2ab45da4873f12fd0250d08f4b3945ab) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @commitlint/config-conventional to v18.6.2
+
+- [`3559585`](https://github.com/company-ui/company-ui/commit/355958527a5a28228a6acfc83af503432aaf1cc9) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency terser to v5.27.1
+
+- Updated dependencies [[`b78264b`](https://github.com/company-ui/company-ui/commit/b78264b0ae5a1e2de901dbef3da4d4ad9b1dd88d), [`24ae16c`](https://github.com/company-ui/company-ui/commit/24ae16c3b80b113628d015eb1dd6077ecf0a4de3), [`038643c`](https://github.com/company-ui/company-ui/commit/038643cc922b7d0ccc11351e066151fd09835ddd), [`a3b2ae0`](https://github.com/company-ui/company-ui/commit/a3b2ae095c091a0eb50268f8ba74787ae05aabfa), [`e913a98`](https://github.com/company-ui/company-ui/commit/e913a985b640f4895e0aba4ff84e00f7c42d9178), [`18b9286`](https://github.com/company-ui/company-ui/commit/18b9286e2ab45da4873f12fd0250d08f4b3945ab), [`3559585`](https://github.com/company-ui/company-ui/commit/355958527a5a28228a6acfc83af503432aaf1cc9)]:
+  - @company-ui/core@3.6.10
+  - @company-ui/shared@3.6.10
+  - @company-ui/style@3.6.10
+
 ## 3.6.9
 
 ### Patch Changes
