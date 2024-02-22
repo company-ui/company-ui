@@ -72,7 +72,7 @@
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-sass": "^1.12.21",
     "rollup-plugin-vue": "^6.0.0",
-    "sass": "^1.71.0",
+    "sass": "^1.71.1",
     "stylelint": "^16.2.1",
     "stylelint-config-prettier": "^9.0.5",
     "stylelint-config-recommended-vue": "^1.5.0",
