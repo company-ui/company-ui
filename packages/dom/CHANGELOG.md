@@ -1,5 +1,25 @@
 # @company-ui/dom
 
+## 3.6.11
+
+### Patch Changes
+
+- [`861a6bf`](https://github.com/company-ui/company-ui/commit/861a6bf6531dcab96ee31fbd6d34f9143370dbb2) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.5.6
+
+- [`544f566`](https://github.com/company-ui/company-ui/commit/544f5664a2d4dedb2db9aab31a9b88a03283d8ad) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.1.4
+
+- [`286ce75`](https://github.com/company-ui/company-ui/commit/286ce759967b3d5102a9b8abdfe9c94748471d70) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite-plugin-dts to v3.7.3
+
+- [`c87885e`](https://github.com/company-ui/company-ui/commit/c87885efe11b6b84ca5147ac1a4c67a3e4a5a01c) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency terser to v5.27.2
+
+- [`7bc9b43`](https://github.com/company-ui/company-ui/commit/7bc9b438205aad3d2822afe12a7774b71a2ce19f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency sass to v1.71.1
+
+- [`5e45dab`](https://github.com/company-ui/company-ui/commit/5e45dabf8bd8230ace0651bad7e44a22a79b788a) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v7.0.2
+
+- Updated dependencies [[`861a6bf`](https://github.com/company-ui/company-ui/commit/861a6bf6531dcab96ee31fbd6d34f9143370dbb2), [`544f566`](https://github.com/company-ui/company-ui/commit/544f5664a2d4dedb2db9aab31a9b88a03283d8ad), [`286ce75`](https://github.com/company-ui/company-ui/commit/286ce759967b3d5102a9b8abdfe9c94748471d70), [`c87885e`](https://github.com/company-ui/company-ui/commit/c87885efe11b6b84ca5147ac1a4c67a3e4a5a01c), [`7bc9b43`](https://github.com/company-ui/company-ui/commit/7bc9b438205aad3d2822afe12a7774b71a2ce19f), [`5e45dab`](https://github.com/company-ui/company-ui/commit/5e45dabf8bd8230ace0651bad7e44a22a79b788a)]:
+  - @company-ui/core@3.6.11
+  - @company-ui/shared@3.6.11
+
 ## 3.6.10
 
 ### Patch Changes
