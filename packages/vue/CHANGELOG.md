@@ -1,5 +1,24 @@
 # @company-ui/vue
 
+## 3.6.12
+
+### Patch Changes
+
+- [`a6d335d`](https://github.com/company-ui/company-ui/commit/a6d335d70d4f7c7f34e19ff67e3a3e6c09bea426) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency cssnano to v6.0.5
+
+- [`dd0dc3b`](https://github.com/company-ui/company-ui/commit/dd0dc3b45156e2213348b4fdc15ba1656342e227) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-vue to v9.22.0
+
+- [`c9f39bc`](https://github.com/company-ui/company-ui/commit/c9f39bcfb5432487aa38f97dd0f784ccb43f7d71) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency terser to v5.28.1
+
+- [`b795c21`](https://github.com/company-ui/company-ui/commit/b795c21798ae01874ed2afd1dbbb0c9ec28461eb) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update vue monorepo
+
+- [`2b7a26b`](https://github.com/company-ui/company-ui/commit/2b7a26b5a6c1362c25b470c5855320b6729d1dbd) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint to v8.57.0
+
+- Updated dependencies [[`a6d335d`](https://github.com/company-ui/company-ui/commit/a6d335d70d4f7c7f34e19ff67e3a3e6c09bea426), [`dd0dc3b`](https://github.com/company-ui/company-ui/commit/dd0dc3b45156e2213348b4fdc15ba1656342e227), [`c9f39bc`](https://github.com/company-ui/company-ui/commit/c9f39bcfb5432487aa38f97dd0f784ccb43f7d71), [`2b7a26b`](https://github.com/company-ui/company-ui/commit/2b7a26b5a6c1362c25b470c5855320b6729d1dbd)]:
+  - @company-ui/core@3.6.12
+  - @company-ui/shared@3.6.12
+  - @company-ui/style@3.6.12
+
 ## 3.6.11
 
 ### Patch Changes
