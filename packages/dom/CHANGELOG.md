@@ -1,5 +1,19 @@
 # @company-ui/dom
 
+## 3.6.13
+
+### Patch Changes
+
+- [`16af616`](https://github.com/company-ui/company-ui/commit/16af616a48f64db1c9b9351bd4c310bd121ebb15) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update babel monorepo to v7.24.0 (@babel/core, @babel/plugin-transform-runtime, @babel/preset-env)
+
+- [`e41e56b`](https://github.com/company-ui/company-ui/commit/e41e56b966107df6d3e0b34f21a837945c9c6718) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update commitlint monorepo to v19.0.3 (@commitlint/cli, @commitlint/config-conventional)
+
+- [`865a027`](https://github.com/company-ui/company-ui/commit/865a027d932b42e081f38d65e01ba3f100c922bc) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v7.1.0
+
+- Updated dependencies [[`16af616`](https://github.com/company-ui/company-ui/commit/16af616a48f64db1c9b9351bd4c310bd121ebb15), [`e41e56b`](https://github.com/company-ui/company-ui/commit/e41e56b966107df6d3e0b34f21a837945c9c6718), [`865a027`](https://github.com/company-ui/company-ui/commit/865a027d932b42e081f38d65e01ba3f100c922bc)]:
+  - @company-ui/core@3.6.13
+  - @company-ui/shared@3.6.13
+
 ## 3.6.12
 
 ### Patch Changes
