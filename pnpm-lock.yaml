@@ -65,7 +65,7 @@ importers:
         specifier: ^13.0.7
         version: 13.0.7
       '@typescript-eslint/parser':
-        specifier: ^7.1.0
+        specifier: ^7.1.1
         version: 7.1.1(eslint@8.57.0)(typescript@5.3.3)
       '@unocss/postcss':
         specifier: ^0.58.5
@@ -11707,7 +11707,7 @@ packages:
     resolution: {integrity: sha512-hXdUTZYIVOt1Ex//jAQi+wTZZpUpwBj/0QsOzqegb3rGMMeJiSEu5xLHnYfBrRV4RH2+OCSOO95Is/7x1WJ4bw==}
     engines: {node: '>=10'}
     dependencies:
-      semver: 7.5.4
+      semver: 7.6.0
     dev: false
 
   /make-fetch-happen@11.1.1:
