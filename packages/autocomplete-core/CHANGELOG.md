@@ -1,5 +1,20 @@
 # @company-ui/autocomplete-core
 
+## 3.6.14
+
+### Patch Changes
+
+- [`2a4555b`](https://github.com/company-ui/company-ui/commit/2a4555b06c7d60ab9e044668c6b150f1c2148631) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.6.0
+
+- [`8c7c7dd`](https://github.com/company-ui/company-ui/commit/8c7c7dd56c963fd1ccf9756353c4910f7ff6022b) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency autoprefixer to v10.4.18
+
+- [`94cdaa2`](https://github.com/company-ui/company-ui/commit/94cdaa2092aa08f1e94d8726802aa0130a6936bb) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.1.5
+
+- [`495470b`](https://github.com/company-ui/company-ui/commit/495470bba2d7a6c698244d8c11175132a0e9e604) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v7.1.1
+
+- Updated dependencies [[`2a4555b`](https://github.com/company-ui/company-ui/commit/2a4555b06c7d60ab9e044668c6b150f1c2148631), [`8c7c7dd`](https://github.com/company-ui/company-ui/commit/8c7c7dd56c963fd1ccf9756353c4910f7ff6022b), [`94cdaa2`](https://github.com/company-ui/company-ui/commit/94cdaa2092aa08f1e94d8726802aa0130a6936bb), [`495470b`](https://github.com/company-ui/company-ui/commit/495470bba2d7a6c698244d8c11175132a0e9e604)]:
+  - @company-ui/shared@3.6.14
+
 ## 3.6.13
 
 ### Patch Changes
