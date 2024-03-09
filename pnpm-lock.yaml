@@ -226,7 +226,7 @@ importers:
         version: 2.2.5(@algolia/client-search@4.22.1)(search-insights@2.13.0)(vitepress@1.0.0-rc.45)(vue@3.4.21)
       element-plus:
         specifier: ^2.6.0
-        version: 2.6.0(vue@3.4.21)
+        version: 2.6.1(vue@3.4.21)
 
   packages/autocomplete-core:
     dependencies:
@@ -8207,8 +8207,8 @@ packages:
   /electron-to-chromium@1.4.689:
     resolution: {integrity: sha512-GatzRKnGPS1go29ep25reM94xxd1Wj8ritU0yRhCJ/tr1Bg8gKnm6R9O/yPOhGQBoLMZ9ezfrpghNaTw97C/PQ==}
 
-  /element-plus@2.6.0(vue@3.4.21):
-    resolution: {integrity: sha512-MP+N48P+diyndR+GjY+0VOrUmFnajD4U0CkrXIMzmeRmq4+dwi0bdzVo587v4wDo9Hs+ggviyacqm3NS8JYVqw==}
+  /element-plus@2.6.1(vue@3.4.21):
+    resolution: {integrity: sha512-6VRpLjwtIVdtUuITJPPKtpOH1NM6nuAkRE3q5O4Lrx0N1bYMhTkiqb2Jy7zfQuDPbOIkkF2OABTzegpNnzgsnQ==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
