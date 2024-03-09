@@ -80,7 +80,7 @@ importers:
         specifier: ^3.36.0
         version: 3.36.0
       cssnano:
-        specifier: ^6.0.5
+        specifier: ^6.1.0
         version: 6.1.0(postcss@8.4.35)
       eslint:
         specifier: ^8.57.0
@@ -6575,7 +6575,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001591
+      caniuse-lite: 1.0.30001596
       electron-to-chromium: 1.4.689
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
