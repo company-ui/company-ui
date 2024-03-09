@@ -1,5 +1,24 @@
 # @company-ui/vue
 
+## 3.6.15
+
+### Patch Changes
+
+- [`ac36600`](https://github.com/company-ui/company-ui/commit/ac366001f89c7f6dd5f8624b25c825105f58f085) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency cssnano to v6.1.0
+
+- [`aff27fb`](https://github.com/company-ui/company-ui/commit/aff27fb91012ff1c3cfeacc02d98cdd2ea5f6daf) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency terser to v5.29.1
+
+- [`ca19be2`](https://github.com/company-ui/company-ui/commit/ca19be2df2e197f1ca0e3f2d297e060b67e666f0) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.12.1
+
+- [`ae8d5ae`](https://github.com/company-ui/company-ui/commit/ae8d5aeac79d4e643887ae266a874f7227c933d3) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.6.1
+
+- [`28b3a74`](https://github.com/company-ui/company-ui/commit/28b3a744ed02329b984df01d5e9701221b12f145) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency typescript to v5.4.2
+
+- Updated dependencies [[`ac36600`](https://github.com/company-ui/company-ui/commit/ac366001f89c7f6dd5f8624b25c825105f58f085), [`aff27fb`](https://github.com/company-ui/company-ui/commit/aff27fb91012ff1c3cfeacc02d98cdd2ea5f6daf), [`ca19be2`](https://github.com/company-ui/company-ui/commit/ca19be2df2e197f1ca0e3f2d297e060b67e666f0), [`ae8d5ae`](https://github.com/company-ui/company-ui/commit/ae8d5aeac79d4e643887ae266a874f7227c933d3), [`28b3a74`](https://github.com/company-ui/company-ui/commit/28b3a744ed02329b984df01d5e9701221b12f145)]:
+  - @company-ui/core@3.6.15
+  - @company-ui/shared@3.6.15
+  - @company-ui/style@3.6.15
+
 ## 3.6.14
 
 ### Patch Changes
