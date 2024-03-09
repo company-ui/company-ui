@@ -225,7 +225,7 @@ importers:
         specifier: ^2.2.5
         version: 2.2.5(@algolia/client-search@4.22.1)(search-insights@2.13.0)(vitepress@1.0.0-rc.45)(vue@3.4.21)
       element-plus:
-        specifier: ^2.6.0
+        specifier: ^2.6.1
         version: 2.6.1(vue@3.4.21)
 
   packages/autocomplete-core:
