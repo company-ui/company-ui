@@ -164,7 +164,7 @@ importers:
         specifier: ^6.0.4
         version: 6.0.4(stylelint@16.2.1)
       terser:
-        specifier: ^5.28.1
+        specifier: ^5.29.1
         version: 5.29.1
       tslib:
         specifier: ^2.6.2
@@ -3575,7 +3575,7 @@ packages:
     dependencies:
       '@jridgewell/set-array': 1.2.1
       '@jridgewell/sourcemap-codec': 1.4.15
-      '@jridgewell/trace-mapping': 0.3.23
+      '@jridgewell/trace-mapping': 0.3.25
 
   /@jridgewell/gen-mapping@0.3.5:
     resolution: {integrity: sha512-IzL8ZoEDIBRWEzlCcRhOaCupYyN5gdIK+Q6fbFdPDg6HqX6jpkItn7DFIpW9LQzXG6Df9sA7+OKnq0qlz/GaQg==}
@@ -15815,7 +15815,7 @@ packages:
       uglify-js:
         optional: true
     dependencies:
-      '@jridgewell/trace-mapping': 0.3.23
+      '@jridgewell/trace-mapping': 0.3.25
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.1
@@ -16450,7 +16450,7 @@ packages:
   /vite-plugin-dynamic-import@1.5.0:
     resolution: {integrity: sha512-Qp85c+AVJmLa8MLni74U4BDiWpUeFNx7NJqbGZyR2XJOU7mgW0cb7nwlAMucFyM4arEd92Nfxp4j44xPi6Fu7g==}
     dependencies:
-      acorn: 8.11.2
+      acorn: 8.11.3
       es-module-lexer: 1.3.0
       fast-glob: 3.3.2
       magic-string: 0.30.7
