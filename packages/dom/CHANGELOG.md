@@ -1,5 +1,23 @@
 # @company-ui/dom
 
+## 3.6.16
+
+### Patch Changes
+
+- [`86e0eb9`](https://github.com/company-ui/company-ui/commit/86e0eb915debf8ecd99800ed68f39fd8883e22a1) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-vue to v9.23.0
+
+- [`62ac10d`](https://github.com/company-ui/company-ui/commit/62ac10d845eb5f95c47d9b3957d47ea00639eb36) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v7.2.0
+
+- [`c82729a`](https://github.com/company-ui/company-ui/commit/c82729a0318d20b7356b6a8da3e8d285d71f13f7) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update commitlint monorepo to v19.1.0 (@commitlint/cli, @commitlint/config-conventional)
+
+- [`695e77f`](https://github.com/company-ui/company-ui/commit/695e77fd2ccd52951c80baf6464a4413312e3bdd) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.1.6
+
+- [`5bd59f9`](https://github.com/company-ui/company-ui/commit/5bd59f995b2d4fed403dd27470a83e494a42676f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.13.0
+
+- Updated dependencies [[`86e0eb9`](https://github.com/company-ui/company-ui/commit/86e0eb915debf8ecd99800ed68f39fd8883e22a1), [`62ac10d`](https://github.com/company-ui/company-ui/commit/62ac10d845eb5f95c47d9b3957d47ea00639eb36), [`c82729a`](https://github.com/company-ui/company-ui/commit/c82729a0318d20b7356b6a8da3e8d285d71f13f7), [`695e77f`](https://github.com/company-ui/company-ui/commit/695e77fd2ccd52951c80baf6464a4413312e3bdd), [`5bd59f9`](https://github.com/company-ui/company-ui/commit/5bd59f995b2d4fed403dd27470a83e494a42676f)]:
+  - @company-ui/core@3.6.16
+  - @company-ui/shared@3.6.16
+
 ## 3.6.15
 
 ### Patch Changes
