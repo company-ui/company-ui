@@ -1,5 +1,17 @@
 # @company-ui/style
 
+## 3.6.17
+
+### Patch Changes
+
+- [`632b63e`](https://github.com/company-ui/company-ui/commit/632b63ed8ab0bf4d68c9f42c75904afb9d5f9308) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update unocss monorepo to v0.58.6 (@unocss/postcss, unocss)
+
+- [`5cd2d08`](https://github.com/company-ui/company-ui/commit/5cd2d08b2d01446e05af8694f668ac2a907c51a1) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @commitlint/cli to v19.2.0
+
+- [`1ac05bc`](https://github.com/company-ui/company-ui/commit/1ac05bc7a2d3b634f8108f927224a229f3f8fd5c) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency terser to v5.29.2
+
+- [`ecf97bf`](https://github.com/company-ui/company-ui/commit/ecf97bfcea4b7460b7e822d481b1d258418c2ad5) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency sass to v1.72.0
+
 ## 3.6.16
 
 ### Patch Changes
