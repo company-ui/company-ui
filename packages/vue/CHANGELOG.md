@@ -1,5 +1,32 @@
 # @company-ui/vue
 
+## 3.6.18
+
+### Patch Changes
+
+- [`d44a5e7`](https://github.com/company-ui/company-ui/commit/d44a5e7bade77154e62c9208dfe28f2329c7649d) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update babel monorepo (@babel/core, @babel/eslint-parser, @babel/plugin-transform-runtime, @babel/preset-env)
+
+- [`7b9696a`](https://github.com/company-ui/company-ui/commit/7b9696a102cb96fd81431a66117de7d2e1743e21) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency typescript to v5.4.3
+
+- [`a847706`](https://github.com/company-ui/company-ui/commit/a847706d7e553d4ad8aaada50de6e497239c1242) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v7.3.1
+
+- [`3155dfb`](https://github.com/company-ui/company-ui/commit/3155dfbefa1af097f2948246379ae64e0675bf38) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency cssnano to v6.1.1
+
+- [`dcad776`](https://github.com/company-ui/company-ui/commit/dcad77641138abb2a900de5476e9263a029c55f6) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency core-js to v3.36.1
+
+- [`8ad4100`](https://github.com/company-ui/company-ui/commit/8ad4100c0b610c48afa07cd459625bcb40a004ef) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.2.2
+
+- [`6778eaa`](https://github.com/company-ui/company-ui/commit/6778eaa7200cd4575c8bed3fa17208fd0836caba) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency markdown-it to v14.1.0
+
+- [`26187ff`](https://github.com/company-ui/company-ui/commit/26187ff58e18bc98c4d45f0fa7adf7d34b856ebb) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @commitlint/cli to v19.2.1
+
+- [`0596cf2`](https://github.com/company-ui/company-ui/commit/0596cf2a0a55db3be51da9e15ad3856e5ba7ac72) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency autoprefixer to v10.4.19
+
+- Updated dependencies [[`d44a5e7`](https://github.com/company-ui/company-ui/commit/d44a5e7bade77154e62c9208dfe28f2329c7649d), [`7b9696a`](https://github.com/company-ui/company-ui/commit/7b9696a102cb96fd81431a66117de7d2e1743e21), [`a847706`](https://github.com/company-ui/company-ui/commit/a847706d7e553d4ad8aaada50de6e497239c1242), [`3155dfb`](https://github.com/company-ui/company-ui/commit/3155dfbefa1af097f2948246379ae64e0675bf38), [`dcad776`](https://github.com/company-ui/company-ui/commit/dcad77641138abb2a900de5476e9263a029c55f6), [`8ad4100`](https://github.com/company-ui/company-ui/commit/8ad4100c0b610c48afa07cd459625bcb40a004ef), [`6778eaa`](https://github.com/company-ui/company-ui/commit/6778eaa7200cd4575c8bed3fa17208fd0836caba), [`26187ff`](https://github.com/company-ui/company-ui/commit/26187ff58e18bc98c4d45f0fa7adf7d34b856ebb), [`0596cf2`](https://github.com/company-ui/company-ui/commit/0596cf2a0a55db3be51da9e15ad3856e5ba7ac72)]:
+  - @company-ui/core@3.6.18
+  - @company-ui/shared@3.6.18
+  - @company-ui/style@3.6.18
+
 ## 3.6.17
 
 ### Patch Changes
