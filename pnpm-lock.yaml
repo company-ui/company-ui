@@ -71,7 +71,7 @@ importers:
         specifier: ^0.58.6
         version: 0.58.6(postcss@8.4.38)
       autoprefixer:
-        specifier: ^10.4.18
+        specifier: ^10.4.19
         version: 10.4.19(postcss@8.4.38)
       concurrently:
         specifier: ^8.2.2
