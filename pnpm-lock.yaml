@@ -116,7 +116,7 @@ importers:
         specifier: ^4.17.21
         version: 4.17.21
       markdown-it:
-        specifier: ^14.0.0
+        specifier: ^14.1.0
         version: 14.1.0
       postcss-html:
         specifier: ^1.6.0
