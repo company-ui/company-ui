@@ -81,7 +81,7 @@
     "stylelint-order": "^6.0.4",
     "terser": "^5.29.2",
     "tslib": "^2.6.2",
-    "typescript": "^5.4.2",
+    "typescript": "^5.4.3",
     "unocss": "^0.58.6",
     "unplugin-element-plus": "^0.8.0",
     "unplugin-vue-define-options": "^1.4.2",
