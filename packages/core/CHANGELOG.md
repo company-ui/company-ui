@@ -1,5 +1,18 @@
 # @company-ui/core
 
+## 3.6.19
+
+### Patch Changes
+
+- [`f7ec6db`](https://github.com/company-ui/company-ui/commit/f7ec6dba78faee32300e18e0c085be2f1dccbd3f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.6.2
+
+- [`35e385a`](https://github.com/company-ui/company-ui/commit/35e385a031db69059bc1678657a8046c65af62c8) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.2.6
+
+- [`f3c3a2a`](https://github.com/company-ui/company-ui/commit/f3c3a2a1cd6272f64afe0e6428399115c07abdc5) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency stylelint to v16.3.0
+
+- Updated dependencies [[`f7ec6db`](https://github.com/company-ui/company-ui/commit/f7ec6dba78faee32300e18e0c085be2f1dccbd3f), [`35e385a`](https://github.com/company-ui/company-ui/commit/35e385a031db69059bc1678657a8046c65af62c8), [`f3c3a2a`](https://github.com/company-ui/company-ui/commit/f3c3a2a1cd6272f64afe0e6428399115c07abdc5)]:
+  - @company-ui/shared@3.6.19
+
 ## 3.6.18
 
 ### Patch Changes
