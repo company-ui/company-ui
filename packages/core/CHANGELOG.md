@@ -1,5 +1,28 @@
 # @company-ui/core
 
+## 3.6.20
+
+### Patch Changes
+
+- [`e423cbf`](https://github.com/company-ui/company-ui/commit/e423cbf4080d4b531720d712c5e6f90a7425defa) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update unocss monorepo to v0.58.8 (@unocss/postcss, unocss)
+
+- [`25b21b7`](https://github.com/company-ui/company-ui/commit/25b21b76ffb1fa15c6e0ab05d982343b78146a19) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v7.4.0
+
+- [`4d6d4ad`](https://github.com/company-ui/company-ui/commit/4d6d4adca23643359b4e7991cf7d13bda06f919c) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency cssnano to v6.1.2
+
+- [`febb914`](https://github.com/company-ui/company-ui/commit/febb914759b4a161b5ba96d2dc07f0eaaca1a1e4) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency stylelint to v16.3.1
+
+- [`674b4d8`](https://github.com/company-ui/company-ui/commit/674b4d85651b2d2489ad458039271a508407f5e0) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.13.2
+
+- [`25b21b7`](https://github.com/company-ui/company-ui/commit/25b21b76ffb1fa15c6e0ab05d982343b78146a19) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-vue to v9.24.0
+
+- [`c69ec61`](https://github.com/company-ui/company-ui/commit/c69ec61adec238f6c459c83abbc5c88d62d9eb86) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite-plugin-dts to v3.8.1
+
+- [`8ee2aa1`](https://github.com/company-ui/company-ui/commit/8ee2aa12c3907dc640fcd00c4679969336f1ebd8) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency terser to v5.30.0
+
+- Updated dependencies [[`e423cbf`](https://github.com/company-ui/company-ui/commit/e423cbf4080d4b531720d712c5e6f90a7425defa), [`25b21b7`](https://github.com/company-ui/company-ui/commit/25b21b76ffb1fa15c6e0ab05d982343b78146a19), [`4d6d4ad`](https://github.com/company-ui/company-ui/commit/4d6d4adca23643359b4e7991cf7d13bda06f919c), [`febb914`](https://github.com/company-ui/company-ui/commit/febb914759b4a161b5ba96d2dc07f0eaaca1a1e4), [`674b4d8`](https://github.com/company-ui/company-ui/commit/674b4d85651b2d2489ad458039271a508407f5e0), [`25b21b7`](https://github.com/company-ui/company-ui/commit/25b21b76ffb1fa15c6e0ab05d982343b78146a19), [`c69ec61`](https://github.com/company-ui/company-ui/commit/c69ec61adec238f6c459c83abbc5c88d62d9eb86), [`8ee2aa1`](https://github.com/company-ui/company-ui/commit/8ee2aa12c3907dc640fcd00c4679969336f1ebd8)]:
+  - @company-ui/shared@3.6.20
+
 ## 3.6.19
 
 ### Patch Changes
