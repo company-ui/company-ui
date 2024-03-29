@@ -191,8 +191,8 @@ importers:
         specifier: ^0.10.1
         version: 0.10.1
       vite-plugin-dts:
-        specifier: ^3.7.3
-        version: 3.8.0(@types/node@20.11.30)(rollup@4.13.2)(typescript@5.4.3)(vite@5.2.6)(vue@2.6.14)
+        specifier: ^3.8.1
+        version: 3.8.1(@types/node@20.11.30)(rollup@4.13.2)(typescript@5.4.3)(vite@5.2.6)(vue@2.6.14)
       vite-plugin-eslint:
         specifier: ^1.8.1
         version: 1.8.1(eslint@8.57.0)(vite@5.2.6)
@@ -265,7 +265,7 @@ importers:
         version: 1.0.6(vue@3.4.21)
       vue-demi:
         specifier: ^0.14.7
-        version: 0.14.7(vue@3.4.21)
+        version: 0.14.7(@vue/composition-api@1.7.2)(vue@3.4.21)
 
   packages/core:
     dependencies:
@@ -342,13 +342,13 @@ importers:
         version: link:../style
       '@floating-ui/vue':
         specifier: ^1.0.6
-        version: 1.0.6(vue@3.4.21)
+        version: 1.0.6(@vue/composition-api@1.7.2)(vue@3.4.21)
       '@vue/composition-api':
         specifier: ^1.7.2
         version: 1.7.2(vue@3.4.21)
       vue-demi:
         specifier: ^0.14.7
-        version: 0.14.7(vue@3.4.21)
+        version: 0.14.7(@vue/composition-api@1.7.2)(vue@3.4.21)
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^5.0.4
@@ -391,7 +391,7 @@ importers:
         version: 5.0.1(@babel/plugin-syntax-flow@7.24.1)(@babel/plugin-transform-react-jsx@7.23.4)(eslint@8.57.0)(react@18.2.0)(sass@1.72.0)(typescript@5.4.3)
       vue-demi:
         specifier: ^0.14.7
-        version: 0.14.7(vue@3.4.21)
+        version: 0.14.7(@vue/composition-api@1.7.2)(vue@3.4.21)
     devDependencies:
       '@types/react':
         specifier: ^18.2.69
@@ -3309,6 +3309,17 @@ packages:
   /@floating-ui/utils@0.2.1:
     resolution: {integrity: sha512-9TANp6GPoMtYzQdt54kfAyMmz1+osLlXdg2ENroU7zzrtflTLrrC/lgrIfaSe+Wu0b89GKccT7vxXA0MoAIO+Q==}
 
+  /@floating-ui/vue@1.0.6(@vue/composition-api@1.7.2)(vue@3.4.21):
+    resolution: {integrity: sha512-EdrOljjkpkkqZnrpqUcPoz9NvHxuTjUtSInh6GMv3+Mcy+giY2cE2pHh9rpacRcZ2eMSCxel9jWkWXTjLmY55w==}
+    dependencies:
+      '@floating-ui/dom': 1.6.3
+      '@floating-ui/utils': 0.2.1
+      vue-demi: 0.14.7(@vue/composition-api@1.7.2)(vue@3.4.21)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: false
+
   /@floating-ui/vue@1.0.6(vue@3.4.21):
     resolution: {integrity: sha512-EdrOljjkpkkqZnrpqUcPoz9NvHxuTjUtSInh6GMv3+Mcy+giY2cE2pHh9rpacRcZ2eMSCxel9jWkWXTjLmY55w==}
     dependencies:
@@ -3937,7 +3948,7 @@ packages:
       builtin-modules: 3.3.0
       deepmerge: 4.3.1
       is-module: 1.0.0
-      resolve: 1.22.4
+      resolve: 1.22.8
       rollup: 2.79.1
     dev: false
 
@@ -4128,6 +4139,7 @@ packages:
     resolution: {integrity: sha512-L1+D8/wqGnKQIlh4Zre9i4R4b4noxzH5DDciyahX4oOz62CphY7WDWqJoQ66zNR4oScLNOqQJfNSIAe/6TPUmQ==}
     cpu: [arm64]
     os: [linux]
+    libc: [glibc]
     requiresBuild: true
     dev: true
     optional: true
@@ -4136,6 +4148,7 @@ packages:
     resolution: {integrity: sha512-tK5eoKFkXdz6vjfkSTCupUzCo40xueTOiOO6PeEIadlNBkadH1wNOH8ILCPIl8by/Gmb5AGAeQOFeLev7iZDOA==}
     cpu: [arm64]
     os: [linux]
+    libc: [musl]
     requiresBuild: true
     dev: true
     optional: true
@@ -4144,6 +4157,7 @@ packages:
     resolution: {integrity: sha512-zvXvAUGGEYi6tYhcDmb9wlOckVbuD+7z3mzInCSTACJ4DQrdSLPNUeDIcAQW39M3q6PDquqLWu7pnO39uSMRzQ==}
     cpu: [ppc64le]
     os: [linux]
+    libc: [glibc]
     requiresBuild: true
     dev: true
     optional: true
@@ -4152,6 +4166,7 @@ packages:
     resolution: {integrity: sha512-C3GSKvMtdudHCN5HdmAMSRYR2kkhgdOfye4w0xzyii7lebVr4riCgmM6lRiSCnJn2w1Xz7ZZzHKuLrjx5620kw==}
     cpu: [riscv64]
     os: [linux]
+    libc: [glibc]
     requiresBuild: true
     dev: true
     optional: true
@@ -4160,6 +4175,7 @@ packages:
     resolution: {integrity: sha512-l4U0KDFwzD36j7HdfJ5/TveEQ1fUTjFFQP5qIt9gBqBgu1G8/kCaq5Ok05kd5TG9F8Lltf3MoYsUMw3rNlJ0Yg==}
     cpu: [s390x]
     os: [linux]
+    libc: [glibc]
     requiresBuild: true
     dev: true
     optional: true
@@ -4168,6 +4184,7 @@ packages:
     resolution: {integrity: sha512-xXMLUAMzrtsvh3cZ448vbXqlUa7ZL8z0MwHp63K2IIID2+DeP5iWIT6g1SN7hg1VxPzqx0xZdiDM9l4n9LRU1A==}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
     requiresBuild: true
     dev: true
     optional: true
@@ -4176,6 +4193,7 @@ packages:
     resolution: {integrity: sha512-M/JYAWickafUijWPai4ehrjzVPKRCyDb1SLuO+ZyPfoXgeCEAlgPkNXewFZx0zcnoIe3ay4UjXIMdXQXOZXWqA==}
     cpu: [x64]
     os: [linux]
+    libc: [musl]
     requiresBuild: true
     dev: true
     optional: true
@@ -4799,7 +4817,7 @@ packages:
       graphemer: 1.4.0
       ignore: 5.3.1
       natural-compare-lite: 1.4.0
-      semver: 7.5.4
+      semver: 7.6.0
       tsutils: 3.21.0(typescript@5.4.3)
       typescript: 5.4.3
     transitivePeerDependencies:
@@ -4920,7 +4938,7 @@ packages:
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.5.4
+      semver: 7.6.0
       tsutils: 3.21.0(typescript@5.4.3)
       typescript: 5.4.3
     transitivePeerDependencies:
@@ -4963,7 +4981,7 @@ packages:
       '@typescript-eslint/typescript-estree': 5.62.0(typescript@5.4.3)
       eslint: 8.57.0
       eslint-scope: 5.1.1
-      semver: 7.5.4
+      semver: 7.6.0
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -5546,7 +5564,7 @@ packages:
       '@vue/compiler-dom': 3.4.21
       '@vue/shared': 3.4.21
       computeds: 0.0.1
-      minimatch: 9.0.3
+      minimatch: 9.0.4
       muggle-string: 0.3.1
       path-browserify: 1.0.1
       typescript: 5.4.3
@@ -6385,7 +6403,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.1
       cosmiconfig: 7.1.0
-      resolve: 1.22.4
+      resolve: 1.22.8
     dev: false
 
   /babel-plugin-named-asset-import@0.3.8(@babel/core@7.24.3):
@@ -7608,7 +7626,7 @@ packages:
       postcss-modules-scope: 3.0.0(postcss@8.4.27)
       postcss-modules-values: 4.0.0(postcss@8.4.27)
       postcss-value-parser: 4.2.0
-      semver: 7.5.4
+      semver: 7.6.0
       webpack: 5.88.2
     dev: false
 
@@ -9555,7 +9573,7 @@ packages:
       memfs: 3.5.3
       minimatch: 3.1.2
       schema-utils: 2.7.0
-      semver: 7.5.4
+      semver: 7.6.0
       tapable: 1.1.3
       typescript: 5.4.3
       webpack: 5.88.2
@@ -9761,7 +9779,7 @@ packages:
     dependencies:
       foreground-child: 3.1.1
       jackspeak: 2.3.6
-      minimatch: 9.0.3
+      minimatch: 9.0.4
       minipass: 7.0.2
       path-scurry: 1.10.1
     dev: true
@@ -10997,7 +11015,7 @@ packages:
       jest-pnp-resolver: 1.2.3(jest-resolve@27.5.1)
       jest-util: 27.5.1
       jest-validate: 27.5.1
-      resolve: 1.22.4
+      resolve: 1.22.8
       resolve.exports: 1.1.1
       slash: 3.0.0
     dev: false
@@ -11097,7 +11115,7 @@ packages:
       jest-util: 27.5.1
       natural-compare: 1.4.0
       pretty-format: 27.5.1
-      semver: 7.5.4
+      semver: 7.6.0
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -11766,7 +11784,7 @@ packages:
     resolution: {integrity: sha512-hXdUTZYIVOt1Ex//jAQi+wTZZpUpwBj/0QsOzqegb3rGMMeJiSEu5xLHnYfBrRV4RH2+OCSOO95Is/7x1WJ4bw==}
     engines: {node: '>=10'}
     dependencies:
-      semver: 7.5.4
+      semver: 7.6.0
     dev: false
 
   /make-fetch-happen@11.1.1:
@@ -13217,7 +13235,7 @@ packages:
       postcss: 8.4.27
       postcss-value-parser: 4.2.0
       read-cache: 1.0.0
-      resolve: 1.22.4
+      resolve: 1.22.8
     dev: false
 
   /postcss-initial@4.0.1(postcss@8.4.27):
@@ -13293,7 +13311,7 @@ packages:
       cosmiconfig: 7.1.0
       klona: 2.0.6
       postcss: 8.4.27
-      semver: 7.5.4
+      semver: 7.6.0
       webpack: 5.88.2
     dev: false
 
@@ -15294,7 +15312,6 @@ packages:
     hasBin: true
     dependencies:
       lru-cache: 6.0.0
-    dev: true
 
   /send@0.18.0:
     resolution: {integrity: sha512-qqWzuOjSFOuqPjFe4NOsMLafToQQwBSOEpS+FwEt3A2V3vKubTquT3vmLTQpFgMXp8AlFWFuP1qKaJZOtPpVXg==}
@@ -15872,7 +15889,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.23.0
+      browserslist: 4.21.10
       postcss: 8.4.27
       postcss-selector-parser: 6.0.16
     dev: false
@@ -16227,7 +16244,7 @@ packages:
       postcss-load-config: 4.0.1(postcss@8.4.27)
       postcss-nested: 6.0.1(postcss@8.4.27)
       postcss-selector-parser: 6.0.16
-      resolve: 1.22.4
+      resolve: 1.22.8
       sucrase: 3.34.0
     transitivePeerDependencies:
       - ts-node
@@ -16901,8 +16918,8 @@ packages:
       vite-plugin-dynamic-import: 1.5.0
     dev: true
 
-  /vite-plugin-dts@3.8.0(@types/node@20.11.30)(rollup@4.13.2)(typescript@5.4.3)(vite@5.2.6)(vue@2.6.14):
-    resolution: {integrity: sha512-wt9ST1MwS5lkxHtA3M30+lSA3TO8RnaUu3YUPmGgY1iKm+vWZmB7KBss6qspyUlto9ynLNHYG2eJ09d2Q4/7Qg==}
+  /vite-plugin-dts@3.8.1(@types/node@20.11.30)(rollup@4.13.2)(typescript@5.4.3)(vite@5.2.6)(vue@2.6.14):
+    resolution: {integrity: sha512-zEYyQxH7lKto1VTKZHF3ZZeOPkkJgnMrePY4VxDHfDSvDjmYMMfWjZxYmNwW8QxbaItWJQhhXY+geAbyNphI7g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       typescript: '*'
@@ -16933,7 +16950,7 @@ packages:
       acorn: 8.11.2
       es-module-lexer: 1.3.0
       fast-glob: 3.3.2
-      magic-string: 0.30.5
+      magic-string: 0.30.8
     dev: true
 
   /vite-plugin-eslint@1.8.1(eslint@8.57.0)(vite@5.2.6):
@@ -17190,6 +17207,22 @@ packages:
     dependencies:
       '@vue/composition-api': 1.7.2(vue@2.6.14)
       vue: 2.6.14
+    dev: false
+
+  /vue-demi@0.14.7(@vue/composition-api@1.7.2)(vue@3.4.21):
+    resolution: {integrity: sha512-EOG8KXDQNwkJILkx/gPcoL/7vH+hORoBaKgGe+6W7VFMvCYJfmF2dGbvgDroVnI8LU7/kTu8mbjRZGBU1z9NTA==}
+    engines: {node: '>=12'}
+    hasBin: true
+    requiresBuild: true
+    peerDependencies:
+      '@vue/composition-api': ^1.0.0-rc.1
+      vue: ^3.0.0-0 || ^2.6.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+    dependencies:
+      '@vue/composition-api': 1.7.2(vue@3.4.21)
+      vue: 3.4.21(typescript@5.4.3)
     dev: false
 
   /vue-demi@0.14.7(vue@2.7.16):
