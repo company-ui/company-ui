@@ -1,5 +1,18 @@
 # @company-ui/core
 
+## 3.6.21
+
+### Patch Changes
+
+- [`47f43f4`](https://github.com/company-ui/company-ui/commit/47f43f4e0ff1b1a27843afbaba737df22f403fb3) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.6.3
+
+- [`001eae3`](https://github.com/company-ui/company-ui/commit/001eae3fea8a94fe499e26a76570522b2b8e9a13) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.2.7
+
+- [`69b3be8`](https://github.com/company-ui/company-ui/commit/69b3be808b8cb34820679c0cafbe6aa31f80e9db) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency unplugin-vue-define-options to v1.4.3
+
+- Updated dependencies [[`47f43f4`](https://github.com/company-ui/company-ui/commit/47f43f4e0ff1b1a27843afbaba737df22f403fb3), [`001eae3`](https://github.com/company-ui/company-ui/commit/001eae3fea8a94fe499e26a76570522b2b8e9a13), [`69b3be8`](https://github.com/company-ui/company-ui/commit/69b3be808b8cb34820679c0cafbe6aa31f80e9db)]:
+  - @company-ui/shared@3.6.21
+
 ## 3.6.20
 
 ### Patch Changes
