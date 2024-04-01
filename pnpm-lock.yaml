@@ -179,8 +179,8 @@ importers:
         specifier: ^0.8.0
         version: 0.8.0(rollup@4.13.2)
       unplugin-vue-define-options:
-        specifier: ^1.4.2
-        version: 1.4.2(rollup@4.13.2)(vue@2.6.14)
+        specifier: ^1.4.3
+        version: 1.4.3(rollup@4.13.2)(vue@2.6.14)
       vite:
         specifier: ^5.2.7
         version: 5.2.7(@types/node@20.11.30)(sass@1.72.0)(terser@5.30.0)
@@ -5252,8 +5252,8 @@ packages:
       path-browserify: 1.0.1
     dev: true
 
-  /@vue-macros/common@1.10.1(rollup@4.13.2)(vue@2.6.14):
-    resolution: {integrity: sha512-uftSpfwdwitcQT2lM8aVxcfe5rKQBzC9jMrtJM5sG4hEuFyfIvnJihpPpnaWxY+X4p64k+YYXtBFv+1O5Bq3dg==}
+  /@vue-macros/common@1.10.2(rollup@4.13.2)(vue@2.6.14):
+    resolution: {integrity: sha512-WC66NPVh2mJWqm4L0l/u/cOqm4pNOIwVdMGnDYAH2rHcOWy5x68GkhpkYTBu1+xwCSeHWOQn1TCGGbD+98fFpA==}
     engines: {node: '>=16.14.0'}
     peerDependencies:
       vue: ^2.7.0 || ^3.2.25
@@ -5264,7 +5264,7 @@ packages:
       '@babel/types': 7.24.0
       '@rollup/pluginutils': 5.1.0(rollup@4.13.2)
       '@vue/compiler-sfc': 3.4.21
-      ast-kit: 0.11.3(rollup@4.13.2)
+      ast-kit: 0.12.1
       local-pkg: 0.5.0
       magic-string-ast: 0.3.0
       vue: 2.6.14
@@ -6204,40 +6204,24 @@ packages:
     resolution: {integrity: sha512-BSHWgDSAiKs50o2Re8ppvp3seVHXSRM44cdSsT9FfNEUUZLOGWVCsiWaRPWM1Znn+mqZ1OfVZ3z3DWEzSp7hRA==}
     dev: false
 
-  /ast-kit@0.11.3(rollup@4.13.2):
-    resolution: {integrity: sha512-qdwwKEhckRk0XE22/xDdmU3v/60E8Edu4qFhgTLIhGGDs/PAJwLw9pQn8Rj99PitlbBZbYpx0k/lbir4kg0SuA==}
+  /ast-kit@0.12.1:
+    resolution: {integrity: sha512-O+33g7x6irsESUcd47KdfWUrS2F6aGp9KeVJFGj0YjIznfXpBxVGjA0w+y/1OKqX4mFOfmZ9Xpf1ixPT4n9xxw==}
     engines: {node: '>=16.14.0'}
     dependencies:
       '@babel/parser': 7.24.1
-      '@rollup/pluginutils': 5.1.0(rollup@4.13.2)
       pathe: 1.1.2
-    transitivePeerDependencies:
-      - rollup
-    dev: true
-
-  /ast-kit@0.9.5(rollup@4.13.2):
-    resolution: {integrity: sha512-kbL7ERlqjXubdDd+szuwdlQ1xUxEz9mCz1+m07ftNVStgwRb2RWw+U6oKo08PAvOishMxiqz1mlJyLl8yQx2Qg==}
-    engines: {node: '>=16.14.0'}
-    dependencies:
-      '@babel/parser': 7.24.1
-      '@rollup/pluginutils': 5.1.0(rollup@4.13.2)
-      pathe: 1.1.2
-    transitivePeerDependencies:
-      - rollup
     dev: true
 
   /ast-types-flow@0.0.7:
     resolution: {integrity: sha512-eBvWn1lvIApYMhzQMsu9ciLfkBY499mFZlNqG+/9WR7PVlroQw0vG30cOQQbaKz3sCEc44TAOu2ykzqXSNnwag==}
     dev: false
 
-  /ast-walker-scope@0.5.0(rollup@4.13.2):
-    resolution: {integrity: sha512-NsyHMxBh4dmdEHjBo1/TBZvCKxffmZxRYhmclfu0PP6Aftre47jOHYaYaNqJcV0bxihxFXhDkzLHUwHc0ocd0Q==}
+  /ast-walker-scope@0.6.1:
+    resolution: {integrity: sha512-0ZdQEsSfH3mX4BFbRCc3xOBjx5bDbm73+aAdQOHerPQNf8K0XFMAv79ucd2BpnSc4UMyvBDixiroT8yjm2Y6bw==}
     engines: {node: '>=16.14.0'}
     dependencies:
       '@babel/parser': 7.24.1
-      ast-kit: 0.9.5(rollup@4.13.2)
-    transitivePeerDependencies:
-      - rollup
+      ast-kit: 0.12.1
     dev: true
 
   /astral-regex@2.0.0:
@@ -16297,16 +16281,26 @@ packages:
       - rollup
     dev: true
 
-  /unplugin-vue-define-options@1.4.2(rollup@4.13.2)(vue@2.6.14):
-    resolution: {integrity: sha512-jQ3nJ1olC107QUA67UEB1CWJXnbVA7SF4UibKQF+jvME7UZ/XomctISHtAkJSJ9YHn0eqnqqzyNkng/KnLUZBw==}
+  /unplugin-vue-define-options@1.4.3(rollup@4.13.2)(vue@2.6.14):
+    resolution: {integrity: sha512-CN5xF8l8bySD6okw6PCt1zWFHf5vX+q4Cg2ssn9usANHtxmeyCgMccC7ywZyzI32dQS+pq6hvuSz/GewtYnbEQ==}
     engines: {node: '>=16.14.0'}
     dependencies:
-      '@vue-macros/common': 1.10.1(rollup@4.13.2)(vue@2.6.14)
-      ast-walker-scope: 0.5.0(rollup@4.13.2)
-      unplugin: 1.6.0
+      '@vue-macros/common': 1.10.2(rollup@4.13.2)(vue@2.6.14)
+      ast-walker-scope: 0.6.1
+      unplugin: 1.10.1
     transitivePeerDependencies:
       - rollup
       - vue
+    dev: true
+
+  /unplugin@1.10.1:
+    resolution: {integrity: sha512-d6Mhq8RJeGA8UfKCu54Um4lFA0eSaRa3XxdAJg8tIdxbu1ubW0hBCZUL7yI2uGyYCRndvbK8FLHzqy2XKfeMsg==}
+    engines: {node: '>=14.0.0'}
+    dependencies:
+      acorn: 8.11.3
+      chokidar: 3.6.0
+      webpack-sources: 3.2.3
+      webpack-virtual-modules: 0.6.1
     dev: true
 
   /unplugin@1.4.0:
@@ -16316,15 +16310,6 @@ packages:
       chokidar: 3.6.0
       webpack-sources: 3.2.3
       webpack-virtual-modules: 0.5.0
-    dev: true
-
-  /unplugin@1.6.0:
-    resolution: {integrity: sha512-BfJEpWBu3aE/AyHx8VaNE/WgouoQxgH9baAiH82JjX8cqVyi3uJQstqwD5J+SZxIK326SZIhsSZlALXVBCknTQ==}
-    dependencies:
-      acorn: 8.11.3
-      chokidar: 3.6.0
-      webpack-sources: 3.2.3
-      webpack-virtual-modules: 0.6.1
     dev: true
 
   /unquote@1.1.1:
