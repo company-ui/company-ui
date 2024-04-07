@@ -1,5 +1,28 @@
 # @company-ui/vue
 
+## 3.6.22
+
+### Patch Changes
+
+- [`98dfabe`](https://github.com/company-ui/company-ui/commit/98dfabeecc8986a24e39306e5615f6849c0e9bf6) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.2.8
+
+- [`d1c4f3d`](https://github.com/company-ui/company-ui/commit/d1c4f3dfc5ffd545b55bd3e7cf431aad9c678508) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v7.5.0
+
+- [`2cb01b0`](https://github.com/company-ui/company-ui/commit/2cb01b0fb99ac86c9ea54958dd7c7b505813143a) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency terser to v5.30.3
+
+- [`adfdba0`](https://github.com/company-ui/company-ui/commit/adfdba0f2a9de597637e18477067ce8e9d7827e0) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency stylelint-config-standard-scss to v13.1.0
+
+- [`5e58446`](https://github.com/company-ui/company-ui/commit/5e58446a4eb840ccae0881ee691bd13a55688430) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency sass to v1.74.1
+
+- [`4102f5d`](https://github.com/company-ui/company-ui/commit/4102f5d775cc59208ec2b6c0d9375dcdf34d3963) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update babel monorepo to v7.24.4
+
+- [`5854d40`](https://github.com/company-ui/company-ui/commit/5854d406eb3c0dc8ab739029f1f388a61c23b9c1) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.14.0
+
+- Updated dependencies [[`98dfabe`](https://github.com/company-ui/company-ui/commit/98dfabeecc8986a24e39306e5615f6849c0e9bf6), [`d1c4f3d`](https://github.com/company-ui/company-ui/commit/d1c4f3dfc5ffd545b55bd3e7cf431aad9c678508), [`2cb01b0`](https://github.com/company-ui/company-ui/commit/2cb01b0fb99ac86c9ea54958dd7c7b505813143a), [`adfdba0`](https://github.com/company-ui/company-ui/commit/adfdba0f2a9de597637e18477067ce8e9d7827e0), [`5e58446`](https://github.com/company-ui/company-ui/commit/5e58446a4eb840ccae0881ee691bd13a55688430), [`4102f5d`](https://github.com/company-ui/company-ui/commit/4102f5d775cc59208ec2b6c0d9375dcdf34d3963), [`5854d40`](https://github.com/company-ui/company-ui/commit/5854d406eb3c0dc8ab739029f1f388a61c23b9c1)]:
+  - @company-ui/core@3.6.22
+  - @company-ui/shared@3.6.22
+  - @company-ui/style@3.6.22
+
 ## 3.6.21
 
 ### Patch Changes
