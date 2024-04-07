@@ -46,7 +46,7 @@
     "@rollup/plugin-typescript": "^11.1.6",
     "@types/crypto-js": "^4.2.2",
     "@types/markdown-it": "^14.0.0",
-    "@typescript-eslint/parser": "^7.4.0",
+    "@typescript-eslint/parser": "^7.5.0",
     "@unocss/postcss": "^0.59.0",
     "autoprefixer": "^10.4.19",
     "concurrently": "^8.2.2",
