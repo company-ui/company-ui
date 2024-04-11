@@ -300,7 +300,7 @@ importers:
         specifier: workspace:^
         version: link:../style
       '@floating-ui/react':
-        specifier: ^0.26.10
+        specifier: ^0.26.12
         version: 0.26.12(react-dom@18.2.0)(react@18.2.0)
       ahooks:
         specifier: ^3.7.11

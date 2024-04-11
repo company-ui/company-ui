@@ -66,7 +66,7 @@
     "@company-ui/core": "workspace:^",
     "@company-ui/shared": "workspace:^",
     "@company-ui/style": "workspace:^",
-    "@floating-ui/react": "^0.26.10",
+    "@floating-ui/react": "^0.26.12",
     "ahooks": "^3.7.11",
     "clsx": "^2.1.0"
   },
