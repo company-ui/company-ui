@@ -310,7 +310,7 @@ importers:
         version: 2.1.0
     devDependencies:
       '@types/react':
-        specifier: ^18.2.74
+        specifier: ^18.2.75
         version: 18.2.75
       '@types/react-dom':
         specifier: ^18.2.24
@@ -394,7 +394,7 @@ importers:
         version: 0.14.7(@vue/composition-api@1.7.2)(vue@3.4.21)
     devDependencies:
       '@types/react':
-        specifier: ^18.2.74
+        specifier: ^18.2.75
         version: 18.2.75
       '@types/react-dom':
         specifier: ^18.2.24
