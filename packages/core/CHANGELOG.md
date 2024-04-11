@@ -1,5 +1,18 @@
 # @company-ui/core
 
+## 3.6.23
+
+### Patch Changes
+
+- [`c38695a`](https://github.com/company-ui/company-ui/commit/c38695ac612ebd97f4edb8ffd91f8cec45ff0d78) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v7.6.0
+
+- [`f680894`](https://github.com/company-ui/company-ui/commit/f680894e034521e0b3ffcae3a40ca757047cfae1) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.14.1
+
+- [`249a0e9`](https://github.com/company-ui/company-ui/commit/249a0e9b584f092ad5cc2af16d1ec47627864c21) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-vue to v9.24.1
+
+- Updated dependencies [[`c38695a`](https://github.com/company-ui/company-ui/commit/c38695ac612ebd97f4edb8ffd91f8cec45ff0d78), [`f680894`](https://github.com/company-ui/company-ui/commit/f680894e034521e0b3ffcae3a40ca757047cfae1), [`249a0e9`](https://github.com/company-ui/company-ui/commit/249a0e9b584f092ad5cc2af16d1ec47627864c21)]:
+  - @company-ui/shared@3.6.23
+
 ## 3.6.22
 
 ### Patch Changes
