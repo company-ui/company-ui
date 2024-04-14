@@ -62,7 +62,7 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       '@types/markdown-it':
-        specifier: ^14.0.0
+        specifier: ^14.0.1
         version: 14.0.1
       '@typescript-eslint/parser':
         specifier: ^7.6.0
