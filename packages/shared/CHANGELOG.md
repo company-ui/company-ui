@@ -1,5 +1,19 @@
 # @company-ui/shared
 
+## 3.6.24
+
+### Patch Changes
+
+- [`4ec99e4`](https://github.com/company-ui/company-ui/commit/4ec99e41d88dff006af485d447378bdaba300e1a) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.14.2
+
+- [`e603dc7`](https://github.com/company-ui/company-ui/commit/e603dc7b3e26ae0c1908733b34e3e5056f68e7dd) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency sass to v1.75.0
+
+- [`c0aa24c`](https://github.com/company-ui/company-ui/commit/c0aa24c24cb9e3c2c86a9025e91b815a2811e040) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite-plugin-dts to v3.8.2
+
+- [`94b58e5`](https://github.com/company-ui/company-ui/commit/94b58e5f9c0485443470e00c296d12192ebcbec3) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.7.0
+
+- [`ea7fb5d`](https://github.com/company-ui/company-ui/commit/ea7fb5d0f998521d9fbeac2ba98eea0a07030c24) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @types/markdown-it to v14.0.1
+
 ## 3.6.23
 
 ### Patch Changes
