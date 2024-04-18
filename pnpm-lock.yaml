@@ -78,7 +78,7 @@ importers:
         version: 8.2.2
       core-js:
         specifier: ^3.36.1
-        version: 3.36.1
+        version: 3.37.0
       cssnano:
         specifier: ^6.1.2
         version: 6.1.2(postcss@8.4.32)
@@ -4127,8 +4127,8 @@ packages:
   core-js-pure@3.33.0:
     resolution: {integrity: sha512-FKSIDtJnds/YFIEaZ4HszRX7hkxGpNKM7FC9aJ9WLJbSd3lD4vOltFuVIBLR8asSx9frkTSqL0dw90SKQxgKrg==}
 
-  core-js@3.36.1:
-    resolution: {integrity: sha512-BTvUrwxVBezj5SZ3f10ImnX2oRByMxql3EimVqMysepbC9EeMUOpLwdy6Eoili2x6E4kf+ZUB5k/+Jv55alPfA==}
+  core-js@3.37.0:
+    resolution: {integrity: sha512-fu5vHevQ8ZG4og+LXug8ulUtVxjOcEYvifJr7L5Bfq9GOztVqsKd9/59hUk2ZSbCrS3BqUr3EpaYGIYzq7g3Ug==}
 
   core-util-is@1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
@@ -13636,7 +13636,7 @@ snapshots:
 
   core-js-pure@3.33.0: {}
 
-  core-js@3.36.1: {}
+  core-js@3.37.0: {}
 
   core-util-is@1.0.3: {}
 
@@ -17935,7 +17935,7 @@ snapshots:
 
   react-app-polyfill@3.0.0:
     dependencies:
-      core-js: 3.36.1
+      core-js: 3.37.0
       object-assign: 4.1.1
       promise: 8.3.0
       raf: 3.4.1
