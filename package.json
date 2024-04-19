@@ -70,7 +70,7 @@
     "rollup": "^4.14.3",
     "rollup-plugin-filesize": "^10.0.0",
     "rollup-plugin-postcss": "^4.0.2",
-    "rollup-plugin-sass": "^1.12.21",
+    "rollup-plugin-sass": "^1.12.22",
     "rollup-plugin-vue": "^6.0.0",
     "sass": "^1.75.0",
     "stylelint": "^16.3.1",
