@@ -77,7 +77,7 @@ importers:
         specifier: ^8.2.2
         version: 8.2.2
       core-js:
-        specifier: ^3.36.1
+        specifier: ^3.37.0
         version: 3.37.0
       cssnano:
         specifier: ^6.1.2
