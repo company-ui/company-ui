@@ -1,5 +1,31 @@
 # @company-ui/dom
 
+## 3.6.26
+
+### Patch Changes
+
+- [`abef8a6`](https://github.com/company-ui/company-ui/commit/abef8a65243e7da3d51c62511e9a0fc47a862e52) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.2.10
+
+- [`a22ae23`](https://github.com/company-ui/company-ui/commit/a22ae236d370e12d4bd92cdd7c27ffaecaf45dee) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.7.1
+
+- [`6f393b4`](https://github.com/company-ui/company-ui/commit/6f393b4f9596d159f97d83c8944bd2b4592fc0b8) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v7.7.1
+
+- [`d96f7e7`](https://github.com/company-ui/company-ui/commit/d96f7e77c452fd8227db6a969cc900a9a4218f6f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency core-js to v3.37.0
+
+- [`2747f48`](https://github.com/company-ui/company-ui/commit/2747f48a447aeae5c4923025900984f10e5a0977) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.16.3
+
+- [`baaedf0`](https://github.com/company-ui/company-ui/commit/baaedf00cc19b23074a45a3c94b2b58ce150733e) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @commitlint/cli to v19.3.0
+
+- [`9a29647`](https://github.com/company-ui/company-ui/commit/9a29647fd0ee22c71e3fec0f5ea832449bc9dd3f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency terser to v5.30.4
+
+- [`087cc48`](https://github.com/company-ui/company-ui/commit/087cc481cc11dc2be89cefc5000abfb2e5358b87) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.16.4
+
+- [`bdd2c09`](https://github.com/company-ui/company-ui/commit/bdd2c0914170cd405f3ac3dcda86370a903c316f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency stylelint to v16.4.0
+
+- Updated dependencies [[`abef8a6`](https://github.com/company-ui/company-ui/commit/abef8a65243e7da3d51c62511e9a0fc47a862e52), [`a22ae23`](https://github.com/company-ui/company-ui/commit/a22ae236d370e12d4bd92cdd7c27ffaecaf45dee), [`6f393b4`](https://github.com/company-ui/company-ui/commit/6f393b4f9596d159f97d83c8944bd2b4592fc0b8), [`d96f7e7`](https://github.com/company-ui/company-ui/commit/d96f7e77c452fd8227db6a969cc900a9a4218f6f), [`2747f48`](https://github.com/company-ui/company-ui/commit/2747f48a447aeae5c4923025900984f10e5a0977), [`baaedf0`](https://github.com/company-ui/company-ui/commit/baaedf00cc19b23074a45a3c94b2b58ce150733e), [`9a29647`](https://github.com/company-ui/company-ui/commit/9a29647fd0ee22c71e3fec0f5ea832449bc9dd3f), [`087cc48`](https://github.com/company-ui/company-ui/commit/087cc481cc11dc2be89cefc5000abfb2e5358b87), [`bdd2c09`](https://github.com/company-ui/company-ui/commit/bdd2c0914170cd405f3ac3dcda86370a903c316f)]:
+  - @company-ui/core@3.6.26
+  - @company-ui/shared@3.6.26
+
 ## 3.6.25
 
 ### Patch Changes
