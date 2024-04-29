@@ -1,5 +1,22 @@
 # @company-ui/autocomplete-dom
 
+## 3.6.27
+
+### Patch Changes
+
+- [`0049924`](https://github.com/company-ui/company-ui/commit/0049924f7ac786a56374537d76119d759f0769d9) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.7.2
+
+- [`f3adb5d`](https://github.com/company-ui/company-ui/commit/f3adb5dcf627ac749c972b862686ec0ddf28181c) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.17.0
+
+- [`7e6bbc4`](https://github.com/company-ui/company-ui/commit/7e6bbc4a9dfc1b68f5f084034475d3a3cc63c920) Thanks [@zhensherlock](https://github.com/zhensherlock)! - fix(deps): update dependency @floating-ui/dom to v1.6.4
+
+- [`3bbbde0`](https://github.com/company-ui/company-ui/commit/3bbbde07030b0ef92f38a45c7607f9bec07bc9a9) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency cssnano to v7.0.1
+
+- Updated dependencies [[`0049924`](https://github.com/company-ui/company-ui/commit/0049924f7ac786a56374537d76119d759f0769d9), [`f3adb5d`](https://github.com/company-ui/company-ui/commit/f3adb5dcf627ac749c972b862686ec0ddf28181c), [`3bbbde0`](https://github.com/company-ui/company-ui/commit/3bbbde07030b0ef92f38a45c7607f9bec07bc9a9)]:
+  - @company-ui/autocomplete-core@3.6.27
+  - @company-ui/shared@3.6.27
+  - @company-ui/style@3.6.27
+
 ## 3.6.26
 
 ### Patch Changes

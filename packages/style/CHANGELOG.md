@@ -1,5 +1,15 @@
 # @company-ui/style
 
+## 3.6.27
+
+### Patch Changes
+
+- [`0049924`](https://github.com/company-ui/company-ui/commit/0049924f7ac786a56374537d76119d759f0769d9) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.7.2
+
+- [`f3adb5d`](https://github.com/company-ui/company-ui/commit/f3adb5dcf627ac749c972b862686ec0ddf28181c) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.17.0
+
+- [`3bbbde0`](https://github.com/company-ui/company-ui/commit/3bbbde07030b0ef92f38a45c7607f9bec07bc9a9) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency cssnano to v7.0.1
+
 ## 3.6.26
 
 ### Patch Changes
