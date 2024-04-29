@@ -80,8 +80,8 @@ importers:
         specifier: ^3.37.0
         version: 3.37.0
       cssnano:
-        specifier: ^7.0.0
-        version: 7.0.0(postcss@8.4.38)
+        specifier: ^7.0.1
+        version: 7.0.1(postcss@8.4.38)
       eslint:
         specifier: ^8.57.0
         version: 8.57.0
@@ -7907,8 +7907,8 @@ packages:
       postcss: 8.4.38
       yaml: 1.10.2
 
-  /cssnano@7.0.0(postcss@8.4.38):
-    resolution: {integrity: sha512-hhVRaaGbEDpb99AHBTaNJf6oXpnU4B7evBi7rt3ShiOh5JEnWsBWYsldywE9L0twVTLPBY9jT/zY6YODXP3TEg==}
+  /cssnano@7.0.1(postcss@8.4.38):
+    resolution: {integrity: sha512-917Mej/4SdI7b55atsli3sU4MOJ9XDoKgnlCtQtXYj8XUFcM3riTuYHyqBBnnskawW+zWwp0KxJzpEUodlpqUg==}
     engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
     peerDependencies:
       postcss: ^8.4.31
