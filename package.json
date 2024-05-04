@@ -45,7 +45,7 @@
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^11.1.6",
     "@types/crypto-js": "^4.2.2",
-    "@types/markdown-it": "^14.0.1",
+    "@types/markdown-it": "^14.1.1",
     "@typescript-eslint/parser": "^7.7.1",
     "@unocss/postcss": "^0.58.8",
     "autoprefixer": "^10.4.19",
