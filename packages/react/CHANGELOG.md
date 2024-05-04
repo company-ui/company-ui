@@ -1,5 +1,28 @@
 # @company-ui/react
 
+## 3.6.28
+
+### Patch Changes
+
+- [`1efb7fd`](https://github.com/company-ui/company-ui/commit/1efb7fde4d68e7b5d4ef959391951f0dc7d94d9c) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.2.11
+
+- [`c25e28b`](https://github.com/company-ui/company-ui/commit/c25e28b1b4d9ac2fb85aaf82664d5138f44fa138) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v7.8.0
+
+- [`b73ad51`](https://github.com/company-ui/company-ui/commit/b73ad514660d3f794b13e58bba353e038ff72058) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @types/markdown-it to v14.1.1
+
+- [`1242a27`](https://github.com/company-ui/company-ui/commit/1242a2751f01e86e9bc4dfd5680e6a841ad990fb) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.17.2
+
+- [`2277549`](https://github.com/company-ui/company-ui/commit/22775490dfe605fc3619bc3f5cff430c59c83df9) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update babel monorepo to v7.24.5 (@babel/core, @babel/eslint-parser, @babel/preset-env)
+
+- [`4e0b334`](https://github.com/company-ui/company-ui/commit/4e0b3348b1ed125ac8c3c91486fc7554e724ad87) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency terser to v5.31.0
+
+- [`125a321`](https://github.com/company-ui/company-ui/commit/125a321bc5b31826de735fc30eea0fa8b8cefa83) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency sass to v1.76.0
+
+- Updated dependencies [[`1efb7fd`](https://github.com/company-ui/company-ui/commit/1efb7fde4d68e7b5d4ef959391951f0dc7d94d9c), [`c25e28b`](https://github.com/company-ui/company-ui/commit/c25e28b1b4d9ac2fb85aaf82664d5138f44fa138), [`b73ad51`](https://github.com/company-ui/company-ui/commit/b73ad514660d3f794b13e58bba353e038ff72058), [`1242a27`](https://github.com/company-ui/company-ui/commit/1242a2751f01e86e9bc4dfd5680e6a841ad990fb), [`2277549`](https://github.com/company-ui/company-ui/commit/22775490dfe605fc3619bc3f5cff430c59c83df9), [`4e0b334`](https://github.com/company-ui/company-ui/commit/4e0b3348b1ed125ac8c3c91486fc7554e724ad87), [`125a321`](https://github.com/company-ui/company-ui/commit/125a321bc5b31826de735fc30eea0fa8b8cefa83)]:
+  - @company-ui/core@3.6.28
+  - @company-ui/shared@3.6.28
+  - @company-ui/style@3.6.28
+
 ## 3.6.27
 
 ### Patch Changes
