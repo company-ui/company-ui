@@ -143,7 +143,7 @@ importers:
         specifier: ^6.0.0
         version: 6.0.0(@vue/compiler-sfc@3.4.26)
       sass:
-        specifier: ^1.75.0
+        specifier: ^1.76.0
         version: 1.76.0
       stylelint:
         specifier: ^16.4.0
