@@ -179,7 +179,7 @@ importers:
         specifier: ^0.8.0
         version: 0.8.0(rollup@4.17.2)
       unplugin-vue-define-options:
-        specifier: ^1.4.3
+        specifier: ^1.4.4
         version: 1.4.4(rollup@4.17.2)(vue@2.6.14)
       vite:
         specifier: ^5.2.11
