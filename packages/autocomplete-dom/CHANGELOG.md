@@ -1,5 +1,22 @@
 # @company-ui/autocomplete-dom
 
+## 3.6.29
+
+### Patch Changes
+
+- [`535c588`](https://github.com/company-ui/company-ui/commit/535c5888ceed93a30c46267f6239ffe64053124b) Thanks [@zhensherlock](https://github.com/zhensherlock)! - fix(deps): update dependency @floating-ui/dom to v1.6.5
+
+- [`95a041b`](https://github.com/company-ui/company-ui/commit/95a041b99baca726c2730b9c3a8b45ea08f45bcc) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency unplugin-vue-define-options to v1.4.4
+
+- [`f52d3f1`](https://github.com/company-ui/company-ui/commit/f52d3f1d85bd215c20f2988d4130c0170ac819c1) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite-plugin-dts to v3.9.1
+
+- [`d4a6b17`](https://github.com/company-ui/company-ui/commit/d4a6b175407d6974616833a0963cbb6d28faff9a) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency sass to v1.77.0
+
+- Updated dependencies [[`95a041b`](https://github.com/company-ui/company-ui/commit/95a041b99baca726c2730b9c3a8b45ea08f45bcc), [`f52d3f1`](https://github.com/company-ui/company-ui/commit/f52d3f1d85bd215c20f2988d4130c0170ac819c1), [`d4a6b17`](https://github.com/company-ui/company-ui/commit/d4a6b175407d6974616833a0963cbb6d28faff9a)]:
+  - @company-ui/autocomplete-core@3.6.29
+  - @company-ui/shared@3.6.29
+  - @company-ui/style@3.6.29
+
 ## 3.6.28
 
 ### Patch Changes
