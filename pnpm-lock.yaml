@@ -125,7 +125,7 @@ importers:
         specifier: ^3.2.5
         version: 3.2.5
       rimraf:
-        specifier: ^5.0.5
+        specifier: ^5.0.6
         version: 5.0.6
       rollup:
         specifier: ^4.17.2

@@ -66,7 +66,7 @@
     "markdown-it": "^14.1.0",
     "postcss-html": "^1.7.0",
     "prettier": "^3.2.5",
-    "rimraf": "^5.0.5",
+    "rimraf": "^5.0.6",
     "rollup": "^4.17.2",
     "rollup-plugin-filesize": "^10.0.0",
     "rollup-plugin-postcss": "^4.0.2",
