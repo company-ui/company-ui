@@ -1,5 +1,19 @@
 # @company-ui/shared
 
+## 3.6.30
+
+### Patch Changes
+
+- [`4dcb6fe`](https://github.com/company-ui/company-ui/commit/4dcb6fee319661256b74ef96540b783776457bf1) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rimraf to v5.0.6
+
+- [`5d24850`](https://github.com/company-ui/company-ui/commit/5d24850bed26078b563bb6888e46efd8360efcb9) Thanks [@zhensherlock](https://github.com/zhensherlock)! - feat: support exports import node environment
+
+- [`094e05e`](https://github.com/company-ui/company-ui/commit/094e05e23867321cfcafb4c53bb2e89aa1a62c5a) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency postcss-html to v1.7.0
+
+- [`3706f73`](https://github.com/company-ui/company-ui/commit/3706f73db046a870a18e844e831ac0279e012627) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency sass to v1.77.1
+
+- [`d43d34c`](https://github.com/company-ui/company-ui/commit/d43d34c8c601103685d1a99bef86983c2338677c) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-vue to v9.26.0
+
 ## 3.6.29
 
 ### Patch Changes
