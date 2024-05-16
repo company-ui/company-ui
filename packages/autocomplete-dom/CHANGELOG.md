@@ -1,5 +1,22 @@
 # @company-ui/autocomplete-dom
 
+## 3.6.31
+
+### Patch Changes
+
+- [`27abaf2`](https://github.com/company-ui/company-ui/commit/27abaf2b6fdd10dbc4ea65c5df717fff88a644d1) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.7.3
+
+- [`b71bf7e`](https://github.com/company-ui/company-ui/commit/b71bf7e470d33558988fb5fd98d3a43966332e8e) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v7.9.0
+
+- [`6ad6975`](https://github.com/company-ui/company-ui/commit/6ad697533a9c337813666e26888adf62586a1627) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rimraf to v5.0.7
+
+- [`53235f5`](https://github.com/company-ui/company-ui/commit/53235f591f3ecfea05ff99868bfbc4b87626779e) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency core-js to v3.37.1
+
+- Updated dependencies [[`27abaf2`](https://github.com/company-ui/company-ui/commit/27abaf2b6fdd10dbc4ea65c5df717fff88a644d1), [`b71bf7e`](https://github.com/company-ui/company-ui/commit/b71bf7e470d33558988fb5fd98d3a43966332e8e), [`6ad6975`](https://github.com/company-ui/company-ui/commit/6ad697533a9c337813666e26888adf62586a1627), [`53235f5`](https://github.com/company-ui/company-ui/commit/53235f591f3ecfea05ff99868bfbc4b87626779e)]:
+  - @company-ui/autocomplete-core@3.6.31
+  - @company-ui/shared@3.6.31
+  - @company-ui/style@3.6.31
+
 ## 3.6.30
 
 ### Patch Changes
