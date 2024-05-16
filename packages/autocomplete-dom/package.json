@@ -33,10 +33,7 @@
   "exports": {
     ".": {
       "types": "./dist/types/main.d.ts",
-      "import": {
-        "node": "./dist/index.cjs.js",
-        "default": "./dist/index.esm.js"
-      },
+      "import": "./dist/index.esm.js",
       "require": "./dist/index.cjs.js"
     },
     "./*": "./*",
