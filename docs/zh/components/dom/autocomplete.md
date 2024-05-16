@@ -16,7 +16,7 @@ onMounted(() => {
     target: '#autocomplete1'
   });
   new Autocomplete({
-    api: 'qcc_global',
+    api: 'qcc_open',
     target: '#autocomplete2',
     autoFocus: false,
     submitButtonLabel: '查一查',
@@ -49,7 +49,7 @@ import '@company-ui/style';
 import { Autocomplete } from '@company-ui/dom';
 
 new Autocomplete({
-  api: 'qcc_global',
+  api: 'qcc_open',
   target: '#autocomplete2',
   autoFocus: false,
   submitButtonLabel: '查一查',

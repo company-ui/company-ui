@@ -22,7 +22,7 @@ onMounted(() => {
     autoFocus: true
   });
   new Autocomplete({
-    api: 'qcc_global',
+    api: 'qcc_open',
     target: '#qcc_open_input',
     autoFocus: true
   });
@@ -54,7 +54,7 @@ import { Autocomplete } from '@company-ui/dom';
 import '@company-ui/style';
 
 const Autocomplete = new Autocomplete({
-  api: 'qcc_global',
+  api: 'qcc_open',
   target: '#example',
 });
 ```

@@ -3,7 +3,6 @@
     <h1>Company UI Vue3 Playground</h1>
     <autocomplete
       v-model="value"
-      api="qcc_global"
       @change="handleChange"
       @fetch="handleFetch"
       @abortFetch="handleAbortFetch"

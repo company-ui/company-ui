@@ -1,4 +1,4 @@
-export type ApiType = 'clearbit' | 'qcc_open' | 'qcc_global' | 'qcc' | 'qixin' | 'tianyancha';
+export type ApiType = 'clearbit' | 'qcc_open' | 'qcc' | 'qixin' | 'tianyancha';
 
 export type HistoryType = 'localStorage' | 'sessionStorage';
 
