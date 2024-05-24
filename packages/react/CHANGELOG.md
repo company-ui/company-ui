@@ -1,5 +1,36 @@
 # @company-ui/react
 
+## 3.6.32
+
+### Patch Changes
+
+- [`d5f995c`](https://github.com/company-ui/company-ui/commit/d5f995c4a1e2274bc7c33f1c51f06dbe1b7eaef7) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @vue/theme to v2.2.11
+
+- [`fe525e8`](https://github.com/company-ui/company-ui/commit/fe525e87a6c9d4f2982a2b5bb3e3c237eaf7a47e) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @vitejs/plugin-react to v4.3.0
+
+- [`a930ec8`](https://github.com/company-ui/company-ui/commit/a930ec84007bfad0fa61262903df494b389411bf) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.18.0
+
+- [`008d031`](https://github.com/company-ui/company-ui/commit/008d031eba520996c19263bf74bf1feb17c05564) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency lint-staged to v15.2.4
+
+- [`09bbba1`](https://github.com/company-ui/company-ui/commit/09bbba1a4fbd9a55cb32b9163eeb46308dde5e72) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v7.10.0
+
+- [`ce8e2ab`](https://github.com/company-ui/company-ui/commit/ce8e2abaf27179ed156585d177285ee111fbdf9c) Thanks [@zhensherlock](https://github.com/zhensherlock)! - fix(deps): update dependency ahooks to v3.8.0
+
+- [`dc2b16a`](https://github.com/company-ui/company-ui/commit/dc2b16a265d5326dc36f59527c93db02f2446b66) Thanks [@zhensherlock](https://github.com/zhensherlock)! - fix(deps): update dependency @floating-ui/react to v0.26.16
+
+- [`5a22089`](https://github.com/company-ui/company-ui/commit/5a220891562f9f8db4fa310308f9f5c1ff9edfda) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @types/react to v18.3.3
+
+- [`89825b0`](https://github.com/company-ui/company-ui/commit/89825b0fbeea7ff3cc905d091b85d73a48d7e069) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @rollup/plugin-commonjs to v25.0.8
+
+- [`b03f7cf`](https://github.com/company-ui/company-ui/commit/b03f7cf0ee24e85bdf172148afc8754ecdcdbbdf) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency sass to v1.77.2
+
+- [`8ba61ad`](https://github.com/company-ui/company-ui/commit/8ba61ad6a9e94b33df48e685ba7f2c5042995498) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @changesets/cli to v2.27.3
+
+- Updated dependencies [[`d5f995c`](https://github.com/company-ui/company-ui/commit/d5f995c4a1e2274bc7c33f1c51f06dbe1b7eaef7), [`a930ec8`](https://github.com/company-ui/company-ui/commit/a930ec84007bfad0fa61262903df494b389411bf), [`008d031`](https://github.com/company-ui/company-ui/commit/008d031eba520996c19263bf74bf1feb17c05564), [`09bbba1`](https://github.com/company-ui/company-ui/commit/09bbba1a4fbd9a55cb32b9163eeb46308dde5e72), [`89825b0`](https://github.com/company-ui/company-ui/commit/89825b0fbeea7ff3cc905d091b85d73a48d7e069), [`b03f7cf`](https://github.com/company-ui/company-ui/commit/b03f7cf0ee24e85bdf172148afc8754ecdcdbbdf), [`8ba61ad`](https://github.com/company-ui/company-ui/commit/8ba61ad6a9e94b33df48e685ba7f2c5042995498)]:
+  - @company-ui/core@3.6.32
+  - @company-ui/shared@3.6.32
+  - @company-ui/style@3.6.32
+
 ## 3.6.31
 
 ### Patch Changes
