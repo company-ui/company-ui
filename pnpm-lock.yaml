@@ -222,7 +222,7 @@ importers:
         specifier: ^2.3.1
         version: 2.3.1(vue@3.4.27)
       '@vue/theme':
-        specifier: ^2.2.5
+        specifier: ^2.2.11
         version: 2.2.11(@algolia/client-search@4.23.3)(search-insights@2.14.0)(vitepress@1.2.2)(vue@3.4.27)
       element-plus:
         specifier: ^2.7.3
