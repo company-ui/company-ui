@@ -65,7 +65,7 @@ importers:
         specifier: ^14.1.1
         version: 14.1.1
       '@typescript-eslint/parser':
-        specifier: ^7.9.0
+        specifier: ^7.10.0
         version: 7.10.0(eslint@8.57.0)(typescript@5.4.5)
       '@unocss/postcss':
         specifier: ^0.58.8
