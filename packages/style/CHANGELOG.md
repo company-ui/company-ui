@@ -1,5 +1,11 @@
 # @company-ui/style
 
+## 3.6.33
+
+### Patch Changes
+
+- [`3cb736f`](https://github.com/company-ui/company-ui/commit/3cb736f6cac070835657a74dae0257a8bf25dcf0) Thanks [@zhensherlock](https://github.com/zhensherlock)! - update dependencies
+
 ## 3.6.32
 
 ### Patch Changes
