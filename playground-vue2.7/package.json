@@ -13,7 +13,7 @@
   "dependencies": {
     "@company-ui/style": "workspace:^",
     "@company-ui/vue": "workspace:^",
-    "vue-demi": "^0.14.7"
+    "vue-demi": "^0.14.8"
   },
   "peerDependencies": {
     "vue": "^2.7.16"
