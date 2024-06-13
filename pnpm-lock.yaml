@@ -301,7 +301,7 @@ importers:
         version: link:../style
       '@floating-ui/react':
         specifier: ^0.26.16
-        version: 0.26.16(react-dom@18.3.1)(react@18.3.1)
+        version: 0.26.17(react-dom@18.3.1)(react@18.3.1)
       ahooks:
         specifier: ^3.8.0
         version: 3.8.0(react@18.3.1)
@@ -4536,8 +4536,8 @@ packages:
       react-dom: 18.3.1(react@18.3.1)
     dev: false
 
-  /@floating-ui/react@0.26.16(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-HEf43zxZNAI/E781QIVpYSF3K2VH4TTYZpqecjdsFkjsaU1EbaWcM++kw0HXFffj7gDUcBFevX8s0rQGQpxkow==}
+  /@floating-ui/react@0.26.17(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-ESD+jYWwqwVzaIgIhExrArdsCL1rOAzryG/Sjlu8yaD3Mtqi3uVyhbE2V7jD58Mo52qbzKz2eUY/Xgh5I86FCQ==}
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
