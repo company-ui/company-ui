@@ -20,6 +20,6 @@
   "devDependencies": {
     "@element-plus/icons-vue": "^2.3.1",
     "@vue/theme": "^2.2.12",
-    "element-plus": "^2.7.3"
+    "element-plus": "^2.7.5"
   }
 }
