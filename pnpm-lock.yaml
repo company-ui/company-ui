@@ -226,7 +226,7 @@ importers:
         version: 2.2.12(@algolia/client-search@4.24.0)(search-insights@2.15.0)(vitepress@1.3.1)(vue@3.4.33)
       element-plus:
         specifier: ^2.7.5
-        version: 2.7.6(vue@3.4.33)
+        version: 2.7.7(vue@3.4.33)
 
   packages/autocomplete-core:
     dependencies:
@@ -2986,7 +2986,7 @@ packages:
     dependencies:
       '@babel/core': 7.24.7
       '@babel/helper-module-imports': 7.24.7
-      '@babel/helper-plugin-utils': 7.24.8
+      '@babel/helper-plugin-utils': 7.24.7
       babel-plugin-polyfill-corejs2: 0.4.11(@babel/core@7.24.7)
       babel-plugin-polyfill-corejs3: 0.10.4(@babel/core@7.24.7)
       babel-plugin-polyfill-regenerator: 0.6.2(@babel/core@7.24.7)
@@ -4712,12 +4712,12 @@ packages:
     resolution: {integrity: sha512-1ZpCvYf788/ZXOhRQGFxnYQOVgeU+pi0i+d0Ow34La7qjIXETi6RNswGVKkA6KcDO8/+Ysu2E/CeUmmeEBDvTg==}
     dependencies:
       '@floating-ui/utils': 0.2.3
+    dev: false
 
-  /@floating-ui/dom@1.6.5:
-    resolution: {integrity: sha512-Nsdud2X65Dz+1RHjAIP0t8z5e2ff/IRbei6BqFrl1urT8sDVzM1HMQ+R0XcU5ceRfyO3I6ayeqIfh+6Wb8LGTw==}
+  /@floating-ui/core@1.6.4:
+    resolution: {integrity: sha512-a4IowK4QkXl4SCWTGUR0INAfEOX3wtsYw3rKK5InQEHMGObkR8Xk44qYQD9P4r6HHw0iIfK6GUKECmY8sTkqRA==}
     dependencies:
-      '@floating-ui/core': 1.6.3
-      '@floating-ui/utils': 0.2.3
+      '@floating-ui/utils': 0.2.4
     dev: true
 
   /@floating-ui/dom@1.6.6:
@@ -4726,6 +4726,13 @@ packages:
       '@floating-ui/core': 1.6.3
       '@floating-ui/utils': 0.2.3
     dev: false
+
+  /@floating-ui/dom@1.6.7:
+    resolution: {integrity: sha512-wmVfPG5o2xnKDU4jx/m4w5qva9FWHcnZ8BvzEe90D/RpwsJaTAVYPEPdQ8sbr/N8zZTAHlZUTQdqg8ZUbzHmng==}
+    dependencies:
+      '@floating-ui/core': 1.6.4
+      '@floating-ui/utils': 0.2.4
+    dev: true
 
   /@floating-ui/react-dom@2.1.1(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-4h84MJt3CHrtG18mGsXuLCHMrug49d7DFkU0RMIyshRveBeyV2hmV/pDaF2Uxtu8kgq5r46llp5E5FQiR0K2Yg==}
@@ -4753,6 +4760,11 @@ packages:
 
   /@floating-ui/utils@0.2.3:
     resolution: {integrity: sha512-XGndio0l5/Gvd6CLIABvsav9HHezgDFFhDfHk1bvLfr9ni8dojqLSvBbotJEjmIwNHL7vK4QzBJTdBRoB+c1ww==}
+    dev: false
+
+  /@floating-ui/utils@0.2.4:
+    resolution: {integrity: sha512-dWO2pw8hhi+WrXq1YJy2yCuWoL20PddgGaqTgVe4cOS9Q6qklXCiA1tJEqX6BEwRNSCP84/afac9hd4MS+zEUA==}
+    dev: true
 
   /@floating-ui/vue@1.0.7(vue@3.4.27):
     resolution: {integrity: sha512-tm9aMT9IrMzoZfzPpsoZHP7j7ULZ0p9AzCJV6i2H8sAlKe36tAnwuQLHdm7vE0SnRkHJJXuMB/gNz4gFdHLNrg==}
@@ -6229,11 +6241,11 @@ packages:
   /@types/lodash-es@4.17.12:
     resolution: {integrity: sha512-0NgftHUcV4v34VhXm8QBSftKVXtbkBG3ViCjs6+eJ5a6y6Mi/jiFGPc1sC7QK+9BFhWrURE3EOggmWaSxL9OzQ==}
     dependencies:
-      '@types/lodash': 4.17.5
+      '@types/lodash': 4.17.7
     dev: true
 
-  /@types/lodash@4.17.5:
-    resolution: {integrity: sha512-MBIOHVZqVqgfro1euRDWX7OO0fBVUUMrN6Pwm8LQsz8cWhEpihlvR70ENj3f40j58TNxZaWv2ndSkInykNBBJw==}
+  /@types/lodash@4.17.7:
+    resolution: {integrity: sha512-8wTvZawATi/lsmNu10/j2hk1KEP0IvjubqPE3cu1Xz7xfXXt5oCq3SNUz4fMIP4XGF9Ky+Ue2tBA3hcS7LSBlA==}
     dev: true
 
   /@types/markdown-it@14.1.1:
@@ -9857,6 +9869,11 @@ packages:
 
   /dayjs@1.11.11:
     resolution: {integrity: sha512-okzr3f11N6WuqYtZSvm+F776mB41wRZMhKP+hc34YdW+KmtYYK9iqvHSwo2k9FEH3fhGXvOPV6yz2IcSrfRUDg==}
+    dev: false
+
+  /dayjs@1.11.12:
+    resolution: {integrity: sha512-Rt2g+nTbLlDWZTwwrIXjy9MeiZmSDI375FvZs72ngxx8PDC6YXOeR3q5LAuPzjZQxhiWdRKac7RKV+YyQYfYIg==}
+    dev: true
 
   /de-indent@1.0.2:
     resolution: {integrity: sha512-e/1zu3xH5MQryN2zdVaF0OrdNLUbvWxzMbi+iNA6Bky7l1RoP8a2fIbRocyHclXt/arDrrR6lL3TqFD9pMQTsg==}
@@ -10185,20 +10202,20 @@ packages:
   /electron-to-chromium@1.4.830:
     resolution: {integrity: sha512-TrPKKH20HeN0J1LHzsYLs2qwXrp8TF4nHdu4sq61ozGbzMpWhI7iIOPYPPkxeq1azMT9PZ8enPFcftbs/Npcjg==}
 
-  /element-plus@2.7.6(vue@3.4.33):
-    resolution: {integrity: sha512-36sw1K23hYjgeooR10U6CiCaCp2wvOqwoFurADZVlekeQ9v5U1FhJCFGEXO6i/kZBBMwsE1c9fxjLs9LENw2Rg==}
+  /element-plus@2.7.7(vue@3.4.33):
+    resolution: {integrity: sha512-7ucUiDAxevyBE8JbXBTe9ofHhS047VmWMLoksE45zZ08XSnhnyG7WUuk3gmDbAklfVMHedb9sEV3OovPUWt+Sw==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
       '@ctrl/tinycolor': 3.6.1
       '@element-plus/icons-vue': 2.3.1(vue@3.4.33)
-      '@floating-ui/dom': 1.6.5
+      '@floating-ui/dom': 1.6.7
       '@popperjs/core': /@sxzz/popperjs-es@2.11.7
-      '@types/lodash': 4.17.5
+      '@types/lodash': 4.17.7
       '@types/lodash-es': 4.17.12
       '@vueuse/core': 9.13.0(vue@3.4.33)
       async-validator: 4.2.5
-      dayjs: 1.11.11
+      dayjs: 1.11.12
       escape-html: 1.0.3
       lodash: 4.17.21
       lodash-es: 4.17.21
