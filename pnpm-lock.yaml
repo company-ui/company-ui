@@ -63,7 +63,7 @@ importers:
         version: 4.2.2
       '@types/markdown-it':
         specifier: ^14.1.1
-        version: 14.1.1
+        version: 14.1.2
       '@typescript-eslint/parser':
         specifier: ^7.13.0
         version: 7.16.1(eslint@8.57.0)(typescript@5.5.4)
@@ -6219,13 +6219,6 @@ packages:
 
   /@types/lodash@4.17.7:
     resolution: {integrity: sha512-8wTvZawATi/lsmNu10/j2hk1KEP0IvjubqPE3cu1Xz7xfXXt5oCq3SNUz4fMIP4XGF9Ky+Ue2tBA3hcS7LSBlA==}
-    dev: true
-
-  /@types/markdown-it@14.1.1:
-    resolution: {integrity: sha512-4NpsnpYl2Gt1ljyBGrKMxFYAYvpqbnnkgP/i/g+NLpjEUa3obn1XJCur9YbEXKDAkaXqsR1LbDnGEJ0MmKFxfg==}
-    dependencies:
-      '@types/linkify-it': 5.0.0
-      '@types/mdurl': 2.0.0
     dev: true
 
   /@types/markdown-it@14.1.2:
@@ -18998,7 +18991,7 @@ packages:
       '@docsearch/js': 3.6.0(@algolia/client-search@4.24.0)(search-insights@2.15.0)
       '@shikijs/core': 1.6.3
       '@shikijs/transformers': 1.6.3
-      '@types/markdown-it': 14.1.1
+      '@types/markdown-it': 14.1.2
       '@vitejs/plugin-vue': 5.0.5(vite@5.3.4)(vue@3.4.27)
       '@vue/devtools-api': 7.2.1(vue@3.4.27)
       '@vue/shared': 3.4.27
