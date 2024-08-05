@@ -36,7 +36,7 @@ importers:
         version: 19.2.2
       '@iconify-json/ic':
         specifier: ^1.1.17
-        version: 1.1.17
+        version: 1.1.18
       '@rollup/plugin-babel':
         specifier: ^6.0.4
         version: 6.0.4(@babel/core@7.24.9)(rollup@4.18.1)
@@ -5041,8 +5041,8 @@ packages:
   /@humanwhocodes/object-schema@2.0.3:
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
 
-  /@iconify-json/ic@1.1.17:
-    resolution: {integrity: sha512-EvAjZzVESmN36zlyefylePUNaU2BQ3eRKVZ6KQSQ2bG01ppoZaiFZRri74VTyvp5Mlv2yn68ux1fgCoT+etGmA==}
+  /@iconify-json/ic@1.1.18:
+    resolution: {integrity: sha512-RcfnSFVmQP6aEKQJM3Iczg9e5TXWlN0slIjiyH9l378YkhDPAhXdQ8xP8+tBwfz7B9jysqsV+vs9Iu8DMHvE6Q==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
@@ -14875,7 +14875,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.10
+      browserslist: 4.23.3
       caniuse-api: 3.0.0
       colord: 2.9.3
       postcss: 8.4.27
@@ -14914,7 +14914,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.10
+      browserslist: 4.23.3
       postcss: 8.4.27
       postcss-value-parser: 4.2.0
     dev: false
@@ -15326,7 +15326,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.10
+      browserslist: 4.23.3
       caniuse-api: 3.0.0
       cssnano-utils: 3.1.0(postcss@8.4.27)
       postcss: 8.4.27
@@ -15431,7 +15431,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.10
+      browserslist: 4.23.3
       cssnano-utils: 3.1.0(postcss@8.4.27)
       postcss: 8.4.27
       postcss-value-parser: 4.2.0
@@ -15794,7 +15794,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.10
+      browserslist: 4.23.3
       postcss: 8.4.27
       postcss-value-parser: 4.2.0
     dev: false
@@ -16041,7 +16041,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.10
+      browserslist: 4.23.3
       caniuse-api: 3.0.0
       postcss: 8.4.27
     dev: false
@@ -17811,7 +17811,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.21.10
+      browserslist: 4.23.3
       postcss: 8.4.27
       postcss-selector-parser: 6.1.1
     dev: false
