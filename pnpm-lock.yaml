@@ -250,7 +250,7 @@ importers:
         version: link:../style
       '@floating-ui/dom':
         specifier: ^1.6.5
-        version: 1.6.8
+        version: 1.6.9
 
   packages/autocomplete-vue-rollup:
     dependencies:
@@ -286,7 +286,7 @@ importers:
         version: link:../shared
       '@floating-ui/dom':
         specifier: ^1.6.5
-        version: 1.6.8
+        version: 1.6.9
 
   packages/react:
     dependencies:
@@ -1718,8 +1718,8 @@ packages:
     resolution: {integrity: sha512-Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
 
-  '@floating-ui/core@1.6.5':
-    resolution: {integrity: sha512-8GrTWmoFhm5BsMZOTHeGD2/0FLKLQQHvO/ZmQga4tKempYRLz8aqJGqXVuQgisnMObq2YZ2SgkwctN1LOOxcqA==}
+  '@floating-ui/core@1.6.6':
+    resolution: {integrity: sha512-Vkvsw6EcpMHjvZZdMkSY+djMGFbt7CRssW99Ne8tar2WLnZ/l3dbxeTShbLQj+/s35h+Qb4cmnob+EzwtjrXGQ==}
 
   '@floating-ui/core@1.6.6':
     resolution: {integrity: sha512-Vkvsw6EcpMHjvZZdMkSY+djMGFbt7CRssW99Ne8tar2WLnZ/l3dbxeTShbLQj+/s35h+Qb4cmnob+EzwtjrXGQ==}
@@ -10791,9 +10791,9 @@ snapshots:
 
   '@eslint/js@8.57.0': {}
 
-  '@floating-ui/core@1.6.5':
+  '@floating-ui/core@1.6.6':
     dependencies:
-      '@floating-ui/utils': 0.2.5
+      '@floating-ui/utils': 0.2.6
 
   '@floating-ui/core@1.6.6':
     dependencies:
@@ -10801,8 +10801,13 @@ snapshots:
 
   '@floating-ui/dom@1.6.8':
     dependencies:
-      '@floating-ui/core': 1.6.5
-      '@floating-ui/utils': 0.2.5
+      '@floating-ui/core': 1.6.6
+      '@floating-ui/utils': 0.2.6
+
+  '@floating-ui/dom@1.6.9':
+    dependencies:
+      '@floating-ui/core': 1.6.6
+      '@floating-ui/utils': 0.2.6
 
   '@floating-ui/dom@1.6.9':
     dependencies:
@@ -10829,7 +10834,7 @@ snapshots:
 
   '@floating-ui/vue@1.1.2(@vue/composition-api@1.7.2(vue@3.4.35(typescript@5.5.4)))(vue@3.4.35(typescript@5.5.4))':
     dependencies:
-      '@floating-ui/dom': 1.6.8
+      '@floating-ui/dom': 1.6.9
       '@floating-ui/utils': 0.2.5
       vue-demi: 0.14.10(@vue/composition-api@1.7.2(vue@3.4.35(typescript@5.5.4)))(vue@3.4.35(typescript@5.5.4))
     transitivePeerDependencies:
