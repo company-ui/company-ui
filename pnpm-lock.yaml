@@ -138,7 +138,7 @@ importers:
         version: 4.0.2(postcss@8.4.41)
       rollup-plugin-sass:
         specifier: ^1.12.22
-        version: 1.13.1(rollup@4.21.0)
+        version: 1.13.2(rollup@4.21.0)
       rollup-plugin-vue:
         specifier: ^6.0.0
         version: 6.0.0(@vue/compiler-sfc@3.4.38)
@@ -7776,8 +7776,8 @@ packages:
     peerDependencies:
       postcss: 8.x
 
-  rollup-plugin-sass@1.13.1:
-    resolution: {integrity: sha512-ZppWT9mHha0KT2mYOCqRujFP7BMavOsKcWX1X7fz3foAFpjcEA50704oJWf/BI2zx3wTt8gC0+DqlPvV2a1maA==}
+  rollup-plugin-sass@1.13.2:
+    resolution: {integrity: sha512-Ff+NePHCWpLKzcb7k8D+v1c7+I6DyFXJyLYF6MBkt24ei6Gsp4WMRZv1i/EtTZF980b5eWKjQpxLXDZh2CSXwA==}
     engines: {node: '>=10'}
 
   rollup-plugin-terser@7.0.2:
@@ -17782,7 +17782,7 @@ snapshots:
     transitivePeerDependencies:
       - ts-node
 
-  rollup-plugin-sass@1.13.1(rollup@4.21.0):
+  rollup-plugin-sass@1.13.2(rollup@4.21.0):
     dependencies:
       '@rollup/pluginutils': 5.1.0(rollup@4.21.0)
       resolve: 1.22.8
