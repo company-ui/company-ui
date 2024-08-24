@@ -197,8 +197,8 @@ importers:
         specifier: ^1.8.1
         version: 1.8.1(eslint@8.57.0)(vite@5.4.2(@types/node@22.4.0)(sass@1.77.8)(terser@5.31.6))
       vitepress:
-        specifier: 1.3.3
-        version: 1.3.3(@algolia/client-search@4.24.0)(@types/node@22.4.0)(@types/react@18.3.3)(@vue/composition-api@1.7.2(vue@3.4.38(typescript@5.5.4)))(async-validator@4.2.5)(postcss@8.4.41)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8)(search-insights@2.16.3)(terser@5.31.6)(typescript@5.5.4)
+        specifier: 1.3.4
+        version: 1.3.4(@algolia/client-search@4.24.0)(@types/node@22.4.0)(@types/react@18.3.3)(@vue/composition-api@1.7.2(vue@3.4.38(typescript@5.5.4)))(async-validator@4.2.5)(postcss@8.4.41)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8)(search-insights@2.16.3)(terser@5.31.6)(typescript@5.5.4)
       vue-eslint-parser:
         specifier: ^9.4.3
         version: 9.4.3(eslint@8.57.0)
@@ -223,7 +223,7 @@ importers:
         version: 2.3.1(vue@3.4.38(typescript@5.5.4))
       '@vue/theme':
         specifier: ^2.2.12
-        version: 2.2.12(@algolia/client-search@4.24.0)(@types/react@18.3.3)(@vue/composition-api@1.7.2(vue@3.4.38(typescript@5.5.4)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.16.3)(vitepress@1.3.3(@algolia/client-search@4.24.0)(@types/node@22.4.0)(@types/react@18.3.3)(@vue/composition-api@1.7.2(vue@3.4.38(typescript@5.5.4)))(async-validator@4.2.5)(postcss@8.4.41)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8)(search-insights@2.16.3)(terser@5.31.6)(typescript@5.5.4))(vue@3.4.38(typescript@5.5.4))
+        version: 2.2.12(@algolia/client-search@4.24.0)(@types/react@18.3.3)(@vue/composition-api@1.7.2(vue@3.4.38(typescript@5.5.4)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.16.3)(vitepress@1.3.4(@algolia/client-search@4.24.0)(@types/node@22.4.0)(@types/react@18.3.3)(@vue/composition-api@1.7.2(vue@3.4.38(typescript@5.5.4)))(async-validator@4.2.5)(postcss@8.4.41)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8)(search-insights@2.16.3)(terser@5.31.6)(typescript@5.5.4))(vue@3.4.38(typescript@5.5.4))
       element-plus:
         specifier: ^2.7.5
         version: 2.8.0(@vue/composition-api@1.7.2(vue@3.4.38(typescript@5.5.4)))(vue@3.4.38(typescript@5.5.4))
@@ -8817,8 +8817,8 @@ packages:
       terser:
         optional: true
 
-  vitepress@1.3.3:
-    resolution: {integrity: sha512-6UzEw/wZ41S/CATby7ea7UlffvRER/uekxgN6hbEvSys9ukmLOKsz87Ehq9yOx1Rwiw+Sj97yjpivP8w1sUmng==}
+  vitepress@1.3.4:
+    resolution: {integrity: sha512-I1/F6OW1xl3kW4PaIMC6snxjWgf3qfziq2aqsDoFc/Gt41WbcRv++z8zjw8qGRIJ+I4bUW7ZcKFDHHN/jkH9DQ==}
     hasBin: true
     peerDependencies:
       markdown-it-mathjax3: ^4
@@ -12331,7 +12331,7 @@ snapshots:
 
   '@vue/shared@3.4.38': {}
 
-  '@vue/theme@2.2.12(@algolia/client-search@4.24.0)(@types/react@18.3.3)(@vue/composition-api@1.7.2(vue@3.4.38(typescript@5.5.4)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.16.3)(vitepress@1.3.3(@algolia/client-search@4.24.0)(@types/node@22.4.0)(@types/react@18.3.3)(@vue/composition-api@1.7.2(vue@3.4.38(typescript@5.5.4)))(async-validator@4.2.5)(postcss@8.4.41)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8)(search-insights@2.16.3)(terser@5.31.6)(typescript@5.5.4))(vue@3.4.38(typescript@5.5.4))':
+  '@vue/theme@2.2.12(@algolia/client-search@4.24.0)(@types/react@18.3.3)(@vue/composition-api@1.7.2(vue@3.4.38(typescript@5.5.4)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.16.3)(vitepress@1.3.4(@algolia/client-search@4.24.0)(@types/node@22.4.0)(@types/react@18.3.3)(@vue/composition-api@1.7.2(vue@3.4.38(typescript@5.5.4)))(async-validator@4.2.5)(postcss@8.4.41)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8)(search-insights@2.16.3)(terser@5.31.6)(typescript@5.5.4))(vue@3.4.38(typescript@5.5.4))':
     dependencies:
       '@docsearch/css': 3.6.1
       '@docsearch/js': 3.6.1(@algolia/client-search@4.24.0)(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.16.3)
@@ -12339,7 +12339,7 @@ snapshots:
       body-scroll-lock: 4.0.0-beta.0
       normalize.css: 8.0.1
       tiny-decode: 0.1.3
-      vitepress: 1.3.3(@algolia/client-search@4.24.0)(@types/node@22.4.0)(@types/react@18.3.3)(@vue/composition-api@1.7.2(vue@3.4.38(typescript@5.5.4)))(async-validator@4.2.5)(postcss@8.4.41)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8)(search-insights@2.16.3)(terser@5.31.6)(typescript@5.5.4)
+      vitepress: 1.3.4(@algolia/client-search@4.24.0)(@types/node@22.4.0)(@types/react@18.3.3)(@vue/composition-api@1.7.2(vue@3.4.38(typescript@5.5.4)))(async-validator@4.2.5)(postcss@8.4.41)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8)(search-insights@2.16.3)(terser@5.31.6)(typescript@5.5.4)
     transitivePeerDependencies:
       - '@algolia/client-search'
       - '@types/react'
@@ -19071,7 +19071,7 @@ snapshots:
       sass: 1.77.8
       terser: 5.31.6
 
-  vitepress@1.3.3(@algolia/client-search@4.24.0)(@types/node@22.4.0)(@types/react@18.3.3)(@vue/composition-api@1.7.2(vue@3.4.38(typescript@5.5.4)))(async-validator@4.2.5)(postcss@8.4.41)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8)(search-insights@2.16.3)(terser@5.31.6)(typescript@5.5.4):
+  vitepress@1.3.4(@algolia/client-search@4.24.0)(@types/node@22.4.0)(@types/react@18.3.3)(@vue/composition-api@1.7.2(vue@3.4.38(typescript@5.5.4)))(async-validator@4.2.5)(postcss@8.4.41)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.77.8)(search-insights@2.16.3)(terser@5.31.6)(typescript@5.5.4):
     dependencies:
       '@docsearch/css': 3.6.1
       '@docsearch/js': 3.6.1(@algolia/client-search@4.24.0)(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.16.3)
