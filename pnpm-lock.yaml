@@ -223,7 +223,7 @@ importers:
         version: 2.3.1(vue@3.4.38(typescript@5.5.4))
       '@vue/theme':
         specifier: ^2.2.12
-        version: 2.2.12(@algolia/client-search@4.24.0)(@types/react@18.3.4)(@vue/composition-api@1.7.2(vue@3.4.38(typescript@5.5.4)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.16.3)(vitepress@1.3.4(@algolia/client-search@4.24.0)(@types/node@22.5.4)(@types/react@18.3.4)(@vue/composition-api@1.7.2(vue@3.4.38(typescript@5.5.4)))(async-validator@4.2.5)(postcss@8.4.45)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.78.0)(search-insights@2.16.3)(terser@5.32.0)(typescript@5.5.4))(vue@3.4.38(typescript@5.5.4))
+        version: 2.2.13(@algolia/client-search@4.24.0)(@types/react@18.3.4)(@vue/composition-api@1.7.2(vue@3.4.38(typescript@5.5.4)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.16.3)(vitepress@1.3.4(@algolia/client-search@4.24.0)(@types/node@22.5.4)(@types/react@18.3.4)(@vue/composition-api@1.7.2(vue@3.4.38(typescript@5.5.4)))(async-validator@4.2.5)(postcss@8.4.45)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.78.0)(search-insights@2.16.3)(terser@5.32.0)(typescript@5.5.4))(vue@3.4.38(typescript@5.5.4))
       element-plus:
         specifier: ^2.7.5
         version: 2.8.3(@vue/composition-api@1.7.2(vue@3.4.38(typescript@5.5.4)))(vue@3.4.38(typescript@5.5.4))
@@ -2879,8 +2879,8 @@ packages:
   '@vue/shared@3.5.4':
     resolution: {integrity: sha512-L2MCDD8l7yC62Te5UUyPVpmexhL9ipVnYRw9CsWfm/BGRL5FwDX4a25bcJ/OJSD3+Hx+k/a8LDKcG2AFdJV3BA==}
 
-  '@vue/theme@2.2.12':
-    resolution: {integrity: sha512-LR2cf3c6rKLW2UbDwPZ3cTsjdlI9RNl8WpU7T9tMKkzEfdKfkHf0aazv877iNLMqNvIVr9EY/8KdEAe8HRDcBQ==}
+  '@vue/theme@2.2.13':
+    resolution: {integrity: sha512-X08mQ2ctiF7Wg6rziKoWDr4BZggbjfbBflPenUJkwf/Aj366dnu0KseoE3p/O2FZPtcRZHUf6r/UK1aGL7vRnQ==}
     peerDependencies:
       vitepress: ^1.2.2
 
@@ -7511,8 +7511,8 @@ packages:
     resolution: {integrity: sha512-7KTLTdzdZZYscUc65XmjFiB73vBhBfbPztCYdUNvlaso9PrzjzcmjqBPR0lNGkcVlcO4BjiO5rK/qNz+XAen1Q==}
     engines: {node: ^10 || ^12 || >=14}
 
-  preact@10.23.2:
-    resolution: {integrity: sha512-kKYfePf9rzKnxOAKDpsWhg/ysrHPqT+yQ7UW4JjdnqjFIeNUnNcEJvhuA8fDenxAGWzUqtd51DfVg7xp/8T9NA==}
+  preact@10.24.0:
+    resolution: {integrity: sha512-aK8Cf+jkfyuZ0ZZRG9FbYqwmEiGQ4y/PUO4SuTWoyWL244nZZh7bd5h2APd4rSNDYTBNghg1L+5iJN3Skxtbsw==}
 
   prelude-ls@1.1.2:
     resolution: {integrity: sha512-ESF23V4SKG6lVSGZgYNpbsiaAkdab6ZgOxe52p7+Kid3W3u3bxR4Vfd/o21dmN7jSt0IwgZ4v5MUd26FEtXE9w==}
@@ -10817,7 +10817,7 @@ snapshots:
   '@docsearch/js@3.6.1(@algolia/client-search@4.24.0)(@types/react@18.3.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.16.3)':
     dependencies:
       '@docsearch/react': 3.6.1(@algolia/client-search@4.24.0)(@types/react@18.3.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.16.3)
-      preact: 10.23.2
+      preact: 10.24.0
     transitivePeerDependencies:
       - '@algolia/client-search'
       - '@types/react'
@@ -12519,7 +12519,7 @@ snapshots:
 
   '@vue/shared@3.5.4': {}
 
-  '@vue/theme@2.2.12(@algolia/client-search@4.24.0)(@types/react@18.3.4)(@vue/composition-api@1.7.2(vue@3.4.38(typescript@5.5.4)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.16.3)(vitepress@1.3.4(@algolia/client-search@4.24.0)(@types/node@22.5.4)(@types/react@18.3.4)(@vue/composition-api@1.7.2(vue@3.4.38(typescript@5.5.4)))(async-validator@4.2.5)(postcss@8.4.45)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.78.0)(search-insights@2.16.3)(terser@5.32.0)(typescript@5.5.4))(vue@3.4.38(typescript@5.5.4))':
+  '@vue/theme@2.2.13(@algolia/client-search@4.24.0)(@types/react@18.3.4)(@vue/composition-api@1.7.2(vue@3.4.38(typescript@5.5.4)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.16.3)(vitepress@1.3.4(@algolia/client-search@4.24.0)(@types/node@22.5.4)(@types/react@18.3.4)(@vue/composition-api@1.7.2(vue@3.4.38(typescript@5.5.4)))(async-validator@4.2.5)(postcss@8.4.45)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.78.0)(search-insights@2.16.3)(terser@5.32.0)(typescript@5.5.4))(vue@3.4.38(typescript@5.5.4))':
     dependencies:
       '@docsearch/css': 3.6.1
       '@docsearch/js': 3.6.1(@algolia/client-search@4.24.0)(@types/react@18.3.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.16.3)
@@ -17532,7 +17532,7 @@ snapshots:
       picocolors: 1.1.0
       source-map-js: 1.2.1
 
-  preact@10.23.2: {}
+  preact@10.24.0: {}
 
   prelude-ls@1.1.2: {}
 
