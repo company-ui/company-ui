@@ -42,7 +42,7 @@ importers:
         version: 6.0.4(@babel/core@7.25.2)(@types/babel__core@7.20.5)(rollup@4.21.3)
       '@rollup/plugin-commonjs':
         specifier: ^26.0.0
-        version: 26.0.1(rollup@4.21.3)
+        version: 26.0.3(rollup@4.21.3)
       '@rollup/plugin-eslint':
         specifier: ^9.0.5
         version: 9.0.5(rollup@4.21.3)
@@ -2037,8 +2037,8 @@ packages:
       rollup:
         optional: true
 
-  '@rollup/plugin-commonjs@26.0.1':
-    resolution: {integrity: sha512-UnsKoZK6/aGIH6AdkptXhNvhaqftcjq3zZdT+LY5Ftms6JR06nADcDsYp5hTU9E2lbJUEOhdlY5J4DNTneM+jQ==}
+  '@rollup/plugin-commonjs@26.0.3':
+    resolution: {integrity: sha512-2BJcolt43MY+y5Tz47djHkodCC3c1VKVrBDKpVqHKpQ9z9S158kCCqB8NF6/gzxLdNlYW9abB3Ibh+kOWLp8KQ==}
     engines: {node: '>=16.0.0 || 14 >= 14.17'}
     peerDependencies:
       rollup: ^2.68.0||^3.0.0||^4.0.0
@@ -2118,6 +2118,15 @@ packages:
 
   '@rollup/pluginutils@5.1.0':
     resolution: {integrity: sha512-XTIWOPPcpvyKI6L1NHo0lFlCyznUEyPmPY1mc3KpPVDYulHSTvyeLNVW00QTLIAFNhR3kYnJTQHeGqU4M3n09g==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+
+  '@rollup/pluginutils@5.1.2':
+    resolution: {integrity: sha512-/FIdS3PyZ39bjZlwqFnWqCOVnW7o963LtKMwQOD0NhQqw22gSr2YY1afu3FxRip4ZCZNsD5jq6Aaz6QV3D/Njw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
@@ -2393,6 +2402,9 @@ packages:
 
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
+
+  '@types/estree@1.0.6':
+    resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
 
   '@types/express-serve-static-core@4.19.5':
     resolution: {integrity: sha512-y6W03tvrACO72aijJ5uF02FRq5cgDR9lUxddQ8vyF+GvmjJQqbzDcJngEjURc+ZsG31VI3hODNZJ2URj86pzmg==}
@@ -11379,9 +11391,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@rollup/plugin-commonjs@26.0.1(rollup@4.21.3)':
+  '@rollup/plugin-commonjs@26.0.3(rollup@4.21.3)':
     dependencies:
-      '@rollup/pluginutils': 5.1.0(rollup@4.21.3)
+      '@rollup/pluginutils': 5.1.2(rollup@4.21.3)
       commondir: 1.0.1
       estree-walker: 2.0.2
       glob: 10.4.5
@@ -11466,6 +11478,14 @@ snapshots:
   '@rollup/pluginutils@5.1.0(rollup@4.21.3)':
     dependencies:
       '@types/estree': 1.0.5
+      estree-walker: 2.0.2
+      picomatch: 2.3.1
+    optionalDependencies:
+      rollup: 4.21.3
+
+  '@rollup/pluginutils@5.1.2(rollup@4.21.3)':
+    dependencies:
+      '@types/estree': 1.0.6
       estree-walker: 2.0.2
       picomatch: 2.3.1
     optionalDependencies:
@@ -11748,6 +11768,8 @@ snapshots:
   '@types/estree@0.0.39': {}
 
   '@types/estree@1.0.5': {}
+
+  '@types/estree@1.0.6': {}
 
   '@types/express-serve-static-core@4.19.5':
     dependencies:
@@ -12049,7 +12071,7 @@ snapshots:
   '@unocss/cli@0.58.9(rollup@4.21.3)':
     dependencies:
       '@ampproject/remapping': 2.3.0
-      '@rollup/pluginutils': 5.1.0(rollup@4.21.3)
+      '@rollup/pluginutils': 5.1.2(rollup@4.21.3)
       '@unocss/config': 0.58.9
       '@unocss/core': 0.58.9
       '@unocss/preset-uno': 0.58.9
@@ -12176,7 +12198,7 @@ snapshots:
   '@unocss/vite@0.58.9(rollup@4.21.3)(vite@5.4.7(@types/node@22.5.4)(sass@1.78.0)(terser@5.32.0))':
     dependencies:
       '@ampproject/remapping': 2.3.0
-      '@rollup/pluginutils': 5.1.0(rollup@4.21.3)
+      '@rollup/pluginutils': 5.1.2(rollup@4.21.3)
       '@unocss/config': 0.58.9
       '@unocss/core': 0.58.9
       '@unocss/inspector': 0.58.9
@@ -12226,7 +12248,7 @@ snapshots:
   '@vue-macros/common@1.12.3(rollup@4.21.3)(vue@3.4.38(typescript@5.5.4))':
     dependencies:
       '@babel/types': 7.25.6
-      '@rollup/pluginutils': 5.1.0(rollup@4.21.3)
+      '@rollup/pluginutils': 5.1.2(rollup@4.21.3)
       '@vue/compiler-sfc': 3.5.4
       ast-kit: 1.1.0
       local-pkg: 0.5.0
@@ -15397,7 +15419,7 @@ snapshots:
 
   is-reference@1.2.1:
     dependencies:
-      '@types/estree': 1.0.5
+      '@types/estree': 1.0.6
 
   is-regex@1.1.4:
     dependencies:
