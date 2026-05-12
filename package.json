@@ -49,7 +49,7 @@
     "@typescript-eslint/parser": "^8.0.0",
     "@unocss/postcss": "^0.58.8",
     "autoprefixer": "^10.4.19",
-    "concurrently": "^8.2.2",
+    "concurrently": "^9.0.0",
     "core-js": "^3.37.1",
     "cssnano": "^7.0.2",
     "eslint": "^8.57.0",
